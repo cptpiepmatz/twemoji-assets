@@ -114,61 +114,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         svg_names_mod,
     )?;
 
-    //
-    //     let emojis: Value = serde_json::from_str(EMOJIBASE)?;
-    //     let Value::Object(emojis) = emojis else {
-    //         return Err("json not an object".into());
-    //     };
-    //
-    //     let mut svg_file = String::from("// @generated\nuse super::{svg_code, svg_name};\n");
-    //     for (k, v) in emojis {
-    //         let mut code_ident = String::from("U");
-    //         let mut emoji = String::new();
-    //         let mut file_name = String::new();
-    //         for code in k.split('-') {
-    //             code_ident += &format!("_{}", code);
-    //             let digit: u32 = u32::from_str_radix(code, 16)?;
-    //             emoji.push(char::from_u32(digit).ok_or(format!("code {code} not a char"))?);
-    //             match file_name.len() {
-    //                 0 => file_name += &format!("{digit:x}"),
-    //                 _ => file_name += &format!("-{digit:x}"),
-    //             }
-    //         }
-    //
-    //         let Ok(true) = Path::new(&format!("{}/assets/svg/{}.svg", env!("RUST_SCRIPT_BASE_PATH"), file_name)).try_exists() else {
-    //             continue;
-    //         };
-    //
-    //         svg_file += &format!("svg_code!({code_ident}, \"{emoji}\", \"{file_name}\");\n");
-    //         match v {
-    //             Value::String(name) => {
-    //                 svg_file += &format!(
-    //                     "svg_name!({}, \"{emoji}\", {code_ident});\n",
-    //                     sanitize_ident(&name)
-    //                 )
-    //             }
-    //             Value::Array(names) => {
-    //                 for name in names {
-    //                     if let Value::String(name) = name {
-    //                         svg_file += &format!(
-    //                             "svg_name!({}, \"{emoji}\", {code_ident});\n",
-    //                             sanitize_ident(&name)
-    //                         )
-    //                     }
-    //                 }
-    //             }
-    //             _ => {}
-    //         }
-    //     }
-    //
-    //     fs::write(
-    //         Path::new(concat!(
-    //             env!("RUST_SCRIPT_BASE_PATH"),
-    //             "/src/svg/generated.rs"
-    //         )),
-    //         svg_file,
-    //     )?;
-    //
     Ok(())
 }
 
