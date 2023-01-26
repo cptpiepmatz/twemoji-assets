@@ -70,10 +70,11 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut svg_codes_mod =
         String::from("// @generated\nuse super::{svg_code, svg_match_emoji};\n");
     let mut svg_match_emoji = String::new();
-    let mut svg_names_mod = String::from(
+    let mut svg_shortcodes_mod = String::from(
         "// @generated\nuse super::{svg_name, svg_match_shortcode};\nuse super::codes::*;\n",
     );
     let mut svg_match_shortcode = String::new();
+
     for file in svg_files {
         let emojibase_name = file.split(".svg").next().unwrap().to_uppercase();
         let emoji: String = emojibase_name
@@ -91,27 +92,36 @@ fn main() -> Result<(), Box<dyn Error>> {
         svg_codes_mod += &format!("svg_code!({ident}, \"{emoji}\", \"{label}\", \"{file}\");\n",);
         svg_match_emoji += &format!("    (\"{emoji}\", {ident}),\n");
 
-        if let Some(names) = emojibase_shortcodes.get(&emojibase_name) {
-            for name in names {
-                let name_ident = sanitize_ident(name);
-                svg_names_mod += &format!(
+        if let Some(shortcodes) = emojibase_shortcodes.get(&emojibase_name) {
+            for shortcode in shortcodes {
+                let name_ident = sanitize_ident(shortcode);
+                svg_shortcodes_mod += &format!(
                     "svg_name!({name_ident}, \"{emoji}\", \"{label}\", {ident}, \"{file}\");\n"
                 );
-                svg_match_shortcode += &format!("    (\"{name}\", {name_ident}),\n");
+                svg_match_shortcode += &format!("    (\"{shortcode}\", {name_ident}),\n");
             }
         }
     }
 
     svg_codes_mod += &format!("\nsvg_match_emoji! [\n{svg_match_emoji}];");
-    svg_names_mod += &format!("\nsvg_match_shortcode! [\n{svg_match_shortcode}];");
+    svg_shortcodes_mod += &format!("\nsvg_match_shortcode! [\n{svg_match_shortcode}];");
 
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/codes.rs")),
-        svg_codes_mod,
+        &svg_codes_mod,
     )?;
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/shortcodes.rs")),
-        svg_names_mod,
+        &svg_shortcodes_mod,
+    )?;
+
+    fs::write(
+        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/codes.rs")),
+        svg_codes_mod.replace("svg", "png"),
+    )?;
+    fs::write(
+        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/shortcodes.rs")),
+        svg_shortcodes_mod.replace("svg", "png"),
     )?;
 
     Ok(())
