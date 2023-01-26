@@ -12,7 +12,8 @@ name = [
     "clone_twemoji",
     "clone_emojibase",
     "move",
-    "cleanup_sources"
+    "cleanup_sources",
+    "generate"
 ]
 
 [tasks.clone_twemoji]
@@ -47,6 +48,11 @@ mv twemoji/assets assets
 mv emojibase/packages/data/en/shortcodes/emojibase.raw.json emojibase.shortcodes.json
 mv emojibase/packages/data/en/data.raw.json emojibase.data.json
 '''
+
+[tasks.generate]
+install_crate = { crate_name = "rust-script" }
+command = "rust-script"
+args = ["emoji.rs"]
 
 [tasks.cleanup_sources.windows]
 script_runner = "@shell"
