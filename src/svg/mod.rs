@@ -29,10 +29,13 @@ pub mod shortcodes;
 ///
 /// **Different file sizes on Windows (x86_64-pc-windows-msvc):**
 ///
-/// |         | small example | large example | increase |
-/// |---------|---------------|---------------|----------|
-/// | Debug   | 160 KB        | 8865 KB       | 5540%    |
-/// | Release | 156 KB        | 8680 KB       | 5564%    |
+/// [small example]: https://github.com/cptpiepmatz/twemoji-assets/blob/main/examples/svg_small_binary.rs
+/// [large example]: https://github.com/cptpiepmatz/twemoji-assets/blob/main/examples/svg_large_binary.rs
+///
+/// |         | [small example][small example] | [large example][large example] | increase |
+/// |---------|--------------------------------|--------------------------------|----------|
+/// | Debug   | 160 KB                         | 8865 KB                        | 5540%    |
+/// | Release | 156 KB                         | 8680 KB                        | 5564%    |
 ///
 /// Therefore this function should only be used if the icon is chosen on runtime and every emoji is
 /// a possible input.
