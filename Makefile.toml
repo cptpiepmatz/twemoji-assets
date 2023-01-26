@@ -13,7 +13,10 @@ name = [
     "clone_emojibase",
     "move",
     "cleanup_sources",
-    "generate"
+    "generate",
+    "build",
+    "test",
+    "doc"
 ]
 
 [tasks.clone_twemoji]
@@ -53,6 +56,18 @@ mv emojibase/packages/data/en/data.raw.json emojibase.data.json
 install_crate = { crate_name = "rust-script" }
 command = "rust-script"
 args = ["emoji.rs"]
+
+[tasks.build]
+command = "cargo"
+args = ["build"]
+
+[tasks.test]
+command = "cargo"
+args = ["test"]
+
+[tasks.doc]
+command = "cargo"
+args = ["doc"]
 
 [tasks.cleanup_sources.windows]
 script_runner = "@shell"

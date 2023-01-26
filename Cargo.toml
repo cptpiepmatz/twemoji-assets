@@ -2,3 +2,12 @@
 name = "twemoji-assets"
 version = "0.1.0+14.0.2"
 edition = "2021"
+
+[features]
+default = ["svg", "shortcodes"]
+svg = []
+png = []
+shortcodes = []
+
+[workspace]
+members = ["examples"]

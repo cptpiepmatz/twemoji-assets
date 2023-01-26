@@ -1,0 +1,15 @@
+[package]
+name = "examples"
+version = "0.1.0+14.0.2"
+edition = "2021"
+
+[[example]]
+name = "svg_small_binary"
+path = "svg_small_binary.rs"
+
+[[example]]
+name = "svg_large_binary"
+path = "svg_large_binary.rs"
+
+[dependencies]
+twemoji-assets = { path = "../." }

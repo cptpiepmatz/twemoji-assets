@@ -67,10 +67,13 @@ fn main() -> Result<(), Box<dyn Error>> {
         files
     };
 
-
-    let mut svg_codes_mod = String::from("// @generated\nuse super::{svg_code, svg_match_emoji};\n");
+    let mut svg_codes_mod =
+        String::from("// @generated\nuse super::{svg_code, svg_match_emoji};\n");
     let mut svg_match_emoji = String::new();
-    let mut svg_names_mod = String::from("// @generated\nuse super::svg_name;\nuse super::codes::*;\n");
+    let mut svg_names_mod = String::from(
+        "// @generated\nuse super::{svg_name, svg_match_shortcode};\nuse super::codes::*;\n",
+    );
+    let mut svg_match_shortcode = String::new();
     for file in svg_files {
         let emojibase_name = file.split(".svg").next().unwrap().to_uppercase();
         let emoji: String = emojibase_name
@@ -91,20 +94,23 @@ fn main() -> Result<(), Box<dyn Error>> {
         if let Some(names) = emojibase_shortcodes.get(&emojibase_name) {
             for name in names {
                 let name_ident = sanitize_ident(name);
-                svg_names_mod +=
-                    &format!("svg_name!({name_ident}, \"{emoji}\", \"{label}\", {ident});\n");
+                svg_names_mod += &format!(
+                    "svg_name!({name_ident}, \"{emoji}\", \"{label}\", {ident}, \"{file}\");\n"
+                );
+                svg_match_shortcode += &format!("    (\"{name}\", {name_ident}),\n");
             }
         }
     }
 
     svg_codes_mod += &format!("\nsvg_match_emoji! [\n{svg_match_emoji}];");
+    svg_names_mod += &format!("\nsvg_match_shortcode! [\n{svg_match_shortcode}];");
 
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/codes.rs")),
         svg_codes_mod,
     )?;
     fs::write(
-        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/names.rs")),
+        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/shortcodes.rs")),
         svg_names_mod,
     )?;
 
