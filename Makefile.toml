@@ -1,0 +1,79 @@
+[env]
+TWEMOJI_REPO = "https://github.com/twitter/twemoji.git"
+TWEMOJI_TAG = "v14.0.2"
+EMOJIBASE_REPO = "https://github.com/milesj/emojibase.git"
+
+[tasks.default]
+alias = "prepare"
+
+[[tasks.prepare.run_task]]
+name = [
+    "cleanup_moved",
+    "clone_twemoji",
+    "clone_emojibase",
+    "move",
+    "cleanup_sources"
+]
+
+[tasks.clone_twemoji]
+command = "git"
+args = [
+    "clone",
+    "${TWEMOJI_REPO}",
+    "--branch", "${TWEMOJI_TAG}",
+    "--depth", "1"
+]
+
+[tasks.clone_emojibase]
+command = "git"
+args = [
+    "clone",
+    "${EMOJIBASE_REPO}",
+    "--depth", "1"
+]
+
+[tasks.move.windows]
+script_runner = "@shell"
+script = '''
+move twemoji\assets assets
+move emojibase\packages\data\en\shortcodes\emojibase.raw.json emojibase.shortcodes.json
+move emojibase\packages\data\en\data.raw.json emojibase.data.json
+'''
+
+[tasks.move.linux]
+script_runner = "@shell"
+script = '''
+mv twemoji/assets assets
+mv emojibase/packages/data/en/shortcodes/emojibase.raw.json emojibase.shortcodes.json
+mv emojibase/packages/data/en/data.raw.json emojibase.data.json
+'''
+
+[tasks.cleanup_sources.windows]
+script_runner = "@shell"
+script = '''
+rmdir twemoji /s /q
+rmdir emojibase /s /q
+'''
+
+[tasks.cleanup_sources.linux]
+script_runner = "@shell"
+script = '''
+rm -rf twemoji
+rm -rf emojibase
+'''
+
+[tasks.cleanup_moved.windows]
+script_runner = "@shell"
+script = '''
+rmdir assets /s /q
+rm emojibase.shortcodes.json /q
+rm emojibase.data.json /q
+'''
+
+[tasks.cleanup_moved.linux]
+script_runner = "@shell"
+script = '''
+rm -rf twemoji
+rm -f emojibase.shortcodes.json
+rm - femojibase.data.json
+'''
