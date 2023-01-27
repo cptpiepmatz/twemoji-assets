@@ -1,74 +1,96 @@
+use crate::TwemojiAsset;
+use std::fmt::{Debug, Formatter};
+
 pub mod codes;
 
 #[cfg(feature = "shortcodes")]
 pub mod shortcodes;
 
-/// Finds the Twemoji png string representing the given emoji.
-///
-/// Returns `None` if no Twemoji is found for given emoji.
-/// The underlying function is a simply `match` with all the emojis mapped to their reference.
-///
-/// # Examples
-///
-/// ```
-/// assert_eq!(
-///     twemoji_assets::png::from_emoji("🦆"),
-///     Some(twemoji_assets::png::codes::U_1F986)
-/// );
-///
-/// assert!(twemoji_assets::png::from_emoji("abc").is_none());
-/// ```
-///
-/// # Binary Size
-///
-/// Utilizing this function leads to a substantial increase in the size of the compiled binary.
-/// This is because the compiler must import the entire table utilized in the `match` of the
-/// function.
-/// As all arms refer to different png string slices, all of the graphics will be imported, causing
-/// the substantially increased binary file size.
-///
-/// **Different file sizes on Windows (x86_64-pc-windows-msvc):**
-///
-/// [small example]: https://github.com/cptpiepmatz/twemoji-assets/blob/main/examples/png_small_binary.rs
-/// [large example]: https://github.com/cptpiepmatz/twemoji-assets/blob/main/examples/png_large_binary.rs
-///
-/// |         | [small example][small example] | [large example][large example] | increase |
-/// |---------|--------------------------------|--------------------------------|----------|
-/// | Debug   | 162 KB                         | 3670 KB                        | 2265%    |
-/// | Release | 157 KB                         | 3585 KB                        | 2283%    |
-///
-/// Therefore this function should only be used if the icon is chosen on runtime and every emoji is
-/// a possible input.
-#[inline]
-pub fn from_emoji(emoji: &str) -> Option<&'static [u8]> {
-    codes::from_emoji(emoji)
+pub type Png = &'static [u8];
+pub type PngTwemojiAsset = TwemojiAsset<Png>;
+
+impl PngTwemojiAsset {
+    /// Finds the Twemoji png string representing the given emoji.
+    ///
+    /// Returns `None` if no Twemoji is found for given emoji.
+    /// The underlying function is a simply `match` with all the emojis mapped to their reference.
+    ///
+    /// # Examples
+    ///
+    /// ```
+    /// use twemoji_assets::png::PngTwemojiAsset;
+    ///
+    /// assert_eq!(
+    ///     PngTwemojiAsset::from_emoji("🦆"),
+    ///     Some(&twemoji_assets::png::codes::U_1F986)
+    /// );
+    ///
+    ///     assert!(PngTwemojiAsset::from_emoji("not an emoji").is_none());
+    /// ```
+    ///
+    /// # Binary Size
+    ///
+    /// Utilizing this function leads to a substantial increase in the size of the compiled binary.
+    /// This is because the compiler must import the entire table utilized in the `match` of the
+    /// function.
+    /// As all arms refer to different png string slices, all of the graphics will be imported, causing
+    /// the substantially increased binary file size.
+    ///
+    /// **Different file sizes on Windows (x86_64-pc-windows-msvc):**
+    ///
+    /// [small example]: https://github.com/cptpiepmatz/twemoji-assets/blob/main/examples/png_small_binary.rs
+    /// [large example]: https://github.com/cptpiepmatz/twemoji-assets/blob/main/examples/png_large_binary.rs
+    ///
+    /// |         | [small example][small example] | [large example][large example] | increase |
+    /// |---------|--------------------------------|--------------------------------|----------|
+    /// | Debug   | 162 KB                         | 3670 KB                        | 2265%    |
+    /// | Release | 157 KB                         | 3585 KB                        | 2283%    |
+    ///
+    /// Therefore this function should only be used if the icon is chosen on runtime and every emoji is
+    /// a possible input.
+    #[inline]
+    pub fn from_emoji(emoji: &str) -> Option<&'static PngTwemojiAsset> {
+        codes::from_emoji(emoji)
+    }
+
+    /// Find the Twemoji png string representing the given shortcode.
+    ///
+    /// Returns `None` if no Twemoji is found for given shortcode.
+    /// The underlying function is a simply `match` with all the shortcodes mapped to their reference.
+    ///
+    /// # Examples
+    ///
+    /// ```
+    /// use twemoji_assets::png::PngTwemojiAsset;
+    ///
+    /// assert_eq!(
+    ///     PngTwemojiAsset::from_shortcode("duck"),
+    ///     Some(&twemoji_assets::png::codes::U_1F986)
+    /// );
+    ///
+    /// assert!(PngTwemojiAsset::from_shortcode("not an emoji").is_none());
+    /// ```
+    ///
+    /// # Binary Size
+    ///
+    /// Using this function causes the built binary to significantly increase in size.
+    /// Check [`from_emoji`] for further explanation.
+    ///
+    #[inline]
+    #[cfg(feature = "shortcodes")]
+    pub fn from_shortcode(shortcode: &str) -> Option<&'static PngTwemojiAsset> {
+        shortcodes::from_shortcode(shortcode)
+    }
 }
 
-/// Find the Twemoji png string representing the given shortcode.
-///
-/// Returns `None` if no Twemoji is found for given shortcode.
-/// The underlying function is a simply `match` with all the shortcodes mapped to their reference.
-///
-/// # Examples
-///
-/// ```
-/// assert_eq!(
-///     twemoji_assets::png::from_shortcode("duck"),
-///     Some(twemoji_assets::png::codes::U_1F986)
-/// );
-///
-/// assert!(twemoji_assets::png::from_shortcode("not an emoji").is_none());
-/// ```
-///
-/// # Binary Size
-///
-/// Using this function causes the built binary to significantly increase in size.
-/// Check [`from_emoji`] for further explanation.
-///
-#[inline]
-#[cfg(feature = "shortcodes")]
-pub fn from_shortcode(shortcode: &str) -> Option<&'static [u8]> {
-    shortcodes::from_shortcode(shortcode)
+impl Debug for PngTwemojiAsset {
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+        f.debug_struct("PngTwemojiAsset")
+            .field("data", &"[png bytes...]")
+            .field("emoji", &self.emoji)
+            .field("label", &self.label)
+            .finish()
+    }
 }
 
 macro_rules! png_code {
@@ -99,10 +121,14 @@ macro_rules! png_code {
             $file_name,
             r#"" style="max-height: 20em"></img>"#
         )]
-        pub const $ident: &[u8] = include_bytes!(concat!(
-            "../../assets/72x72/",
-            $file_name
-        ));
+        pub const $ident: PngTwemojiAsset = PngTwemojiAsset {
+            data: include_bytes!(concat!(
+                "../../assets/72x72/",
+                $file_name
+            )),
+            emoji: $emoji,
+            label: Some($label)
+        };
     }
 }
 
@@ -134,15 +160,15 @@ macro_rules! png_name {
             $file_name,
             r#"" style="max-height: 20em"></img>"#
         )]
-        pub const $alias: &[u8] = $redirect;
+        pub const $alias: PngTwemojiAsset = $redirect;
     }
 }
 
 macro_rules! png_match_emoji {
     [$(($emoji:literal, $ident:ident),)+] => {
-        pub(super) fn from_emoji(emoji: &str) -> Option<&'static [u8]> {
+        pub(super) fn from_emoji(emoji: &str) -> Option<&'static PngTwemojiAsset> {
             match emoji {
-                $($emoji => Some($ident),)+
+                $($emoji => Some(&$ident),)+
                 _ => None
             }
         }
@@ -151,9 +177,9 @@ macro_rules! png_match_emoji {
 
 macro_rules! png_match_shortcode {
     [$(($shortcode:literal, $ident:ident),)+] => {
-        pub(super) fn from_shortcode(emoji: &str) -> Option<&'static [u8]> {
+        pub(super) fn from_shortcode(emoji: &str) -> Option<&'static PngTwemojiAsset> {
             match emoji {
-                $($shortcode => Some($ident),)+
+                $($shortcode => Some(&$ident),)+
                 _ => None
             }
         }
@@ -161,6 +187,6 @@ macro_rules! png_match_shortcode {
 }
 
 pub(crate) use png_code;
-pub(crate) use png_name;
 pub(crate) use png_match_emoji;
 pub(crate) use png_match_shortcode;
+pub(crate) use png_name;

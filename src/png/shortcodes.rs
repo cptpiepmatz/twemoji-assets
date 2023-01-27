@@ -1,5 +1,5 @@
 // @generated
-use super::{SvgTwemojiAsset, png_name, png_match_shortcode};
+use super::{PngTwemojiAsset, png_name, png_match_shortcode};
 use super::codes::*;
 png_name!(MAHJONG, "🀄", "mahjong red dragon", U_1F004, "1f004.png");
 png_name!(BLACK_JOKER, "🃏", "joker", U_1F0CF, "1f0cf.png");

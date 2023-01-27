@@ -15,12 +15,14 @@ impl SvgTwemojiAsset {
     /// # Examples
     ///
     /// ```
+    /// use twemoji_assets::svg::SvgTwemojiAsset;
+    ///
     /// assert_eq!(
-    ///     twemoji_assets::svg::from_emoji("🦆"),
-    ///     Some(twemoji_assets::svg::codes::U_1F986)
+    ///     SvgTwemojiAsset::from_emoji("🦆"),
+    ///     Some(&twemoji_assets::svg::codes::U_1F986)
     /// );
     ///
-    /// assert!(twemoji_assets::svg::from_emoji("abc").is_none());
+    /// assert!(SvgTwemojiAsset::from_emoji("not an emoji").is_none());
     /// ```
     ///
     /// # Binary Size
@@ -56,12 +58,14 @@ impl SvgTwemojiAsset {
     /// # Examples
     ///
     /// ```
+    /// use twemoji_assets::svg::SvgTwemojiAsset;
+    ///
     /// assert_eq!(
-    ///     twemoji_assets::svg::from_shortcode("duck"),
-    ///     Some(twemoji_assets::svg::codes::U_1F986)
+    ///     SvgTwemojiAsset::from_shortcode("duck"),
+    ///     Some(&twemoji_assets::svg::codes::U_1F986)
     /// );
     ///
-    /// assert!(twemoji_assets::svg::from_shortcode("not an emoji").is_none());
+    /// assert!(SvgTwemojiAsset::from_shortcode("not an emoji").is_none());
     /// ```
     ///
     /// # Binary Size
@@ -73,6 +77,16 @@ impl SvgTwemojiAsset {
     #[cfg(feature = "shortcodes")]
     pub fn from_shortcode(shortcode: &str) -> Option<&'static SvgTwemojiAsset> {
         shortcodes::from_shortcode(shortcode)
+    }
+}
+
+impl Debug for SvgTwemojiAsset {
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+        f.debug_struct("SvgTwemojiAsset")
+            .field("data", &"<svg>...</svg>")
+            .field("emoji", &self.emoji)
+            .field("label", &self.label)
+            .finish()
     }
 }
 
@@ -169,8 +183,9 @@ macro_rules! svg_match_shortcode {
     }
 }
 
+use crate::TwemojiAsset;
+use std::fmt::{Debug, Formatter};
 pub(crate) use svg_code;
-pub(crate) use svg_name;
 pub(crate) use svg_match_emoji;
 pub(crate) use svg_match_shortcode;
-use crate::TwemojiAsset;
+pub(crate) use svg_name;

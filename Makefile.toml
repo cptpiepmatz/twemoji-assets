@@ -59,11 +59,11 @@ args = ["emoji.rs"]
 
 [tasks.build]
 command = "cargo"
-args = ["build"]
+args = ["build", "--all-features"]
 
 [tasks.test]
 command = "cargo"
-args = ["test"]
+args = ["test", "--all-features"]
 
 [tasks.doc]
 command = "cargo"
