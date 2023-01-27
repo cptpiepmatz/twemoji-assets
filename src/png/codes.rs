@@ -1,5 +1,5 @@
 // @generated
-use super::{png_code, png_match_emoji};
+use super::{SvgTwemojiAsset, png_code, png_match_emoji};
 png_code!(U_1F004, "🀄", "mahjong red dragon", "1f004.png");
 png_code!(U_1F0CF, "🃏", "joker", "1f0cf.png");
 png_code!(U_1F170, "🅰", "A button (blood type)", "1f170.png");

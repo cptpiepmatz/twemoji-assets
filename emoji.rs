@@ -68,10 +68,10 @@ fn main() -> Result<(), Box<dyn Error>> {
     };
 
     let mut svg_codes_mod =
-        String::from("// @generated\nuse super::{svg_code, svg_match_emoji};\n");
+        String::from("// @generated\nuse super::{SvgTwemojiAsset, svg_code, svg_match_emoji};\n");
     let mut svg_match_emoji = String::new();
     let mut svg_shortcodes_mod = String::from(
-        "// @generated\nuse super::{svg_name, svg_match_shortcode};\nuse super::codes::*;\n",
+        "// @generated\nuse super::{SvgTwemojiAsset, svg_name, svg_match_shortcode};\nuse super::codes::*;\n",
     );
     let mut svg_match_shortcode = String::new();
 
