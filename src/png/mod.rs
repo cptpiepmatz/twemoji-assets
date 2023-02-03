@@ -74,7 +74,7 @@ impl PngTwemojiAsset {
     /// # Binary Size
     ///
     /// Using this function causes the built binary to significantly increase in size.
-    /// Check [`from_emoji`] for further explanation.
+    /// Check [`Self::from_emoji`] for further explanation.
     ///
     #[inline]
     #[cfg(feature = "shortcodes")]
@@ -90,6 +90,16 @@ impl Debug for PngTwemojiAsset {
             .field("emoji", &self.emoji)
             .field("label", &self.label)
             .finish()
+    }
+}
+
+#[cfg(feature = "svg")]
+impl From<&super::svg::SvgTwemojiAsset> for &PngTwemojiAsset {
+    fn from(value: &super::svg::SvgTwemojiAsset) -> Self {
+        match Self::from_emoji(value.emoji) {
+            Some(asset) => asset,
+            None => unreachable!("PNG and SVG have the same emoji set")
+        }
     }
 }
 

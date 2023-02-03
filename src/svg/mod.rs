@@ -1,3 +1,6 @@
+use crate::TwemojiAsset;
+use std::fmt::{Debug, Formatter};
+
 pub mod codes;
 
 #[cfg(feature = "shortcodes")]
@@ -71,7 +74,7 @@ impl SvgTwemojiAsset {
     /// # Binary Size
     ///
     /// Using this function causes the built binary to significantly increase in size.
-    /// Check [`from_emoji`] for further explanation.
+    /// Check [`Self::from_emoji`] for further explanation.
     ///
     #[inline]
     #[cfg(feature = "shortcodes")]
@@ -87,6 +90,16 @@ impl Debug for SvgTwemojiAsset {
             .field("emoji", &self.emoji)
             .field("label", &self.label)
             .finish()
+    }
+}
+
+#[cfg(feature = "png")]
+impl From<&super::png::PngTwemojiAsset> for &SvgTwemojiAsset {
+    fn from(value: &super::png::PngTwemojiAsset) -> Self {
+        match Self::from_emoji(value.emoji) {
+            Some(asset) => asset,
+            None => unreachable!("PNG and SVG have the same emoji set")
+        }
     }
 }
 
@@ -183,8 +196,6 @@ macro_rules! svg_match_shortcode {
     }
 }
 
-use crate::TwemojiAsset;
-use std::fmt::{Debug, Formatter};
 pub(crate) use svg_code;
 pub(crate) use svg_match_emoji;
 pub(crate) use svg_match_shortcode;
