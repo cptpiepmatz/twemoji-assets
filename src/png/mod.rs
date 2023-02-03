@@ -3,8 +3,8 @@ use std::fmt::{Debug, Formatter};
 
 pub mod codes;
 
-#[cfg(feature = "shortcodes")]
-pub mod shortcodes;
+#[cfg(feature = "names")]
+pub mod names;
 
 pub type Png = &'static [u8];
 pub type PngTwemojiAsset = TwemojiAsset<Png>;
@@ -64,11 +64,11 @@ impl PngTwemojiAsset {
     /// use twemoji_assets::png::PngTwemojiAsset;
     ///
     /// assert_eq!(
-    ///     PngTwemojiAsset::from_shortcode("duck"),
+    ///     PngTwemojiAsset::from_name("duck"),
     ///     Some(&twemoji_assets::png::codes::U_1F986)
     /// );
     ///
-    /// assert!(PngTwemojiAsset::from_shortcode("not an emoji").is_none());
+    /// assert!(PngTwemojiAsset::from_name("not an emoji").is_none());
     /// ```
     ///
     /// # Binary Size
@@ -77,9 +77,9 @@ impl PngTwemojiAsset {
     /// Check [`Self::from_emoji`] for further explanation.
     ///
     #[inline]
-    #[cfg(feature = "shortcodes")]
-    pub fn from_shortcode(shortcode: &str) -> Option<&'static PngTwemojiAsset> {
-        shortcodes::from_shortcode(shortcode)
+    #[cfg(any(feature = "names", test))]
+    pub fn from_name(shortcode: &str) -> Option<&'static PngTwemojiAsset> {
+        names::from_name(shortcode)
     }
 }
 
@@ -96,7 +96,7 @@ impl Debug for PngTwemojiAsset {
 #[cfg(feature = "svg")]
 impl From<&super::svg::SvgTwemojiAsset> for &PngTwemojiAsset {
     fn from(value: &super::svg::SvgTwemojiAsset) -> Self {
-        match Self::from_emoji(value.emoji) {
+        match PngTwemojiAsset::from_emoji(value.emoji) {
             Some(asset) => asset,
             None => unreachable!("PNG and SVG have the same emoji set")
         }
@@ -185,11 +185,11 @@ macro_rules! png_match_emoji {
     }
 }
 
-macro_rules! png_match_shortcode {
-    [$(($shortcode:literal, $ident:ident),)+] => {
-        pub(super) fn from_shortcode(emoji: &str) -> Option<&'static PngTwemojiAsset> {
+macro_rules! png_match_name {
+    [$(($name:literal, $ident:ident),)+] => {
+        pub(super) fn from_name(emoji: &str) -> Option<&'static PngTwemojiAsset> {
             match emoji {
-                $($shortcode => Some(&$ident),)+
+                $($name => Some(&$ident),)+
                 _ => None
             }
         }
@@ -198,5 +198,5 @@ macro_rules! png_match_shortcode {
 
 pub(crate) use png_code;
 pub(crate) use png_match_emoji;
-pub(crate) use png_match_shortcode;
+pub(crate) use png_match_name;
 pub(crate) use png_name;

@@ -3,8 +3,8 @@ use std::fmt::{Debug, Formatter};
 
 pub mod codes;
 
-#[cfg(feature = "shortcodes")]
-pub mod shortcodes;
+#[cfg(feature = "names")]
+pub mod names;
 
 pub type Svg = &'static str;
 pub type SvgTwemojiAsset = TwemojiAsset<Svg>;
@@ -64,11 +64,11 @@ impl SvgTwemojiAsset {
     /// use twemoji_assets::svg::SvgTwemojiAsset;
     ///
     /// assert_eq!(
-    ///     SvgTwemojiAsset::from_shortcode("duck"),
+    ///     SvgTwemojiAsset::from_name("duck"),
     ///     Some(&twemoji_assets::svg::codes::U_1F986)
     /// );
     ///
-    /// assert!(SvgTwemojiAsset::from_shortcode("not an emoji").is_none());
+    /// assert!(SvgTwemojiAsset::from_name("not an emoji").is_none());
     /// ```
     ///
     /// # Binary Size
@@ -77,9 +77,9 @@ impl SvgTwemojiAsset {
     /// Check [`Self::from_emoji`] for further explanation.
     ///
     #[inline]
-    #[cfg(feature = "shortcodes")]
-    pub fn from_shortcode(shortcode: &str) -> Option<&'static SvgTwemojiAsset> {
-        shortcodes::from_shortcode(shortcode)
+    #[cfg(feature = "names")]
+    pub fn from_name(shortcode: &str) -> Option<&'static SvgTwemojiAsset> {
+        names::from_name(shortcode)
     }
 }
 
@@ -93,10 +93,10 @@ impl Debug for SvgTwemojiAsset {
     }
 }
 
-#[cfg(feature = "png")]
+#[cfg(any(feature = "png", test))]
 impl From<&super::png::PngTwemojiAsset> for &SvgTwemojiAsset {
     fn from(value: &super::png::PngTwemojiAsset) -> Self {
-        match Self::from_emoji(value.emoji) {
+        match SvgTwemojiAsset::from_emoji(value.emoji) {
             Some(asset) => asset,
             None => unreachable!("PNG and SVG have the same emoji set")
         }
@@ -185,11 +185,11 @@ macro_rules! svg_match_emoji {
     }
 }
 
-macro_rules! svg_match_shortcode {
-    [$(($shortcode:literal, $ident:ident),)+] => {
-        pub(super) fn from_shortcode(emoji: &str) -> Option<&'static SvgTwemojiAsset> {
+macro_rules! svg_match_name {
+    [$(($name:literal, $ident:ident),)+] => {
+        pub(super) fn from_name(emoji: &str) -> Option<&'static SvgTwemojiAsset> {
             match emoji {
-                $($shortcode => Some(&$ident),)+
+                $($name => Some(&$ident),)+
                 _ => None
             }
         }
@@ -198,5 +198,5 @@ macro_rules! svg_match_shortcode {
 
 pub(crate) use svg_code;
 pub(crate) use svg_match_emoji;
-pub(crate) use svg_match_shortcode;
+pub(crate) use svg_match_name;
 pub(crate) use svg_name;

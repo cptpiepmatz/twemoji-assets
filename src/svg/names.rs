@@ -1,5 +1,5 @@
 // @generated
-use super::{SvgTwemojiAsset, svg_name, svg_match_shortcode};
+use super::{SvgTwemojiAsset, svg_name, svg_match_name};
 use super::codes::*;
 svg_name!(MAHJONG, "🀄", "mahjong red dragon", U_1F004, "1f004.svg");
 svg_name!(BLACK_JOKER, "🃏", "joker", U_1F0CF, "1f0cf.svg");
@@ -4642,7 +4642,7 @@ svg_name!(JA_CONGRATULATIONS, "㊗", "Japanese “congratulations” button", U_
 svg_name!(JA_SECRET, "㊙", "Japanese “secret” button", U_3299, "3299.svg");
 svg_name!(SECRET, "㊙", "Japanese “secret” button", U_3299, "3299.svg");
 
-svg_match_shortcode! [
+svg_match_name! [
     ("mahjong", MAHJONG),
     ("black_joker", BLACK_JOKER),
     ("a", A),

@@ -1,5 +1,5 @@
 // @generated
-use super::{PngTwemojiAsset, png_name, png_match_shortcode};
+use super::{PngTwemojiAsset, png_name, png_match_name};
 use super::codes::*;
 png_name!(MAHJONG, "🀄", "mahjong red dragon", U_1F004, "1f004.png");
 png_name!(BLACK_JOKER, "🃏", "joker", U_1F0CF, "1f0cf.png");
@@ -4642,7 +4642,7 @@ png_name!(JA_CONGRATULATIONS, "㊗", "Japanese “congratulations” button", U_
 png_name!(JA_SECRET, "㊙", "Japanese “secret” button", U_3299, "3299.png");
 png_name!(SECRET, "㊙", "Japanese “secret” button", U_3299, "3299.png");
 
-png_match_shortcode! [
+png_match_name! [
     ("mahjong", MAHJONG),
     ("black_joker", BLACK_JOKER),
     ("a", A),

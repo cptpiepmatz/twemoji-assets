@@ -71,7 +71,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         String::from("// @generated\nuse super::{SvgTwemojiAsset, svg_code, svg_match_emoji};\n");
     let mut svg_match_emoji = String::new();
     let mut svg_shortcodes_mod = String::from(
-        "// @generated\nuse super::{SvgTwemojiAsset, svg_name, svg_match_shortcode};\nuse super::codes::*;\n",
+        "// @generated\nuse super::{SvgTwemojiAsset, svg_name, svg_match_name};\nuse super::codes::*;\n",
     );
     let mut svg_match_shortcode = String::new();
 
@@ -104,14 +104,14 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     svg_codes_mod += &format!("\nsvg_match_emoji! [\n{svg_match_emoji}];");
-    svg_shortcodes_mod += &format!("\nsvg_match_shortcode! [\n{svg_match_shortcode}];");
+    svg_shortcodes_mod += &format!("\nsvg_match_name! [\n{svg_match_shortcode}];");
 
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/codes.rs")),
         &svg_codes_mod,
     )?;
     fs::write(
-        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/shortcodes.rs")),
+        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/names.rs")),
         &svg_shortcodes_mod,
     )?;
 
@@ -120,7 +120,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         svg_codes_mod.replace("svg", "png").replace("Svg", "Png"),
     )?;
     fs::write(
-        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/shortcodes.rs")),
+        Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/names.rs")),
         svg_shortcodes_mod.replace("svg", "png").replace("Svg", "Png"),
     )?;
 

@@ -4,10 +4,10 @@ version = "0.1.0+14.0.2"
 edition = "2021"
 
 [features]
-default = ["svg", "shortcodes"]
+default = ["svg", "names"]
 svg = []
 png = []
-shortcodes = []
+names = []
 
 [workspace]
 members = ["examples"]
