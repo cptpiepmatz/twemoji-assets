@@ -1,12 +1,14 @@
 use crate::TwemojiAsset;
 use std::fmt::{Debug, Formatter};
+use std::ops::Deref;
 
 pub mod codes;
 
 #[cfg(feature = "names")]
 pub mod names;
 
-pub type Png = &'static [u8];
+#[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub struct Png(pub &'static [u8]);
 pub type PngTwemojiAsset = TwemojiAsset<Png>;
 
 impl PngTwemojiAsset {
@@ -83,6 +85,14 @@ impl PngTwemojiAsset {
     }
 }
 
+impl Deref for PngTwemojiAsset {
+    type Target = &'static [u8];
+
+    fn deref(&self) -> &Self::Target {
+        &self.data.0
+    }
+}
+
 impl Debug for PngTwemojiAsset {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         f.debug_struct("PngTwemojiAsset")
@@ -132,10 +142,10 @@ macro_rules! png_code {
             r#"" style="max-height: 20em"></img>"#
         )]
         pub const $ident: PngTwemojiAsset = PngTwemojiAsset {
-            data: include_bytes!(concat!(
+            data: Png(include_bytes!(concat!(
                 "../../assets/72x72/",
                 $file_name
-            )),
+            ))),
             emoji: $emoji,
             label: Some($label)
         };

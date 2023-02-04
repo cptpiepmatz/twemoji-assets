@@ -1,13 +1,13 @@
 use std::cmp::Ordering;
-use std::fmt::{Debug, Formatter};
 use std::hash::{Hash, Hasher};
-use std::ops::Deref;
 
 #[cfg(feature = "svg")]
 pub mod svg;
 
 #[cfg(feature = "png")]
 pub mod png;
+
+// TODO: ref specific impls here
 
 #[derive(Eq, Ord)]
 pub struct TwemojiAsset<T> {
@@ -31,13 +31,5 @@ impl<T> PartialOrd for TwemojiAsset<T> {
 impl<T> Hash for TwemojiAsset<T> {
     fn hash<H: Hasher>(&self, state: &mut H) {
         self.emoji.hash(state)
-    }
-}
-
-impl<T> Deref for TwemojiAsset<T> {
-    type Target = T;
-
-    fn deref(&self) -> &Self::Target {
-        &self.data
     }
 }

@@ -1,12 +1,14 @@
 use crate::TwemojiAsset;
 use std::fmt::{Debug, Formatter};
+use std::ops::Deref;
 
 pub mod codes;
 
 #[cfg(feature = "names")]
 pub mod names;
 
-pub type Svg = &'static str;
+#[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub struct Svg(pub &'static str);
 pub type SvgTwemojiAsset = TwemojiAsset<Svg>;
 
 impl SvgTwemojiAsset {
@@ -83,6 +85,14 @@ impl SvgTwemojiAsset {
     }
 }
 
+impl Deref for SvgTwemojiAsset {
+    type Target = &'static str;
+
+    fn deref(&self) -> &Self::Target {
+        &self.data.0
+    }
+}
+
 impl Debug for SvgTwemojiAsset {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         f.debug_struct("SvgTwemojiAsset")
@@ -93,7 +103,7 @@ impl Debug for SvgTwemojiAsset {
     }
 }
 
-#[cfg(any(feature = "png", test))]
+#[cfg(feature = "png")]
 impl From<&super::png::PngTwemojiAsset> for &SvgTwemojiAsset {
     fn from(value: &super::png::PngTwemojiAsset) -> Self {
         match SvgTwemojiAsset::from_emoji(value.emoji) {
@@ -132,10 +142,10 @@ macro_rules! svg_code {
             r#"" style="max-height: 20em"></img>"#
         )]
         pub const $ident: SvgTwemojiAsset = SvgTwemojiAsset {
-            data: include_str!(concat!(
+            data: Svg(include_str!(concat!(
                 "../../assets/svg/",
                 $file_name
-            )),
+            ))),
             emoji: $emoji,
             label: Some($label)
         };
@@ -176,6 +186,7 @@ macro_rules! svg_name {
 
 macro_rules! svg_match_emoji {
     [$(($emoji:literal, $ident:ident),)+] => {
+        #[no_mangle]
         pub(super) fn from_emoji(emoji: &str) -> Option<&'static SvgTwemojiAsset> {
             match emoji {
                 $($emoji => Some(&$ident),)+

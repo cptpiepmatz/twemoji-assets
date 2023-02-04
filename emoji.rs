@@ -67,8 +67,9 @@ fn main() -> Result<(), Box<dyn Error>> {
         files
     };
 
-    let mut svg_codes_mod =
-        String::from("// @generated\nuse super::{SvgTwemojiAsset, svg_code, svg_match_emoji};\n");
+    let mut svg_codes_mod = String::from(
+        "// @generated\nuse super::{SvgTwemojiAsset, svg_code, svg_match_emoji, Svg};\n"
+    );
     let mut svg_match_emoji = String::new();
     let mut svg_shortcodes_mod = String::from(
         "// @generated\nuse super::{SvgTwemojiAsset, svg_name, svg_match_name};\nuse super::codes::*;\n",
