@@ -67,7 +67,7 @@ args = ["test", "--all-features"]
 
 [tasks.doc]
 command = "cargo"
-args = ["doc"]
+args = ["doc", "--all-features"]
 
 [tasks.cleanup_sources.windows]
 script_runner = "@shell"
