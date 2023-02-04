@@ -6,22 +6,18 @@ edition = "2021"
 [[example]]
 name = "svg_small_binary"
 path = "svg_small_binary.rs"
-required-features = ["svg"]
 
 [[example]]
 name = "svg_large_binary"
 path = "svg_large_binary.rs"
-required-features = ["svg", "names"]
 
 [[example]]
 name = "png_small_binary"
 path = "png_small_binary.rs"
-required-features = ["png"]
 
 [[example]]
 name = "png_large_binary"
 path = "png_large_binary.rs"
-required-features = ["png", "names"]
 
 [dependencies]
-twemoji-assets = { path = "../." }
+twemoji-assets = { path = "../.", features = ["svg", "png", "names"] }
