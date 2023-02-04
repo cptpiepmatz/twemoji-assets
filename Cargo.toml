@@ -11,3 +11,10 @@ names = []
 
 [workspace]
 members = ["examples"]
+
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "from_emoji"
+harness = false
