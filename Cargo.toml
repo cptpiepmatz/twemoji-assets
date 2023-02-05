@@ -1,5 +1,9 @@
 [package]
 name = "twemoji-assets"
+version.workspace = true
+edition.workspace = true
+
+[workspace.package]
 version = "0.1.0+14.0.2"
 edition = "2021"
 
