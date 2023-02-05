@@ -9284,6 +9284,7 @@ png_match_name! [
     ("secret", SECRET),
 
 ];
+#[cfg(not(doc))]
 #[macro_export]
 macro_rules! png_twemoji_asset_from_name {
     ("mahjong") => { &twemoji_assets::png::codes::U_1F004 };

@@ -33,3 +33,29 @@ impl<T> Hash for TwemojiAsset<T> {
         self.emoji.hash(state)
     }
 }
+
+// dummy macros for docs
+
+#[cfg(doc)]
+#[macro_export]
+macro_rules! svg_twemoji_asset {
+    ($emoji:literal) => {}
+}
+
+#[cfg(doc)]
+#[macro_export]
+macro_rules! svg_twemoji_asset_from_name {
+    ($emoji:literal) => {}
+}
+
+#[cfg(doc)]
+#[macro_export]
+macro_rules! png_twemoji_asset {
+    ($emoji:literal) => {}
+}
+
+#[cfg(doc)]
+#[macro_export]
+macro_rules! png_twemoji_asset_from_name {
+    ($emoji:literal) => {}
+}

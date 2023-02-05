@@ -7381,6 +7381,7 @@ png_match_emoji! [
     ((Some(''), None, None, None, None, None, None, None, None, None), U_E50A),
 
 ];
+#[cfg(not(doc))]
 #[macro_export]
 macro_rules! png_twemoji_asset {
     ("🀄") => { &twemoji_assets::png::codes::U_1F004 };
