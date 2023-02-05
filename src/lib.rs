@@ -36,24 +36,25 @@ impl<T> Hash for TwemojiAsset<T> {
 
 // dummy macros for docs
 
-#[cfg(doc)]
+#[cfg(all(doc, feature = "svg"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset {
     ($emoji:literal) => {}
 }
 
-#[cfg(doc)]
+#[cfg(all(doc, feature = "svg", feature = "names"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset_from_name {
     ($emoji:literal) => {}
 }
 
-#[cfg(doc)]
+#[cfg(all(doc, feature = "png"))]
 #[macro_export]
 macro_rules! png_twemoji_asset {
     ($emoji:literal) => {}
 }
 
+#[cfg(all(doc, feature = "png", feature = "names"))]
 #[cfg(doc)]
 #[macro_export]
 macro_rules! png_twemoji_asset_from_name {
