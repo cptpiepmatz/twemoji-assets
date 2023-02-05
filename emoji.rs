@@ -3,12 +3,11 @@
 //! serde = { version = "1", features = ["derive"] }
 //! serde_json = "1"
 //! ```
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;
 use std::error::Error;
-use std::fs;
-use std::fs::DirEntry;
+use std::{fs, iter};
 use std::path::Path;
 
 const EMOJIBASE_DATA: &str = include_str!(concat!(
@@ -89,9 +88,28 @@ fn main() -> Result<(), Box<dyn Error>> {
             .map(|data| data.label.as_str())
             .unwrap_or("")
             .to_string();
+        let mut emoji_split: Vec<Option<char>> = emoji.chars().map(|c| Some(c)).collect();
+        emoji_split.resize(10, None);
+        let emoji_split: Vec<String> = emoji_split.into_iter().map(|char_opt| match char_opt {
+            Some(char) => format!("Some('{}')", char),
+            None => "None".to_owned()
+        }).collect();
+        let emoji_matcher = format!(
+            "({}, {}, {}, {}, {}, {}, {}, {}, {}, {})",
+            emoji_split[0],
+            emoji_split[1],
+            emoji_split[2],
+            emoji_split[3],
+            emoji_split[4],
+            emoji_split[5],
+            emoji_split[6],
+            emoji_split[7],
+            emoji_split[8],
+            emoji_split[9]
+        );
         let ident = format!("U_{}", emojibase_name.replace('-', "_"));
         svg_codes_mod += &format!("svg_code!({ident}, \"{emoji}\", \"{label}\", \"{file}\");\n",);
-        svg_match_emoji += &format!("    (\"{emoji}\", {ident}),\n");
+        svg_match_emoji += &format!("    ({emoji_matcher}, {ident}),\n");
 
         if let Some(shortcodes) = emojibase_shortcodes.get(&emojibase_name) {
             for shortcode in shortcodes {
@@ -104,7 +122,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
     }
 
-    svg_codes_mod += &format!("\nsvg_match_emoji! [\n{svg_match_emoji}];");
+    svg_codes_mod += &format!("\nsvg_match_emoji! [\n{svg_match_emoji}];\n");
     svg_shortcodes_mod += &format!("\nsvg_match_name! [\n{svg_match_shortcode}];");
 
     fs::write(

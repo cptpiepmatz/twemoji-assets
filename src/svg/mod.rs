@@ -185,11 +185,21 @@ macro_rules! svg_name {
 }
 
 macro_rules! svg_match_emoji {
-    [$(($emoji:literal, $ident:ident),)+] => {
-        #[no_mangle]
+    [$(($matcher:pat, $ident:ident),)+] => {
         pub(super) fn from_emoji(emoji: &str) -> Option<&'static SvgTwemojiAsset> {
-            match emoji {
-                $($emoji => Some(&$ident),)+
+            let mut emoji = emoji.chars();
+            let c0: Option<char> = emoji.next();
+            let c1: Option<char> = emoji.next();
+            let c2: Option<char> = emoji.next();
+            let c3: Option<char> = emoji.next();
+            let c4: Option<char> = emoji.next();
+            let c5: Option<char> = emoji.next();
+            let c6: Option<char> = emoji.next();
+            let c7: Option<char> = emoji.next();
+            let c8: Option<char> = emoji.next();
+            let c9: Option<char> = emoji.next();
+            match (c0, c1, c2, c3, c4, c5, c6, c7, c8, c9) {
+                $($matcher => Some(&$ident),)+
                 _ => None
             }
         }
@@ -211,3 +221,16 @@ pub(crate) use svg_code;
 pub(crate) use svg_match_emoji;
 pub(crate) use svg_match_name;
 pub(crate) use svg_name;
+
+#[cfg(test)]
+mod tests {
+    use crate::svg::{SvgTwemojiAsset, codes};
+
+    #[test]
+    fn match_test() {
+        assert_eq!(
+            SvgTwemojiAsset::from_emoji("🧑🏿‍❤️‍💋‍🧑🏾").unwrap(),
+            &codes::U_1F9D1_1F3FF_200D_2764_FE0F_200D_1F48B_200D_1F9D1_1F3FE
+        );
+    }
+}
