@@ -7,5 +7,9 @@ edition = "2021"
 name = "svg"
 path = "svg.rs"
 
+[[test]]
+name = "png"
+path = "png.rs"
+
 [dependencies]
 twemoji-assets = { path = "../.", features = ["svg", "png", "names"] }
