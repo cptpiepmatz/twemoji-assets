@@ -10,7 +10,7 @@ png = []
 names = []
 
 [workspace]
-members = ["examples"]
+members = ["examples", "tests"]
 
 [dev-dependencies]
 criterion = "0.4"

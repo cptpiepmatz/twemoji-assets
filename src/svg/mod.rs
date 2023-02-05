@@ -221,16 +221,3 @@ pub(crate) use svg_code;
 pub(crate) use svg_match_emoji;
 pub(crate) use svg_match_name;
 pub(crate) use svg_name;
-
-#[cfg(test)]
-mod tests {
-    use crate::svg::{SvgTwemojiAsset, codes};
-
-    #[test]
-    fn match_test() {
-        assert_eq!(
-            SvgTwemojiAsset::from_emoji("🧑🏿‍❤️‍💋‍🧑🏾").unwrap(),
-            &codes::U_1F9D1_1F3FF_200D_2764_FE0F_200D_1F48B_200D_1F9D1_1F3FE
-        );
-    }
-}
