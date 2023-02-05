@@ -55,7 +55,7 @@ mv emojibase/packages/data/en/data.raw.json emojibase.data.json
 [tasks.generate]
 install_crate = { crate_name = "rust-script" }
 command = "rust-script"
-args = ["emoji.rs"]
+args = ["gen.rs"]
 
 [tasks.build]
 command = "cargo"
