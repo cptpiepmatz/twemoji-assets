@@ -2,6 +2,14 @@
 name = "twemoji-assets"
 version.workspace = true
 edition.workspace = true
+exclude = [
+    ".gitignore",
+    "Cargo.lock",
+    "emojibase.data.json",
+    "emojibase.shortcodes.json",
+    "gen.rs",
+    "Makefile.toml"
+]
 
 [workspace.package]
 version = "0.1.0+14.0.2"
