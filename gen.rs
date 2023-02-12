@@ -3,11 +3,11 @@
 //! serde = { version = "1", features = ["derive"] }
 //! serde_json = "1"
 //! ```
-use serde::{Deserialize, Serialize};
+use serde::{Deserialize};
 use serde_json::Value;
 use std::collections::HashMap;
 use std::error::Error;
-use std::{fs, iter};
+use std::{fs};
 use std::path::Path;
 
 const EMOJIBASE_DATA: &str = include_str!(concat!(
@@ -19,15 +19,12 @@ const EMOJIBASE_SHORTCODES: &str = include_str!(concat!(
     "/emojibase.shortcodes.json"
 ));
 
+const INDENT: &str = "    ";
+
 #[derive(Debug, Deserialize)]
 struct EmojibaseData {
     label: String,
     hexcode: String,
-    emoji: String,
-    text: String,
-    #[serde(rename = "type")]
-    kind: u32,
-    version: f32,
 }
 
 type Shortcodes = Vec<String>;
@@ -91,40 +88,35 @@ fn main() -> Result<(), Box<dyn Error>> {
             .map(|data| data.label.as_str())
             .unwrap_or("")
             .to_string();
-        let mut emoji_split: Vec<Option<char>> = emoji.chars().map(|c| Some(c)).collect();
-        emoji_split.resize(10, None);
-        let emoji_split: Vec<String> = emoji_split.into_iter().map(|char_opt| match char_opt {
-            Some(char) => format!("Some('{}')", char),
-            None => "None".to_owned()
-        }).collect();
+        let mut emoji_split = emoji.chars();
         let emoji_matcher = format!(
-            "({}, {}, {}, {}, {}, {}, {}, {}, {}, {})",
-            emoji_split[0],
-            emoji_split[1],
-            emoji_split[2],
-            emoji_split[3],
-            emoji_split[4],
-            emoji_split[5],
-            emoji_split[6],
-            emoji_split[7],
-            emoji_split[8],
-            emoji_split[9]
+            "({:?}, {:?}, {:?}, {:?}, {:?}, {:?}, {:?}, {:?}, {:?}, {:?})",
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next(),
+            emoji_split.next()
         );
         let ident = format!("U_{}", emojibase_name.replace('-', "_"));
-        svg_codes_mod += &format!("svg_code!({ident}, \"{emoji}\", \"{label}\", \"{file}\");\n",);
-        svg_match_emoji += &format!("    ({emoji_matcher}, {ident}),\n");
-        svg_match_emoji_macro += &format!("    (\"{emoji}\") => {{ &twemoji_assets::svg::codes::{ident} }};\n");
+        svg_codes_mod += &format!("svg_code!({ident}, \"{emoji}\", {label:?}, {file:?});\n",);
+        svg_match_emoji += &format!("{INDENT}({emoji_matcher}, {ident}),\n");
+        svg_match_emoji_macro += &format!("{INDENT}(\"{emoji}\") => {{ &twemoji_assets::svg::codes::{ident} }};\n");
 
         if let Some(shortcodes) = emojibase_shortcodes.get(&emojibase_name) {
             for shortcode in shortcodes {
                 let name_ident = sanitize_ident(shortcode);
                 svg_shortcodes_mod += &format!(
-                    "svg_name!({name_ident}, \"{emoji}\", \"{label}\", {ident}, \"{file}\");\n"
+                    "svg_name!({name_ident}, \"{emoji}\", {label:?}, {ident}, {file:?});\n"
                 );
                 let char_count = shortcode.chars().count();
                 let name_matcher = format!("({char_count}, {shortcode:?})");
-                svg_match_shortcode += &format!("    ({name_matcher}, {name_ident}),\n");
-                svg_match_emoji_from_name_macro += &format!("    ({shortcode:?}) => {{ &twemoji_assets::svg::codes::{ident} }};\n");
+                svg_match_shortcode += &format!("{INDENT}({name_matcher}, {name_ident}),\n");
+                svg_match_emoji_from_name_macro += &format!("{INDENT}({shortcode:?}) => {{ &twemoji_assets::svg::codes::{ident} }};\n");
             }
         }
     }
