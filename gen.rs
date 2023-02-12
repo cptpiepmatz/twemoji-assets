@@ -121,8 +121,10 @@ fn main() -> Result<(), Box<dyn Error>> {
                 svg_shortcodes_mod += &format!(
                     "svg_name!({name_ident}, \"{emoji}\", \"{label}\", {ident}, \"{file}\");\n"
                 );
-                svg_match_shortcode += &format!("    (\"{shortcode}\", {name_ident}),\n");
-                svg_match_emoji_from_name_macro += &format!("    (\"{shortcode}\") => {{ &twemoji_assets::svg::codes::{ident} }};\n");
+                let char_count = shortcode.chars().count();
+                let name_matcher = format!("({char_count}, {shortcode:?})");
+                svg_match_shortcode += &format!("    ({name_matcher}, {name_ident}),\n");
+                svg_match_emoji_from_name_macro += &format!("    ({shortcode:?}) => {{ &twemoji_assets::svg::codes::{ident} }};\n");
             }
         }
     }

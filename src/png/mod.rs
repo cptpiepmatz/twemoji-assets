@@ -185,7 +185,7 @@ macro_rules! png_name {
 }
 
 macro_rules! png_match_emoji {
-    [$(($matcher:pat, $ident:ident),)+] => {
+    [$(($pat:pat, $ident:ident),)+] => {
         pub(super) fn from_emoji(emoji: &str) -> Option<&'static PngTwemojiAsset> {
             let mut emoji = emoji.chars();
             let c0: Option<char> = emoji.next();
@@ -199,7 +199,7 @@ macro_rules! png_match_emoji {
             let c8: Option<char> = emoji.next();
             let c9: Option<char> = emoji.next();
             match (c0, c1, c2, c3, c4, c5, c6, c7, c8, c9) {
-                $($matcher => Some(&$ident),)+
+                $($pat => Some(&$ident),)+
                 _ => None
             }
         }
@@ -207,10 +207,11 @@ macro_rules! png_match_emoji {
 }
 
 macro_rules! png_match_name {
-    [$(($name:literal, $ident:ident),)+] => {
+    [$(($pat:pat, $ident:ident),)+] => {
         pub(super) fn from_name(emoji: &str) -> Option<&'static PngTwemojiAsset> {
-            match emoji {
-                $($name => Some(&$ident),)+
+            let char_count = emoji.chars().count();
+            match (char_count, emoji) {
+                $($pat => Some(&$ident),)+
                 _ => None
             }
         }
