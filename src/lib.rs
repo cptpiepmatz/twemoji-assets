@@ -38,6 +38,17 @@
 //! - [`resvg`](https://crates.io/crates/resvg) for SVG rendering
 //! - [`unicode-segmentation`](https://crates.io/crates/unicode-segmentation)
 //!   for splitting words into Unicode graphemes
+//!
+//! # Version Scheme
+//!
+//! This crate follows the semantic versioning scheme as required by the
+//! [Rust documentation](https://doc.rust-lang.org/cargo/reference/semver.html).
+//! The version number is represented as `x.y.z+a.b.c`, where `x.y.z` is the version of the crate
+//! and `a.b.c` is the version of the integrated Twemoji assets.
+//! The `+` symbol is used to separate the two version numbers.
+//! The version of the crate may increase without a corresponding increase in the version of the
+//! integrated Twemoji assets, however, whenever the Twemoji assets are updated and new assets are
+//! added, the crate version will at least increase in the minor value (`y`).
 
 use std::cmp::Ordering;
 use std::hash::{Hash, Hasher};
