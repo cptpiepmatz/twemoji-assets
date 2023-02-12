@@ -110,24 +110,48 @@ impl<T> Hash for TwemojiAsset<T> {
 
 // dummy macros for docs
 
+/// Inserts a [`SvgTwemojiAsset`](svg::SvgTwemojiAsset) for a given emoji string literal.
+///
+/// The `svg_twemoji_asset!` macro takes a string literal of an emoji, such as `"🦆"`, and yields
+/// the `&SvgTwemojiAsset` for the [🦆 emoji asset](svg::codes::U_1F986).
+/// If the emoji asset is unknown for the given literal, the compilation will fail.
 #[cfg(all(doc, feature = "svg"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset {
     ($emoji:literal) => {}
 }
 
+/// Inserts a [`SvgTwemojiAsset`](svg::SvgTwemojiAsset) from a string literal of an emoji name.
+///
+/// The `svg_twemoji_asset_from_name!` macro takes a string literal of an emoji name, such as
+/// `"duck"`, and yields the `&SvgTwemojiAsset` for the corresponding
+/// [🦆 emoji asset](svg::codes::U_1F986).
+/// The names are provided by [Emojibase](https://github.com/milesj/emojibase).
+/// If the name or the corresponding emoji asset is unknown for the given literal, the compilation will fail.
 #[cfg(all(doc, feature = "svg", feature = "names"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset_from_name {
     ($emoji:literal) => {}
 }
 
+/// Inserts a [`PngTwemojiAsset`](png::PngTwemojiAsset) for a given emoji string literal.
+///
+/// The `png_twemoji_asset!` macro takes a string literal of an emoji, such as `"🦆"`, and yields
+/// the `&PngTwemojiAsset` for the [🦆 emoji asset](png::codes::U_1F986).
+/// If the emoji asset is unknown for the given literal, the compilation will fail.
 #[cfg(all(doc, feature = "png"))]
 #[macro_export]
 macro_rules! png_twemoji_asset {
     ($emoji:literal) => {}
 }
 
+/// Inserts a [`PngTwemojiAsset`](png::PngTwemojiAsset) from a string literal of an emoji name.
+///
+/// The `png_twemoji_asset_from_name!` macro takes a string literal of an emoji name, such as
+/// `"duck"`, and yields the `&PngTwemojiAsset` for the corresponding
+/// [🦆 emoji asset](svg::codes::U_1F986).
+/// The names are provided by [Emojibase](https://github.com/milesj/emojibase).
+/// If the name or the corresponding emoji asset is unknown for the given literal, the compilation will fail.
 #[cfg(all(doc, feature = "png", feature = "names"))]
 #[cfg(doc)]
 #[macro_export]
