@@ -1,3 +1,6 @@
+#![warn(missing_docs)]
+#![warn(rustdoc::missing_crate_level_docs)]
+
 use std::cmp::Ordering;
 use std::hash::{Hash, Hasher};
 
