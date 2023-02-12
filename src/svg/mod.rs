@@ -6,7 +6,7 @@
 //!
 //! The module has two main components:
 //! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
-//! - The [`names`](codes) module, which provides a subset of emojis with human-readable names.
+//! - The [`names`](names) module, which provides a subset of emojis with human-readable names.
 //!   This module requires the `names` feature to be enabled.
 //!
 //! The main type to use when interacting with the module is the
