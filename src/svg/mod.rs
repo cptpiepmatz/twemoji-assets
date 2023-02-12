@@ -1,3 +1,23 @@
+//! SVG Twemoji assets.
+//!
+//! This module provides access to the Twemoji assets in SVG format.
+//! All emojis are sourced from the
+//! [Twemoji repository](https://github.com/twitter/twemoji/tree/master/assets/svg).
+//!
+//! The module has two main components:
+//! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
+//! - The [`names`](codes) module, which provides a subset of emojis with human-readable names.
+//!   This module requires the `names` feature to be enabled.
+//!
+//! The main type to use when interacting with the module is the
+//! [`SvgTwemojiAsset`](SvgTwemojiAsset) type definition.
+//! It provides convenient methods for loading assets from either a string containing the emoji's
+//! unicode character (e.g. `"🦆"`) or the string with the name of the emoji (e.g. `"duck"`).
+//!
+//! The [`Svg`](Svg) struct is a
+//! [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
+//! for the string that hold the SVG image data.
+
 use crate::TwemojiAsset;
 use std::fmt::{Debug, Formatter};
 use std::ops::Deref;
@@ -7,8 +27,16 @@ pub mod codes;
 #[cfg(feature = "names")]
 pub mod names;
 
+/// New type for the SVG string.
+///
+/// The `Svg` type is a
+/// [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
+/// that provides a clear type definition for representing SVG strings.
+/// This type is used in the definition of the [`SvgTwemojiAsset`](SvgTwemojiAsset)
+/// struct to ensure that the string is unambiguously a representation of an SVG image.
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Svg(pub &'static str);
+
 pub type SvgTwemojiAsset = TwemojiAsset<Svg>;
 
 impl SvgTwemojiAsset {

@@ -1,3 +1,23 @@
+//! PNG Twemoji assets.
+//!
+//! This module provides access to the Twemoji assets in PNG format.
+//! All emojis are 72x72 pixels and are sourced from the
+//! [Twemoji repository](https://github.com/twitter/twemoji/tree/master/assets/72x72).
+//!
+//! The module has two main components:
+//! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
+//! - The [`names`](codes) module, which provides a subset of emojis with human-readable names.
+//!   This module requires the `names` feature to be enabled.
+//!
+//! The main type to use when interacting with the module is the
+//! [`PngTwemojiAsset`](PngTwemojiAsset) type definition.
+//! It provides convenient methods for loading assets from either a string containing the emoji's
+//! unicode character (e.g. `"🦆"`) or the string with the name of the emoji (e.g. `"duck"`).
+//!
+//! The [`Png`](Png) struct is a
+//! [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
+//! for the bytes that hold the PNG image data.
+
 use crate::TwemojiAsset;
 use std::fmt::{Debug, Formatter};
 use std::ops::Deref;
@@ -7,8 +27,16 @@ pub mod codes;
 #[cfg(feature = "names")]
 pub mod names;
 
+/// New type for the PNG bytes.
+///
+/// The `Png` type is a
+/// [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
+/// that provides a clear type definition for representing PNG bytes.
+/// This type is used in the definition of the [`PngTwemojiAsset`](PngTwemojiAsset)
+/// struct to ensure that the bytes are unambiguously a representation of an PNG image.
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Png(pub &'static [u8]);
+
 pub type PngTwemojiAsset = TwemojiAsset<Png>;
 
 impl PngTwemojiAsset {
@@ -125,7 +153,7 @@ macro_rules! png_code {
         )]
         ///
         ///
-        /// A constant reference to the string holding the png information for the
+        /// A constant reference to the bytes holding the png information for the
         #[doc = $emoji]
         /// emoji.
         ///
@@ -164,7 +192,7 @@ macro_rules! png_name {
         )]
         ///
         ///
-        /// A constant reference to the string holding the png information for the
+        /// A constant reference to the bytes holding the png information for the
         #[doc = $emoji]
         /// emoji.
         ///
