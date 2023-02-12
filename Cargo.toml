@@ -30,3 +30,7 @@ criterion = "0.4"
 [[bench]]
 name = "from_emoji"
 harness = false
+
+[[bench]]
+name = "from_name"
+harness = false
