@@ -63,13 +63,16 @@ fn main() -> Result<(), Box<dyn Error>> {
         files
     };
 
-    let mut svg_codes_mod = String::from(
-        "// @generated\nuse super::{SvgTwemojiAsset, svg_code, svg_match_emoji, Svg};\n"
-    );
+    let mut svg_codes_mod = include_str!(concat!(
+        env!("RUST_SCRIPT_BASE_PATH"),
+        "/templates/svg_codes_mod.template.rs"
+    )).to_owned();
+
     let mut svg_match_emoji = String::new();
-    let mut svg_shortcodes_mod = String::from(
-        "// @generated\nuse super::{SvgTwemojiAsset, svg_name, svg_match_name};\nuse super::codes::*;\n",
-    );
+    let mut svg_shortcodes_mod = include_str!(concat!(
+        env!("RUST_SCRIPT_BASE_PATH"),
+        "/templates/svg_names_mod.template.rs"
+    )).to_owned();
     let mut svg_match_shortcode = String::new();
 
     let mut svg_match_emoji_macro = String::new();
