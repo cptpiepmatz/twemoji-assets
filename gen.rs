@@ -170,13 +170,17 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/codes.rs")),
-        svg_codes_mod.replace("svg", "png").replace("Svg", "Png"),
+        svg_codes_mod
+            .replace("svg", "png")
+            .replace("Svg", "Png")
+            .replace("SVG", "PNG"),
     )?;
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/names.rs")),
         svg_shortcodes_mod
             .replace("svg", "png")
-            .replace("Svg", "Png"),
+            .replace("Svg", "Png")
+            .replace("SVG", "PNG"),
     )?;
 
     Ok(())
