@@ -3,11 +3,11 @@
 //! serde = { version = "1", features = ["derive"] }
 //! serde_json = "1"
 //! ```
-use serde::{Deserialize};
+use serde::Deserialize;
 use serde_json::Value;
 use std::collections::HashMap;
 use std::error::Error;
-use std::{fs};
+use std::fs;
 use std::path::Path;
 
 const EMOJIBASE_DATA: &str = include_str!(concat!(
@@ -66,13 +66,15 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut svg_codes_mod = include_str!(concat!(
         env!("RUST_SCRIPT_BASE_PATH"),
         "/templates/svg_codes_mod.template.rs"
-    )).to_owned();
+    ))
+    .to_owned();
 
     let mut svg_match_emoji = String::new();
     let mut svg_shortcodes_mod = include_str!(concat!(
         env!("RUST_SCRIPT_BASE_PATH"),
         "/templates/svg_names_mod.template.rs"
-    )).to_owned();
+    ))
+    .to_owned();
     let mut svg_match_shortcode = String::new();
 
     let mut svg_match_emoji_macro = String::new();
@@ -108,7 +110,8 @@ fn main() -> Result<(), Box<dyn Error>> {
         let ident = format!("U_{}", emojibase_name.replace('-', "_"));
         svg_codes_mod += &format!("svg_code!({ident}, \"{emoji}\", {label:?}, {file:?});\n",);
         svg_match_emoji += &format!("{INDENT}({emoji_matcher}, {ident}),\n");
-        svg_match_emoji_macro += &format!("{INDENT}(\"{emoji}\") => {{ &twemoji_assets::svg::codes::{ident} }};\n");
+        svg_match_emoji_macro +=
+            &format!("{INDENT}(\"{emoji}\") => {{ &twemoji_assets::svg::codes::{ident} }};\n");
 
         if let Some(shortcodes) = emojibase_shortcodes.get(&emojibase_name) {
             for shortcode in shortcodes {
@@ -119,28 +122,42 @@ fn main() -> Result<(), Box<dyn Error>> {
                 let char_count = shortcode.chars().count();
                 let name_matcher = format!("({char_count}, {shortcode:?})");
                 svg_match_shortcode += &format!("{INDENT}({name_matcher}, {name_ident}),\n");
-                svg_match_emoji_from_name_macro += &format!("{INDENT}({shortcode:?}) => {{ &twemoji_assets::svg::codes::{ident} }};\n");
+                svg_match_emoji_from_name_macro += &format!(
+                    "{INDENT}({shortcode:?}) => {{ &twemoji_assets::svg::codes::{ident} }};\n"
+                );
             }
         }
     }
 
-    svg_codes_mod += &format!(include_str!(concat!(
-        env!("RUST_SCRIPT_BASE_PATH"),
-        "/templates/svg_match_emoji.template.rs"
-    )), svg_match_emoji);
-    svg_shortcodes_mod += &format!(include_str!(concat!(
-        env!("RUST_SCRIPT_BASE_PATH"),
-        "/templates/svg_match_name.template.rs"
-    )), svg_match_shortcode);
+    svg_codes_mod += &format!(
+        include_str!(concat!(
+            env!("RUST_SCRIPT_BASE_PATH"),
+            "/templates/svg_match_emoji.template.rs"
+        )),
+        svg_match_emoji
+    );
+    svg_shortcodes_mod += &format!(
+        include_str!(concat!(
+            env!("RUST_SCRIPT_BASE_PATH"),
+            "/templates/svg_match_name.template.rs"
+        )),
+        svg_match_shortcode
+    );
 
-    svg_codes_mod += &format!(include_str!(concat!(
-        env!("RUST_SCRIPT_BASE_PATH"),
-        "/templates/svg_twemoji_asset.template.rs"
-    )), svg_match_emoji_macro);
-    svg_shortcodes_mod += &format!(include_str!(concat!(
-        env!("RUST_SCRIPT_BASE_PATH"),
-        "/templates/svg_twemoji_asset_from_name.template.rs"
-    )), svg_match_emoji_from_name_macro);
+    svg_codes_mod += &format!(
+        include_str!(concat!(
+            env!("RUST_SCRIPT_BASE_PATH"),
+            "/templates/svg_twemoji_asset.template.rs"
+        )),
+        svg_match_emoji_macro
+    );
+    svg_shortcodes_mod += &format!(
+        include_str!(concat!(
+            env!("RUST_SCRIPT_BASE_PATH"),
+            "/templates/svg_twemoji_asset_from_name.template.rs"
+        )),
+        svg_match_emoji_from_name_macro
+    );
 
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/svg/codes.rs")),
@@ -157,7 +174,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     )?;
     fs::write(
         Path::new(concat!(env!("RUST_SCRIPT_BASE_PATH"), "/src/png/names.rs")),
-        svg_shortcodes_mod.replace("svg", "png").replace("Svg", "Png"),
+        svg_shortcodes_mod
+            .replace("svg", "png")
+            .replace("Svg", "Png"),
     )?;
 
     Ok(())
