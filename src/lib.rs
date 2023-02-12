@@ -7,8 +7,6 @@ pub mod svg;
 #[cfg(feature = "png")]
 pub mod png;
 
-// TODO: ref specific impls here
-
 #[derive(Eq, Ord)]
 pub struct TwemojiAsset<T> {
     pub data: T,
