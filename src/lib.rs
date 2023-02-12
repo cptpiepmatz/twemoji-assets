@@ -49,6 +49,15 @@
 //! The version of the crate may increase without a corresponding increase in the version of the
 //! integrated Twemoji assets, however, whenever the Twemoji assets are updated and new assets are
 //! added, the crate version will at least increase in the minor value (`y`).
+//!
+//! # Licensing
+//!
+//! The codebase and names provided by Emojibase for this crate are licensed under the MIT License
+//! and the included graphics are licensed by Twitter (Copyright 2020 Twitter, Inc and other
+//! contributors) under the
+//! [Creative Commons Attribution 4.0 International (CC-BY 4.0) license](https://creativecommons.org/licenses/by/4.0/).
+//! Proper attribution must be given to Twitter and other contributors if these graphics are used
+//! or modified.
 
 use std::cmp::Ordering;
 use std::hash::{Hash, Hasher};
