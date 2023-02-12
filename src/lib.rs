@@ -68,10 +68,25 @@ pub mod svg;
 #[cfg(feature = "png")]
 pub mod png;
 
+/// Wrapper struct for the Twemoji assets.
+///
+/// This struct is the generic form of the Twemoji asset wrapper.
+/// The specific implementations of this struct, [`SvgTwemojiAsset`](svg::SvgTwemojiAsset) and
+/// [`PngTwemojiAsset`](png::PngTwemojiAsset), provide specialized variants for handling SVGs and
+/// PNGs respectively.
+///
+/// The generic `TwemojiAsset<T>` is mostly used for implementing traits and provides common
+/// functionality, while both the specific variants implement the [`Deref`](std::ops::Deref)
+/// trait to allow direct access to the underlying asset data stored in the `data` field.
+/// This makes it convenient to work with the asset data as if it were a simple reference to the
+/// raw data.
 #[derive(Eq, Ord)]
 pub struct TwemojiAsset<T> {
+    /// The underlying image data of the Twemoji asset.
     pub data: T,
+    /// A string slice representing the emoji character.
     pub emoji: &'static str,
+    /// An optional string slice representing the label of the emoji provide by Emojibase.
     pub label: Option<&'static str>
 }
 
