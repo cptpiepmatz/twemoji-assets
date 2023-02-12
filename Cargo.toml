@@ -6,6 +6,7 @@ repository = "https://github.com/cptpiepmatz/twemoji-assets"
 keywords = ["twitter", "emoji", "twemoji", "assets"]
 categories = ["graphics", "value-formatting"]
 edition.workspace = true
+description = "A sophisticated crate that provides the assets from Twemoji."
 exclude = [
     ".gitignore",
     "Cargo.lock",

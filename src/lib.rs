@@ -1,6 +1,44 @@
 #![warn(missing_docs)]
 #![warn(rustdoc::missing_crate_level_docs)]
 
+//! A sophisticated crate that provides the assets from Twemoji.
+//!
+//! [Twemoji](https://github.com/twitter/twemoji) is an open-source project by Twitter that
+//! provides Recommended for General Interchange (RGI) emoji images in both SVG and PNG formats.
+//! This crate makes it easy to use these assets in Rust projects.
+//!
+//! The PNGs are embedded using the [`include_bytes`](std::include_bytes) macro and the SVGs are
+//! embedded using the [`include_str`](std::include_str) macro.
+//! Assets can be accessed either by their Unicode representation in the [`svg::codes`](svg::codes)
+//! and [`png::codes`](png::codes) modules or by their human-readable names from
+//! [Emojibase](https://github.com/milesj/emojibase) in the [`svg::names`](svg::names) and
+//! [`png::names`](png::names) modules.
+//! The `from_emoji` and `from_name` methods in the [`SvgTwemojiAsset`](svg::SvgTwemojiAsset) and
+//! [`PngTwemojiAsset`](png::PngTwemojiAsset) modules provide convenient ways to select the correct
+//! asset at runtime, and the crate's macros allow the selection of the right emojis at compile
+//! time.
+//!
+//! # Feature Flags
+//!
+//! For a better documentation experience, it is recommended to use the search feature.
+//! Additionally, you can
+//! [locally generate documentation](https://doc.rust-lang.org/cargo/commands/cargo-doc.html)
+//! and select the appropriate features to declutter the search results and improve results found
+//! by IntelliSense.
+//! This crate uses three feature flags: `svg`, `png`, and `names`.
+//! The `svg` and `png` flags include the respective file formats, while the `names` flag includes
+//! the modules with human-readable names provided by Emojibase.
+//! By default, the `svg` and `names` flags are selected.
+//!
+//! # Usage
+//!
+//! This crate does not provide any direct methods for utilizing the Twemoji assets.
+//! The following additional crates may be necessary to take full advantage of these emoji graphics:
+//! - [`image`](https://crates.io/crates/image) for PNG image manipulation
+//! - [`resvg`](https://crates.io/crates/resvg) for SVG rendering
+//! - [`unicode-segmentation`](https://crates.io/crates/unicode-segmentation)
+//!   for splitting words into Unicode graphemes
+
 use std::cmp::Ordering;
 use std::hash::{Hash, Hasher};
 
