@@ -37,8 +37,15 @@ pub mod names;
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Svg(pub &'static str);
 
+/// Specific version of [`TwemojiAsset`](super::TwemojiAsset) that holds the SVG string of an emoji
+/// asset.
+///
+/// This type is an alias for `TwemojiAsset` with [`Svg`](Svg) as the type parameter.
+/// The `SvgTwemojiAsset` implements [`Deref`](std::ops::Deref) to directly return the underlying
+/// SVG string as a static [`string`](str) slice.
 pub type SvgTwemojiAsset = TwemojiAsset<Svg>;
 
+/// The implementation for selecting [`SvgTwemojiAsset`s](SvgTwemojiAsset) in runtime.
 impl SvgTwemojiAsset {
     /// Finds the Twemoji svg string representing the given emoji.
     ///

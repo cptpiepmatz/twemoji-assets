@@ -37,8 +37,15 @@ pub mod names;
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Png(pub &'static [u8]);
 
+/// Specific version of [`TwemojiAsset`](super::TwemojiAsset) that holds the PNG bytes of an emoji
+/// asset.
+///
+/// This type is an alias for `TwemojiAsset` with [`Png`](Png) as the type parameter.
+/// The `PngTwemojiAsset` implements [`Deref`](std::ops::Deref) to directly return the underlying
+/// PNG bytes as a static [`u8`](u8) slice.
 pub type PngTwemojiAsset = TwemojiAsset<Png>;
 
+/// The implementation for selecting [`PngTwemojiAsset`s](PngTwemojiAsset) in runtime.
 impl PngTwemojiAsset {
     /// Finds the Twemoji png string representing the given emoji.
     ///
