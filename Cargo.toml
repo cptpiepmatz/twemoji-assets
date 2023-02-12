@@ -1,6 +1,10 @@
 [package]
 name = "twemoji-assets"
 version.workspace = true
+authors = ["Tim 'Piepmatz' Hesse"]
+repository = "https://github.com/cptpiepmatz/twemoji-assets"
+keywords = ["twitter", "emoji", "twemoji", "assets"]
+categories = ["graphics", "value-formatting"]
 edition.workspace = true
 exclude = [
     ".gitignore",
@@ -34,3 +38,6 @@ harness = false
 [[bench]]
 name = "from_name"
 harness = false
+
+[package.metadata.docs.rs]
+all-features = true
