@@ -30,6 +30,30 @@
 //! the modules with human-readable names provided by Emojibase.
 //! By default, the `svg` and `names` flags are selected.
 //!
+//! # Example
+//!
+//! Here's a simple example that shows how to use this crate to retrieve the SVG and PNG assets for
+//! the 🦆 (duck) emoji:
+//!
+//! ```
+//! use twemoji_assets::svg::SvgTwemojiAsset;
+//!
+//! fn main() {
+//!     let svg_asset: &SvgTwemojiAsset = SvgTwemojiAsset::from_emoji("🦆").unwrap();
+//!     let svg_data: &str = &svg_asset;
+//!     println!("SVG data for 🦆: {}", svg_data);
+//!
+//!     #[cfg(feature = "png")]
+//!     {
+//!         use twemoji_assets::png::PngTwemojiAsset;
+//!
+//!         let png_asset: &PngTwemojiAsset = PngTwemojiAsset::from_emoji("🦆").unwrap();
+//!         let png_data: &[u8] = &png_asset;
+//!         println!("PNG data for 🦆: {:?}", png_data);
+//!     }
+//! }
+//! ```
+//!
 //! # Usage
 //!
 //! This crate does not provide any direct methods for utilizing the Twemoji assets.
