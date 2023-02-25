@@ -14,7 +14,8 @@ exclude = [
     "emojibase.data.json",
     "emojibase.shortcodes.json",
     "gen.rs",
-    "Makefile.toml"
+    "Makefile.toml",
+    "templates"
 ]
 
 [workspace.package]
