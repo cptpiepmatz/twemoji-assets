@@ -60,6 +60,24 @@
 //! [Creative Commons Attribution 4.0 International (CC-BY 4.0) license](https://creativecommons.org/licenses/by/4.0/).
 //! Proper attribution must be given to Twitter and other contributors if these graphics are used
 //! or modified.
+//!
+//! # Comparison to emoji-rs
+//!
+//! Another crate with similar goals to this crate is
+//! [`emoji-rs`](https://crates.io/crates/twemoji-rs).
+//! It also provides the assets from Twemoji and makes them easily available, but instead of
+//! directly including them, it finds the paths for the particular graphic.
+//!
+//! Pros:
+//! - Assets may be lazy loaded.
+//! - Simpler API than this crate.
+//!
+//! Cons:
+//! - Deployment is not possible on a device the application is not built on, as the paths are
+//!   absolute from the directory the app was built in.
+//! - Assets are not part of the built binary, making deployment even more challenging.
+//! - `twemoji-rs` only supports PNG.
+//! - `twemoji-rs` has no overview of all available Twemojis.
 
 use std::cmp::Ordering;
 use std::hash::{Hash, Hasher};
