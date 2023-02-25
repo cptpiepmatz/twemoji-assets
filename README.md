@@ -109,7 +109,7 @@ in the minor value (`y`).
   Twemoji, which includes detailed information on the project as well as
   instructions on how to include Twemoji assets in your project.
 
-- [Emojibase Homepage](https://emojibase.github.io/) - A comprehensive emoji
+- [Emojibase Homepage](https://emojibase.dev) - A comprehensive emoji
   database that includes information on emoji character codes, names, and
   descriptions.
   This crate includes a subset of Emojibase as the `names` module, but the full
@@ -127,7 +127,7 @@ graphics are used or modified.
 ## Comparison to twemoji-rs
 
 Another crate with similar goals to this crate is
-[twemoji-rs](https://crates.io/crates/emoji).
+[twemoji-rs](https://crates.io/crates/twemoji-rs).
 Like twemoji-assets, it provides assets from Twemoji and makes them easily
 available in Rust.
 However, instead of directly including the assets, twemoji-rs finds the paths
