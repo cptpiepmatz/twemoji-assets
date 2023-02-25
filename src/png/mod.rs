@@ -83,6 +83,8 @@ impl PngTwemojiAsset {
     /// | Debug   | 162 KB                         | 3670 KB                        | 2265%    |
     /// | Release | 157 KB                         | 3585 KB                        | 2283%    |
     ///
+    /// *Note*: Numbers may differ but the increase is still relevant.
+    ///
     /// Therefore this function should only be used if the icon is chosen on runtime and every emoji is
     /// a possible input.
     #[inline]

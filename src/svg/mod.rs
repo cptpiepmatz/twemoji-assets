@@ -83,6 +83,8 @@ impl SvgTwemojiAsset {
     /// | Debug   | 162 KB                         | 8766 KB                        | 5541%    |
     /// | Release | 158 KB                         | 8681 KB                        | 5494%    |
     ///
+    /// *Note*: Numbers may differ but the increase is still relevant.
+    ///
     /// Therefore this function should only be used if the icon is chosen on runtime and every emoji is
     /// a possible input.
     #[inline]

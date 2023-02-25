@@ -41,7 +41,7 @@
 //! fn main() {
 //!     let svg_asset: &SvgTwemojiAsset = SvgTwemojiAsset::from_emoji("🦆").unwrap();
 //!     let svg_data: &str = &svg_asset;
-//!     println!("SVG data for 🦆: {}", svg_data);
+//!     println!("SVG data for 🦆: {:?}", svg_data);
 //!
 //!     #[cfg(feature = "png")]
 //!     {
@@ -85,10 +85,10 @@
 //! Proper attribution must be given to Twitter and other contributors if these graphics are used
 //! or modified.
 //!
-//! # Comparison to emoji-rs
+//! # Comparison to twemoji-rs
 //!
 //! Another crate with similar goals to this crate is
-//! [`emoji-rs`](https://crates.io/crates/twemoji-rs).
+//! [`twemoji-rs`](https://crates.io/crates/twemoji-rs).
 //! It also provides the assets from Twemoji and makes them easily available, but instead of
 //! directly including them, it finds the paths for the particular graphic.
 //!
@@ -159,6 +159,16 @@ impl<T> Hash for TwemojiAsset<T> {
 /// The `svg_twemoji_asset!` macro takes a string literal of an emoji, such as `"🦆"`, and yields
 /// the `&SvgTwemojiAsset` for the [🦆 emoji asset](svg::codes::U_1F986).
 /// If the emoji asset is unknown for the given literal, the compilation will fail.
+///
+/// # Example
+///
+/// Example for 🦆 (duck):
+/// ```
+/// use twemoji_assets::svg_twemoji_asset;
+///
+/// let duck = svg_twemoji_asset!("🦆");
+/// println!("SVG data for 🦆: {:?}", duck);
+/// ```
 #[cfg(all(doc, feature = "svg"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset {
@@ -172,6 +182,16 @@ macro_rules! svg_twemoji_asset {
 /// [🦆 emoji asset](svg::codes::U_1F986).
 /// The names are provided by [Emojibase](https://github.com/milesj/emojibase).
 /// If the name or the corresponding emoji asset is unknown for the given literal, the compilation will fail.
+///
+/// # Example
+///
+/// Example for 🦆 (duck):
+/// ```
+/// use twemoji_assets::svg_twemoji_asset_from_name;
+///
+/// let duck = svg_twemoji_asset_from_name!("duck");
+/// println!("SVG data for 🦆: {:?}", duck);
+/// ```
 #[cfg(all(doc, feature = "svg", feature = "names"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset_from_name {
@@ -183,6 +203,16 @@ macro_rules! svg_twemoji_asset_from_name {
 /// The `png_twemoji_asset!` macro takes a string literal of an emoji, such as `"🦆"`, and yields
 /// the `&PngTwemojiAsset` for the [🦆 emoji asset](png::codes::U_1F986).
 /// If the emoji asset is unknown for the given literal, the compilation will fail.
+///
+/// # Example
+///
+/// Example for 🦆 (duck):
+/// ```
+/// use twemoji_assets::png_twemoji_asset;
+///
+/// let duck = png_twemoji_asset!("🦆");
+/// println!("PNG data for 🦆: {:?}", duck);
+/// ```
 #[cfg(all(doc, feature = "png"))]
 #[macro_export]
 macro_rules! png_twemoji_asset {
@@ -196,6 +226,16 @@ macro_rules! png_twemoji_asset {
 /// [🦆 emoji asset](svg::codes::U_1F986).
 /// The names are provided by [Emojibase](https://github.com/milesj/emojibase).
 /// If the name or the corresponding emoji asset is unknown for the given literal, the compilation will fail.
+///
+/// # Example
+///
+/// Example for 🦆 (duck):
+/// ```
+/// use twemoji_assets::png_twemoji_asset_from_name;
+///
+/// let duck = png_twemoji_asset_from_name!("duck");
+/// println!("PNG data for 🦆: {:?}", duck);
+/// ```
 #[cfg(all(doc, feature = "png", feature = "names"))]
 #[cfg(doc)]
 #[macro_export]

@@ -28,7 +28,7 @@ use twemoji_assets::svg::SvgTwemojiAsset;
 fn main() {
     let svg_asset: &SvgTwemojiAsset = SvgTwemojiAsset::from_emoji("🦆").unwrap();
     let svg_data: &str = &svg_asset;
-    println!("SVG data for 🦆: {}", svg_data);
+    println!("SVG data for 🦆: {:?}", svg_data);
 
     #[cfg(feature = "png")]
     {
