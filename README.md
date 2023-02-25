@@ -12,10 +12,10 @@
   <a href="https://crates.io/crates/twemoji-assets">
     <img alt="Version" src="https://img.shields.io/crates/v/twemoji-assets?style=for-the-badge"/>
   </a>
-  <img href="https://github.com/cptpiepmatz/twemoji-assets/blob/main/LICENSE">
+  <a href="https://github.com/cptpiepmatz/twemoji-assets/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/crates/l/twemoji-assets?style=for-the-badge"/>  
   </a>
-  <img href="https://docs.rs/twemoji-assets">
+  <a href="https://docs.rs/twemoji-assets">
     <img alt="Docs" src="https://img.shields.io/docsrs/twemoji-assets?style=for-the-badge"/>  
   </a>
 </p>
