@@ -38,6 +38,8 @@
 //! - [`resvg`](https://crates.io/crates/resvg) for SVG rendering
 //! - [`unicode-segmentation`](https://crates.io/crates/unicode-segmentation)
 //!   for splitting words into Unicode graphemes
+//! - [`emoji`](https://crates.io/crates/emoji) for working with emojis, which can later be
+//!   converted to Twemoji assets
 //!
 //! # Version Scheme
 //!
