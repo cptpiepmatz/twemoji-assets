@@ -19,7 +19,7 @@ exclude = [
 ]
 
 [workspace.package]
-version = "0.1.0+14.0.2"
+version = "1.0.0+14.0.2"
 edition = "2021"
 
 [features]
