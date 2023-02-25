@@ -21,6 +21,7 @@
 //! name [`U_1F9D1_200D_1F52C`](U_1F9D1_200D_1F52C).
 
 use super::{PngTwemojiAsset, png_code, png_match_emoji, Png};
+
 png_code!(U_1F004, "🀄", "mahjong red dragon", "1f004.png");
 png_code!(U_1F0CF, "🃏", "joker", "1f0cf.png");
 png_code!(U_1F170, "🅰", "A button (blood type)", "1f170.png");
@@ -3710,6 +3711,7 @@ png_code!(U_39_20E3, "9⃣", "", "39-20e3.png");
 png_code!(U_A9, "©", "", "a9.png");
 png_code!(U_AE, "®", "", "ae.png");
 png_code!(U_E50A, "", "", "e50a.png");
+
 png_match_emoji! [
     ((Some('🀄'), None, None, None, None, None, None, None, None, None), U_1F004),
     ((Some('🃏'), None, None, None, None, None, None, None, None, None), U_1F0CF),
@@ -7400,8 +7402,9 @@ png_match_emoji! [
     ((Some('©'), None, None, None, None, None, None, None, None, None), U_A9),
     ((Some('®'), None, None, None, None, None, None, None, None, None), U_AE),
     ((Some('\u{e50a}'), None, None, None, None, None, None, None, None, None), U_E50A),
-
 ];
+
+#[allow(missing_docs)] // is documented by dummy macro signatures in lib.rs
 #[cfg(not(doc))]
 #[macro_export]
 macro_rules! png_twemoji_asset {
@@ -11094,5 +11097,4 @@ macro_rules! png_twemoji_asset {
     ("©") => { &twemoji_assets::png::codes::U_A9 };
     ("®") => { &twemoji_assets::png::codes::U_AE };
     ("") => { &twemoji_assets::png::codes::U_E50A };
-
 }

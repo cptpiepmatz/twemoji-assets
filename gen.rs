@@ -67,14 +67,14 @@ fn main() -> Result<(), Box<dyn Error>> {
         env!("RUST_SCRIPT_BASE_PATH"),
         "/templates/svg_codes_mod.template.rs"
     ))
-    .to_owned();
+    .to_owned() + "\n";
 
     let mut svg_match_emoji = String::new();
     let mut svg_shortcodes_mod = include_str!(concat!(
         env!("RUST_SCRIPT_BASE_PATH"),
         "/templates/svg_names_mod.template.rs"
     ))
-    .to_owned();
+    .to_owned() + "\n";
     let mut svg_match_shortcode = String::new();
 
     let mut svg_match_emoji_macro = String::new();
@@ -129,34 +129,38 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
     }
 
+    svg_codes_mod += "\n";
     svg_codes_mod += &format!(
         include_str!(concat!(
             env!("RUST_SCRIPT_BASE_PATH"),
             "/templates/svg_match_emoji.template.rs"
         )),
-        svg_match_emoji
+        format!("{INDENT}{}", svg_match_emoji.trim())
     );
+    svg_shortcodes_mod += "\n";
     svg_shortcodes_mod += &format!(
         include_str!(concat!(
             env!("RUST_SCRIPT_BASE_PATH"),
             "/templates/svg_match_name.template.rs"
         )),
-        svg_match_shortcode
+        format!("{INDENT}{}", svg_match_shortcode.trim())
     );
 
+    svg_codes_mod += "\n";
     svg_codes_mod += &format!(
         include_str!(concat!(
             env!("RUST_SCRIPT_BASE_PATH"),
             "/templates/svg_twemoji_asset.template.rs"
         )),
-        svg_match_emoji_macro
+        format!("{INDENT}{}", svg_match_emoji_macro.trim())
     );
+    svg_shortcodes_mod += "\n";
     svg_shortcodes_mod += &format!(
         include_str!(concat!(
             env!("RUST_SCRIPT_BASE_PATH"),
             "/templates/svg_twemoji_asset_from_name.template.rs"
         )),
-        svg_match_emoji_from_name_macro
+        format!("{INDENT}{}", svg_match_emoji_from_name_macro.trim())
     );
 
     fs::write(

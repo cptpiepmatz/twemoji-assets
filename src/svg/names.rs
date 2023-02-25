@@ -9,7 +9,7 @@
 //!
 //! # Naming Convention
 //!
-//! The names provided by Emojibase may contain characters that are not valid in Rust identifiers.
+//! The names provided by Emojibase may contain characters that are not valid as Rust identifiers.
 //! To handle this, the names are sanitized using the `sanitize_ident` function in `gen.rs`.
 //! This function performs the following transformations:
 //!
@@ -31,6 +31,7 @@
 
 use super::{SvgTwemojiAsset, svg_name, svg_match_name};
 use super::codes::*;
+
 svg_name!(MAHJONG, "🀄", "mahjong red dragon", U_1F004, "1f004.svg");
 svg_name!(BLACK_JOKER, "🃏", "joker", U_1F0CF, "1f0cf.svg");
 svg_name!(A, "🅰", "A button (blood type)", U_1F170, "1f170.svg");
@@ -4671,6 +4672,7 @@ svg_name!(CONGRATULATIONS, "㊗", "Japanese “congratulations” button", U_329
 svg_name!(JA_CONGRATULATIONS, "㊗", "Japanese “congratulations” button", U_3297, "3297.svg");
 svg_name!(JA_SECRET, "㊙", "Japanese “secret” button", U_3299, "3299.svg");
 svg_name!(SECRET, "㊙", "Japanese “secret” button", U_3299, "3299.svg");
+
 svg_match_name! [
     ((7, "mahjong"), MAHJONG),
     ((11, "black_joker"), BLACK_JOKER),
@@ -9312,8 +9314,9 @@ svg_match_name! [
     ((18, "ja_congratulations"), JA_CONGRATULATIONS),
     ((9, "ja_secret"), JA_SECRET),
     ((6, "secret"), SECRET),
-
 ];
+
+#[allow(missing_docs)] // is documented by dummy macro signatures in lib.rs
 #[cfg(not(doc))]
 #[macro_export]
 macro_rules! svg_twemoji_asset_from_name {
@@ -13957,5 +13960,4 @@ macro_rules! svg_twemoji_asset_from_name {
     ("ja_congratulations") => { &twemoji_assets::svg::codes::U_3297 };
     ("ja_secret") => { &twemoji_assets::svg::codes::U_3299 };
     ("secret") => { &twemoji_assets::svg::codes::U_3299 };
-
 }
