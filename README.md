@@ -1,7 +1,24 @@
-# twemoji-assets
+<h1 align="center">twemoji-assets</h1>
+<p align="center">
+  <b>
+    A sophisticated crate that provides the assets from 
+    <a href="https://github.com/twitter/twemoji">Twemoji</a>.
+  </b>
+</p>
 
-A sophisticated crate that provides the assets from 
-[Twemoji](https://github.com/twitter/twemoji).
+<br>
+
+<p align="center">
+  <a href="https://crates.io/crates/twemoji-assets">
+    <img alt="Version" src="https://img.shields.io/crates/v/twemoji-assets?style=for-the-badge"/>
+  </a>
+  <img href="https://github.com/cptpiepmatz/twemoji-assets/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/crates/l/twemoji-assets?style=for-the-badge"/>  
+  </a>
+  <img href="https://docs.rs/twemoji-assets">
+    <img alt="Docs" src="https://img.shields.io/docsrs/twemoji-assets?style=for-the-badge"/>  
+  </a>
+</p>
 
 ## Usage
 
