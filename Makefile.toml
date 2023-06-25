@@ -1,6 +1,6 @@
 [env]
-TWEMOJI_REPO = "https://github.com/twitter/twemoji.git"
-TWEMOJI_TAG = "v14.0.2"
+TWEMOJI_REPO = "https://github.com/jdecked/twemoji.git"
+TWEMOJI_TAG = "v14.1.2"
 EMOJIBASE_REPO = "https://github.com/milesj/emojibase.git"
 
 [tasks.default]

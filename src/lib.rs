@@ -3,8 +3,10 @@
 
 //! A sophisticated crate that provides the assets from Twemoji.
 //!
-//! [Twemoji](https://github.com/twitter/twemoji) is an open-source project by Twitter that
-//! provides Recommended for General Interchange (RGI) emoji images in both SVG and PNG formats.
+//! [Twemoji](https://github.com/jdecked/twemoji) used to be an open-source project by Twitter that
+//! provided Recommended for General Interchange (RGI) emoji images in both SVG and PNG formats.
+//! Since the acquisition of Twitter by Elon Musk, the project has moved to its original creators
+//! ([source](https://github.com/jdecked/twemoji/issues/10)).
 //! This crate makes it easy to use these assets in Rust projects.
 //!
 //! The PNGs are embedded using the [`include_bytes`](std::include_bytes) macro and the SVGs are

@@ -2,7 +2,7 @@
 //!
 //! This module provides access to the Twemoji assets in PNG format.
 //! All emojis are 72x72 pixels and are sourced from the
-//! [Twemoji repository](https://github.com/twitter/twemoji/tree/master/assets/72x72).
+//! [Twemoji repository](https://github.com/jdecked/twemoji/tree/master/assets/72x72).
 //!
 //! The module has two main components:
 //! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
@@ -168,7 +168,7 @@ macro_rules! png_code {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/twitter/twemoji/blob/master/assets/72x72/",
+            "https://github.com/jdecked/twemoji/blob/master/assets/72x72/",
             $file_name,
             ")."
         )]
@@ -207,7 +207,7 @@ macro_rules! png_name {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/twitter/twemoji/blob/master/assets/72x72/",
+            "https://github.com/jdecked/twemoji/blob/master/assets/72x72/",
             $file_name,
             ")."
         )]

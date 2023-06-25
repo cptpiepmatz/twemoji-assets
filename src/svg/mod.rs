@@ -2,7 +2,7 @@
 //!
 //! This module provides access to the Twemoji assets in SVG format.
 //! All emojis are sourced from the
-//! [Twemoji repository](https://github.com/twitter/twemoji/tree/master/assets/svg).
+//! [Twemoji repository](https://github.com/jdecked/twemoji/tree/master/assets/svg).
 //!
 //! The module has two main components:
 //! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
@@ -168,7 +168,7 @@ macro_rules! svg_code {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/twitter/twemoji/blob/master/assets/svg/",
+            "https://github.com/jdecked/twemoji/blob/master/assets/svg/",
             $file_name,
             ")."
         )]
@@ -207,7 +207,7 @@ macro_rules! svg_name {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/twitter/twemoji/blob/master/assets/svg/",
+            "https://github.com/jdecked/twemoji/blob/master/assets/svg/",
             $file_name,
             ")."
         )]

@@ -2,7 +2,7 @@
 <p align="center">
   <b>
     A sophisticated crate that provides the assets from 
-    <a href="https://github.com/twitter/twemoji">Twemoji</a>.
+    <a href="https://github.com/jdecked/twemoji">Twemoji</a>.
   </b>
 </p>
 
@@ -131,6 +131,34 @@ in the minor value (`y`).
   descriptions.
   This crate includes a subset of Emojibase as the `names` module, but the full
   database may be useful for advanced emoji manipulation.
+
+# Project Status and Future
+
+Twemoji, the project that this crate sources its assets from, has moved to a 
+[new home on GitHub](https://github.com/jdecked/twemoji), maintained by its 
+original creators. 
+The original version of Twemoji was maintained by two Twitter employees, 
+[@sofodesign](https://github.com/sofodesign) and 
+[@jdecked](https://github.com/jdecked). 
+With the recent changes at Twitter, including the acquisition by Elon Musk, 
+they no longer work there and do not have commit permissions to the original 
+repository. 
+There has been no indication from Twitter about whether they intend to keep 
+maintaining the original Twemoji. 
+Given that the original maintenance was done in the creators' free time, it 
+seems highly unlikely that its maintenance is a priority for anyone currently 
+at Twitter.
+
+To prevent Twemoji from becoming abandoned, the original developers have forked 
+the original repository and plan to continue working on it, releasing new 
+Unicode-approved emoji, maintaining the code, etc., despite no longer being 
+employed by Twitter. 
+They have committed to keeping this essential project alive and accessible to 
+the developer community ([source](https://github.com/jdecked/twemoji/issues/10)).
+
+Af of now this crate sources its assets from this new fork of 
+Twemoji, as the future updates and maintenance of the original Twitter 
+repository are uncertain.
 
 ## Licensing
 
