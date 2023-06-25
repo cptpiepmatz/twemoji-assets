@@ -132,7 +132,7 @@ in the minor value (`y`).
   This crate includes a subset of Emojibase as the `names` module, but the full
   database may be useful for advanced emoji manipulation.
 
-# Project Status and Future
+## Project Status and Future
 
 Twemoji, the project that this crate sources its assets from, has moved to a 
 [new home on GitHub](https://github.com/jdecked/twemoji), maintained by its 
