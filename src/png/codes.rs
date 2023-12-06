@@ -18,7 +18,7 @@
 //! For example, the scientist emoji 🧑‍🔬 is assembled from the characters `0x1F9D1`, `0x200D`, and
 //! `0x1F52C`.
 //! To use this emoji, you would have to concatenate these codes with underscores, resulting in the
-//! name [`U_1F9D1_200D_1F52C`](U_1F9D1_200D_1F52C).
+//! name [`U_1F9D1_200D_1F52C`].
 
 use super::{PngTwemojiAsset, png_code, png_match_emoji, Png};
 

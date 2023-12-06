@@ -5,16 +5,16 @@
 //! [Twemoji repository](https://github.com/jdecked/twemoji/tree/master/assets/72x72).
 //!
 //! The module has two main components:
-//! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
-//! - The [`names`](names) module, which provides a subset of emojis with human-readable names.
+//! - The [`codes`] module, which provides all assets named by their unicode characters.
+//! - The [`names`] module, which provides a subset of emojis with human-readable names.
 //!   This module requires the `names` feature to be enabled.
 //!
 //! The main type to use when interacting with the module is the
-//! [`PngTwemojiAsset`](PngTwemojiAsset) type definition.
+//! [`PngTwemojiAsset`] type definition.
 //! It provides convenient methods for loading assets from either a string containing the emoji's
 //! unicode character (e.g. `"🦆"`) or the string with the name of the emoji (e.g. `"duck"`).
 //!
-//! The [`Png`](Png) struct is a
+//! The [`Png`] struct is a
 //! [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
 //! for the bytes that hold the PNG image data.
 
@@ -32,17 +32,17 @@ pub mod names;
 /// The `Png` type is a
 /// [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
 /// that provides a clear type definition for representing PNG bytes.
-/// This type is used in the definition of the [`PngTwemojiAsset`](PngTwemojiAsset)
+/// This type is used in the definition of the [`PngTwemojiAsset`]
 /// struct to ensure that the bytes are unambiguously a representation of an PNG image.
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Png(pub &'static [u8]);
 
-/// Specific version of [`TwemojiAsset`](super::TwemojiAsset) that holds the PNG bytes of an emoji
+/// Specific version of [`TwemojiAsset`] that holds the PNG bytes of an emoji
 /// asset.
 ///
-/// This type is an alias for `TwemojiAsset` with [`Png`](Png) as the type parameter.
-/// The `PngTwemojiAsset` implements [`Deref`](std::ops::Deref) to directly return the underlying
-/// PNG bytes as a static [`u8`](u8) slice.
+/// This type is an alias for `TwemojiAsset` with [`Png`] as the type parameter.
+/// The `PngTwemojiAsset` implements [`Deref`] to directly return the underlying
+/// PNG bytes as a static [`u8`] slice.
 pub type PngTwemojiAsset = TwemojiAsset<Png>;
 
 /// The implementation for selecting [`PngTwemojiAsset`s](PngTwemojiAsset) in runtime.
@@ -145,7 +145,7 @@ impl From<&super::svg::SvgTwemojiAsset> for &PngTwemojiAsset {
     fn from(value: &super::svg::SvgTwemojiAsset) -> Self {
         match PngTwemojiAsset::from_emoji(value.emoji) {
             Some(asset) => asset,
-            None => unreachable!("PNG and SVG have the same emoji set")
+            None => unreachable!("PNG and SVG have the same emoji set"),
         }
     }
 }

@@ -9,12 +9,12 @@
 //! ([source](https://github.com/jdecked/twemoji/issues/10)).
 //! This crate makes it easy to use these assets in Rust projects.
 //!
-//! The PNGs are embedded using the [`include_bytes`](std::include_bytes) macro and the SVGs are
-//! embedded using the [`include_str`](std::include_str) macro.
-//! Assets can be accessed either by their Unicode representation in the [`svg::codes`](svg::codes)
-//! and [`png::codes`](png::codes) modules or by their human-readable names from
-//! [Emojibase](https://github.com/milesj/emojibase) in the [`svg::names`](svg::names) and
-//! [`png::names`](png::names) modules.
+//! The PNGs are embedded using the [`include_bytes`] macro and the SVGs are
+//! embedded using the [`include_str`] macro.
+//! Assets can be accessed either by their Unicode representation in the [`svg::codes`]
+//! and [`png::codes`] modules or by their human-readable names from
+//! [Emojibase](https://github.com/milesj/emojibase) in the [`svg::names`] and
+//! [`png::names`] modules.
 //! The `from_emoji` and `from_name` methods in the [`SvgTwemojiAsset`](svg::SvgTwemojiAsset) and
 //! [`PngTwemojiAsset`](png::PngTwemojiAsset) modules provide convenient ways to select the correct
 //! asset at runtime, and the crate's macros allow the selection of the right emojis at compile
@@ -133,7 +133,7 @@ pub struct TwemojiAsset<T> {
     /// A string slice representing the emoji character.
     pub emoji: &'static str,
     /// An optional string slice representing the label of the emoji provide by Emojibase.
-    pub label: Option<&'static str>
+    pub label: Option<&'static str>,
 }
 
 impl<T> PartialEq for TwemojiAsset<T> {
@@ -174,7 +174,7 @@ impl<T> Hash for TwemojiAsset<T> {
 #[cfg(all(doc, feature = "svg"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset {
-    ($emoji:literal) => {}
+    ($emoji:literal) => {};
 }
 
 /// Inserts a [`SvgTwemojiAsset`](svg::SvgTwemojiAsset) from a string literal of an emoji name.
@@ -197,7 +197,7 @@ macro_rules! svg_twemoji_asset {
 #[cfg(all(doc, feature = "svg", feature = "names"))]
 #[macro_export]
 macro_rules! svg_twemoji_asset_from_name {
-    ($emoji:literal) => {}
+    ($emoji:literal) => {};
 }
 
 /// Inserts a [`PngTwemojiAsset`](png::PngTwemojiAsset) for a given emoji string literal.
@@ -218,7 +218,7 @@ macro_rules! svg_twemoji_asset_from_name {
 #[cfg(all(doc, feature = "png"))]
 #[macro_export]
 macro_rules! png_twemoji_asset {
-    ($emoji:literal) => {}
+    ($emoji:literal) => {};
 }
 
 /// Inserts a [`PngTwemojiAsset`](png::PngTwemojiAsset) from a string literal of an emoji name.
@@ -242,5 +242,5 @@ macro_rules! png_twemoji_asset {
 #[cfg(doc)]
 #[macro_export]
 macro_rules! png_twemoji_asset_from_name {
-    ($emoji:literal) => {}
+    ($emoji:literal) => {};
 }

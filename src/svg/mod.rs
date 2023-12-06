@@ -5,16 +5,16 @@
 //! [Twemoji repository](https://github.com/jdecked/twemoji/tree/master/assets/svg).
 //!
 //! The module has two main components:
-//! - The [`codes`](codes) module, which provides all assets named by their unicode characters.
-//! - The [`names`](names) module, which provides a subset of emojis with human-readable names.
+//! - The [`codes`] module, which provides all assets named by their unicode characters.
+//! - The [`names`] module, which provides a subset of emojis with human-readable names.
 //!   This module requires the `names` feature to be enabled.
 //!
 //! The main type to use when interacting with the module is the
-//! [`SvgTwemojiAsset`](SvgTwemojiAsset) type definition.
+//! [`SvgTwemojiAsset`] type definition.
 //! It provides convenient methods for loading assets from either a string containing the emoji's
 //! unicode character (e.g. `"🦆"`) or the string with the name of the emoji (e.g. `"duck"`).
 //!
-//! The [`Svg`](Svg) struct is a
+//! The [`Svg`] struct is a
 //! [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
 //! for the string that hold the SVG image data.
 
@@ -32,16 +32,16 @@ pub mod names;
 /// The `Svg` type is a
 /// [new type](https://doc.rust-lang.org/rust-by-example/generics/new_types.html)
 /// that provides a clear type definition for representing SVG strings.
-/// This type is used in the definition of the [`SvgTwemojiAsset`](SvgTwemojiAsset)
+/// This type is used in the definition of the [`SvgTwemojiAsset`]
 /// struct to ensure that the string is unambiguously a representation of an SVG image.
 #[derive(PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Svg(pub &'static str);
 
-/// Specific version of [`TwemojiAsset`](super::TwemojiAsset) that holds the SVG string of an emoji
+/// Specific version of [`TwemojiAsset`] that holds the SVG string of an emoji
 /// asset.
 ///
-/// This type is an alias for `TwemojiAsset` with [`Svg`](Svg) as the type parameter.
-/// The `SvgTwemojiAsset` implements [`Deref`](std::ops::Deref) to directly return the underlying
+/// This type is an alias for `TwemojiAsset` with [`Svg`] as the type parameter.
+/// The `SvgTwemojiAsset` implements [`Deref`] to directly return the underlying
 /// SVG string as a static [`string`](str) slice.
 pub type SvgTwemojiAsset = TwemojiAsset<Svg>;
 
@@ -145,7 +145,7 @@ impl From<&super::png::PngTwemojiAsset> for &SvgTwemojiAsset {
     fn from(value: &super::png::PngTwemojiAsset) -> Self {
         match SvgTwemojiAsset::from_emoji(value.emoji) {
             Some(asset) => asset,
-            None => unreachable!("PNG and SVG have the same emoji set")
+            None => unreachable!("PNG and SVG have the same emoji set"),
         }
     }
 }
