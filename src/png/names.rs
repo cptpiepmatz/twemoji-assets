@@ -1138,6 +1138,7 @@ png_name!(TURTLE, "🐢", "turtle", U_1F422, "1f422.png");
 png_name!(HATCHING_CHICK, "🐣", "hatching chick", U_1F423, "1f423.png");
 png_name!(BABY_CHICK, "🐤", "baby chick", U_1F424, "1f424.png");
 png_name!(HATCHED_CHICK, "🐥", "front-facing baby chick", U_1F425, "1f425.png");
+png_name!(BLACK_BIRD, "🐦‍⬛", "black bird", U_1F426_200D_2B1B, "1f426-200d-2b1b.png");
 png_name!(BIRD, "🐦", "bird", U_1F426, "1f426.png");
 png_name!(BIRD_FACE, "🐦", "bird", U_1F426, "1f426.png");
 png_name!(PENGUIN, "🐧", "penguin", U_1F427, "1f427.png");
@@ -3100,6 +3101,7 @@ png_name!(SHOPPING_CART, "🛒", "shopping cart", U_1F6D2, "1f6d2.png");
 png_name!(HINDU_TEMPLE, "🛕", "hindu temple", U_1F6D5, "1f6d5.png");
 png_name!(HUT, "🛖", "hut", U_1F6D6, "1f6d6.png");
 png_name!(ELEVATOR, "🛗", "elevator", U_1F6D7, "1f6d7.png");
+png_name!(WIRELESS, "🛜", "wireless", U_1F6DC, "1f6dc.png");
 png_name!(PLAYGROUND_SLIDE, "🛝", "playground slide", U_1F6DD, "1f6dd.png");
 png_name!(SLIDE, "🛝", "playground slide", U_1F6DD, "1f6dd.png");
 png_name!(WHEEL, "🛞", "wheel", U_1F6DE, "1f6de.png");
@@ -4241,6 +4243,10 @@ png_name!(ONE_PIECE_SWIMSUIT, "🩱", "one-piece swimsuit", U_1FA71, "1fa71.png"
 png_name!(BRIEFS, "🩲", "briefs", U_1FA72, "1fa72.png");
 png_name!(SHORTS, "🩳", "shorts", U_1FA73, "1fa73.png");
 png_name!(THONG_SANDAL, "🩴", "thong sandal", U_1FA74, "1fa74.png");
+png_name!(LIGHT_BLUE_HEART, "🩵", "light blue heart", U_1FA75, "1fa75.png");
+png_name!(GRAY_HEART, "🩶", "grey heart", U_1FA76, "1fa76.png");
+png_name!(GREY_HEART, "🩶", "grey heart", U_1FA76, "1fa76.png");
+png_name!(PINK_HEART, "🩷", "pink heart", U_1FA77, "1fa77.png");
 png_name!(DROP_OF_BLOOD, "🩸", "drop of blood", U_1FA78, "1fa78.png");
 png_name!(ADHESIVE_BANDAGE, "🩹", "adhesive bandage", U_1FA79, "1fa79.png");
 png_name!(BANDAID, "🩹", "adhesive bandage", U_1FA79, "1fa79.png");
@@ -4255,6 +4261,8 @@ png_name!(BOOMERANG, "🪃", "boomerang", U_1FA83, "1fa83.png");
 png_name!(MAGIC_WAND, "🪄", "magic wand", U_1FA84, "1fa84.png");
 png_name!(PINATA, "🪅", "piñata", U_1FA85, "1fa85.png");
 png_name!(NESTING_DOLLS, "🪆", "nesting dolls", U_1FA86, "1fa86.png");
+png_name!(MARACAS, "🪇", "maracas", U_1FA87, "1fa87.png");
+png_name!(FLUTE, "🪈", "flute", U_1FA88, "1fa88.png");
 png_name!(RINGED_PLANET, "🪐", "ringed planet", U_1FA90, "1fa90.png");
 png_name!(SATURN, "🪐", "ringed planet", U_1FA90, "1fa90.png");
 png_name!(CHAIR, "🪑", "chair", U_1FA91, "1fa91.png");
@@ -4287,6 +4295,9 @@ png_name!(MIRROR_BALL, "🪩", "mirror ball", U_1FAA9, "1faa9.png");
 png_name!(ID_CARD, "🪪", "identification card", U_1FAAA, "1faaa.png");
 png_name!(LOW_BATTERY, "🪫", "low battery", U_1FAAB, "1faab.png");
 png_name!(HAMSA, "🪬", "hamsa", U_1FAAC, "1faac.png");
+png_name!(FOLDING_FAN, "🪭", "folding hand fan", U_1FAAD, "1faad.png");
+png_name!(HAIR_PICK, "🪮", "hair pick", U_1FAAE, "1faae.png");
+png_name!(KHANDA, "🪯", "khanda", U_1FAAF, "1faaf.png");
 png_name!(FLY, "🪰", "fly", U_1FAB0, "1fab0.png");
 png_name!(WORM, "🪱", "worm", U_1FAB1, "1fab1.png");
 png_name!(BEETLE, "🪲", "beetle", U_1FAB2, "1fab2.png");
@@ -4299,6 +4310,10 @@ png_name!(CORAL, "🪸", "coral", U_1FAB8, "1fab8.png");
 png_name!(EMPTY_NEST, "🪹", "empty nest", U_1FAB9, "1fab9.png");
 png_name!(NEST, "🪹", "empty nest", U_1FAB9, "1fab9.png");
 png_name!(NEST_WITH_EGGS, "🪺", "nest with eggs", U_1FABA, "1faba.png");
+png_name!(HYACINTH, "🪻", "hyacinth", U_1FABB, "1fabb.png");
+png_name!(JELLYFISH, "🪼", "jellyfish", U_1FABC, "1fabc.png");
+png_name!(WING, "🪽", "wing", U_1FABD, "1fabd.png");
+png_name!(GOOSE, "🪿", "goose", U_1FABF, "1fabf.png");
 png_name!(ANATOMICAL_HEART, "🫀", "anatomical heart", U_1FAC0, "1fac0.png");
 png_name!(LUNGS, "🫁", "lungs", U_1FAC1, "1fac1.png");
 png_name!(PEOPLE_HUGGING, "🫂", "people hugging", U_1FAC2, "1fac2.png");
@@ -4326,6 +4341,8 @@ png_name!(PERSON_WITH_CROWN_TONE5, "🫅🏿", "", U_1FAC5_1F3FF, "1fac5-1f3ff.p
 png_name!(ROYALTY_TONE5, "🫅🏿", "", U_1FAC5_1F3FF, "1fac5-1f3ff.png");
 png_name!(PERSON_WITH_CROWN, "🫅", "person with crown", U_1FAC5, "1fac5.png");
 png_name!(ROYALTY, "🫅", "person with crown", U_1FAC5, "1fac5.png");
+png_name!(MOOSE, "🫎", "moose", U_1FACE, "1face.png");
+png_name!(DONKEY, "🫏", "donkey", U_1FACF, "1facf.png");
 png_name!(BLUEBERRIES, "🫐", "blueberries", U_1FAD0, "1fad0.png");
 png_name!(BELL_PEPPER, "🫑", "bell pepper", U_1FAD1, "1fad1.png");
 png_name!(OLIVE, "🫒", "olive", U_1FAD2, "1fad2.png");
@@ -4337,6 +4354,8 @@ png_name!(POUR, "🫗", "pouring liquid", U_1FAD7, "1fad7.png");
 png_name!(POURING_LIQUID, "🫗", "pouring liquid", U_1FAD7, "1fad7.png");
 png_name!(BEANS, "🫘", "beans", U_1FAD8, "1fad8.png");
 png_name!(JAR, "🫙", "jar", U_1FAD9, "1fad9.png");
+png_name!(GINGER, "🫚", "ginger root", U_1FADA, "1fada.png");
+png_name!(PEA, "🫛", "pea pod", U_1FADB, "1fadb.png");
 png_name!(MELT, "🫠", "melting face", U_1FAE0, "1fae0.png");
 png_name!(MELTING_FACE, "🫠", "melting face", U_1FAE0, "1fae0.png");
 png_name!(SALUTE, "🫡", "saluting face", U_1FAE1, "1fae1.png");
@@ -4349,6 +4368,8 @@ png_name!(FACE_WITH_DIAGONAL_MOUTH, "🫤", "face with diagonal mouth", U_1FAE4,
 png_name!(DOTTED_LINE_FACE, "🫥", "dotted line face", U_1FAE5, "1fae5.png");
 png_name!(BITING_LIP, "🫦", "biting lip", U_1FAE6, "1fae6.png");
 png_name!(BUBBLES, "🫧", "bubbles", U_1FAE7, "1fae7.png");
+png_name!(SHAKING, "🫨", "shaking face", U_1FAE8, "1fae8.png");
+png_name!(SHAKING_FACE, "🫨", "shaking face", U_1FAE8, "1fae8.png");
 png_name!(HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE1, "🫰🏻", "", U_1FAF0_1F3FB, "1faf0-1f3fb.png");
 png_name!(HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE2, "🫰🏼", "", U_1FAF0_1F3FC, "1faf0-1f3fc.png");
 png_name!(HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE3, "🫰🏽", "", U_1FAF0_1F3FD, "1faf0-1f3fd.png");
@@ -4411,6 +4432,18 @@ png_name!(HEART_HANDS_TONE3, "🫶🏽", "", U_1FAF6_1F3FD, "1faf6-1f3fd.png");
 png_name!(HEART_HANDS_TONE4, "🫶🏾", "", U_1FAF6_1F3FE, "1faf6-1f3fe.png");
 png_name!(HEART_HANDS_TONE5, "🫶🏿", "", U_1FAF6_1F3FF, "1faf6-1f3ff.png");
 png_name!(HEART_HANDS, "🫶", "heart hands", U_1FAF6, "1faf6.png");
+png_name!(LEFTWARDS_PUSHING_HAND_TONE1, "🫷🏻", "", U_1FAF7_1F3FB, "1faf7-1f3fb.png");
+png_name!(LEFTWARDS_PUSHING_HAND_TONE2, "🫷🏼", "", U_1FAF7_1F3FC, "1faf7-1f3fc.png");
+png_name!(LEFTWARDS_PUSHING_HAND_TONE3, "🫷🏽", "", U_1FAF7_1F3FD, "1faf7-1f3fd.png");
+png_name!(LEFTWARDS_PUSHING_HAND_TONE4, "🫷🏾", "", U_1FAF7_1F3FE, "1faf7-1f3fe.png");
+png_name!(LEFTWARDS_PUSHING_HAND_TONE5, "🫷🏿", "", U_1FAF7_1F3FF, "1faf7-1f3ff.png");
+png_name!(LEFTWARDS_PUSHING_HAND, "🫷", "leftwards pushing hand", U_1FAF7, "1faf7.png");
+png_name!(RIGHTWARDS_PUSHING_HAND_TONE1, "🫸🏻", "", U_1FAF8_1F3FB, "1faf8-1f3fb.png");
+png_name!(RIGHTWARDS_PUSHING_HAND_TONE2, "🫸🏼", "", U_1FAF8_1F3FC, "1faf8-1f3fc.png");
+png_name!(RIGHTWARDS_PUSHING_HAND_TONE3, "🫸🏽", "", U_1FAF8_1F3FD, "1faf8-1f3fd.png");
+png_name!(RIGHTWARDS_PUSHING_HAND_TONE4, "🫸🏾", "", U_1FAF8_1F3FE, "1faf8-1f3fe.png");
+png_name!(RIGHTWARDS_PUSHING_HAND_TONE5, "🫸🏿", "", U_1FAF8_1F3FF, "1faf8-1f3ff.png");
+png_name!(RIGHTWARDS_PUSHING_HAND, "🫸", "rightwards pushing hand", U_1FAF8, "1faf8.png");
 png_name!(BANGBANG, "‼", "double exclamation mark", U_203C, "203c.png");
 png_name!(DOUBLE_EXCLAMATION, "‼", "double exclamation mark", U_203C, "203c.png");
 png_name!(EXCLAMATION_QUESTION, "⁉", "exclamation question mark", U_2049, "2049.png");
@@ -5780,6 +5813,7 @@ png_match_name! [
     ((14, "hatching_chick"), HATCHING_CHICK),
     ((10, "baby_chick"), BABY_CHICK),
     ((13, "hatched_chick"), HATCHED_CHICK),
+    ((10, "black_bird"), BLACK_BIRD),
     ((4, "bird"), BIRD),
     ((9, "bird_face"), BIRD_FACE),
     ((7, "penguin"), PENGUIN),
@@ -7742,6 +7776,7 @@ png_match_name! [
     ((12, "hindu_temple"), HINDU_TEMPLE),
     ((3, "hut"), HUT),
     ((8, "elevator"), ELEVATOR),
+    ((8, "wireless"), WIRELESS),
     ((16, "playground_slide"), PLAYGROUND_SLIDE),
     ((5, "slide"), SLIDE),
     ((5, "wheel"), WHEEL),
@@ -8883,6 +8918,10 @@ png_match_name! [
     ((6, "briefs"), BRIEFS),
     ((6, "shorts"), SHORTS),
     ((12, "thong_sandal"), THONG_SANDAL),
+    ((16, "light_blue_heart"), LIGHT_BLUE_HEART),
+    ((10, "gray_heart"), GRAY_HEART),
+    ((10, "grey_heart"), GREY_HEART),
+    ((10, "pink_heart"), PINK_HEART),
     ((13, "drop_of_blood"), DROP_OF_BLOOD),
     ((16, "adhesive_bandage"), ADHESIVE_BANDAGE),
     ((7, "bandaid"), BANDAID),
@@ -8897,6 +8936,8 @@ png_match_name! [
     ((10, "magic_wand"), MAGIC_WAND),
     ((6, "pinata"), PINATA),
     ((13, "nesting_dolls"), NESTING_DOLLS),
+    ((7, "maracas"), MARACAS),
+    ((5, "flute"), FLUTE),
     ((13, "ringed_planet"), RINGED_PLANET),
     ((6, "saturn"), SATURN),
     ((5, "chair"), CHAIR),
@@ -8929,6 +8970,9 @@ png_match_name! [
     ((7, "id_card"), ID_CARD),
     ((11, "low_battery"), LOW_BATTERY),
     ((5, "hamsa"), HAMSA),
+    ((11, "folding_fan"), FOLDING_FAN),
+    ((9, "hair_pick"), HAIR_PICK),
+    ((6, "khanda"), KHANDA),
     ((3, "fly"), FLY),
     ((4, "worm"), WORM),
     ((6, "beetle"), BEETLE),
@@ -8941,6 +8985,10 @@ png_match_name! [
     ((10, "empty_nest"), EMPTY_NEST),
     ((4, "nest"), NEST),
     ((14, "nest_with_eggs"), NEST_WITH_EGGS),
+    ((8, "hyacinth"), HYACINTH),
+    ((9, "jellyfish"), JELLYFISH),
+    ((4, "wing"), WING),
+    ((5, "goose"), GOOSE),
     ((16, "anatomical_heart"), ANATOMICAL_HEART),
     ((5, "lungs"), LUNGS),
     ((14, "people_hugging"), PEOPLE_HUGGING),
@@ -8968,6 +9016,8 @@ png_match_name! [
     ((13, "royalty_tone5"), ROYALTY_TONE5),
     ((17, "person_with_crown"), PERSON_WITH_CROWN),
     ((7, "royalty"), ROYALTY),
+    ((5, "moose"), MOOSE),
+    ((6, "donkey"), DONKEY),
     ((11, "blueberries"), BLUEBERRIES),
     ((11, "bell_pepper"), BELL_PEPPER),
     ((5, "olive"), OLIVE),
@@ -8979,6 +9029,8 @@ png_match_name! [
     ((14, "pouring_liquid"), POURING_LIQUID),
     ((5, "beans"), BEANS),
     ((3, "jar"), JAR),
+    ((6, "ginger"), GINGER),
+    ((3, "pea"), PEA),
     ((4, "melt"), MELT),
     ((12, "melting_face"), MELTING_FACE),
     ((6, "salute"), SALUTE),
@@ -8991,6 +9043,8 @@ png_match_name! [
     ((16, "dotted_line_face"), DOTTED_LINE_FACE),
     ((10, "biting_lip"), BITING_LIP),
     ((7, "bubbles"), BUBBLES),
+    ((7, "shaking"), SHAKING),
+    ((12, "shaking_face"), SHAKING_FACE),
     ((46, "hand_with_index_finger_and_thumb_crossed_tone1"), HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE1),
     ((46, "hand_with_index_finger_and_thumb_crossed_tone2"), HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE2),
     ((46, "hand_with_index_finger_and_thumb_crossed_tone3"), HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE3),
@@ -9053,6 +9107,18 @@ png_match_name! [
     ((17, "heart_hands_tone4"), HEART_HANDS_TONE4),
     ((17, "heart_hands_tone5"), HEART_HANDS_TONE5),
     ((11, "heart_hands"), HEART_HANDS),
+    ((28, "leftwards_pushing_hand_tone1"), LEFTWARDS_PUSHING_HAND_TONE1),
+    ((28, "leftwards_pushing_hand_tone2"), LEFTWARDS_PUSHING_HAND_TONE2),
+    ((28, "leftwards_pushing_hand_tone3"), LEFTWARDS_PUSHING_HAND_TONE3),
+    ((28, "leftwards_pushing_hand_tone4"), LEFTWARDS_PUSHING_HAND_TONE4),
+    ((28, "leftwards_pushing_hand_tone5"), LEFTWARDS_PUSHING_HAND_TONE5),
+    ((22, "leftwards_pushing_hand"), LEFTWARDS_PUSHING_HAND),
+    ((29, "rightwards_pushing_hand_tone1"), RIGHTWARDS_PUSHING_HAND_TONE1),
+    ((29, "rightwards_pushing_hand_tone2"), RIGHTWARDS_PUSHING_HAND_TONE2),
+    ((29, "rightwards_pushing_hand_tone3"), RIGHTWARDS_PUSHING_HAND_TONE3),
+    ((29, "rightwards_pushing_hand_tone4"), RIGHTWARDS_PUSHING_HAND_TONE4),
+    ((29, "rightwards_pushing_hand_tone5"), RIGHTWARDS_PUSHING_HAND_TONE5),
+    ((23, "rightwards_pushing_hand"), RIGHTWARDS_PUSHING_HAND),
     ((8, "bangbang"), BANGBANG),
     ((18, "double_exclamation"), DOUBLE_EXCLAMATION),
     ((20, "exclamation_question"), EXCLAMATION_QUESTION),
@@ -10426,6 +10492,7 @@ macro_rules! png_twemoji_asset_from_name {
     ("hatching_chick") => { &twemoji_assets::png::codes::U_1F423 };
     ("baby_chick") => { &twemoji_assets::png::codes::U_1F424 };
     ("hatched_chick") => { &twemoji_assets::png::codes::U_1F425 };
+    ("black_bird") => { &twemoji_assets::png::codes::U_1F426_200D_2B1B };
     ("bird") => { &twemoji_assets::png::codes::U_1F426 };
     ("bird_face") => { &twemoji_assets::png::codes::U_1F426 };
     ("penguin") => { &twemoji_assets::png::codes::U_1F427 };
@@ -12388,6 +12455,7 @@ macro_rules! png_twemoji_asset_from_name {
     ("hindu_temple") => { &twemoji_assets::png::codes::U_1F6D5 };
     ("hut") => { &twemoji_assets::png::codes::U_1F6D6 };
     ("elevator") => { &twemoji_assets::png::codes::U_1F6D7 };
+    ("wireless") => { &twemoji_assets::png::codes::U_1F6DC };
     ("playground_slide") => { &twemoji_assets::png::codes::U_1F6DD };
     ("slide") => { &twemoji_assets::png::codes::U_1F6DD };
     ("wheel") => { &twemoji_assets::png::codes::U_1F6DE };
@@ -13529,6 +13597,10 @@ macro_rules! png_twemoji_asset_from_name {
     ("briefs") => { &twemoji_assets::png::codes::U_1FA72 };
     ("shorts") => { &twemoji_assets::png::codes::U_1FA73 };
     ("thong_sandal") => { &twemoji_assets::png::codes::U_1FA74 };
+    ("light_blue_heart") => { &twemoji_assets::png::codes::U_1FA75 };
+    ("gray_heart") => { &twemoji_assets::png::codes::U_1FA76 };
+    ("grey_heart") => { &twemoji_assets::png::codes::U_1FA76 };
+    ("pink_heart") => { &twemoji_assets::png::codes::U_1FA77 };
     ("drop_of_blood") => { &twemoji_assets::png::codes::U_1FA78 };
     ("adhesive_bandage") => { &twemoji_assets::png::codes::U_1FA79 };
     ("bandaid") => { &twemoji_assets::png::codes::U_1FA79 };
@@ -13543,6 +13615,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("magic_wand") => { &twemoji_assets::png::codes::U_1FA84 };
     ("pinata") => { &twemoji_assets::png::codes::U_1FA85 };
     ("nesting_dolls") => { &twemoji_assets::png::codes::U_1FA86 };
+    ("maracas") => { &twemoji_assets::png::codes::U_1FA87 };
+    ("flute") => { &twemoji_assets::png::codes::U_1FA88 };
     ("ringed_planet") => { &twemoji_assets::png::codes::U_1FA90 };
     ("saturn") => { &twemoji_assets::png::codes::U_1FA90 };
     ("chair") => { &twemoji_assets::png::codes::U_1FA91 };
@@ -13575,6 +13649,9 @@ macro_rules! png_twemoji_asset_from_name {
     ("id_card") => { &twemoji_assets::png::codes::U_1FAAA };
     ("low_battery") => { &twemoji_assets::png::codes::U_1FAAB };
     ("hamsa") => { &twemoji_assets::png::codes::U_1FAAC };
+    ("folding_fan") => { &twemoji_assets::png::codes::U_1FAAD };
+    ("hair_pick") => { &twemoji_assets::png::codes::U_1FAAE };
+    ("khanda") => { &twemoji_assets::png::codes::U_1FAAF };
     ("fly") => { &twemoji_assets::png::codes::U_1FAB0 };
     ("worm") => { &twemoji_assets::png::codes::U_1FAB1 };
     ("beetle") => { &twemoji_assets::png::codes::U_1FAB2 };
@@ -13587,6 +13664,10 @@ macro_rules! png_twemoji_asset_from_name {
     ("empty_nest") => { &twemoji_assets::png::codes::U_1FAB9 };
     ("nest") => { &twemoji_assets::png::codes::U_1FAB9 };
     ("nest_with_eggs") => { &twemoji_assets::png::codes::U_1FABA };
+    ("hyacinth") => { &twemoji_assets::png::codes::U_1FABB };
+    ("jellyfish") => { &twemoji_assets::png::codes::U_1FABC };
+    ("wing") => { &twemoji_assets::png::codes::U_1FABD };
+    ("goose") => { &twemoji_assets::png::codes::U_1FABF };
     ("anatomical_heart") => { &twemoji_assets::png::codes::U_1FAC0 };
     ("lungs") => { &twemoji_assets::png::codes::U_1FAC1 };
     ("people_hugging") => { &twemoji_assets::png::codes::U_1FAC2 };
@@ -13614,6 +13695,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("royalty_tone5") => { &twemoji_assets::png::codes::U_1FAC5_1F3FF };
     ("person_with_crown") => { &twemoji_assets::png::codes::U_1FAC5 };
     ("royalty") => { &twemoji_assets::png::codes::U_1FAC5 };
+    ("moose") => { &twemoji_assets::png::codes::U_1FACE };
+    ("donkey") => { &twemoji_assets::png::codes::U_1FACF };
     ("blueberries") => { &twemoji_assets::png::codes::U_1FAD0 };
     ("bell_pepper") => { &twemoji_assets::png::codes::U_1FAD1 };
     ("olive") => { &twemoji_assets::png::codes::U_1FAD2 };
@@ -13625,6 +13708,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("pouring_liquid") => { &twemoji_assets::png::codes::U_1FAD7 };
     ("beans") => { &twemoji_assets::png::codes::U_1FAD8 };
     ("jar") => { &twemoji_assets::png::codes::U_1FAD9 };
+    ("ginger") => { &twemoji_assets::png::codes::U_1FADA };
+    ("pea") => { &twemoji_assets::png::codes::U_1FADB };
     ("melt") => { &twemoji_assets::png::codes::U_1FAE0 };
     ("melting_face") => { &twemoji_assets::png::codes::U_1FAE0 };
     ("salute") => { &twemoji_assets::png::codes::U_1FAE1 };
@@ -13637,6 +13722,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("dotted_line_face") => { &twemoji_assets::png::codes::U_1FAE5 };
     ("biting_lip") => { &twemoji_assets::png::codes::U_1FAE6 };
     ("bubbles") => { &twemoji_assets::png::codes::U_1FAE7 };
+    ("shaking") => { &twemoji_assets::png::codes::U_1FAE8 };
+    ("shaking_face") => { &twemoji_assets::png::codes::U_1FAE8 };
     ("hand_with_index_finger_and_thumb_crossed_tone1") => { &twemoji_assets::png::codes::U_1FAF0_1F3FB };
     ("hand_with_index_finger_and_thumb_crossed_tone2") => { &twemoji_assets::png::codes::U_1FAF0_1F3FC };
     ("hand_with_index_finger_and_thumb_crossed_tone3") => { &twemoji_assets::png::codes::U_1FAF0_1F3FD };
@@ -13699,6 +13786,18 @@ macro_rules! png_twemoji_asset_from_name {
     ("heart_hands_tone4") => { &twemoji_assets::png::codes::U_1FAF6_1F3FE };
     ("heart_hands_tone5") => { &twemoji_assets::png::codes::U_1FAF6_1F3FF };
     ("heart_hands") => { &twemoji_assets::png::codes::U_1FAF6 };
+    ("leftwards_pushing_hand_tone1") => { &twemoji_assets::png::codes::U_1FAF7_1F3FB };
+    ("leftwards_pushing_hand_tone2") => { &twemoji_assets::png::codes::U_1FAF7_1F3FC };
+    ("leftwards_pushing_hand_tone3") => { &twemoji_assets::png::codes::U_1FAF7_1F3FD };
+    ("leftwards_pushing_hand_tone4") => { &twemoji_assets::png::codes::U_1FAF7_1F3FE };
+    ("leftwards_pushing_hand_tone5") => { &twemoji_assets::png::codes::U_1FAF7_1F3FF };
+    ("leftwards_pushing_hand") => { &twemoji_assets::png::codes::U_1FAF7 };
+    ("rightwards_pushing_hand_tone1") => { &twemoji_assets::png::codes::U_1FAF8_1F3FB };
+    ("rightwards_pushing_hand_tone2") => { &twemoji_assets::png::codes::U_1FAF8_1F3FC };
+    ("rightwards_pushing_hand_tone3") => { &twemoji_assets::png::codes::U_1FAF8_1F3FD };
+    ("rightwards_pushing_hand_tone4") => { &twemoji_assets::png::codes::U_1FAF8_1F3FE };
+    ("rightwards_pushing_hand_tone5") => { &twemoji_assets::png::codes::U_1FAF8_1F3FF };
+    ("rightwards_pushing_hand") => { &twemoji_assets::png::codes::U_1FAF8 };
     ("bangbang") => { &twemoji_assets::png::codes::U_203C };
     ("double_exclamation") => { &twemoji_assets::png::codes::U_203C };
     ("exclamation_question") => { &twemoji_assets::png::codes::U_2049 };

@@ -730,6 +730,7 @@ svg_code!(U_1F422, "🐢", "turtle", "1f422.svg");
 svg_code!(U_1F423, "🐣", "hatching chick", "1f423.svg");
 svg_code!(U_1F424, "🐤", "baby chick", "1f424.svg");
 svg_code!(U_1F425, "🐥", "front-facing baby chick", "1f425.svg");
+svg_code!(U_1F426_200D_2B1B, "🐦‍⬛", "black bird", "1f426-200d-2b1b.svg");
 svg_code!(U_1F426, "🐦", "bird", "1f426.svg");
 svg_code!(U_1F427, "🐧", "penguin", "1f427.svg");
 svg_code!(U_1F428, "🐨", "koala", "1f428.svg");
@@ -2344,6 +2345,7 @@ svg_code!(U_1F6D2, "🛒", "shopping cart", "1f6d2.svg");
 svg_code!(U_1F6D5, "🛕", "hindu temple", "1f6d5.svg");
 svg_code!(U_1F6D6, "🛖", "hut", "1f6d6.svg");
 svg_code!(U_1F6D7, "🛗", "elevator", "1f6d7.svg");
+svg_code!(U_1F6DC, "🛜", "wireless", "1f6dc.svg");
 svg_code!(U_1F6DD, "🛝", "playground slide", "1f6dd.svg");
 svg_code!(U_1F6DE, "🛞", "wheel", "1f6de.svg");
 svg_code!(U_1F6DF, "🛟", "ring buoy", "1f6df.svg");
@@ -3326,6 +3328,9 @@ svg_code!(U_1FA71, "🩱", "one-piece swimsuit", "1fa71.svg");
 svg_code!(U_1FA72, "🩲", "briefs", "1fa72.svg");
 svg_code!(U_1FA73, "🩳", "shorts", "1fa73.svg");
 svg_code!(U_1FA74, "🩴", "thong sandal", "1fa74.svg");
+svg_code!(U_1FA75, "🩵", "light blue heart", "1fa75.svg");
+svg_code!(U_1FA76, "🩶", "grey heart", "1fa76.svg");
+svg_code!(U_1FA77, "🩷", "pink heart", "1fa77.svg");
 svg_code!(U_1FA78, "🩸", "drop of blood", "1fa78.svg");
 svg_code!(U_1FA79, "🩹", "adhesive bandage", "1fa79.svg");
 svg_code!(U_1FA7A, "🩺", "stethoscope", "1fa7a.svg");
@@ -3338,6 +3343,8 @@ svg_code!(U_1FA83, "🪃", "boomerang", "1fa83.svg");
 svg_code!(U_1FA84, "🪄", "magic wand", "1fa84.svg");
 svg_code!(U_1FA85, "🪅", "piñata", "1fa85.svg");
 svg_code!(U_1FA86, "🪆", "nesting dolls", "1fa86.svg");
+svg_code!(U_1FA87, "🪇", "maracas", "1fa87.svg");
+svg_code!(U_1FA88, "🪈", "flute", "1fa88.svg");
 svg_code!(U_1FA90, "🪐", "ringed planet", "1fa90.svg");
 svg_code!(U_1FA91, "🪑", "chair", "1fa91.svg");
 svg_code!(U_1FA92, "🪒", "razor", "1fa92.svg");
@@ -3367,6 +3374,9 @@ svg_code!(U_1FAA9, "🪩", "mirror ball", "1faa9.svg");
 svg_code!(U_1FAAA, "🪪", "identification card", "1faaa.svg");
 svg_code!(U_1FAAB, "🪫", "low battery", "1faab.svg");
 svg_code!(U_1FAAC, "🪬", "hamsa", "1faac.svg");
+svg_code!(U_1FAAD, "🪭", "folding hand fan", "1faad.svg");
+svg_code!(U_1FAAE, "🪮", "hair pick", "1faae.svg");
+svg_code!(U_1FAAF, "🪯", "khanda", "1faaf.svg");
 svg_code!(U_1FAB0, "🪰", "fly", "1fab0.svg");
 svg_code!(U_1FAB1, "🪱", "worm", "1fab1.svg");
 svg_code!(U_1FAB2, "🪲", "beetle", "1fab2.svg");
@@ -3378,6 +3388,10 @@ svg_code!(U_1FAB7, "🪷", "lotus", "1fab7.svg");
 svg_code!(U_1FAB8, "🪸", "coral", "1fab8.svg");
 svg_code!(U_1FAB9, "🪹", "empty nest", "1fab9.svg");
 svg_code!(U_1FABA, "🪺", "nest with eggs", "1faba.svg");
+svg_code!(U_1FABB, "🪻", "hyacinth", "1fabb.svg");
+svg_code!(U_1FABC, "🪼", "jellyfish", "1fabc.svg");
+svg_code!(U_1FABD, "🪽", "wing", "1fabd.svg");
+svg_code!(U_1FABF, "🪿", "goose", "1fabf.svg");
 svg_code!(U_1FAC0, "🫀", "anatomical heart", "1fac0.svg");
 svg_code!(U_1FAC1, "🫁", "lungs", "1fac1.svg");
 svg_code!(U_1FAC2, "🫂", "people hugging", "1fac2.svg");
@@ -3399,6 +3413,8 @@ svg_code!(U_1FAC5_1F3FD, "🫅🏽", "", "1fac5-1f3fd.svg");
 svg_code!(U_1FAC5_1F3FE, "🫅🏾", "", "1fac5-1f3fe.svg");
 svg_code!(U_1FAC5_1F3FF, "🫅🏿", "", "1fac5-1f3ff.svg");
 svg_code!(U_1FAC5, "🫅", "person with crown", "1fac5.svg");
+svg_code!(U_1FACE, "🫎", "moose", "1face.svg");
+svg_code!(U_1FACF, "🫏", "donkey", "1facf.svg");
 svg_code!(U_1FAD0, "🫐", "blueberries", "1fad0.svg");
 svg_code!(U_1FAD1, "🫑", "bell pepper", "1fad1.svg");
 svg_code!(U_1FAD2, "🫒", "olive", "1fad2.svg");
@@ -3409,6 +3425,8 @@ svg_code!(U_1FAD6, "🫖", "teapot", "1fad6.svg");
 svg_code!(U_1FAD7, "🫗", "pouring liquid", "1fad7.svg");
 svg_code!(U_1FAD8, "🫘", "beans", "1fad8.svg");
 svg_code!(U_1FAD9, "🫙", "jar", "1fad9.svg");
+svg_code!(U_1FADA, "🫚", "ginger root", "1fada.svg");
+svg_code!(U_1FADB, "🫛", "pea pod", "1fadb.svg");
 svg_code!(U_1FAE0, "🫠", "melting face", "1fae0.svg");
 svg_code!(U_1FAE1, "🫡", "saluting face", "1fae1.svg");
 svg_code!(U_1FAE2, "🫢", "face with open eyes and hand over mouth", "1fae2.svg");
@@ -3417,6 +3435,7 @@ svg_code!(U_1FAE4, "🫤", "face with diagonal mouth", "1fae4.svg");
 svg_code!(U_1FAE5, "🫥", "dotted line face", "1fae5.svg");
 svg_code!(U_1FAE6, "🫦", "biting lip", "1fae6.svg");
 svg_code!(U_1FAE7, "🫧", "bubbles", "1fae7.svg");
+svg_code!(U_1FAE8, "🫨", "shaking face", "1fae8.svg");
 svg_code!(U_1FAF0_1F3FB, "🫰🏻", "", "1faf0-1f3fb.svg");
 svg_code!(U_1FAF0_1F3FC, "🫰🏼", "", "1faf0-1f3fc.svg");
 svg_code!(U_1FAF0_1F3FD, "🫰🏽", "", "1faf0-1f3fd.svg");
@@ -3479,6 +3498,18 @@ svg_code!(U_1FAF6_1F3FD, "🫶🏽", "", "1faf6-1f3fd.svg");
 svg_code!(U_1FAF6_1F3FE, "🫶🏾", "", "1faf6-1f3fe.svg");
 svg_code!(U_1FAF6_1F3FF, "🫶🏿", "", "1faf6-1f3ff.svg");
 svg_code!(U_1FAF6, "🫶", "heart hands", "1faf6.svg");
+svg_code!(U_1FAF7_1F3FB, "🫷🏻", "", "1faf7-1f3fb.svg");
+svg_code!(U_1FAF7_1F3FC, "🫷🏼", "", "1faf7-1f3fc.svg");
+svg_code!(U_1FAF7_1F3FD, "🫷🏽", "", "1faf7-1f3fd.svg");
+svg_code!(U_1FAF7_1F3FE, "🫷🏾", "", "1faf7-1f3fe.svg");
+svg_code!(U_1FAF7_1F3FF, "🫷🏿", "", "1faf7-1f3ff.svg");
+svg_code!(U_1FAF7, "🫷", "leftwards pushing hand", "1faf7.svg");
+svg_code!(U_1FAF8_1F3FB, "🫸🏻", "", "1faf8-1f3fb.svg");
+svg_code!(U_1FAF8_1F3FC, "🫸🏼", "", "1faf8-1f3fc.svg");
+svg_code!(U_1FAF8_1F3FD, "🫸🏽", "", "1faf8-1f3fd.svg");
+svg_code!(U_1FAF8_1F3FE, "🫸🏾", "", "1faf8-1f3fe.svg");
+svg_code!(U_1FAF8_1F3FF, "🫸🏿", "", "1faf8-1f3ff.svg");
+svg_code!(U_1FAF8, "🫸", "rightwards pushing hand", "1faf8.svg");
 svg_code!(U_203C, "‼", "double exclamation mark", "203c.svg");
 svg_code!(U_2049, "⁉", "exclamation question mark", "2049.svg");
 svg_code!(U_2122, "™", "trade mark", "2122.svg");
@@ -4421,6 +4452,7 @@ svg_match_emoji! [
     ((Some('🐣'), None, None, None, None, None, None, None, None, None), U_1F423),
     ((Some('🐤'), None, None, None, None, None, None, None, None, None), U_1F424),
     ((Some('🐥'), None, None, None, None, None, None, None, None, None), U_1F425),
+    ((Some('🐦'), Some('\u{200d}'), Some('⬛'), None, None, None, None, None, None, None), U_1F426_200D_2B1B),
     ((Some('🐦'), None, None, None, None, None, None, None, None, None), U_1F426),
     ((Some('🐧'), None, None, None, None, None, None, None, None, None), U_1F427),
     ((Some('🐨'), None, None, None, None, None, None, None, None, None), U_1F428),
@@ -6035,6 +6067,7 @@ svg_match_emoji! [
     ((Some('🛕'), None, None, None, None, None, None, None, None, None), U_1F6D5),
     ((Some('🛖'), None, None, None, None, None, None, None, None, None), U_1F6D6),
     ((Some('🛗'), None, None, None, None, None, None, None, None, None), U_1F6D7),
+    ((Some('🛜'), None, None, None, None, None, None, None, None, None), U_1F6DC),
     ((Some('🛝'), None, None, None, None, None, None, None, None, None), U_1F6DD),
     ((Some('🛞'), None, None, None, None, None, None, None, None, None), U_1F6DE),
     ((Some('🛟'), None, None, None, None, None, None, None, None, None), U_1F6DF),
@@ -7017,6 +7050,9 @@ svg_match_emoji! [
     ((Some('🩲'), None, None, None, None, None, None, None, None, None), U_1FA72),
     ((Some('🩳'), None, None, None, None, None, None, None, None, None), U_1FA73),
     ((Some('🩴'), None, None, None, None, None, None, None, None, None), U_1FA74),
+    ((Some('🩵'), None, None, None, None, None, None, None, None, None), U_1FA75),
+    ((Some('🩶'), None, None, None, None, None, None, None, None, None), U_1FA76),
+    ((Some('🩷'), None, None, None, None, None, None, None, None, None), U_1FA77),
     ((Some('🩸'), None, None, None, None, None, None, None, None, None), U_1FA78),
     ((Some('🩹'), None, None, None, None, None, None, None, None, None), U_1FA79),
     ((Some('🩺'), None, None, None, None, None, None, None, None, None), U_1FA7A),
@@ -7029,6 +7065,8 @@ svg_match_emoji! [
     ((Some('🪄'), None, None, None, None, None, None, None, None, None), U_1FA84),
     ((Some('🪅'), None, None, None, None, None, None, None, None, None), U_1FA85),
     ((Some('🪆'), None, None, None, None, None, None, None, None, None), U_1FA86),
+    ((Some('🪇'), None, None, None, None, None, None, None, None, None), U_1FA87),
+    ((Some('🪈'), None, None, None, None, None, None, None, None, None), U_1FA88),
     ((Some('🪐'), None, None, None, None, None, None, None, None, None), U_1FA90),
     ((Some('🪑'), None, None, None, None, None, None, None, None, None), U_1FA91),
     ((Some('🪒'), None, None, None, None, None, None, None, None, None), U_1FA92),
@@ -7058,6 +7096,9 @@ svg_match_emoji! [
     ((Some('🪪'), None, None, None, None, None, None, None, None, None), U_1FAAA),
     ((Some('🪫'), None, None, None, None, None, None, None, None, None), U_1FAAB),
     ((Some('🪬'), None, None, None, None, None, None, None, None, None), U_1FAAC),
+    ((Some('🪭'), None, None, None, None, None, None, None, None, None), U_1FAAD),
+    ((Some('🪮'), None, None, None, None, None, None, None, None, None), U_1FAAE),
+    ((Some('🪯'), None, None, None, None, None, None, None, None, None), U_1FAAF),
     ((Some('🪰'), None, None, None, None, None, None, None, None, None), U_1FAB0),
     ((Some('🪱'), None, None, None, None, None, None, None, None, None), U_1FAB1),
     ((Some('🪲'), None, None, None, None, None, None, None, None, None), U_1FAB2),
@@ -7069,6 +7110,10 @@ svg_match_emoji! [
     ((Some('🪸'), None, None, None, None, None, None, None, None, None), U_1FAB8),
     ((Some('🪹'), None, None, None, None, None, None, None, None, None), U_1FAB9),
     ((Some('🪺'), None, None, None, None, None, None, None, None, None), U_1FABA),
+    ((Some('🪻'), None, None, None, None, None, None, None, None, None), U_1FABB),
+    ((Some('🪼'), None, None, None, None, None, None, None, None, None), U_1FABC),
+    ((Some('🪽'), None, None, None, None, None, None, None, None, None), U_1FABD),
+    ((Some('🪿'), None, None, None, None, None, None, None, None, None), U_1FABF),
     ((Some('🫀'), None, None, None, None, None, None, None, None, None), U_1FAC0),
     ((Some('🫁'), None, None, None, None, None, None, None, None, None), U_1FAC1),
     ((Some('🫂'), None, None, None, None, None, None, None, None, None), U_1FAC2),
@@ -7090,6 +7135,8 @@ svg_match_emoji! [
     ((Some('🫅'), Some('🏾'), None, None, None, None, None, None, None, None), U_1FAC5_1F3FE),
     ((Some('🫅'), Some('🏿'), None, None, None, None, None, None, None, None), U_1FAC5_1F3FF),
     ((Some('🫅'), None, None, None, None, None, None, None, None, None), U_1FAC5),
+    ((Some('🫎'), None, None, None, None, None, None, None, None, None), U_1FACE),
+    ((Some('🫏'), None, None, None, None, None, None, None, None, None), U_1FACF),
     ((Some('🫐'), None, None, None, None, None, None, None, None, None), U_1FAD0),
     ((Some('🫑'), None, None, None, None, None, None, None, None, None), U_1FAD1),
     ((Some('🫒'), None, None, None, None, None, None, None, None, None), U_1FAD2),
@@ -7100,6 +7147,8 @@ svg_match_emoji! [
     ((Some('🫗'), None, None, None, None, None, None, None, None, None), U_1FAD7),
     ((Some('🫘'), None, None, None, None, None, None, None, None, None), U_1FAD8),
     ((Some('🫙'), None, None, None, None, None, None, None, None, None), U_1FAD9),
+    ((Some('🫚'), None, None, None, None, None, None, None, None, None), U_1FADA),
+    ((Some('🫛'), None, None, None, None, None, None, None, None, None), U_1FADB),
     ((Some('🫠'), None, None, None, None, None, None, None, None, None), U_1FAE0),
     ((Some('🫡'), None, None, None, None, None, None, None, None, None), U_1FAE1),
     ((Some('🫢'), None, None, None, None, None, None, None, None, None), U_1FAE2),
@@ -7108,6 +7157,7 @@ svg_match_emoji! [
     ((Some('🫥'), None, None, None, None, None, None, None, None, None), U_1FAE5),
     ((Some('🫦'), None, None, None, None, None, None, None, None, None), U_1FAE6),
     ((Some('🫧'), None, None, None, None, None, None, None, None, None), U_1FAE7),
+    ((Some('🫨'), None, None, None, None, None, None, None, None, None), U_1FAE8),
     ((Some('🫰'), Some('🏻'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FB),
     ((Some('🫰'), Some('🏼'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FC),
     ((Some('🫰'), Some('🏽'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FD),
@@ -7170,6 +7220,18 @@ svg_match_emoji! [
     ((Some('🫶'), Some('🏾'), None, None, None, None, None, None, None, None), U_1FAF6_1F3FE),
     ((Some('🫶'), Some('🏿'), None, None, None, None, None, None, None, None), U_1FAF6_1F3FF),
     ((Some('🫶'), None, None, None, None, None, None, None, None, None), U_1FAF6),
+    ((Some('🫷'), Some('🏻'), None, None, None, None, None, None, None, None), U_1FAF7_1F3FB),
+    ((Some('🫷'), Some('🏼'), None, None, None, None, None, None, None, None), U_1FAF7_1F3FC),
+    ((Some('🫷'), Some('🏽'), None, None, None, None, None, None, None, None), U_1FAF7_1F3FD),
+    ((Some('🫷'), Some('🏾'), None, None, None, None, None, None, None, None), U_1FAF7_1F3FE),
+    ((Some('🫷'), Some('🏿'), None, None, None, None, None, None, None, None), U_1FAF7_1F3FF),
+    ((Some('🫷'), None, None, None, None, None, None, None, None, None), U_1FAF7),
+    ((Some('🫸'), Some('🏻'), None, None, None, None, None, None, None, None), U_1FAF8_1F3FB),
+    ((Some('🫸'), Some('🏼'), None, None, None, None, None, None, None, None), U_1FAF8_1F3FC),
+    ((Some('🫸'), Some('🏽'), None, None, None, None, None, None, None, None), U_1FAF8_1F3FD),
+    ((Some('🫸'), Some('🏾'), None, None, None, None, None, None, None, None), U_1FAF8_1F3FE),
+    ((Some('🫸'), Some('🏿'), None, None, None, None, None, None, None, None), U_1FAF8_1F3FF),
+    ((Some('🫸'), None, None, None, None, None, None, None, None, None), U_1FAF8),
     ((Some('‼'), None, None, None, None, None, None, None, None, None), U_203C),
     ((Some('⁉'), None, None, None, None, None, None, None, None, None), U_2049),
     ((Some('™'), None, None, None, None, None, None, None, None, None), U_2122),
@@ -8116,6 +8178,7 @@ macro_rules! svg_twemoji_asset {
     ("🐣") => { &twemoji_assets::svg::codes::U_1F423 };
     ("🐤") => { &twemoji_assets::svg::codes::U_1F424 };
     ("🐥") => { &twemoji_assets::svg::codes::U_1F425 };
+    ("🐦‍⬛") => { &twemoji_assets::svg::codes::U_1F426_200D_2B1B };
     ("🐦") => { &twemoji_assets::svg::codes::U_1F426 };
     ("🐧") => { &twemoji_assets::svg::codes::U_1F427 };
     ("🐨") => { &twemoji_assets::svg::codes::U_1F428 };
@@ -9730,6 +9793,7 @@ macro_rules! svg_twemoji_asset {
     ("🛕") => { &twemoji_assets::svg::codes::U_1F6D5 };
     ("🛖") => { &twemoji_assets::svg::codes::U_1F6D6 };
     ("🛗") => { &twemoji_assets::svg::codes::U_1F6D7 };
+    ("🛜") => { &twemoji_assets::svg::codes::U_1F6DC };
     ("🛝") => { &twemoji_assets::svg::codes::U_1F6DD };
     ("🛞") => { &twemoji_assets::svg::codes::U_1F6DE };
     ("🛟") => { &twemoji_assets::svg::codes::U_1F6DF };
@@ -10712,6 +10776,9 @@ macro_rules! svg_twemoji_asset {
     ("🩲") => { &twemoji_assets::svg::codes::U_1FA72 };
     ("🩳") => { &twemoji_assets::svg::codes::U_1FA73 };
     ("🩴") => { &twemoji_assets::svg::codes::U_1FA74 };
+    ("🩵") => { &twemoji_assets::svg::codes::U_1FA75 };
+    ("🩶") => { &twemoji_assets::svg::codes::U_1FA76 };
+    ("🩷") => { &twemoji_assets::svg::codes::U_1FA77 };
     ("🩸") => { &twemoji_assets::svg::codes::U_1FA78 };
     ("🩹") => { &twemoji_assets::svg::codes::U_1FA79 };
     ("🩺") => { &twemoji_assets::svg::codes::U_1FA7A };
@@ -10724,6 +10791,8 @@ macro_rules! svg_twemoji_asset {
     ("🪄") => { &twemoji_assets::svg::codes::U_1FA84 };
     ("🪅") => { &twemoji_assets::svg::codes::U_1FA85 };
     ("🪆") => { &twemoji_assets::svg::codes::U_1FA86 };
+    ("🪇") => { &twemoji_assets::svg::codes::U_1FA87 };
+    ("🪈") => { &twemoji_assets::svg::codes::U_1FA88 };
     ("🪐") => { &twemoji_assets::svg::codes::U_1FA90 };
     ("🪑") => { &twemoji_assets::svg::codes::U_1FA91 };
     ("🪒") => { &twemoji_assets::svg::codes::U_1FA92 };
@@ -10753,6 +10822,9 @@ macro_rules! svg_twemoji_asset {
     ("🪪") => { &twemoji_assets::svg::codes::U_1FAAA };
     ("🪫") => { &twemoji_assets::svg::codes::U_1FAAB };
     ("🪬") => { &twemoji_assets::svg::codes::U_1FAAC };
+    ("🪭") => { &twemoji_assets::svg::codes::U_1FAAD };
+    ("🪮") => { &twemoji_assets::svg::codes::U_1FAAE };
+    ("🪯") => { &twemoji_assets::svg::codes::U_1FAAF };
     ("🪰") => { &twemoji_assets::svg::codes::U_1FAB0 };
     ("🪱") => { &twemoji_assets::svg::codes::U_1FAB1 };
     ("🪲") => { &twemoji_assets::svg::codes::U_1FAB2 };
@@ -10764,6 +10836,10 @@ macro_rules! svg_twemoji_asset {
     ("🪸") => { &twemoji_assets::svg::codes::U_1FAB8 };
     ("🪹") => { &twemoji_assets::svg::codes::U_1FAB9 };
     ("🪺") => { &twemoji_assets::svg::codes::U_1FABA };
+    ("🪻") => { &twemoji_assets::svg::codes::U_1FABB };
+    ("🪼") => { &twemoji_assets::svg::codes::U_1FABC };
+    ("🪽") => { &twemoji_assets::svg::codes::U_1FABD };
+    ("🪿") => { &twemoji_assets::svg::codes::U_1FABF };
     ("🫀") => { &twemoji_assets::svg::codes::U_1FAC0 };
     ("🫁") => { &twemoji_assets::svg::codes::U_1FAC1 };
     ("🫂") => { &twemoji_assets::svg::codes::U_1FAC2 };
@@ -10785,6 +10861,8 @@ macro_rules! svg_twemoji_asset {
     ("🫅🏾") => { &twemoji_assets::svg::codes::U_1FAC5_1F3FE };
     ("🫅🏿") => { &twemoji_assets::svg::codes::U_1FAC5_1F3FF };
     ("🫅") => { &twemoji_assets::svg::codes::U_1FAC5 };
+    ("🫎") => { &twemoji_assets::svg::codes::U_1FACE };
+    ("🫏") => { &twemoji_assets::svg::codes::U_1FACF };
     ("🫐") => { &twemoji_assets::svg::codes::U_1FAD0 };
     ("🫑") => { &twemoji_assets::svg::codes::U_1FAD1 };
     ("🫒") => { &twemoji_assets::svg::codes::U_1FAD2 };
@@ -10795,6 +10873,8 @@ macro_rules! svg_twemoji_asset {
     ("🫗") => { &twemoji_assets::svg::codes::U_1FAD7 };
     ("🫘") => { &twemoji_assets::svg::codes::U_1FAD8 };
     ("🫙") => { &twemoji_assets::svg::codes::U_1FAD9 };
+    ("🫚") => { &twemoji_assets::svg::codes::U_1FADA };
+    ("🫛") => { &twemoji_assets::svg::codes::U_1FADB };
     ("🫠") => { &twemoji_assets::svg::codes::U_1FAE0 };
     ("🫡") => { &twemoji_assets::svg::codes::U_1FAE1 };
     ("🫢") => { &twemoji_assets::svg::codes::U_1FAE2 };
@@ -10803,6 +10883,7 @@ macro_rules! svg_twemoji_asset {
     ("🫥") => { &twemoji_assets::svg::codes::U_1FAE5 };
     ("🫦") => { &twemoji_assets::svg::codes::U_1FAE6 };
     ("🫧") => { &twemoji_assets::svg::codes::U_1FAE7 };
+    ("🫨") => { &twemoji_assets::svg::codes::U_1FAE8 };
     ("🫰🏻") => { &twemoji_assets::svg::codes::U_1FAF0_1F3FB };
     ("🫰🏼") => { &twemoji_assets::svg::codes::U_1FAF0_1F3FC };
     ("🫰🏽") => { &twemoji_assets::svg::codes::U_1FAF0_1F3FD };
@@ -10865,6 +10946,18 @@ macro_rules! svg_twemoji_asset {
     ("🫶🏾") => { &twemoji_assets::svg::codes::U_1FAF6_1F3FE };
     ("🫶🏿") => { &twemoji_assets::svg::codes::U_1FAF6_1F3FF };
     ("🫶") => { &twemoji_assets::svg::codes::U_1FAF6 };
+    ("🫷🏻") => { &twemoji_assets::svg::codes::U_1FAF7_1F3FB };
+    ("🫷🏼") => { &twemoji_assets::svg::codes::U_1FAF7_1F3FC };
+    ("🫷🏽") => { &twemoji_assets::svg::codes::U_1FAF7_1F3FD };
+    ("🫷🏾") => { &twemoji_assets::svg::codes::U_1FAF7_1F3FE };
+    ("🫷🏿") => { &twemoji_assets::svg::codes::U_1FAF7_1F3FF };
+    ("🫷") => { &twemoji_assets::svg::codes::U_1FAF7 };
+    ("🫸🏻") => { &twemoji_assets::svg::codes::U_1FAF8_1F3FB };
+    ("🫸🏼") => { &twemoji_assets::svg::codes::U_1FAF8_1F3FC };
+    ("🫸🏽") => { &twemoji_assets::svg::codes::U_1FAF8_1F3FD };
+    ("🫸🏾") => { &twemoji_assets::svg::codes::U_1FAF8_1F3FE };
+    ("🫸🏿") => { &twemoji_assets::svg::codes::U_1FAF8_1F3FF };
+    ("🫸") => { &twemoji_assets::svg::codes::U_1FAF8 };
     ("‼") => { &twemoji_assets::svg::codes::U_203C };
     ("⁉") => { &twemoji_assets::svg::codes::U_2049 };
     ("™") => { &twemoji_assets::svg::codes::U_2122 };
