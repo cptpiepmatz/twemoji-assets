@@ -32,7 +32,7 @@ names = []
 members = ["examples", "tests"]
 
 [dev-dependencies]
-criterion = "0.4"
+criterion = "0.5"
 
 [[bench]]
 name = "from_emoji"
