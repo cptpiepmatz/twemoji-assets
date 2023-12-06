@@ -539,8 +539,8 @@ png_name!(FLAG_TN, "🇹🇳", "flag: Tunisia", U_1F1F9_1F1F3, "1f1f9-1f1f3.png"
 png_name!(TUNISIA, "🇹🇳", "flag: Tunisia", U_1F1F9_1F1F3, "1f1f9-1f1f3.png");
 png_name!(FLAG_TO, "🇹🇴", "flag: Tonga", U_1F1F9_1F1F4, "1f1f9-1f1f4.png");
 png_name!(TONGA, "🇹🇴", "flag: Tonga", U_1F1F9_1F1F4, "1f1f9-1f1f4.png");
-png_name!(FLAG_TR, "🇹🇷", "flag: Turkey", U_1F1F9_1F1F7, "1f1f9-1f1f7.png");
-png_name!(TURKEY_TR, "🇹🇷", "flag: Turkey", U_1F1F9_1F1F7, "1f1f9-1f1f7.png");
+png_name!(FLAG_TR, "🇹🇷", "flag: Türkiye", U_1F1F9_1F1F7, "1f1f9-1f1f7.png");
+png_name!(TURKEY_TR, "🇹🇷", "flag: Türkiye", U_1F1F9_1F1F7, "1f1f9-1f1f7.png");
 png_name!(FLAG_TT, "🇹🇹", "flag: Trinidad & Tobago", U_1F1F9_1F1F9, "1f1f9-1f1f9.png");
 png_name!(TRINIDAD_TOBAGO, "🇹🇹", "flag: Trinidad & Tobago", U_1F1F9_1F1F9, "1f1f9-1f1f9.png");
 png_name!(FLAG_TV, "🇹🇻", "flag: Tuvalu", U_1F1F9_1F1FB, "1f1f9-1f1fb.png");

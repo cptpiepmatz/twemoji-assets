@@ -289,7 +289,7 @@ png_code!(U_1F1F9_1F1F1, "🇹🇱", "flag: Timor-Leste", "1f1f9-1f1f1.png");
 png_code!(U_1F1F9_1F1F2, "🇹🇲", "flag: Turkmenistan", "1f1f9-1f1f2.png");
 png_code!(U_1F1F9_1F1F3, "🇹🇳", "flag: Tunisia", "1f1f9-1f1f3.png");
 png_code!(U_1F1F9_1F1F4, "🇹🇴", "flag: Tonga", "1f1f9-1f1f4.png");
-png_code!(U_1F1F9_1F1F7, "🇹🇷", "flag: Turkey", "1f1f9-1f1f7.png");
+png_code!(U_1F1F9_1F1F7, "🇹🇷", "flag: Türkiye", "1f1f9-1f1f7.png");
 png_code!(U_1F1F9_1F1F9, "🇹🇹", "flag: Trinidad & Tobago", "1f1f9-1f1f9.png");
 png_code!(U_1F1F9_1F1FB, "🇹🇻", "flag: Tuvalu", "1f1f9-1f1fb.png");
 png_code!(U_1F1F9_1F1FC, "🇹🇼", "flag: Taiwan", "1f1f9-1f1fc.png");
