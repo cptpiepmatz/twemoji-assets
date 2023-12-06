@@ -40,19 +40,17 @@
 //! ```
 //! use twemoji_assets::svg::SvgTwemojiAsset;
 //!
-//! fn main() {
-//!     let svg_asset: &SvgTwemojiAsset = SvgTwemojiAsset::from_emoji("🦆").unwrap();
-//!     let svg_data: &str = &svg_asset;
-//!     println!("SVG data for 🦆: {:?}", svg_data);
+//! let svg_asset: &SvgTwemojiAsset = SvgTwemojiAsset::from_emoji("🦆").unwrap();
+//! let svg_data: &str = &svg_asset;
+//! println!("SVG data for 🦆: {:?}", svg_data);
 //!
-//!     #[cfg(feature = "png")]
-//!     {
-//!         use twemoji_assets::png::PngTwemojiAsset;
+//! #[cfg(feature = "png")]
+//! {
+//!     use twemoji_assets::png::PngTwemojiAsset;
 //!
-//!         let png_asset: &PngTwemojiAsset = PngTwemojiAsset::from_emoji("🦆").unwrap();
-//!         let png_data: &[u8] = &png_asset;
-//!         println!("PNG data for 🦆: {:?}", png_data);
-//!     }
+//!     let png_asset: &PngTwemojiAsset = PngTwemojiAsset::from_emoji("🦆").unwrap();
+//!     let png_data: &[u8] = &png_asset;
+//!     println!("PNG data for 🦆: {:?}", png_data);
 //! }
 //! ```
 //!
@@ -126,6 +124,7 @@ pub mod png;
 /// trait to allow direct access to the underlying asset data stored in the `data` field.
 /// This makes it convenient to work with the asset data as if it were a simple reference to the
 /// raw data.
+#[allow(clippy::derive_ord_xor_partial_ord)]
 #[derive(Eq, Ord)]
 pub struct TwemojiAsset<T> {
     /// The underlying image data of the Twemoji asset.
