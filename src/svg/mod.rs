@@ -168,7 +168,7 @@ macro_rules! svg_code {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/jdecked/twemoji/blob/master/assets/svg/",
+            "https://github.com/jdecked/twemoji/blob/main/assets/svg/",
             $file_name,
             ")."
         )]
@@ -207,7 +207,7 @@ macro_rules! svg_name {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/jdecked/twemoji/blob/master/assets/svg/",
+            "https://github.com/jdecked/twemoji/blob/main/assets/svg/",
             $file_name,
             ")."
         )]

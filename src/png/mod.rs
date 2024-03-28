@@ -168,7 +168,7 @@ macro_rules! png_code {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/jdecked/twemoji/blob/master/assets/72x72/",
+            "https://github.com/jdecked/twemoji/blob/main/assets/72x72/",
             $file_name,
             ")."
         )]
@@ -207,7 +207,7 @@ macro_rules! png_name {
         ///
         #[doc = concat!(
             "The file originates from the [Twemoji collection by Twitter](",
-            "https://github.com/jdecked/twemoji/blob/master/assets/72x72/",
+            "https://github.com/jdecked/twemoji/blob/main/assets/72x72/",
             $file_name,
             ")."
         )]
