@@ -699,6 +699,7 @@ svg_name!(FOUR_LEAF_CLOVER, "🍀", "four leaf clover", U_1F340, "1f340.svg");
 svg_name!(MAPLE_LEAF, "🍁", "maple leaf", U_1F341, "1f341.svg");
 svg_name!(FALLEN_LEAF, "🍂", "fallen leaf", U_1F342, "1f342.svg");
 svg_name!(LEAVES, "🍃", "leaf fluttering in wind", U_1F343, "1f343.svg");
+svg_name!(BROWN_MUSHROOM, "🍄‍🟫", "brown mushroom", U_1F344_200D_1F7EB, "1f344-200d-1f7eb.svg");
 svg_name!(MUSHROOM, "🍄", "mushroom", U_1F344, "1f344.svg");
 svg_name!(TOMATO, "🍅", "tomato", U_1F345, "1f345.svg");
 svg_name!(EGGPLANT, "🍆", "eggplant", U_1F346, "1f346.svg");
@@ -707,6 +708,7 @@ svg_name!(MELON, "🍈", "melon", U_1F348, "1f348.svg");
 svg_name!(WATERMELON, "🍉", "watermelon", U_1F349, "1f349.svg");
 svg_name!(ORANGE, "🍊", "tangerine", U_1F34A, "1f34a.svg");
 svg_name!(TANGERINE, "🍊", "tangerine", U_1F34A, "1f34a.svg");
+svg_name!(LIME, "🍋‍🟩", "lime", U_1F34B_200D_1F7E9, "1f34b-200d-1f7e9.svg");
 svg_name!(LEMON, "🍋", "lemon", U_1F34B, "1f34b.svg");
 svg_name!(BANANA, "🍌", "banana", U_1F34C, "1f34c.svg");
 svg_name!(PINEAPPLE, "🍍", "pineapple", U_1F34D, "1f34d.svg");
@@ -871,28 +873,46 @@ svg_name!(SNOWBOARDING_TONE5, "🏂🏿", "", U_1F3C2_1F3FF, "1f3c2-1f3ff.svg");
 svg_name!(PERSON_SNOWBOARDING, "🏂", "snowboarder", U_1F3C2, "1f3c2.svg");
 svg_name!(SNOWBOARDER, "🏂", "snowboarder", U_1F3C2, "1f3c2.svg");
 svg_name!(SNOWBOARDING, "🏂", "snowboarder", U_1F3C2, "1f3c2.svg");
+svg_name!(WOMAN_RUNNING_RIGHT_TONE1, "🏃🏻‍♀️‍➡️", "", U_1F3C3_1F3FB_200D_2640_FE0F_200D_27A1_FE0F, "1f3c3-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_RUNNING_TONE1, "🏃🏻‍♀️", "", U_1F3C3_1F3FB_200D_2640_FE0F, "1f3c3-1f3fb-200d-2640-fe0f.svg");
+svg_name!(MAN_RUNNING_RIGHT_TONE1, "🏃🏻‍♂️‍➡️", "", U_1F3C3_1F3FB_200D_2642_FE0F_200D_27A1_FE0F, "1f3c3-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_RUNNING_TONE1, "🏃🏻‍♂️", "", U_1F3C3_1F3FB_200D_2642_FE0F, "1f3c3-1f3fb-200d-2642-fe0f.svg");
+svg_name!(PERSON_RUNNING_RIGHT_TONE1, "🏃🏻‍➡️", "", U_1F3C3_1F3FB_200D_27A1_FE0F, "1f3c3-1f3fb-200d-27a1-fe0f.svg");
 svg_name!(PERSON_RUNNING_TONE1, "🏃🏻", "", U_1F3C3_1F3FB, "1f3c3-1f3fb.svg");
 svg_name!(RUNNING_TONE1, "🏃🏻", "", U_1F3C3_1F3FB, "1f3c3-1f3fb.svg");
+svg_name!(WOMAN_RUNNING_RIGHT_TONE2, "🏃🏼‍♀️‍➡️", "", U_1F3C3_1F3FC_200D_2640_FE0F_200D_27A1_FE0F, "1f3c3-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_RUNNING_TONE2, "🏃🏼‍♀️", "", U_1F3C3_1F3FC_200D_2640_FE0F, "1f3c3-1f3fc-200d-2640-fe0f.svg");
+svg_name!(MAN_RUNNING_RIGHT_TONE2, "🏃🏼‍♂️‍➡️", "", U_1F3C3_1F3FC_200D_2642_FE0F_200D_27A1_FE0F, "1f3c3-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_RUNNING_TONE2, "🏃🏼‍♂️", "", U_1F3C3_1F3FC_200D_2642_FE0F, "1f3c3-1f3fc-200d-2642-fe0f.svg");
+svg_name!(PERSON_RUNNING_RIGHT_TONE2, "🏃🏼‍➡️", "", U_1F3C3_1F3FC_200D_27A1_FE0F, "1f3c3-1f3fc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_RUNNING_TONE2, "🏃🏼", "", U_1F3C3_1F3FC, "1f3c3-1f3fc.svg");
 svg_name!(RUNNING_TONE2, "🏃🏼", "", U_1F3C3_1F3FC, "1f3c3-1f3fc.svg");
+svg_name!(WOMAN_RUNNING_RIGHT_TONE3, "🏃🏽‍♀️‍➡️", "", U_1F3C3_1F3FD_200D_2640_FE0F_200D_27A1_FE0F, "1f3c3-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_RUNNING_TONE3, "🏃🏽‍♀️", "", U_1F3C3_1F3FD_200D_2640_FE0F, "1f3c3-1f3fd-200d-2640-fe0f.svg");
+svg_name!(MAN_RUNNING_RIGHT_TONE3, "🏃🏽‍♂️‍➡️", "", U_1F3C3_1F3FD_200D_2642_FE0F_200D_27A1_FE0F, "1f3c3-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_RUNNING_TONE3, "🏃🏽‍♂️", "", U_1F3C3_1F3FD_200D_2642_FE0F, "1f3c3-1f3fd-200d-2642-fe0f.svg");
+svg_name!(PERSON_RUNNING_RIGHT_TONE3, "🏃🏽‍➡️", "", U_1F3C3_1F3FD_200D_27A1_FE0F, "1f3c3-1f3fd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_RUNNING_TONE3, "🏃🏽", "", U_1F3C3_1F3FD, "1f3c3-1f3fd.svg");
 svg_name!(RUNNING_TONE3, "🏃🏽", "", U_1F3C3_1F3FD, "1f3c3-1f3fd.svg");
+svg_name!(WOMAN_RUNNING_RIGHT_TONE4, "🏃🏾‍♀️‍➡️", "", U_1F3C3_1F3FE_200D_2640_FE0F_200D_27A1_FE0F, "1f3c3-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_RUNNING_TONE4, "🏃🏾‍♀️", "", U_1F3C3_1F3FE_200D_2640_FE0F, "1f3c3-1f3fe-200d-2640-fe0f.svg");
+svg_name!(MAN_RUNNING_RIGHT_TONE4, "🏃🏾‍♂️‍➡️", "", U_1F3C3_1F3FE_200D_2642_FE0F_200D_27A1_FE0F, "1f3c3-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_RUNNING_TONE4, "🏃🏾‍♂️", "", U_1F3C3_1F3FE_200D_2642_FE0F, "1f3c3-1f3fe-200d-2642-fe0f.svg");
+svg_name!(PERSON_RUNNING_RIGHT_TONE4, "🏃🏾‍➡️", "", U_1F3C3_1F3FE_200D_27A1_FE0F, "1f3c3-1f3fe-200d-27a1-fe0f.svg");
 svg_name!(PERSON_RUNNING_TONE4, "🏃🏾", "", U_1F3C3_1F3FE, "1f3c3-1f3fe.svg");
 svg_name!(RUNNING_TONE4, "🏃🏾", "", U_1F3C3_1F3FE, "1f3c3-1f3fe.svg");
+svg_name!(WOMAN_RUNNING_RIGHT_TONE5, "🏃🏿‍♀️‍➡️", "", U_1F3C3_1F3FF_200D_2640_FE0F_200D_27A1_FE0F, "1f3c3-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_RUNNING_TONE5, "🏃🏿‍♀️", "", U_1F3C3_1F3FF_200D_2640_FE0F, "1f3c3-1f3ff-200d-2640-fe0f.svg");
+svg_name!(MAN_RUNNING_RIGHT_TONE5, "🏃🏿‍♂️‍➡️", "", U_1F3C3_1F3FF_200D_2642_FE0F_200D_27A1_FE0F, "1f3c3-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_RUNNING_TONE5, "🏃🏿‍♂️", "", U_1F3C3_1F3FF_200D_2642_FE0F, "1f3c3-1f3ff-200d-2642-fe0f.svg");
+svg_name!(PERSON_RUNNING_RIGHT_TONE5, "🏃🏿‍➡️", "", U_1F3C3_1F3FF_200D_27A1_FE0F, "1f3c3-1f3ff-200d-27a1-fe0f.svg");
 svg_name!(PERSON_RUNNING_TONE5, "🏃🏿", "", U_1F3C3_1F3FF, "1f3c3-1f3ff.svg");
 svg_name!(RUNNING_TONE5, "🏃🏿", "", U_1F3C3_1F3FF, "1f3c3-1f3ff.svg");
+svg_name!(WOMAN_RUNNING_RIGHT, "🏃‍♀️‍➡️", "woman running facing right", U_1F3C3_200D_2640_FE0F_200D_27A1_FE0F, "1f3c3-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_RUNNING, "🏃‍♀️", "woman running", U_1F3C3_200D_2640_FE0F, "1f3c3-200d-2640-fe0f.svg");
+svg_name!(MAN_RUNNING_RIGHT, "🏃‍♂️‍➡️", "man running facing right", U_1F3C3_200D_2642_FE0F_200D_27A1_FE0F, "1f3c3-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_RUNNING, "🏃‍♂️", "man running", U_1F3C3_200D_2642_FE0F, "1f3c3-200d-2642-fe0f.svg");
+svg_name!(PERSON_RUNNING_RIGHT, "🏃‍➡️", "person running facing right", U_1F3C3_200D_27A1_FE0F, "1f3c3-200d-27a1-fe0f.svg");
 svg_name!(PERSON_RUNNING, "🏃", "person running", U_1F3C3, "1f3c3.svg");
 svg_name!(RUNNING, "🏃", "person running", U_1F3C3, "1f3c3.svg");
 svg_name!(WOMAN_SURFING_TONE1, "🏄🏻‍♀️", "", U_1F3C4_1F3FB_200D_2640_FE0F, "1f3c4-1f3fb-200d-2640-fe0f.svg");
@@ -1138,6 +1158,7 @@ svg_name!(TURTLE, "🐢", "turtle", U_1F422, "1f422.svg");
 svg_name!(HATCHING_CHICK, "🐣", "hatching chick", U_1F423, "1f423.svg");
 svg_name!(BABY_CHICK, "🐤", "baby chick", U_1F424, "1f424.svg");
 svg_name!(HATCHED_CHICK, "🐥", "front-facing baby chick", U_1F425, "1f425.svg");
+svg_name!(PHOENIX, "🐦‍🔥", "phoenix", U_1F426_200D_1F525, "1f426-200d-1f525.svg");
 svg_name!(BLACK_BIRD, "🐦‍⬛", "black bird", U_1F426_200D_2B1B, "1f426-200d-2b1b.svg");
 svg_name!(BIRD, "🐦", "bird", U_1F426, "1f426.svg");
 svg_name!(BIRD_FACE, "🐦", "bird", U_1F426, "1f426.svg");
@@ -1348,13 +1369,16 @@ svg_name!(TWO_MEN_HOLDING_HANDS_TONE1_2, "👨🏻‍🤝‍👨🏼", "", U_1F4
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE1_3, "👨🏻‍🤝‍👨🏽", "", U_1F468_1F3FB_200D_1F91D_200D_1F468_1F3FD, "1f468-1f3fb-200d-1f91d-200d-1f468-1f3fd.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE1_4, "👨🏻‍🤝‍👨🏾", "", U_1F468_1F3FB_200D_1F91D_200D_1F468_1F3FE, "1f468-1f3fb-200d-1f91d-200d-1f468-1f3fe.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE1_5, "👨🏻‍🤝‍👨🏿", "", U_1F468_1F3FB_200D_1F91D_200D_1F468_1F3FF, "1f468-1f3fb-200d-1f91d-200d-1f468-1f3ff.svg");
+svg_name!(MAN_WITH_WHITE_CANE_RIGHT_TONE1, "👨🏻‍🦯‍➡️", "", U_1F468_1F3FB_200D_1F9AF_200D_27A1_FE0F, "1f468-1f3fb-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(MAN_WITH_PROBING_CANE_TONE1, "👨🏻‍🦯", "", U_1F468_1F3FB_200D_1F9AF, "1f468-1f3fb-200d-1f9af.svg");
 svg_name!(MAN_WITH_WHITE_CANE_TONE1, "👨🏻‍🦯", "", U_1F468_1F3FB_200D_1F9AF, "1f468-1f3fb-200d-1f9af.svg");
 svg_name!(MAN_RED_HAIRED_TONE1, "👨🏻‍🦰", "", U_1F468_1F3FB_200D_1F9B0, "1f468-1f3fb-200d-1f9b0.svg");
 svg_name!(MAN_CURLY_HAIRED_TONE1, "👨🏻‍🦱", "", U_1F468_1F3FB_200D_1F9B1, "1f468-1f3fb-200d-1f9b1.svg");
 svg_name!(MAN_BALD_TONE1, "👨🏻‍🦲", "", U_1F468_1F3FB_200D_1F9B2, "1f468-1f3fb-200d-1f9b2.svg");
 svg_name!(MAN_WHITE_HAIRED_TONE1, "👨🏻‍🦳", "", U_1F468_1F3FB_200D_1F9B3, "1f468-1f3fb-200d-1f9b3.svg");
+svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE1, "👨🏻‍🦼‍➡️", "", U_1F468_1F3FB_200D_1F9BC_200D_27A1_FE0F, "1f468-1f3fb-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_TONE1, "👨🏻‍🦼", "", U_1F468_1F3FB_200D_1F9BC, "1f468-1f3fb-200d-1f9bc.svg");
+svg_name!(MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE1, "👨🏻‍🦽‍➡️", "", U_1F468_1F3FB_200D_1F9BD_200D_27A1_FE0F, "1f468-1f3fb-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MANUAL_WHEELCHAIR_TONE1, "👨🏻‍🦽", "", U_1F468_1F3FB_200D_1F9BD, "1f468-1f3fb-200d-1f9bd.svg");
 svg_name!(MAN_HEALTH_WORKER_TONE1, "👨🏻‍⚕️", "", U_1F468_1F3FB_200D_2695_FE0F, "1f468-1f3fb-200d-2695-fe0f.svg");
 svg_name!(MAN_JUDGE_TONE1, "👨🏻‍⚖️", "", U_1F468_1F3FB_200D_2696_FE0F, "1f468-1f3fb-200d-2696-fe0f.svg");
@@ -1388,13 +1412,16 @@ svg_name!(TWO_MEN_HOLDING_HANDS_TONE2_1, "👨🏼‍🤝‍👨🏻", "", U_1F4
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE2_3, "👨🏼‍🤝‍👨🏽", "", U_1F468_1F3FC_200D_1F91D_200D_1F468_1F3FD, "1f468-1f3fc-200d-1f91d-200d-1f468-1f3fd.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE2_4, "👨🏼‍🤝‍👨🏾", "", U_1F468_1F3FC_200D_1F91D_200D_1F468_1F3FE, "1f468-1f3fc-200d-1f91d-200d-1f468-1f3fe.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE2_5, "👨🏼‍🤝‍👨🏿", "", U_1F468_1F3FC_200D_1F91D_200D_1F468_1F3FF, "1f468-1f3fc-200d-1f91d-200d-1f468-1f3ff.svg");
+svg_name!(MAN_WITH_WHITE_CANE_RIGHT_TONE2, "👨🏼‍🦯‍➡️", "", U_1F468_1F3FC_200D_1F9AF_200D_27A1_FE0F, "1f468-1f3fc-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(MAN_WITH_PROBING_CANE_TONE2, "👨🏼‍🦯", "", U_1F468_1F3FC_200D_1F9AF, "1f468-1f3fc-200d-1f9af.svg");
 svg_name!(MAN_WITH_WHITE_CANE_TONE2, "👨🏼‍🦯", "", U_1F468_1F3FC_200D_1F9AF, "1f468-1f3fc-200d-1f9af.svg");
 svg_name!(MAN_RED_HAIRED_TONE2, "👨🏼‍🦰", "", U_1F468_1F3FC_200D_1F9B0, "1f468-1f3fc-200d-1f9b0.svg");
 svg_name!(MAN_CURLY_HAIRED_TONE2, "👨🏼‍🦱", "", U_1F468_1F3FC_200D_1F9B1, "1f468-1f3fc-200d-1f9b1.svg");
 svg_name!(MAN_BALD_TONE2, "👨🏼‍🦲", "", U_1F468_1F3FC_200D_1F9B2, "1f468-1f3fc-200d-1f9b2.svg");
 svg_name!(MAN_WHITE_HAIRED_TONE2, "👨🏼‍🦳", "", U_1F468_1F3FC_200D_1F9B3, "1f468-1f3fc-200d-1f9b3.svg");
+svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE2, "👨🏼‍🦼‍➡️", "", U_1F468_1F3FC_200D_1F9BC_200D_27A1_FE0F, "1f468-1f3fc-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_TONE2, "👨🏼‍🦼", "", U_1F468_1F3FC_200D_1F9BC, "1f468-1f3fc-200d-1f9bc.svg");
+svg_name!(MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE2, "👨🏼‍🦽‍➡️", "", U_1F468_1F3FC_200D_1F9BD_200D_27A1_FE0F, "1f468-1f3fc-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MANUAL_WHEELCHAIR_TONE2, "👨🏼‍🦽", "", U_1F468_1F3FC_200D_1F9BD, "1f468-1f3fc-200d-1f9bd.svg");
 svg_name!(MAN_HEALTH_WORKER_TONE2, "👨🏼‍⚕️", "", U_1F468_1F3FC_200D_2695_FE0F, "1f468-1f3fc-200d-2695-fe0f.svg");
 svg_name!(MAN_JUDGE_TONE2, "👨🏼‍⚖️", "", U_1F468_1F3FC_200D_2696_FE0F, "1f468-1f3fc-200d-2696-fe0f.svg");
@@ -1428,13 +1455,16 @@ svg_name!(TWO_MEN_HOLDING_HANDS_TONE3_1, "👨🏽‍🤝‍👨🏻", "", U_1F4
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE3_2, "👨🏽‍🤝‍👨🏼", "", U_1F468_1F3FD_200D_1F91D_200D_1F468_1F3FC, "1f468-1f3fd-200d-1f91d-200d-1f468-1f3fc.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE3_4, "👨🏽‍🤝‍👨🏾", "", U_1F468_1F3FD_200D_1F91D_200D_1F468_1F3FE, "1f468-1f3fd-200d-1f91d-200d-1f468-1f3fe.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE3_5, "👨🏽‍🤝‍👨🏿", "", U_1F468_1F3FD_200D_1F91D_200D_1F468_1F3FF, "1f468-1f3fd-200d-1f91d-200d-1f468-1f3ff.svg");
+svg_name!(MAN_WITH_WHITE_CANE_RIGHT_TONE3, "👨🏽‍🦯‍➡️", "", U_1F468_1F3FD_200D_1F9AF_200D_27A1_FE0F, "1f468-1f3fd-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(MAN_WITH_PROBING_CANE_TONE3, "👨🏽‍🦯", "", U_1F468_1F3FD_200D_1F9AF, "1f468-1f3fd-200d-1f9af.svg");
 svg_name!(MAN_WITH_WHITE_CANE_TONE3, "👨🏽‍🦯", "", U_1F468_1F3FD_200D_1F9AF, "1f468-1f3fd-200d-1f9af.svg");
 svg_name!(MAN_RED_HAIRED_TONE3, "👨🏽‍🦰", "", U_1F468_1F3FD_200D_1F9B0, "1f468-1f3fd-200d-1f9b0.svg");
 svg_name!(MAN_CURLY_HAIRED_TONE3, "👨🏽‍🦱", "", U_1F468_1F3FD_200D_1F9B1, "1f468-1f3fd-200d-1f9b1.svg");
 svg_name!(MAN_BALD_TONE3, "👨🏽‍🦲", "", U_1F468_1F3FD_200D_1F9B2, "1f468-1f3fd-200d-1f9b2.svg");
 svg_name!(MAN_WHITE_HAIRED_TONE3, "👨🏽‍🦳", "", U_1F468_1F3FD_200D_1F9B3, "1f468-1f3fd-200d-1f9b3.svg");
+svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE3, "👨🏽‍🦼‍➡️", "", U_1F468_1F3FD_200D_1F9BC_200D_27A1_FE0F, "1f468-1f3fd-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_TONE3, "👨🏽‍🦼", "", U_1F468_1F3FD_200D_1F9BC, "1f468-1f3fd-200d-1f9bc.svg");
+svg_name!(MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE3, "👨🏽‍🦽‍➡️", "", U_1F468_1F3FD_200D_1F9BD_200D_27A1_FE0F, "1f468-1f3fd-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MANUAL_WHEELCHAIR_TONE3, "👨🏽‍🦽", "", U_1F468_1F3FD_200D_1F9BD, "1f468-1f3fd-200d-1f9bd.svg");
 svg_name!(MAN_HEALTH_WORKER_TONE3, "👨🏽‍⚕️", "", U_1F468_1F3FD_200D_2695_FE0F, "1f468-1f3fd-200d-2695-fe0f.svg");
 svg_name!(MAN_JUDGE_TONE3, "👨🏽‍⚖️", "", U_1F468_1F3FD_200D_2696_FE0F, "1f468-1f3fd-200d-2696-fe0f.svg");
@@ -1468,13 +1498,16 @@ svg_name!(TWO_MEN_HOLDING_HANDS_TONE4_1, "👨🏾‍🤝‍👨🏻", "", U_1F4
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE4_2, "👨🏾‍🤝‍👨🏼", "", U_1F468_1F3FE_200D_1F91D_200D_1F468_1F3FC, "1f468-1f3fe-200d-1f91d-200d-1f468-1f3fc.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE4_3, "👨🏾‍🤝‍👨🏽", "", U_1F468_1F3FE_200D_1F91D_200D_1F468_1F3FD, "1f468-1f3fe-200d-1f91d-200d-1f468-1f3fd.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE4_5, "👨🏾‍🤝‍👨🏿", "", U_1F468_1F3FE_200D_1F91D_200D_1F468_1F3FF, "1f468-1f3fe-200d-1f91d-200d-1f468-1f3ff.svg");
+svg_name!(MAN_WITH_WHITE_CANE_RIGHT_TONE4, "👨🏾‍🦯‍➡️", "", U_1F468_1F3FE_200D_1F9AF_200D_27A1_FE0F, "1f468-1f3fe-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(MAN_WITH_PROBING_CANE_TONE4, "👨🏾‍🦯", "", U_1F468_1F3FE_200D_1F9AF, "1f468-1f3fe-200d-1f9af.svg");
 svg_name!(MAN_WITH_WHITE_CANE_TONE4, "👨🏾‍🦯", "", U_1F468_1F3FE_200D_1F9AF, "1f468-1f3fe-200d-1f9af.svg");
 svg_name!(MAN_RED_HAIRED_TONE4, "👨🏾‍🦰", "", U_1F468_1F3FE_200D_1F9B0, "1f468-1f3fe-200d-1f9b0.svg");
 svg_name!(MAN_CURLY_HAIRED_TONE4, "👨🏾‍🦱", "", U_1F468_1F3FE_200D_1F9B1, "1f468-1f3fe-200d-1f9b1.svg");
 svg_name!(MAN_BALD_TONE4, "👨🏾‍🦲", "", U_1F468_1F3FE_200D_1F9B2, "1f468-1f3fe-200d-1f9b2.svg");
 svg_name!(MAN_WHITE_HAIRED_TONE4, "👨🏾‍🦳", "", U_1F468_1F3FE_200D_1F9B3, "1f468-1f3fe-200d-1f9b3.svg");
+svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE4, "👨🏾‍🦼‍➡️", "", U_1F468_1F3FE_200D_1F9BC_200D_27A1_FE0F, "1f468-1f3fe-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_TONE4, "👨🏾‍🦼", "", U_1F468_1F3FE_200D_1F9BC, "1f468-1f3fe-200d-1f9bc.svg");
+svg_name!(MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE4, "👨🏾‍🦽‍➡️", "", U_1F468_1F3FE_200D_1F9BD_200D_27A1_FE0F, "1f468-1f3fe-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MANUAL_WHEELCHAIR_TONE4, "👨🏾‍🦽", "", U_1F468_1F3FE_200D_1F9BD, "1f468-1f3fe-200d-1f9bd.svg");
 svg_name!(MAN_HEALTH_WORKER_TONE4, "👨🏾‍⚕️", "", U_1F468_1F3FE_200D_2695_FE0F, "1f468-1f3fe-200d-2695-fe0f.svg");
 svg_name!(MAN_JUDGE_TONE4, "👨🏾‍⚖️", "", U_1F468_1F3FE_200D_2696_FE0F, "1f468-1f3fe-200d-2696-fe0f.svg");
@@ -1508,13 +1541,16 @@ svg_name!(TWO_MEN_HOLDING_HANDS_TONE5_1, "👨🏿‍🤝‍👨🏻", "", U_1F4
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE5_2, "👨🏿‍🤝‍👨🏼", "", U_1F468_1F3FF_200D_1F91D_200D_1F468_1F3FC, "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fc.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE5_3, "👨🏿‍🤝‍👨🏽", "", U_1F468_1F3FF_200D_1F91D_200D_1F468_1F3FD, "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fd.svg");
 svg_name!(TWO_MEN_HOLDING_HANDS_TONE5_4, "👨🏿‍🤝‍👨🏾", "", U_1F468_1F3FF_200D_1F91D_200D_1F468_1F3FE, "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fe.svg");
+svg_name!(MAN_WITH_WHITE_CANE_RIGHT_TONE5, "👨🏿‍🦯‍➡️", "", U_1F468_1F3FF_200D_1F9AF_200D_27A1_FE0F, "1f468-1f3ff-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(MAN_WITH_PROBING_CANE_TONE5, "👨🏿‍🦯", "", U_1F468_1F3FF_200D_1F9AF, "1f468-1f3ff-200d-1f9af.svg");
 svg_name!(MAN_WITH_WHITE_CANE_TONE5, "👨🏿‍🦯", "", U_1F468_1F3FF_200D_1F9AF, "1f468-1f3ff-200d-1f9af.svg");
 svg_name!(MAN_RED_HAIRED_TONE5, "👨🏿‍🦰", "", U_1F468_1F3FF_200D_1F9B0, "1f468-1f3ff-200d-1f9b0.svg");
 svg_name!(MAN_CURLY_HAIRED_TONE5, "👨🏿‍🦱", "", U_1F468_1F3FF_200D_1F9B1, "1f468-1f3ff-200d-1f9b1.svg");
 svg_name!(MAN_BALD_TONE5, "👨🏿‍🦲", "", U_1F468_1F3FF_200D_1F9B2, "1f468-1f3ff-200d-1f9b2.svg");
 svg_name!(MAN_WHITE_HAIRED_TONE5, "👨🏿‍🦳", "", U_1F468_1F3FF_200D_1F9B3, "1f468-1f3ff-200d-1f9b3.svg");
+svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE5, "👨🏿‍🦼‍➡️", "", U_1F468_1F3FF_200D_1F9BC_200D_27A1_FE0F, "1f468-1f3ff-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_TONE5, "👨🏿‍🦼", "", U_1F468_1F3FF_200D_1F9BC, "1f468-1f3ff-200d-1f9bc.svg");
+svg_name!(MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE5, "👨🏿‍🦽‍➡️", "", U_1F468_1F3FF_200D_1F9BD_200D_27A1_FE0F, "1f468-1f3ff-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MANUAL_WHEELCHAIR_TONE5, "👨🏿‍🦽", "", U_1F468_1F3FF_200D_1F9BD, "1f468-1f3ff-200d-1f9bd.svg");
 svg_name!(MAN_HEALTH_WORKER_TONE5, "👨🏿‍⚕️", "", U_1F468_1F3FF_200D_2695_FE0F, "1f468-1f3ff-200d-2695-fe0f.svg");
 svg_name!(MAN_JUDGE_TONE5, "👨🏿‍⚖️", "", U_1F468_1F3FF_200D_2696_FE0F, "1f468-1f3ff-200d-2696-fe0f.svg");
@@ -1559,13 +1595,16 @@ svg_name!(MAN_MECHANIC, "👨‍🔧", "man mechanic", U_1F468_200D_1F527, "1f46
 svg_name!(MAN_SCIENTIST, "👨‍🔬", "man scientist", U_1F468_200D_1F52C, "1f468-200d-1f52c.svg");
 svg_name!(MAN_ASTRONAUT, "👨‍🚀", "man astronaut", U_1F468_200D_1F680, "1f468-200d-1f680.svg");
 svg_name!(MAN_FIREFIGHTER, "👨‍🚒", "man firefighter", U_1F468_200D_1F692, "1f468-200d-1f692.svg");
+svg_name!(MAN_WITH_WHITE_CANE_RIGHT, "👨‍🦯‍➡️", "man with white cane facing right", U_1F468_200D_1F9AF_200D_27A1_FE0F, "1f468-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(MAN_WITH_PROBING_CANE, "👨‍🦯", "man with white cane", U_1F468_200D_1F9AF, "1f468-200d-1f9af.svg");
 svg_name!(MAN_WITH_WHITE_CANE, "👨‍🦯", "man with white cane", U_1F468_200D_1F9AF, "1f468-200d-1f9af.svg");
 svg_name!(MAN_RED_HAIRED, "👨‍🦰", "man: red hair", U_1F468_200D_1F9B0, "1f468-200d-1f9b0.svg");
 svg_name!(MAN_CURLY_HAIRED, "👨‍🦱", "man: curly hair", U_1F468_200D_1F9B1, "1f468-200d-1f9b1.svg");
 svg_name!(MAN_BALD, "👨‍🦲", "man: bald", U_1F468_200D_1F9B2, "1f468-200d-1f9b2.svg");
 svg_name!(MAN_WHITE_HAIRED, "👨‍🦳", "man: white hair", U_1F468_200D_1F9B3, "1f468-200d-1f9b3.svg");
+svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT, "👨‍🦼‍➡️", "man in motorized wheelchair facing right", U_1F468_200D_1F9BC_200D_27A1_FE0F, "1f468-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MOTORIZED_WHEELCHAIR, "👨‍🦼", "man in motorized wheelchair", U_1F468_200D_1F9BC, "1f468-200d-1f9bc.svg");
+svg_name!(MAN_IN_MANUAL_WHEELCHAIR_RIGHT, "👨‍🦽‍➡️", "man in manual wheelchair facing right", U_1F468_200D_1F9BD_200D_27A1_FE0F, "1f468-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(MAN_IN_MANUAL_WHEELCHAIR, "👨‍🦽", "man in manual wheelchair", U_1F468_200D_1F9BD, "1f468-200d-1f9bd.svg");
 svg_name!(MAN_HEALTH_WORKER, "👨‍⚕️", "man health worker", U_1F468_200D_2695_FE0F, "1f468-200d-2695-fe0f.svg");
 svg_name!(MAN_JUDGE, "👨‍⚖️", "man judge", U_1F468_200D_2696_FE0F, "1f468-200d-2696-fe0f.svg");
@@ -1595,13 +1634,16 @@ svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE1_2, "👩🏻‍🤝‍👩🏼", "", U_1
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE1_3, "👩🏻‍🤝‍👩🏽", "", U_1F469_1F3FB_200D_1F91D_200D_1F469_1F3FD, "1f469-1f3fb-200d-1f91d-200d-1f469-1f3fd.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE1_4, "👩🏻‍🤝‍👩🏾", "", U_1F469_1F3FB_200D_1F91D_200D_1F469_1F3FE, "1f469-1f3fb-200d-1f91d-200d-1f469-1f3fe.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE1_5, "👩🏻‍🤝‍👩🏿", "", U_1F469_1F3FB_200D_1F91D_200D_1F469_1F3FF, "1f469-1f3fb-200d-1f91d-200d-1f469-1f3ff.svg");
+svg_name!(WOMAN_WITH_WHITE_CANE_RIGHT_TONE1, "👩🏻‍🦯‍➡️", "", U_1F469_1F3FB_200D_1F9AF_200D_27A1_FE0F, "1f469-1f3fb-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WITH_PROBING_CANE_TONE1, "👩🏻‍🦯", "", U_1F469_1F3FB_200D_1F9AF, "1f469-1f3fb-200d-1f9af.svg");
 svg_name!(WOMAN_WITH_WHITE_CANE_TONE1, "👩🏻‍🦯", "", U_1F469_1F3FB_200D_1F9AF, "1f469-1f3fb-200d-1f9af.svg");
 svg_name!(WOMAN_RED_HAIRED_TONE1, "👩🏻‍🦰", "", U_1F469_1F3FB_200D_1F9B0, "1f469-1f3fb-200d-1f9b0.svg");
 svg_name!(WOMAN_CURLY_HAIRED_TONE1, "👩🏻‍🦱", "", U_1F469_1F3FB_200D_1F9B1, "1f469-1f3fb-200d-1f9b1.svg");
 svg_name!(WOMAN_BALD_TONE1, "👩🏻‍🦲", "", U_1F469_1F3FB_200D_1F9B2, "1f469-1f3fb-200d-1f9b2.svg");
 svg_name!(WOMAN_WHITE_HAIRED_TONE1, "👩🏻‍🦳", "", U_1F469_1F3FB_200D_1F9B3, "1f469-1f3fb-200d-1f9b3.svg");
+svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE1, "👩🏻‍🦼‍➡️", "", U_1F469_1F3FB_200D_1F9BC_200D_27A1_FE0F, "1f469-1f3fb-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE1, "👩🏻‍🦼", "", U_1F469_1F3FB_200D_1F9BC, "1f469-1f3fb-200d-1f9bc.svg");
+svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE1, "👩🏻‍🦽‍➡️", "", U_1F469_1F3FB_200D_1F9BD_200D_27A1_FE0F, "1f469-1f3fb-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_TONE1, "👩🏻‍🦽", "", U_1F469_1F3FB_200D_1F9BD, "1f469-1f3fb-200d-1f9bd.svg");
 svg_name!(WOMAN_HEALTH_WORKER_TONE1, "👩🏻‍⚕️", "", U_1F469_1F3FB_200D_2695_FE0F, "1f469-1f3fb-200d-2695-fe0f.svg");
 svg_name!(WOMAN_JUDGE_TONE1, "👩🏻‍⚖️", "", U_1F469_1F3FB_200D_2696_FE0F, "1f469-1f3fb-200d-2696-fe0f.svg");
@@ -1659,13 +1701,16 @@ svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE2_1, "👩🏼‍🤝‍👩🏻", "", U_1
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE2_3, "👩🏼‍🤝‍👩🏽", "", U_1F469_1F3FC_200D_1F91D_200D_1F469_1F3FD, "1f469-1f3fc-200d-1f91d-200d-1f469-1f3fd.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE2_4, "👩🏼‍🤝‍👩🏾", "", U_1F469_1F3FC_200D_1F91D_200D_1F469_1F3FE, "1f469-1f3fc-200d-1f91d-200d-1f469-1f3fe.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE2_5, "👩🏼‍🤝‍👩🏿", "", U_1F469_1F3FC_200D_1F91D_200D_1F469_1F3FF, "1f469-1f3fc-200d-1f91d-200d-1f469-1f3ff.svg");
+svg_name!(WOMAN_WITH_WHITE_CANE_RIGHT_TONE2, "👩🏼‍🦯‍➡️", "", U_1F469_1F3FC_200D_1F9AF_200D_27A1_FE0F, "1f469-1f3fc-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WITH_PROBING_CANE_TONE2, "👩🏼‍🦯", "", U_1F469_1F3FC_200D_1F9AF, "1f469-1f3fc-200d-1f9af.svg");
 svg_name!(WOMAN_WITH_WHITE_CANE_TONE2, "👩🏼‍🦯", "", U_1F469_1F3FC_200D_1F9AF, "1f469-1f3fc-200d-1f9af.svg");
 svg_name!(WOMAN_RED_HAIRED_TONE2, "👩🏼‍🦰", "", U_1F469_1F3FC_200D_1F9B0, "1f469-1f3fc-200d-1f9b0.svg");
 svg_name!(WOMAN_CURLY_HAIRED_TONE2, "👩🏼‍🦱", "", U_1F469_1F3FC_200D_1F9B1, "1f469-1f3fc-200d-1f9b1.svg");
 svg_name!(WOMAN_BALD_TONE2, "👩🏼‍🦲", "", U_1F469_1F3FC_200D_1F9B2, "1f469-1f3fc-200d-1f9b2.svg");
 svg_name!(WOMAN_WHITE_HAIRED_TONE2, "👩🏼‍🦳", "", U_1F469_1F3FC_200D_1F9B3, "1f469-1f3fc-200d-1f9b3.svg");
+svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE2, "👩🏼‍🦼‍➡️", "", U_1F469_1F3FC_200D_1F9BC_200D_27A1_FE0F, "1f469-1f3fc-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE2, "👩🏼‍🦼", "", U_1F469_1F3FC_200D_1F9BC, "1f469-1f3fc-200d-1f9bc.svg");
+svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE2, "👩🏼‍🦽‍➡️", "", U_1F469_1F3FC_200D_1F9BD_200D_27A1_FE0F, "1f469-1f3fc-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_TONE2, "👩🏼‍🦽", "", U_1F469_1F3FC_200D_1F9BD, "1f469-1f3fc-200d-1f9bd.svg");
 svg_name!(WOMAN_HEALTH_WORKER_TONE2, "👩🏼‍⚕️", "", U_1F469_1F3FC_200D_2695_FE0F, "1f469-1f3fc-200d-2695-fe0f.svg");
 svg_name!(WOMAN_JUDGE_TONE2, "👩🏼‍⚖️", "", U_1F469_1F3FC_200D_2696_FE0F, "1f469-1f3fc-200d-2696-fe0f.svg");
@@ -1723,13 +1768,16 @@ svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE3_1, "👩🏽‍🤝‍👩🏻", "", U_1
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE3_2, "👩🏽‍🤝‍👩🏼", "", U_1F469_1F3FD_200D_1F91D_200D_1F469_1F3FC, "1f469-1f3fd-200d-1f91d-200d-1f469-1f3fc.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE3_4, "👩🏽‍🤝‍👩🏾", "", U_1F469_1F3FD_200D_1F91D_200D_1F469_1F3FE, "1f469-1f3fd-200d-1f91d-200d-1f469-1f3fe.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE3_5, "👩🏽‍🤝‍👩🏿", "", U_1F469_1F3FD_200D_1F91D_200D_1F469_1F3FF, "1f469-1f3fd-200d-1f91d-200d-1f469-1f3ff.svg");
+svg_name!(WOMAN_WITH_WHITE_CANE_RIGHT_TONE3, "👩🏽‍🦯‍➡️", "", U_1F469_1F3FD_200D_1F9AF_200D_27A1_FE0F, "1f469-1f3fd-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WITH_PROBING_CANE_TONE3, "👩🏽‍🦯", "", U_1F469_1F3FD_200D_1F9AF, "1f469-1f3fd-200d-1f9af.svg");
 svg_name!(WOMAN_WITH_WHITE_CANE_TONE3, "👩🏽‍🦯", "", U_1F469_1F3FD_200D_1F9AF, "1f469-1f3fd-200d-1f9af.svg");
 svg_name!(WOMAN_RED_HAIRED_TONE3, "👩🏽‍🦰", "", U_1F469_1F3FD_200D_1F9B0, "1f469-1f3fd-200d-1f9b0.svg");
 svg_name!(WOMAN_CURLY_HAIRED_TONE3, "👩🏽‍🦱", "", U_1F469_1F3FD_200D_1F9B1, "1f469-1f3fd-200d-1f9b1.svg");
 svg_name!(WOMAN_BALD_TONE3, "👩🏽‍🦲", "", U_1F469_1F3FD_200D_1F9B2, "1f469-1f3fd-200d-1f9b2.svg");
 svg_name!(WOMAN_WHITE_HAIRED_TONE3, "👩🏽‍🦳", "", U_1F469_1F3FD_200D_1F9B3, "1f469-1f3fd-200d-1f9b3.svg");
+svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE3, "👩🏽‍🦼‍➡️", "", U_1F469_1F3FD_200D_1F9BC_200D_27A1_FE0F, "1f469-1f3fd-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE3, "👩🏽‍🦼", "", U_1F469_1F3FD_200D_1F9BC, "1f469-1f3fd-200d-1f9bc.svg");
+svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE3, "👩🏽‍🦽‍➡️", "", U_1F469_1F3FD_200D_1F9BD_200D_27A1_FE0F, "1f469-1f3fd-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_TONE3, "👩🏽‍🦽", "", U_1F469_1F3FD_200D_1F9BD, "1f469-1f3fd-200d-1f9bd.svg");
 svg_name!(WOMAN_HEALTH_WORKER_TONE3, "👩🏽‍⚕️", "", U_1F469_1F3FD_200D_2695_FE0F, "1f469-1f3fd-200d-2695-fe0f.svg");
 svg_name!(WOMAN_JUDGE_TONE3, "👩🏽‍⚖️", "", U_1F469_1F3FD_200D_2696_FE0F, "1f469-1f3fd-200d-2696-fe0f.svg");
@@ -1787,13 +1835,16 @@ svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE4_1, "👩🏾‍🤝‍👩🏻", "", U_1
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE4_2, "👩🏾‍🤝‍👩🏼", "", U_1F469_1F3FE_200D_1F91D_200D_1F469_1F3FC, "1f469-1f3fe-200d-1f91d-200d-1f469-1f3fc.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE4_3, "👩🏾‍🤝‍👩🏽", "", U_1F469_1F3FE_200D_1F91D_200D_1F469_1F3FD, "1f469-1f3fe-200d-1f91d-200d-1f469-1f3fd.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE4_5, "👩🏾‍🤝‍👩🏿", "", U_1F469_1F3FE_200D_1F91D_200D_1F469_1F3FF, "1f469-1f3fe-200d-1f91d-200d-1f469-1f3ff.svg");
+svg_name!(WOMAN_WITH_WHITE_CANE_RIGHT_TONE4, "👩🏾‍🦯‍➡️", "", U_1F469_1F3FE_200D_1F9AF_200D_27A1_FE0F, "1f469-1f3fe-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WITH_PROBING_CANE_TONE4, "👩🏾‍🦯", "", U_1F469_1F3FE_200D_1F9AF, "1f469-1f3fe-200d-1f9af.svg");
 svg_name!(WOMAN_WITH_WHITE_CANE_TONE4, "👩🏾‍🦯", "", U_1F469_1F3FE_200D_1F9AF, "1f469-1f3fe-200d-1f9af.svg");
 svg_name!(WOMAN_RED_HAIRED_TONE4, "👩🏾‍🦰", "", U_1F469_1F3FE_200D_1F9B0, "1f469-1f3fe-200d-1f9b0.svg");
 svg_name!(WOMAN_CURLY_HAIRED_TONE4, "👩🏾‍🦱", "", U_1F469_1F3FE_200D_1F9B1, "1f469-1f3fe-200d-1f9b1.svg");
 svg_name!(WOMAN_BALD_TONE4, "👩🏾‍🦲", "", U_1F469_1F3FE_200D_1F9B2, "1f469-1f3fe-200d-1f9b2.svg");
 svg_name!(WOMAN_WHITE_HAIRED_TONE4, "👩🏾‍🦳", "", U_1F469_1F3FE_200D_1F9B3, "1f469-1f3fe-200d-1f9b3.svg");
+svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE4, "👩🏾‍🦼‍➡️", "", U_1F469_1F3FE_200D_1F9BC_200D_27A1_FE0F, "1f469-1f3fe-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE4, "👩🏾‍🦼", "", U_1F469_1F3FE_200D_1F9BC, "1f469-1f3fe-200d-1f9bc.svg");
+svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE4, "👩🏾‍🦽‍➡️", "", U_1F469_1F3FE_200D_1F9BD_200D_27A1_FE0F, "1f469-1f3fe-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_TONE4, "👩🏾‍🦽", "", U_1F469_1F3FE_200D_1F9BD, "1f469-1f3fe-200d-1f9bd.svg");
 svg_name!(WOMAN_HEALTH_WORKER_TONE4, "👩🏾‍⚕️", "", U_1F469_1F3FE_200D_2695_FE0F, "1f469-1f3fe-200d-2695-fe0f.svg");
 svg_name!(WOMAN_JUDGE_TONE4, "👩🏾‍⚖️", "", U_1F469_1F3FE_200D_2696_FE0F, "1f469-1f3fe-200d-2696-fe0f.svg");
@@ -1851,13 +1902,16 @@ svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE5_1, "👩🏿‍🤝‍👩🏻", "", U_1
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE5_2, "👩🏿‍🤝‍👩🏼", "", U_1F469_1F3FF_200D_1F91D_200D_1F469_1F3FC, "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fc.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE5_3, "👩🏿‍🤝‍👩🏽", "", U_1F469_1F3FF_200D_1F91D_200D_1F469_1F3FD, "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fd.svg");
 svg_name!(TWO_WOMEN_HOLDING_HANDS_TONE5_4, "👩🏿‍🤝‍👩🏾", "", U_1F469_1F3FF_200D_1F91D_200D_1F469_1F3FE, "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fe.svg");
+svg_name!(WOMAN_WITH_WHITE_CANE_RIGHT_TONE5, "👩🏿‍🦯‍➡️", "", U_1F469_1F3FF_200D_1F9AF_200D_27A1_FE0F, "1f469-1f3ff-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WITH_PROBING_CANE_TONE5, "👩🏿‍🦯", "", U_1F469_1F3FF_200D_1F9AF, "1f469-1f3ff-200d-1f9af.svg");
 svg_name!(WOMAN_WITH_WHITE_CANE_TONE5, "👩🏿‍🦯", "", U_1F469_1F3FF_200D_1F9AF, "1f469-1f3ff-200d-1f9af.svg");
 svg_name!(WOMAN_RED_HAIRED_TONE5, "👩🏿‍🦰", "", U_1F469_1F3FF_200D_1F9B0, "1f469-1f3ff-200d-1f9b0.svg");
 svg_name!(WOMAN_CURLY_HAIRED_TONE5, "👩🏿‍🦱", "", U_1F469_1F3FF_200D_1F9B1, "1f469-1f3ff-200d-1f9b1.svg");
 svg_name!(WOMAN_BALD_TONE5, "👩🏿‍🦲", "", U_1F469_1F3FF_200D_1F9B2, "1f469-1f3ff-200d-1f9b2.svg");
 svg_name!(WOMAN_WHITE_HAIRED_TONE5, "👩🏿‍🦳", "", U_1F469_1F3FF_200D_1F9B3, "1f469-1f3ff-200d-1f9b3.svg");
+svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE5, "👩🏿‍🦼‍➡️", "", U_1F469_1F3FF_200D_1F9BC_200D_27A1_FE0F, "1f469-1f3ff-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE5, "👩🏿‍🦼", "", U_1F469_1F3FF_200D_1F9BC, "1f469-1f3ff-200d-1f9bc.svg");
+svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE5, "👩🏿‍🦽‍➡️", "", U_1F469_1F3FF_200D_1F9BD_200D_27A1_FE0F, "1f469-1f3ff-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_TONE5, "👩🏿‍🦽", "", U_1F469_1F3FF_200D_1F9BD, "1f469-1f3ff-200d-1f9bd.svg");
 svg_name!(WOMAN_HEALTH_WORKER_TONE5, "👩🏿‍⚕️", "", U_1F469_1F3FF_200D_2695_FE0F, "1f469-1f3ff-200d-2695-fe0f.svg");
 svg_name!(WOMAN_JUDGE_TONE5, "👩🏿‍⚖️", "", U_1F469_1F3FF_200D_2696_FE0F, "1f469-1f3ff-200d-2696-fe0f.svg");
@@ -1917,13 +1971,16 @@ svg_name!(WOMAN_MECHANIC, "👩‍🔧", "woman mechanic", U_1F469_200D_1F527, "
 svg_name!(WOMAN_SCIENTIST, "👩‍🔬", "woman scientist", U_1F469_200D_1F52C, "1f469-200d-1f52c.svg");
 svg_name!(WOMAN_ASTRONAUT, "👩‍🚀", "woman astronaut", U_1F469_200D_1F680, "1f469-200d-1f680.svg");
 svg_name!(WOMAN_FIREFIGHTER, "👩‍🚒", "woman firefighter", U_1F469_200D_1F692, "1f469-200d-1f692.svg");
+svg_name!(WOMAN_WITH_WHITE_CANE_RIGHT, "👩‍🦯‍➡️", "woman with white cane facing right", U_1F469_200D_1F9AF_200D_27A1_FE0F, "1f469-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WITH_PROBING_CANE, "👩‍🦯", "woman with white cane", U_1F469_200D_1F9AF, "1f469-200d-1f9af.svg");
 svg_name!(WOMAN_WITH_WHITE_CANE, "👩‍🦯", "woman with white cane", U_1F469_200D_1F9AF, "1f469-200d-1f9af.svg");
 svg_name!(WOMAN_RED_HAIRED, "👩‍🦰", "woman: red hair", U_1F469_200D_1F9B0, "1f469-200d-1f9b0.svg");
 svg_name!(WOMAN_CURLY_HAIRED, "👩‍🦱", "woman: curly hair", U_1F469_200D_1F9B1, "1f469-200d-1f9b1.svg");
 svg_name!(WOMAN_BALD, "👩‍🦲", "woman: bald", U_1F469_200D_1F9B2, "1f469-200d-1f9b2.svg");
 svg_name!(WOMAN_WHITE_HAIRED, "👩‍🦳", "woman: white hair", U_1F469_200D_1F9B3, "1f469-200d-1f9b3.svg");
+svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT, "👩‍🦼‍➡️", "woman in motorized wheelchair facing right", U_1F469_200D_1F9BC_200D_27A1_FE0F, "1f469-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MOTORIZED_WHEELCHAIR, "👩‍🦼", "woman in motorized wheelchair", U_1F469_200D_1F9BC, "1f469-200d-1f9bc.svg");
+svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT, "👩‍🦽‍➡️", "woman in manual wheelchair facing right", U_1F469_200D_1F9BD_200D_27A1_FE0F, "1f469-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_IN_MANUAL_WHEELCHAIR, "👩‍🦽", "woman in manual wheelchair", U_1F469_200D_1F9BD, "1f469-200d-1f9bd.svg");
 svg_name!(WOMAN_HEALTH_WORKER, "👩‍⚕️", "woman health worker", U_1F469_200D_2695_FE0F, "1f469-200d-2695-fe0f.svg");
 svg_name!(WOMAN_JUDGE, "👩‍⚖️", "woman judge", U_1F469_200D_2696_FE0F, "1f469-200d-2696-fe0f.svg");
@@ -2727,6 +2784,8 @@ svg_name!(CRYING_CAT, "😿", "crying cat", U_1F63F, "1f63f.svg");
 svg_name!(SCREAM_CAT, "🙀", "weary cat", U_1F640, "1f640.svg");
 svg_name!(WEARY_CAT, "🙀", "weary cat", U_1F640, "1f640.svg");
 svg_name!(SLIGHTLY_FROWNING_FACE, "🙁", "slightly frowning face", U_1F641, "1f641.svg");
+svg_name!(HEAD_SHAKING_HORIZONTALLY, "🙂‍↔️", "head shaking horizontally", U_1F642_200D_2194_FE0F, "1f642-200d-2194-fe0f.svg");
+svg_name!(HEAD_SHAKING_VERTICALLY, "🙂‍↕️", "head shaking vertically", U_1F642_200D_2195_FE0F, "1f642-200d-2195-fe0f.svg");
 svg_name!(SLIGHTLY_SMILING_FACE, "🙂", "slightly smiling face", U_1F642, "1f642.svg");
 svg_name!(UPSIDE_DOWN_FACE, "🙃", "upside-down face", U_1F643, "1f643.svg");
 svg_name!(ROLLING_EYES, "🙄", "face with rolling eyes", U_1F644, "1f644.svg");
@@ -3026,28 +3085,46 @@ svg_name!(MAN_MOUNTAIN_BIKING, "🚵‍♂️", "man mountain biking", U_1F6B5_2
 svg_name!(MOUNTAIN_BICYCLIST, "🚵", "person mountain biking", U_1F6B5, "1f6b5.svg");
 svg_name!(MOUNTAIN_BIKING, "🚵", "person mountain biking", U_1F6B5, "1f6b5.svg");
 svg_name!(PERSON_MOUNTAIN_BIKING, "🚵", "person mountain biking", U_1F6B5, "1f6b5.svg");
+svg_name!(WOMAN_WALKING_RIGHT_TONE1, "🚶🏻‍♀️‍➡️", "", U_1F6B6_1F3FB_200D_2640_FE0F_200D_27A1_FE0F, "1f6b6-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WALKING_TONE1, "🚶🏻‍♀️", "", U_1F6B6_1F3FB_200D_2640_FE0F, "1f6b6-1f3fb-200d-2640-fe0f.svg");
+svg_name!(MAN_WALKING_RIGHT_TONE1, "🚶🏻‍♂️‍➡️", "", U_1F6B6_1F3FB_200D_2642_FE0F_200D_27A1_FE0F, "1f6b6-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_WALKING_TONE1, "🚶🏻‍♂️", "", U_1F6B6_1F3FB_200D_2642_FE0F, "1f6b6-1f3fb-200d-2642-fe0f.svg");
+svg_name!(PERSON_WALKING_RIGHT_TONE1, "🚶🏻‍➡️", "", U_1F6B6_1F3FB_200D_27A1_FE0F, "1f6b6-1f3fb-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WALKING_TONE1, "🚶🏻", "", U_1F6B6_1F3FB, "1f6b6-1f3fb.svg");
 svg_name!(WALKING_TONE1, "🚶🏻", "", U_1F6B6_1F3FB, "1f6b6-1f3fb.svg");
+svg_name!(WOMAN_WALKING_RIGHT_TONE2, "🚶🏼‍♀️‍➡️", "", U_1F6B6_1F3FC_200D_2640_FE0F_200D_27A1_FE0F, "1f6b6-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WALKING_TONE2, "🚶🏼‍♀️", "", U_1F6B6_1F3FC_200D_2640_FE0F, "1f6b6-1f3fc-200d-2640-fe0f.svg");
+svg_name!(MAN_WALKING_RIGHT_TONE2, "🚶🏼‍♂️‍➡️", "", U_1F6B6_1F3FC_200D_2642_FE0F_200D_27A1_FE0F, "1f6b6-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_WALKING_TONE2, "🚶🏼‍♂️", "", U_1F6B6_1F3FC_200D_2642_FE0F, "1f6b6-1f3fc-200d-2642-fe0f.svg");
+svg_name!(PERSON_WALKING_RIGHT_TONE2, "🚶🏼‍➡️", "", U_1F6B6_1F3FC_200D_27A1_FE0F, "1f6b6-1f3fc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WALKING_TONE2, "🚶🏼", "", U_1F6B6_1F3FC, "1f6b6-1f3fc.svg");
 svg_name!(WALKING_TONE2, "🚶🏼", "", U_1F6B6_1F3FC, "1f6b6-1f3fc.svg");
+svg_name!(WOMAN_WALKING_RIGHT_TONE3, "🚶🏽‍♀️‍➡️", "", U_1F6B6_1F3FD_200D_2640_FE0F_200D_27A1_FE0F, "1f6b6-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WALKING_TONE3, "🚶🏽‍♀️", "", U_1F6B6_1F3FD_200D_2640_FE0F, "1f6b6-1f3fd-200d-2640-fe0f.svg");
+svg_name!(MAN_WALKING_RIGHT_TONE3, "🚶🏽‍♂️‍➡️", "", U_1F6B6_1F3FD_200D_2642_FE0F_200D_27A1_FE0F, "1f6b6-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_WALKING_TONE3, "🚶🏽‍♂️", "", U_1F6B6_1F3FD_200D_2642_FE0F, "1f6b6-1f3fd-200d-2642-fe0f.svg");
+svg_name!(PERSON_WALKING_RIGHT_TONE3, "🚶🏽‍➡️", "", U_1F6B6_1F3FD_200D_27A1_FE0F, "1f6b6-1f3fd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WALKING_TONE3, "🚶🏽", "", U_1F6B6_1F3FD, "1f6b6-1f3fd.svg");
 svg_name!(WALKING_TONE3, "🚶🏽", "", U_1F6B6_1F3FD, "1f6b6-1f3fd.svg");
+svg_name!(WOMAN_WALKING_RIGHT_TONE4, "🚶🏾‍♀️‍➡️", "", U_1F6B6_1F3FE_200D_2640_FE0F_200D_27A1_FE0F, "1f6b6-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WALKING_TONE4, "🚶🏾‍♀️", "", U_1F6B6_1F3FE_200D_2640_FE0F, "1f6b6-1f3fe-200d-2640-fe0f.svg");
+svg_name!(MAN_WALKING_RIGHT_TONE4, "🚶🏾‍♂️‍➡️", "", U_1F6B6_1F3FE_200D_2642_FE0F_200D_27A1_FE0F, "1f6b6-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_WALKING_TONE4, "🚶🏾‍♂️", "", U_1F6B6_1F3FE_200D_2642_FE0F, "1f6b6-1f3fe-200d-2642-fe0f.svg");
+svg_name!(PERSON_WALKING_RIGHT_TONE4, "🚶🏾‍➡️", "", U_1F6B6_1F3FE_200D_27A1_FE0F, "1f6b6-1f3fe-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WALKING_TONE4, "🚶🏾", "", U_1F6B6_1F3FE, "1f6b6-1f3fe.svg");
 svg_name!(WALKING_TONE4, "🚶🏾", "", U_1F6B6_1F3FE, "1f6b6-1f3fe.svg");
+svg_name!(WOMAN_WALKING_RIGHT_TONE5, "🚶🏿‍♀️‍➡️", "", U_1F6B6_1F3FF_200D_2640_FE0F_200D_27A1_FE0F, "1f6b6-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WALKING_TONE5, "🚶🏿‍♀️", "", U_1F6B6_1F3FF_200D_2640_FE0F, "1f6b6-1f3ff-200d-2640-fe0f.svg");
+svg_name!(MAN_WALKING_RIGHT_TONE5, "🚶🏿‍♂️‍➡️", "", U_1F6B6_1F3FF_200D_2642_FE0F_200D_27A1_FE0F, "1f6b6-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_WALKING_TONE5, "🚶🏿‍♂️", "", U_1F6B6_1F3FF_200D_2642_FE0F, "1f6b6-1f3ff-200d-2642-fe0f.svg");
+svg_name!(PERSON_WALKING_RIGHT_TONE5, "🚶🏿‍➡️", "", U_1F6B6_1F3FF_200D_27A1_FE0F, "1f6b6-1f3ff-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WALKING_TONE5, "🚶🏿", "", U_1F6B6_1F3FF, "1f6b6-1f3ff.svg");
 svg_name!(WALKING_TONE5, "🚶🏿", "", U_1F6B6_1F3FF, "1f6b6-1f3ff.svg");
+svg_name!(WOMAN_WALKING_RIGHT, "🚶‍♀️‍➡️", "woman walking facing right", U_1F6B6_200D_2640_FE0F_200D_27A1_FE0F, "1f6b6-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_WALKING, "🚶‍♀️", "woman walking", U_1F6B6_200D_2640_FE0F, "1f6b6-200d-2640-fe0f.svg");
+svg_name!(MAN_WALKING_RIGHT, "🚶‍♂️‍➡️", "man walking facing right", U_1F6B6_200D_2642_FE0F_200D_27A1_FE0F, "1f6b6-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_WALKING, "🚶‍♂️", "man walking", U_1F6B6_200D_2642_FE0F, "1f6b6-200d-2642-fe0f.svg");
+svg_name!(PERSON_WALKING_RIGHT, "🚶‍➡️", "person walking facing right", U_1F6B6_200D_27A1_FE0F, "1f6b6-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WALKING, "🚶", "person walking", U_1F6B6, "1f6b6.svg");
 svg_name!(WALKING, "🚶", "person walking", U_1F6B6, "1f6b6.svg");
 svg_name!(NO_PEDESTRIANS, "🚷", "no pedestrians", U_1F6B7, "1f6b7.svg");
@@ -3720,28 +3797,46 @@ svg_name!(WOMAN_STANDING, "🧍‍♀️", "woman standing", U_1F9CD_200D_2640_F
 svg_name!(MAN_STANDING, "🧍‍♂️", "man standing", U_1F9CD_200D_2642_FE0F, "1f9cd-200d-2642-fe0f.svg");
 svg_name!(PERSON_STANDING, "🧍", "person standing", U_1F9CD, "1f9cd.svg");
 svg_name!(STANDING, "🧍", "person standing", U_1F9CD, "1f9cd.svg");
+svg_name!(WOMAN_KNEELING_RIGHT_TONE1, "🧎🏻‍♀️‍➡️", "", U_1F9CE_1F3FB_200D_2640_FE0F_200D_27A1_FE0F, "1f9ce-1f3fb-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_KNEELING_TONE1, "🧎🏻‍♀️", "", U_1F9CE_1F3FB_200D_2640_FE0F, "1f9ce-1f3fb-200d-2640-fe0f.svg");
+svg_name!(MAN_KNEELING_RIGHT_TONE1, "🧎🏻‍♂️‍➡️", "", U_1F9CE_1F3FB_200D_2642_FE0F_200D_27A1_FE0F, "1f9ce-1f3fb-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_KNEELING_TONE1, "🧎🏻‍♂️", "", U_1F9CE_1F3FB_200D_2642_FE0F, "1f9ce-1f3fb-200d-2642-fe0f.svg");
+svg_name!(PERSON_KNEELING_RIGHT_TONE1, "🧎🏻‍➡️", "", U_1F9CE_1F3FB_200D_27A1_FE0F, "1f9ce-1f3fb-200d-27a1-fe0f.svg");
 svg_name!(KNEELING_TONE1, "🧎🏻", "", U_1F9CE_1F3FB, "1f9ce-1f3fb.svg");
 svg_name!(PERSON_KNEELING_TONE1, "🧎🏻", "", U_1F9CE_1F3FB, "1f9ce-1f3fb.svg");
+svg_name!(WOMAN_KNEELING_RIGHT_TONE2, "🧎🏼‍♀️‍➡️", "", U_1F9CE_1F3FC_200D_2640_FE0F_200D_27A1_FE0F, "1f9ce-1f3fc-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_KNEELING_TONE2, "🧎🏼‍♀️", "", U_1F9CE_1F3FC_200D_2640_FE0F, "1f9ce-1f3fc-200d-2640-fe0f.svg");
+svg_name!(MAN_KNEELING_RIGHT_TONE2, "🧎🏼‍♂️‍➡️", "", U_1F9CE_1F3FC_200D_2642_FE0F_200D_27A1_FE0F, "1f9ce-1f3fc-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_KNEELING_TONE2, "🧎🏼‍♂️", "", U_1F9CE_1F3FC_200D_2642_FE0F, "1f9ce-1f3fc-200d-2642-fe0f.svg");
+svg_name!(PERSON_KNEELING_RIGHT_TONE2, "🧎🏼‍➡️", "", U_1F9CE_1F3FC_200D_27A1_FE0F, "1f9ce-1f3fc-200d-27a1-fe0f.svg");
 svg_name!(KNEELING_TONE2, "🧎🏼", "", U_1F9CE_1F3FC, "1f9ce-1f3fc.svg");
 svg_name!(PERSON_KNEELING_TONE2, "🧎🏼", "", U_1F9CE_1F3FC, "1f9ce-1f3fc.svg");
+svg_name!(WOMAN_KNEELING_RIGHT_TONE3, "🧎🏽‍♀️‍➡️", "", U_1F9CE_1F3FD_200D_2640_FE0F_200D_27A1_FE0F, "1f9ce-1f3fd-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_KNEELING_TONE3, "🧎🏽‍♀️", "", U_1F9CE_1F3FD_200D_2640_FE0F, "1f9ce-1f3fd-200d-2640-fe0f.svg");
+svg_name!(MAN_KNEELING_RIGHT_TONE3, "🧎🏽‍♂️‍➡️", "", U_1F9CE_1F3FD_200D_2642_FE0F_200D_27A1_FE0F, "1f9ce-1f3fd-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_KNEELING_TONE3, "🧎🏽‍♂️", "", U_1F9CE_1F3FD_200D_2642_FE0F, "1f9ce-1f3fd-200d-2642-fe0f.svg");
+svg_name!(PERSON_KNEELING_RIGHT_TONE3, "🧎🏽‍➡️", "", U_1F9CE_1F3FD_200D_27A1_FE0F, "1f9ce-1f3fd-200d-27a1-fe0f.svg");
 svg_name!(KNEELING_TONE3, "🧎🏽", "", U_1F9CE_1F3FD, "1f9ce-1f3fd.svg");
 svg_name!(PERSON_KNEELING_TONE3, "🧎🏽", "", U_1F9CE_1F3FD, "1f9ce-1f3fd.svg");
+svg_name!(WOMAN_KNEELING_RIGHT_TONE4, "🧎🏾‍♀️‍➡️", "", U_1F9CE_1F3FE_200D_2640_FE0F_200D_27A1_FE0F, "1f9ce-1f3fe-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_KNEELING_TONE4, "🧎🏾‍♀️", "", U_1F9CE_1F3FE_200D_2640_FE0F, "1f9ce-1f3fe-200d-2640-fe0f.svg");
+svg_name!(MAN_KNEELING_RIGHT_TONE4, "🧎🏾‍♂️‍➡️", "", U_1F9CE_1F3FE_200D_2642_FE0F_200D_27A1_FE0F, "1f9ce-1f3fe-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_KNEELING_TONE4, "🧎🏾‍♂️", "", U_1F9CE_1F3FE_200D_2642_FE0F, "1f9ce-1f3fe-200d-2642-fe0f.svg");
+svg_name!(PERSON_KNEELING_RIGHT_TONE4, "🧎🏾‍➡️", "", U_1F9CE_1F3FE_200D_27A1_FE0F, "1f9ce-1f3fe-200d-27a1-fe0f.svg");
 svg_name!(KNEELING_TONE4, "🧎🏾", "", U_1F9CE_1F3FE, "1f9ce-1f3fe.svg");
 svg_name!(PERSON_KNEELING_TONE4, "🧎🏾", "", U_1F9CE_1F3FE, "1f9ce-1f3fe.svg");
+svg_name!(WOMAN_KNEELING_RIGHT_TONE5, "🧎🏿‍♀️‍➡️", "", U_1F9CE_1F3FF_200D_2640_FE0F_200D_27A1_FE0F, "1f9ce-1f3ff-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_KNEELING_TONE5, "🧎🏿‍♀️", "", U_1F9CE_1F3FF_200D_2640_FE0F, "1f9ce-1f3ff-200d-2640-fe0f.svg");
+svg_name!(MAN_KNEELING_RIGHT_TONE5, "🧎🏿‍♂️‍➡️", "", U_1F9CE_1F3FF_200D_2642_FE0F_200D_27A1_FE0F, "1f9ce-1f3ff-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_KNEELING_TONE5, "🧎🏿‍♂️", "", U_1F9CE_1F3FF_200D_2642_FE0F, "1f9ce-1f3ff-200d-2642-fe0f.svg");
+svg_name!(PERSON_KNEELING_RIGHT_TONE5, "🧎🏿‍➡️", "", U_1F9CE_1F3FF_200D_27A1_FE0F, "1f9ce-1f3ff-200d-27a1-fe0f.svg");
 svg_name!(KNEELING_TONE5, "🧎🏿", "", U_1F9CE_1F3FF, "1f9ce-1f3ff.svg");
 svg_name!(PERSON_KNEELING_TONE5, "🧎🏿", "", U_1F9CE_1F3FF, "1f9ce-1f3ff.svg");
+svg_name!(WOMAN_KNEELING_RIGHT, "🧎‍♀️‍➡️", "woman kneeling facing right", U_1F9CE_200D_2640_FE0F_200D_27A1_FE0F, "1f9ce-200d-2640-fe0f-200d-27a1-fe0f.svg");
 svg_name!(WOMAN_KNEELING, "🧎‍♀️", "woman kneeling", U_1F9CE_200D_2640_FE0F, "1f9ce-200d-2640-fe0f.svg");
+svg_name!(MAN_KNEELING_RIGHT, "🧎‍♂️‍➡️", "man kneeling facing right", U_1F9CE_200D_2642_FE0F_200D_27A1_FE0F, "1f9ce-200d-2642-fe0f-200d-27a1-fe0f.svg");
 svg_name!(MAN_KNEELING, "🧎‍♂️", "man kneeling", U_1F9CE_200D_2642_FE0F, "1f9ce-200d-2642-fe0f.svg");
+svg_name!(PERSON_KNEELING_RIGHT, "🧎‍➡️", "person kneeling facing right", U_1F9CE_200D_27A1_FE0F, "1f9ce-200d-27a1-fe0f.svg");
 svg_name!(KNEELING, "🧎", "person kneeling", U_1F9CE, "1f9ce.svg");
 svg_name!(PERSON_KNEELING, "🧎", "person kneeling", U_1F9CE, "1f9ce.svg");
 svg_name!(DEAF_WOMAN_TONE1, "🧏🏻‍♀️", "", U_1F9CF_1F3FB_200D_2640_FE0F, "1f9cf-1f3fb-200d-2640-fe0f.svg");
@@ -3783,13 +3878,16 @@ svg_name!(PEOPLE_HOLDING_HANDS_TONE1_2, "🧑🏻‍🤝‍🧑🏼", "", U_1F9D
 svg_name!(PEOPLE_HOLDING_HANDS_TONE1_3, "🧑🏻‍🤝‍🧑🏽", "", U_1F9D1_1F3FB_200D_1F91D_200D_1F9D1_1F3FD, "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fd.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE1_4, "🧑🏻‍🤝‍🧑🏾", "", U_1F9D1_1F3FB_200D_1F91D_200D_1F9D1_1F3FE, "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fe.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE1_5, "🧑🏻‍🤝‍🧑🏿", "", U_1F9D1_1F3FB_200D_1F91D_200D_1F9D1_1F3FF, "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3ff.svg");
+svg_name!(PERSON_WITH_WHITE_CANE_RIGHT_TONE1, "🧑🏻‍🦯‍➡️", "", U_1F9D1_1F3FB_200D_1F9AF_200D_27A1_FE0F, "1f9d1-1f3fb-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WITH_PROBING_CANE_TONE1, "🧑🏻‍🦯", "", U_1F9D1_1F3FB_200D_1F9AF, "1f9d1-1f3fb-200d-1f9af.svg");
 svg_name!(PERSON_WITH_WHITE_CANE_TONE1, "🧑🏻‍🦯", "", U_1F9D1_1F3FB_200D_1F9AF, "1f9d1-1f3fb-200d-1f9af.svg");
 svg_name!(RED_HAIRED_TONE1, "🧑🏻‍🦰", "", U_1F9D1_1F3FB_200D_1F9B0, "1f9d1-1f3fb-200d-1f9b0.svg");
 svg_name!(CURLY_HAIRED_TONE1, "🧑🏻‍🦱", "", U_1F9D1_1F3FB_200D_1F9B1, "1f9d1-1f3fb-200d-1f9b1.svg");
 svg_name!(BALD_TONE1, "🧑🏻‍🦲", "", U_1F9D1_1F3FB_200D_1F9B2, "1f9d1-1f3fb-200d-1f9b2.svg");
 svg_name!(WHITE_HAIRED_TONE1, "🧑🏻‍🦳", "", U_1F9D1_1F3FB_200D_1F9B3, "1f9d1-1f3fb-200d-1f9b3.svg");
+svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE1, "🧑🏻‍🦼‍➡️", "", U_1F9D1_1F3FB_200D_1F9BC_200D_27A1_FE0F, "1f9d1-1f3fb-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_TONE1, "🧑🏻‍🦼", "", U_1F9D1_1F3FB_200D_1F9BC, "1f9d1-1f3fb-200d-1f9bc.svg");
+svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE1, "🧑🏻‍🦽‍➡️", "", U_1F9D1_1F3FB_200D_1F9BD_200D_27A1_FE0F, "1f9d1-1f3fb-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_TONE1, "🧑🏻‍🦽", "", U_1F9D1_1F3FB_200D_1F9BD, "1f9d1-1f3fb-200d-1f9bd.svg");
 svg_name!(HEALTH_WORKER_TONE1, "🧑🏻‍⚕️", "", U_1F9D1_1F3FB_200D_2695_FE0F, "1f9d1-1f3fb-200d-2695-fe0f.svg");
 svg_name!(JUDGE_TONE1, "🧑🏻‍⚖️", "", U_1F9D1_1F3FB_200D_2696_FE0F, "1f9d1-1f3fb-200d-2696-fe0f.svg");
@@ -3827,13 +3925,16 @@ svg_name!(PEOPLE_HOLDING_HANDS_TONE2, "🧑🏼‍🤝‍🧑🏼", "", U_1F9D1_
 svg_name!(PEOPLE_HOLDING_HANDS_TONE2_3, "🧑🏼‍🤝‍🧑🏽", "", U_1F9D1_1F3FC_200D_1F91D_200D_1F9D1_1F3FD, "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fd.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE2_4, "🧑🏼‍🤝‍🧑🏾", "", U_1F9D1_1F3FC_200D_1F91D_200D_1F9D1_1F3FE, "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fe.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE2_5, "🧑🏼‍🤝‍🧑🏿", "", U_1F9D1_1F3FC_200D_1F91D_200D_1F9D1_1F3FF, "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3ff.svg");
+svg_name!(PERSON_WITH_WHITE_CANE_RIGHT_TONE2, "🧑🏼‍🦯‍➡️", "", U_1F9D1_1F3FC_200D_1F9AF_200D_27A1_FE0F, "1f9d1-1f3fc-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WITH_PROBING_CANE_TONE2, "🧑🏼‍🦯", "", U_1F9D1_1F3FC_200D_1F9AF, "1f9d1-1f3fc-200d-1f9af.svg");
 svg_name!(PERSON_WITH_WHITE_CANE_TONE2, "🧑🏼‍🦯", "", U_1F9D1_1F3FC_200D_1F9AF, "1f9d1-1f3fc-200d-1f9af.svg");
 svg_name!(RED_HAIRED_TONE2, "🧑🏼‍🦰", "", U_1F9D1_1F3FC_200D_1F9B0, "1f9d1-1f3fc-200d-1f9b0.svg");
 svg_name!(CURLY_HAIRED_TONE2, "🧑🏼‍🦱", "", U_1F9D1_1F3FC_200D_1F9B1, "1f9d1-1f3fc-200d-1f9b1.svg");
 svg_name!(BALD_TONE2, "🧑🏼‍🦲", "", U_1F9D1_1F3FC_200D_1F9B2, "1f9d1-1f3fc-200d-1f9b2.svg");
 svg_name!(WHITE_HAIRED_TONE2, "🧑🏼‍🦳", "", U_1F9D1_1F3FC_200D_1F9B3, "1f9d1-1f3fc-200d-1f9b3.svg");
+svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE2, "🧑🏼‍🦼‍➡️", "", U_1F9D1_1F3FC_200D_1F9BC_200D_27A1_FE0F, "1f9d1-1f3fc-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_TONE2, "🧑🏼‍🦼", "", U_1F9D1_1F3FC_200D_1F9BC, "1f9d1-1f3fc-200d-1f9bc.svg");
+svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE2, "🧑🏼‍🦽‍➡️", "", U_1F9D1_1F3FC_200D_1F9BD_200D_27A1_FE0F, "1f9d1-1f3fc-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_TONE2, "🧑🏼‍🦽", "", U_1F9D1_1F3FC_200D_1F9BD, "1f9d1-1f3fc-200d-1f9bd.svg");
 svg_name!(HEALTH_WORKER_TONE2, "🧑🏼‍⚕️", "", U_1F9D1_1F3FC_200D_2695_FE0F, "1f9d1-1f3fc-200d-2695-fe0f.svg");
 svg_name!(JUDGE_TONE2, "🧑🏼‍⚖️", "", U_1F9D1_1F3FC_200D_2696_FE0F, "1f9d1-1f3fc-200d-2696-fe0f.svg");
@@ -3871,13 +3972,16 @@ svg_name!(PEOPLE_HOLDING_HANDS_TONE3_2, "🧑🏽‍🤝‍🧑🏼", "", U_1F9D
 svg_name!(PEOPLE_HOLDING_HANDS_TONE3, "🧑🏽‍🤝‍🧑🏽", "", U_1F9D1_1F3FD_200D_1F91D_200D_1F9D1_1F3FD, "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fd.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE3_4, "🧑🏽‍🤝‍🧑🏾", "", U_1F9D1_1F3FD_200D_1F91D_200D_1F9D1_1F3FE, "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fe.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE3_5, "🧑🏽‍🤝‍🧑🏿", "", U_1F9D1_1F3FD_200D_1F91D_200D_1F9D1_1F3FF, "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3ff.svg");
+svg_name!(PERSON_WITH_WHITE_CANE_RIGHT_TONE3, "🧑🏽‍🦯‍➡️", "", U_1F9D1_1F3FD_200D_1F9AF_200D_27A1_FE0F, "1f9d1-1f3fd-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WITH_PROBING_CANE_TONE3, "🧑🏽‍🦯", "", U_1F9D1_1F3FD_200D_1F9AF, "1f9d1-1f3fd-200d-1f9af.svg");
 svg_name!(PERSON_WITH_WHITE_CANE_TONE3, "🧑🏽‍🦯", "", U_1F9D1_1F3FD_200D_1F9AF, "1f9d1-1f3fd-200d-1f9af.svg");
 svg_name!(RED_HAIRED_TONE3, "🧑🏽‍🦰", "", U_1F9D1_1F3FD_200D_1F9B0, "1f9d1-1f3fd-200d-1f9b0.svg");
 svg_name!(CURLY_HAIRED_TONE3, "🧑🏽‍🦱", "", U_1F9D1_1F3FD_200D_1F9B1, "1f9d1-1f3fd-200d-1f9b1.svg");
 svg_name!(BALD_TONE3, "🧑🏽‍🦲", "", U_1F9D1_1F3FD_200D_1F9B2, "1f9d1-1f3fd-200d-1f9b2.svg");
 svg_name!(WHITE_HAIRED_TONE3, "🧑🏽‍🦳", "", U_1F9D1_1F3FD_200D_1F9B3, "1f9d1-1f3fd-200d-1f9b3.svg");
+svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE3, "🧑🏽‍🦼‍➡️", "", U_1F9D1_1F3FD_200D_1F9BC_200D_27A1_FE0F, "1f9d1-1f3fd-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_TONE3, "🧑🏽‍🦼", "", U_1F9D1_1F3FD_200D_1F9BC, "1f9d1-1f3fd-200d-1f9bc.svg");
+svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE3, "🧑🏽‍🦽‍➡️", "", U_1F9D1_1F3FD_200D_1F9BD_200D_27A1_FE0F, "1f9d1-1f3fd-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_TONE3, "🧑🏽‍🦽", "", U_1F9D1_1F3FD_200D_1F9BD, "1f9d1-1f3fd-200d-1f9bd.svg");
 svg_name!(HEALTH_WORKER_TONE3, "🧑🏽‍⚕️", "", U_1F9D1_1F3FD_200D_2695_FE0F, "1f9d1-1f3fd-200d-2695-fe0f.svg");
 svg_name!(JUDGE_TONE3, "🧑🏽‍⚖️", "", U_1F9D1_1F3FD_200D_2696_FE0F, "1f9d1-1f3fd-200d-2696-fe0f.svg");
@@ -3915,13 +4019,16 @@ svg_name!(PEOPLE_HOLDING_HANDS_TONE4_2, "🧑🏾‍🤝‍🧑🏼", "", U_1F9D
 svg_name!(PEOPLE_HOLDING_HANDS_TONE4_3, "🧑🏾‍🤝‍🧑🏽", "", U_1F9D1_1F3FE_200D_1F91D_200D_1F9D1_1F3FD, "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fd.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE4, "🧑🏾‍🤝‍🧑🏾", "", U_1F9D1_1F3FE_200D_1F91D_200D_1F9D1_1F3FE, "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fe.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE4_5, "🧑🏾‍🤝‍🧑🏿", "", U_1F9D1_1F3FE_200D_1F91D_200D_1F9D1_1F3FF, "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3ff.svg");
+svg_name!(PERSON_WITH_WHITE_CANE_RIGHT_TONE4, "🧑🏾‍🦯‍➡️", "", U_1F9D1_1F3FE_200D_1F9AF_200D_27A1_FE0F, "1f9d1-1f3fe-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WITH_PROBING_CANE_TONE4, "🧑🏾‍🦯", "", U_1F9D1_1F3FE_200D_1F9AF, "1f9d1-1f3fe-200d-1f9af.svg");
 svg_name!(PERSON_WITH_WHITE_CANE_TONE4, "🧑🏾‍🦯", "", U_1F9D1_1F3FE_200D_1F9AF, "1f9d1-1f3fe-200d-1f9af.svg");
 svg_name!(RED_HAIRED_TONE4, "🧑🏾‍🦰", "", U_1F9D1_1F3FE_200D_1F9B0, "1f9d1-1f3fe-200d-1f9b0.svg");
 svg_name!(CURLY_HAIRED_TONE4, "🧑🏾‍🦱", "", U_1F9D1_1F3FE_200D_1F9B1, "1f9d1-1f3fe-200d-1f9b1.svg");
 svg_name!(BALD_TONE4, "🧑🏾‍🦲", "", U_1F9D1_1F3FE_200D_1F9B2, "1f9d1-1f3fe-200d-1f9b2.svg");
 svg_name!(WHITE_HAIRED_TONE4, "🧑🏾‍🦳", "", U_1F9D1_1F3FE_200D_1F9B3, "1f9d1-1f3fe-200d-1f9b3.svg");
+svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE4, "🧑🏾‍🦼‍➡️", "", U_1F9D1_1F3FE_200D_1F9BC_200D_27A1_FE0F, "1f9d1-1f3fe-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_TONE4, "🧑🏾‍🦼", "", U_1F9D1_1F3FE_200D_1F9BC, "1f9d1-1f3fe-200d-1f9bc.svg");
+svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE4, "🧑🏾‍🦽‍➡️", "", U_1F9D1_1F3FE_200D_1F9BD_200D_27A1_FE0F, "1f9d1-1f3fe-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_TONE4, "🧑🏾‍🦽", "", U_1F9D1_1F3FE_200D_1F9BD, "1f9d1-1f3fe-200d-1f9bd.svg");
 svg_name!(HEALTH_WORKER_TONE4, "🧑🏾‍⚕️", "", U_1F9D1_1F3FE_200D_2695_FE0F, "1f9d1-1f3fe-200d-2695-fe0f.svg");
 svg_name!(JUDGE_TONE4, "🧑🏾‍⚖️", "", U_1F9D1_1F3FE_200D_2696_FE0F, "1f9d1-1f3fe-200d-2696-fe0f.svg");
@@ -3959,13 +4066,16 @@ svg_name!(PEOPLE_HOLDING_HANDS_TONE5_2, "🧑🏿‍🤝‍🧑🏼", "", U_1F9D
 svg_name!(PEOPLE_HOLDING_HANDS_TONE5_3, "🧑🏿‍🤝‍🧑🏽", "", U_1F9D1_1F3FF_200D_1F91D_200D_1F9D1_1F3FD, "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fd.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE5_4, "🧑🏿‍🤝‍🧑🏾", "", U_1F9D1_1F3FF_200D_1F91D_200D_1F9D1_1F3FE, "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fe.svg");
 svg_name!(PEOPLE_HOLDING_HANDS_TONE5, "🧑🏿‍🤝‍🧑🏿", "", U_1F9D1_1F3FF_200D_1F91D_200D_1F9D1_1F3FF, "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3ff.svg");
+svg_name!(PERSON_WITH_WHITE_CANE_RIGHT_TONE5, "🧑🏿‍🦯‍➡️", "", U_1F9D1_1F3FF_200D_1F9AF_200D_27A1_FE0F, "1f9d1-1f3ff-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WITH_PROBING_CANE_TONE5, "🧑🏿‍🦯", "", U_1F9D1_1F3FF_200D_1F9AF, "1f9d1-1f3ff-200d-1f9af.svg");
 svg_name!(PERSON_WITH_WHITE_CANE_TONE5, "🧑🏿‍🦯", "", U_1F9D1_1F3FF_200D_1F9AF, "1f9d1-1f3ff-200d-1f9af.svg");
 svg_name!(RED_HAIRED_TONE5, "🧑🏿‍🦰", "", U_1F9D1_1F3FF_200D_1F9B0, "1f9d1-1f3ff-200d-1f9b0.svg");
 svg_name!(CURLY_HAIRED_TONE5, "🧑🏿‍🦱", "", U_1F9D1_1F3FF_200D_1F9B1, "1f9d1-1f3ff-200d-1f9b1.svg");
 svg_name!(BALD_TONE5, "🧑🏿‍🦲", "", U_1F9D1_1F3FF_200D_1F9B2, "1f9d1-1f3ff-200d-1f9b2.svg");
 svg_name!(WHITE_HAIRED_TONE5, "🧑🏿‍🦳", "", U_1F9D1_1F3FF_200D_1F9B3, "1f9d1-1f3ff-200d-1f9b3.svg");
+svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE5, "🧑🏿‍🦼‍➡️", "", U_1F9D1_1F3FF_200D_1F9BC_200D_27A1_FE0F, "1f9d1-1f3ff-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_TONE5, "🧑🏿‍🦼", "", U_1F9D1_1F3FF_200D_1F9BC, "1f9d1-1f3ff-200d-1f9bc.svg");
+svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE5, "🧑🏿‍🦽‍➡️", "", U_1F9D1_1F3FF_200D_1F9BD_200D_27A1_FE0F, "1f9d1-1f3ff-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_TONE5, "🧑🏿‍🦽", "", U_1F9D1_1F3FF_200D_1F9BD, "1f9d1-1f3ff-200d-1f9bd.svg");
 svg_name!(HEALTH_WORKER_TONE5, "🧑🏿‍⚕️", "", U_1F9D1_1F3FF_200D_2695_FE0F, "1f9d1-1f3ff-200d-2695-fe0f.svg");
 svg_name!(JUDGE_TONE5, "🧑🏿‍⚖️", "", U_1F9D1_1F3FF_200D_2696_FE0F, "1f9d1-1f3ff-200d-2696-fe0f.svg");
@@ -3999,14 +4109,21 @@ svg_name!(SCIENTIST, "🧑‍🔬", "scientist", U_1F9D1_200D_1F52C, "1f9d1-200d
 svg_name!(ASTRONAUT, "🧑‍🚀", "astronaut", U_1F9D1_200D_1F680, "1f9d1-200d-1f680.svg");
 svg_name!(FIREFIGHTER, "🧑‍🚒", "firefighter", U_1F9D1_200D_1F692, "1f9d1-200d-1f692.svg");
 svg_name!(PEOPLE_HOLDING_HANDS, "🧑‍🤝‍🧑", "people holding hands", U_1F9D1_200D_1F91D_200D_1F9D1, "1f9d1-200d-1f91d-200d-1f9d1.svg");
+svg_name!(PERSON_WITH_WHITE_CANE_RIGHT, "🧑‍🦯‍➡️", "person with white cane facing right", U_1F9D1_200D_1F9AF_200D_27A1_FE0F, "1f9d1-200d-1f9af-200d-27a1-fe0f.svg");
 svg_name!(PERSON_WITH_PROBING_CANE, "🧑‍🦯", "person with white cane", U_1F9D1_200D_1F9AF, "1f9d1-200d-1f9af.svg");
 svg_name!(PERSON_WITH_WHITE_CANE, "🧑‍🦯", "person with white cane", U_1F9D1_200D_1F9AF, "1f9d1-200d-1f9af.svg");
 svg_name!(RED_HAIRED, "🧑‍🦰", "person: red hair", U_1F9D1_200D_1F9B0, "1f9d1-200d-1f9b0.svg");
 svg_name!(CURLY_HAIRED, "🧑‍🦱", "person: curly hair", U_1F9D1_200D_1F9B1, "1f9d1-200d-1f9b1.svg");
 svg_name!(BALD, "🧑‍🦲", "person: bald", U_1F9D1_200D_1F9B2, "1f9d1-200d-1f9b2.svg");
 svg_name!(WHITE_HAIRED, "🧑‍🦳", "person: white hair", U_1F9D1_200D_1F9B3, "1f9d1-200d-1f9b3.svg");
+svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT, "🧑‍🦼‍➡️", "person in motorized wheelchair facing right", U_1F9D1_200D_1F9BC_200D_27A1_FE0F, "1f9d1-200d-1f9bc-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MOTORIZED_WHEELCHAIR, "🧑‍🦼", "person in motorized wheelchair", U_1F9D1_200D_1F9BC, "1f9d1-200d-1f9bc.svg");
+svg_name!(PERSON_IN_MANUAL_WHEELCHAIR_RIGHT, "🧑‍🦽‍➡️", "person in manual wheelchair facing right", U_1F9D1_200D_1F9BD_200D_27A1_FE0F, "1f9d1-200d-1f9bd-200d-27a1-fe0f.svg");
 svg_name!(PERSON_IN_MANUAL_WHEELCHAIR, "🧑‍🦽", "person in manual wheelchair", U_1F9D1_200D_1F9BD, "1f9d1-200d-1f9bd.svg");
+svg_name!(FAMILY_AACC, "🧑‍🧑‍🧒‍🧒", "family: adult, adult, child, child", U_1F9D1_200D_1F9D1_200D_1F9D2_200D_1F9D2, "1f9d1-200d-1f9d1-200d-1f9d2-200d-1f9d2.svg");
+svg_name!(FAMILY_AAC, "🧑‍🧑‍🧒", "family: adult, adult, child", U_1F9D1_200D_1F9D1_200D_1F9D2, "1f9d1-200d-1f9d1-200d-1f9d2.svg");
+svg_name!(FAMILY_ACC, "🧑‍🧒‍🧒", "family: adult, child, child", U_1F9D1_200D_1F9D2_200D_1F9D2, "1f9d1-200d-1f9d2-200d-1f9d2.svg");
+svg_name!(FAMILY_AC, "🧑‍🧒", "family: adult, child", U_1F9D1_200D_1F9D2, "1f9d1-200d-1f9d2.svg");
 svg_name!(HEALTH_WORKER, "🧑‍⚕️", "health worker", U_1F9D1_200D_2695_FE0F, "1f9d1-200d-2695-fe0f.svg");
 svg_name!(JUDGE, "🧑‍⚖️", "judge", U_1F9D1_200D_2696_FE0F, "1f9d1-200d-2696-fe0f.svg");
 svg_name!(PILOT, "🧑‍✈️", "pilot", U_1F9D1_200D_2708_FE0F, "1f9d1-200d-2708-fe0f.svg");
@@ -4579,6 +4696,7 @@ svg_name!(OPHIUCHUS, "⛎", "Ophiuchus", U_26CE, "26ce.svg");
 svg_name!(PICK, "⛏", "pick", U_26CF, "26cf.svg");
 svg_name!(HELMET_WITH_CROSS, "⛑", "rescue worker’s helmet", U_26D1, "26d1.svg");
 svg_name!(RESCUE_WORKER_HELMET, "⛑", "rescue worker’s helmet", U_26D1, "26d1.svg");
+svg_name!(BROKEN_CHAIN, "⛓️‍💥", "broken chain", U_26D3_FE0F_200D_1F4A5, "26d3-fe0f-200d-1f4a5.svg");
 svg_name!(CHAINS, "⛓", "chains", U_26D3, "26d3.svg");
 svg_name!(NO_ENTRY, "⛔", "no entry", U_26D4, "26d4.svg");
 svg_name!(SHINTO_SHRINE, "⛩", "shinto shrine", U_26E9, "26e9.svg");
@@ -5374,6 +5492,7 @@ svg_match_name! [
     ((10, "maple_leaf"), MAPLE_LEAF),
     ((11, "fallen_leaf"), FALLEN_LEAF),
     ((6, "leaves"), LEAVES),
+    ((14, "brown_mushroom"), BROWN_MUSHROOM),
     ((8, "mushroom"), MUSHROOM),
     ((6, "tomato"), TOMATO),
     ((8, "eggplant"), EGGPLANT),
@@ -5382,6 +5501,7 @@ svg_match_name! [
     ((10, "watermelon"), WATERMELON),
     ((6, "orange"), ORANGE),
     ((9, "tangerine"), TANGERINE),
+    ((4, "lime"), LIME),
     ((5, "lemon"), LEMON),
     ((6, "banana"), BANANA),
     ((9, "pineapple"), PINEAPPLE),
@@ -5546,28 +5666,46 @@ svg_match_name! [
     ((19, "person_snowboarding"), PERSON_SNOWBOARDING),
     ((11, "snowboarder"), SNOWBOARDER),
     ((12, "snowboarding"), SNOWBOARDING),
+    ((25, "woman_running_right_tone1"), WOMAN_RUNNING_RIGHT_TONE1),
     ((19, "woman_running_tone1"), WOMAN_RUNNING_TONE1),
+    ((23, "man_running_right_tone1"), MAN_RUNNING_RIGHT_TONE1),
     ((17, "man_running_tone1"), MAN_RUNNING_TONE1),
+    ((26, "person_running_right_tone1"), PERSON_RUNNING_RIGHT_TONE1),
     ((20, "person_running_tone1"), PERSON_RUNNING_TONE1),
     ((13, "running_tone1"), RUNNING_TONE1),
+    ((25, "woman_running_right_tone2"), WOMAN_RUNNING_RIGHT_TONE2),
     ((19, "woman_running_tone2"), WOMAN_RUNNING_TONE2),
+    ((23, "man_running_right_tone2"), MAN_RUNNING_RIGHT_TONE2),
     ((17, "man_running_tone2"), MAN_RUNNING_TONE2),
+    ((26, "person_running_right_tone2"), PERSON_RUNNING_RIGHT_TONE2),
     ((20, "person_running_tone2"), PERSON_RUNNING_TONE2),
     ((13, "running_tone2"), RUNNING_TONE2),
+    ((25, "woman_running_right_tone3"), WOMAN_RUNNING_RIGHT_TONE3),
     ((19, "woman_running_tone3"), WOMAN_RUNNING_TONE3),
+    ((23, "man_running_right_tone3"), MAN_RUNNING_RIGHT_TONE3),
     ((17, "man_running_tone3"), MAN_RUNNING_TONE3),
+    ((26, "person_running_right_tone3"), PERSON_RUNNING_RIGHT_TONE3),
     ((20, "person_running_tone3"), PERSON_RUNNING_TONE3),
     ((13, "running_tone3"), RUNNING_TONE3),
+    ((25, "woman_running_right_tone4"), WOMAN_RUNNING_RIGHT_TONE4),
     ((19, "woman_running_tone4"), WOMAN_RUNNING_TONE4),
+    ((23, "man_running_right_tone4"), MAN_RUNNING_RIGHT_TONE4),
     ((17, "man_running_tone4"), MAN_RUNNING_TONE4),
+    ((26, "person_running_right_tone4"), PERSON_RUNNING_RIGHT_TONE4),
     ((20, "person_running_tone4"), PERSON_RUNNING_TONE4),
     ((13, "running_tone4"), RUNNING_TONE4),
+    ((25, "woman_running_right_tone5"), WOMAN_RUNNING_RIGHT_TONE5),
     ((19, "woman_running_tone5"), WOMAN_RUNNING_TONE5),
+    ((23, "man_running_right_tone5"), MAN_RUNNING_RIGHT_TONE5),
     ((17, "man_running_tone5"), MAN_RUNNING_TONE5),
+    ((26, "person_running_right_tone5"), PERSON_RUNNING_RIGHT_TONE5),
     ((20, "person_running_tone5"), PERSON_RUNNING_TONE5),
     ((13, "running_tone5"), RUNNING_TONE5),
+    ((19, "woman_running_right"), WOMAN_RUNNING_RIGHT),
     ((13, "woman_running"), WOMAN_RUNNING),
+    ((17, "man_running_right"), MAN_RUNNING_RIGHT),
     ((11, "man_running"), MAN_RUNNING),
+    ((20, "person_running_right"), PERSON_RUNNING_RIGHT),
     ((14, "person_running"), PERSON_RUNNING),
     ((7, "running"), RUNNING),
     ((19, "woman_surfing_tone1"), WOMAN_SURFING_TONE1),
@@ -5813,6 +5951,7 @@ svg_match_name! [
     ((14, "hatching_chick"), HATCHING_CHICK),
     ((10, "baby_chick"), BABY_CHICK),
     ((13, "hatched_chick"), HATCHED_CHICK),
+    ((7, "phoenix"), PHOENIX),
     ((10, "black_bird"), BLACK_BIRD),
     ((4, "bird"), BIRD),
     ((9, "bird_face"), BIRD_FACE),
@@ -6023,13 +6162,16 @@ svg_match_name! [
     ((29, "two_men_holding_hands_tone1-3"), TWO_MEN_HOLDING_HANDS_TONE1_3),
     ((29, "two_men_holding_hands_tone1-4"), TWO_MEN_HOLDING_HANDS_TONE1_4),
     ((29, "two_men_holding_hands_tone1-5"), TWO_MEN_HOLDING_HANDS_TONE1_5),
+    ((31, "man_with_white_cane_right_tone1"), MAN_WITH_WHITE_CANE_RIGHT_TONE1),
     ((27, "man_with_probing_cane_tone1"), MAN_WITH_PROBING_CANE_TONE1),
     ((25, "man_with_white_cane_tone1"), MAN_WITH_WHITE_CANE_TONE1),
     ((20, "man_red_haired_tone1"), MAN_RED_HAIRED_TONE1),
     ((22, "man_curly_haired_tone1"), MAN_CURLY_HAIRED_TONE1),
     ((14, "man_bald_tone1"), MAN_BALD_TONE1),
     ((22, "man_white_haired_tone1"), MAN_WHITE_HAIRED_TONE1),
+    ((39, "man_in_motorized_wheelchair_right_tone1"), MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE1),
     ((33, "man_in_motorized_wheelchair_tone1"), MAN_IN_MOTORIZED_WHEELCHAIR_TONE1),
+    ((36, "man_in_manual_wheelchair_right_tone1"), MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE1),
     ((30, "man_in_manual_wheelchair_tone1"), MAN_IN_MANUAL_WHEELCHAIR_TONE1),
     ((23, "man_health_worker_tone1"), MAN_HEALTH_WORKER_TONE1),
     ((15, "man_judge_tone1"), MAN_JUDGE_TONE1),
@@ -6063,13 +6205,16 @@ svg_match_name! [
     ((29, "two_men_holding_hands_tone2-3"), TWO_MEN_HOLDING_HANDS_TONE2_3),
     ((29, "two_men_holding_hands_tone2-4"), TWO_MEN_HOLDING_HANDS_TONE2_4),
     ((29, "two_men_holding_hands_tone2-5"), TWO_MEN_HOLDING_HANDS_TONE2_5),
+    ((31, "man_with_white_cane_right_tone2"), MAN_WITH_WHITE_CANE_RIGHT_TONE2),
     ((27, "man_with_probing_cane_tone2"), MAN_WITH_PROBING_CANE_TONE2),
     ((25, "man_with_white_cane_tone2"), MAN_WITH_WHITE_CANE_TONE2),
     ((20, "man_red_haired_tone2"), MAN_RED_HAIRED_TONE2),
     ((22, "man_curly_haired_tone2"), MAN_CURLY_HAIRED_TONE2),
     ((14, "man_bald_tone2"), MAN_BALD_TONE2),
     ((22, "man_white_haired_tone2"), MAN_WHITE_HAIRED_TONE2),
+    ((39, "man_in_motorized_wheelchair_right_tone2"), MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE2),
     ((33, "man_in_motorized_wheelchair_tone2"), MAN_IN_MOTORIZED_WHEELCHAIR_TONE2),
+    ((36, "man_in_manual_wheelchair_right_tone2"), MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE2),
     ((30, "man_in_manual_wheelchair_tone2"), MAN_IN_MANUAL_WHEELCHAIR_TONE2),
     ((23, "man_health_worker_tone2"), MAN_HEALTH_WORKER_TONE2),
     ((15, "man_judge_tone2"), MAN_JUDGE_TONE2),
@@ -6103,13 +6248,16 @@ svg_match_name! [
     ((29, "two_men_holding_hands_tone3-2"), TWO_MEN_HOLDING_HANDS_TONE3_2),
     ((29, "two_men_holding_hands_tone3-4"), TWO_MEN_HOLDING_HANDS_TONE3_4),
     ((29, "two_men_holding_hands_tone3-5"), TWO_MEN_HOLDING_HANDS_TONE3_5),
+    ((31, "man_with_white_cane_right_tone3"), MAN_WITH_WHITE_CANE_RIGHT_TONE3),
     ((27, "man_with_probing_cane_tone3"), MAN_WITH_PROBING_CANE_TONE3),
     ((25, "man_with_white_cane_tone3"), MAN_WITH_WHITE_CANE_TONE3),
     ((20, "man_red_haired_tone3"), MAN_RED_HAIRED_TONE3),
     ((22, "man_curly_haired_tone3"), MAN_CURLY_HAIRED_TONE3),
     ((14, "man_bald_tone3"), MAN_BALD_TONE3),
     ((22, "man_white_haired_tone3"), MAN_WHITE_HAIRED_TONE3),
+    ((39, "man_in_motorized_wheelchair_right_tone3"), MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE3),
     ((33, "man_in_motorized_wheelchair_tone3"), MAN_IN_MOTORIZED_WHEELCHAIR_TONE3),
+    ((36, "man_in_manual_wheelchair_right_tone3"), MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE3),
     ((30, "man_in_manual_wheelchair_tone3"), MAN_IN_MANUAL_WHEELCHAIR_TONE3),
     ((23, "man_health_worker_tone3"), MAN_HEALTH_WORKER_TONE3),
     ((15, "man_judge_tone3"), MAN_JUDGE_TONE3),
@@ -6143,13 +6291,16 @@ svg_match_name! [
     ((29, "two_men_holding_hands_tone4-2"), TWO_MEN_HOLDING_HANDS_TONE4_2),
     ((29, "two_men_holding_hands_tone4-3"), TWO_MEN_HOLDING_HANDS_TONE4_3),
     ((29, "two_men_holding_hands_tone4-5"), TWO_MEN_HOLDING_HANDS_TONE4_5),
+    ((31, "man_with_white_cane_right_tone4"), MAN_WITH_WHITE_CANE_RIGHT_TONE4),
     ((27, "man_with_probing_cane_tone4"), MAN_WITH_PROBING_CANE_TONE4),
     ((25, "man_with_white_cane_tone4"), MAN_WITH_WHITE_CANE_TONE4),
     ((20, "man_red_haired_tone4"), MAN_RED_HAIRED_TONE4),
     ((22, "man_curly_haired_tone4"), MAN_CURLY_HAIRED_TONE4),
     ((14, "man_bald_tone4"), MAN_BALD_TONE4),
     ((22, "man_white_haired_tone4"), MAN_WHITE_HAIRED_TONE4),
+    ((39, "man_in_motorized_wheelchair_right_tone4"), MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE4),
     ((33, "man_in_motorized_wheelchair_tone4"), MAN_IN_MOTORIZED_WHEELCHAIR_TONE4),
+    ((36, "man_in_manual_wheelchair_right_tone4"), MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE4),
     ((30, "man_in_manual_wheelchair_tone4"), MAN_IN_MANUAL_WHEELCHAIR_TONE4),
     ((23, "man_health_worker_tone4"), MAN_HEALTH_WORKER_TONE4),
     ((15, "man_judge_tone4"), MAN_JUDGE_TONE4),
@@ -6183,13 +6334,16 @@ svg_match_name! [
     ((29, "two_men_holding_hands_tone5-2"), TWO_MEN_HOLDING_HANDS_TONE5_2),
     ((29, "two_men_holding_hands_tone5-3"), TWO_MEN_HOLDING_HANDS_TONE5_3),
     ((29, "two_men_holding_hands_tone5-4"), TWO_MEN_HOLDING_HANDS_TONE5_4),
+    ((31, "man_with_white_cane_right_tone5"), MAN_WITH_WHITE_CANE_RIGHT_TONE5),
     ((27, "man_with_probing_cane_tone5"), MAN_WITH_PROBING_CANE_TONE5),
     ((25, "man_with_white_cane_tone5"), MAN_WITH_WHITE_CANE_TONE5),
     ((20, "man_red_haired_tone5"), MAN_RED_HAIRED_TONE5),
     ((22, "man_curly_haired_tone5"), MAN_CURLY_HAIRED_TONE5),
     ((14, "man_bald_tone5"), MAN_BALD_TONE5),
     ((22, "man_white_haired_tone5"), MAN_WHITE_HAIRED_TONE5),
+    ((39, "man_in_motorized_wheelchair_right_tone5"), MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE5),
     ((33, "man_in_motorized_wheelchair_tone5"), MAN_IN_MOTORIZED_WHEELCHAIR_TONE5),
+    ((36, "man_in_manual_wheelchair_right_tone5"), MAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE5),
     ((30, "man_in_manual_wheelchair_tone5"), MAN_IN_MANUAL_WHEELCHAIR_TONE5),
     ((23, "man_health_worker_tone5"), MAN_HEALTH_WORKER_TONE5),
     ((15, "man_judge_tone5"), MAN_JUDGE_TONE5),
@@ -6234,13 +6388,16 @@ svg_match_name! [
     ((13, "man_scientist"), MAN_SCIENTIST),
     ((13, "man_astronaut"), MAN_ASTRONAUT),
     ((15, "man_firefighter"), MAN_FIREFIGHTER),
+    ((25, "man_with_white_cane_right"), MAN_WITH_WHITE_CANE_RIGHT),
     ((21, "man_with_probing_cane"), MAN_WITH_PROBING_CANE),
     ((19, "man_with_white_cane"), MAN_WITH_WHITE_CANE),
     ((14, "man_red_haired"), MAN_RED_HAIRED),
     ((16, "man_curly_haired"), MAN_CURLY_HAIRED),
     ((8, "man_bald"), MAN_BALD),
     ((16, "man_white_haired"), MAN_WHITE_HAIRED),
+    ((33, "man_in_motorized_wheelchair_right"), MAN_IN_MOTORIZED_WHEELCHAIR_RIGHT),
     ((27, "man_in_motorized_wheelchair"), MAN_IN_MOTORIZED_WHEELCHAIR),
+    ((30, "man_in_manual_wheelchair_right"), MAN_IN_MANUAL_WHEELCHAIR_RIGHT),
     ((24, "man_in_manual_wheelchair"), MAN_IN_MANUAL_WHEELCHAIR),
     ((17, "man_health_worker"), MAN_HEALTH_WORKER),
     ((9, "man_judge"), MAN_JUDGE),
@@ -6270,13 +6427,16 @@ svg_match_name! [
     ((31, "two_women_holding_hands_tone1-3"), TWO_WOMEN_HOLDING_HANDS_TONE1_3),
     ((31, "two_women_holding_hands_tone1-4"), TWO_WOMEN_HOLDING_HANDS_TONE1_4),
     ((31, "two_women_holding_hands_tone1-5"), TWO_WOMEN_HOLDING_HANDS_TONE1_5),
+    ((33, "woman_with_white_cane_right_tone1"), WOMAN_WITH_WHITE_CANE_RIGHT_TONE1),
     ((29, "woman_with_probing_cane_tone1"), WOMAN_WITH_PROBING_CANE_TONE1),
     ((27, "woman_with_white_cane_tone1"), WOMAN_WITH_WHITE_CANE_TONE1),
     ((22, "woman_red_haired_tone1"), WOMAN_RED_HAIRED_TONE1),
     ((24, "woman_curly_haired_tone1"), WOMAN_CURLY_HAIRED_TONE1),
     ((16, "woman_bald_tone1"), WOMAN_BALD_TONE1),
     ((24, "woman_white_haired_tone1"), WOMAN_WHITE_HAIRED_TONE1),
+    ((41, "woman_in_motorized_wheelchair_right_tone1"), WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE1),
     ((35, "woman_in_motorized_wheelchair_tone1"), WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE1),
+    ((38, "woman_in_manual_wheelchair_right_tone1"), WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE1),
     ((32, "woman_in_manual_wheelchair_tone1"), WOMAN_IN_MANUAL_WHEELCHAIR_TONE1),
     ((25, "woman_health_worker_tone1"), WOMAN_HEALTH_WORKER_TONE1),
     ((17, "woman_judge_tone1"), WOMAN_JUDGE_TONE1),
@@ -6334,13 +6494,16 @@ svg_match_name! [
     ((31, "two_women_holding_hands_tone2-3"), TWO_WOMEN_HOLDING_HANDS_TONE2_3),
     ((31, "two_women_holding_hands_tone2-4"), TWO_WOMEN_HOLDING_HANDS_TONE2_4),
     ((31, "two_women_holding_hands_tone2-5"), TWO_WOMEN_HOLDING_HANDS_TONE2_5),
+    ((33, "woman_with_white_cane_right_tone2"), WOMAN_WITH_WHITE_CANE_RIGHT_TONE2),
     ((29, "woman_with_probing_cane_tone2"), WOMAN_WITH_PROBING_CANE_TONE2),
     ((27, "woman_with_white_cane_tone2"), WOMAN_WITH_WHITE_CANE_TONE2),
     ((22, "woman_red_haired_tone2"), WOMAN_RED_HAIRED_TONE2),
     ((24, "woman_curly_haired_tone2"), WOMAN_CURLY_HAIRED_TONE2),
     ((16, "woman_bald_tone2"), WOMAN_BALD_TONE2),
     ((24, "woman_white_haired_tone2"), WOMAN_WHITE_HAIRED_TONE2),
+    ((41, "woman_in_motorized_wheelchair_right_tone2"), WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE2),
     ((35, "woman_in_motorized_wheelchair_tone2"), WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE2),
+    ((38, "woman_in_manual_wheelchair_right_tone2"), WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE2),
     ((32, "woman_in_manual_wheelchair_tone2"), WOMAN_IN_MANUAL_WHEELCHAIR_TONE2),
     ((25, "woman_health_worker_tone2"), WOMAN_HEALTH_WORKER_TONE2),
     ((17, "woman_judge_tone2"), WOMAN_JUDGE_TONE2),
@@ -6398,13 +6561,16 @@ svg_match_name! [
     ((31, "two_women_holding_hands_tone3-2"), TWO_WOMEN_HOLDING_HANDS_TONE3_2),
     ((31, "two_women_holding_hands_tone3-4"), TWO_WOMEN_HOLDING_HANDS_TONE3_4),
     ((31, "two_women_holding_hands_tone3-5"), TWO_WOMEN_HOLDING_HANDS_TONE3_5),
+    ((33, "woman_with_white_cane_right_tone3"), WOMAN_WITH_WHITE_CANE_RIGHT_TONE3),
     ((29, "woman_with_probing_cane_tone3"), WOMAN_WITH_PROBING_CANE_TONE3),
     ((27, "woman_with_white_cane_tone3"), WOMAN_WITH_WHITE_CANE_TONE3),
     ((22, "woman_red_haired_tone3"), WOMAN_RED_HAIRED_TONE3),
     ((24, "woman_curly_haired_tone3"), WOMAN_CURLY_HAIRED_TONE3),
     ((16, "woman_bald_tone3"), WOMAN_BALD_TONE3),
     ((24, "woman_white_haired_tone3"), WOMAN_WHITE_HAIRED_TONE3),
+    ((41, "woman_in_motorized_wheelchair_right_tone3"), WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE3),
     ((35, "woman_in_motorized_wheelchair_tone3"), WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE3),
+    ((38, "woman_in_manual_wheelchair_right_tone3"), WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE3),
     ((32, "woman_in_manual_wheelchair_tone3"), WOMAN_IN_MANUAL_WHEELCHAIR_TONE3),
     ((25, "woman_health_worker_tone3"), WOMAN_HEALTH_WORKER_TONE3),
     ((17, "woman_judge_tone3"), WOMAN_JUDGE_TONE3),
@@ -6462,13 +6628,16 @@ svg_match_name! [
     ((31, "two_women_holding_hands_tone4-2"), TWO_WOMEN_HOLDING_HANDS_TONE4_2),
     ((31, "two_women_holding_hands_tone4-3"), TWO_WOMEN_HOLDING_HANDS_TONE4_3),
     ((31, "two_women_holding_hands_tone4-5"), TWO_WOMEN_HOLDING_HANDS_TONE4_5),
+    ((33, "woman_with_white_cane_right_tone4"), WOMAN_WITH_WHITE_CANE_RIGHT_TONE4),
     ((29, "woman_with_probing_cane_tone4"), WOMAN_WITH_PROBING_CANE_TONE4),
     ((27, "woman_with_white_cane_tone4"), WOMAN_WITH_WHITE_CANE_TONE4),
     ((22, "woman_red_haired_tone4"), WOMAN_RED_HAIRED_TONE4),
     ((24, "woman_curly_haired_tone4"), WOMAN_CURLY_HAIRED_TONE4),
     ((16, "woman_bald_tone4"), WOMAN_BALD_TONE4),
     ((24, "woman_white_haired_tone4"), WOMAN_WHITE_HAIRED_TONE4),
+    ((41, "woman_in_motorized_wheelchair_right_tone4"), WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE4),
     ((35, "woman_in_motorized_wheelchair_tone4"), WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE4),
+    ((38, "woman_in_manual_wheelchair_right_tone4"), WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE4),
     ((32, "woman_in_manual_wheelchair_tone4"), WOMAN_IN_MANUAL_WHEELCHAIR_TONE4),
     ((25, "woman_health_worker_tone4"), WOMAN_HEALTH_WORKER_TONE4),
     ((17, "woman_judge_tone4"), WOMAN_JUDGE_TONE4),
@@ -6526,13 +6695,16 @@ svg_match_name! [
     ((31, "two_women_holding_hands_tone5-2"), TWO_WOMEN_HOLDING_HANDS_TONE5_2),
     ((31, "two_women_holding_hands_tone5-3"), TWO_WOMEN_HOLDING_HANDS_TONE5_3),
     ((31, "two_women_holding_hands_tone5-4"), TWO_WOMEN_HOLDING_HANDS_TONE5_4),
+    ((33, "woman_with_white_cane_right_tone5"), WOMAN_WITH_WHITE_CANE_RIGHT_TONE5),
     ((29, "woman_with_probing_cane_tone5"), WOMAN_WITH_PROBING_CANE_TONE5),
     ((27, "woman_with_white_cane_tone5"), WOMAN_WITH_WHITE_CANE_TONE5),
     ((22, "woman_red_haired_tone5"), WOMAN_RED_HAIRED_TONE5),
     ((24, "woman_curly_haired_tone5"), WOMAN_CURLY_HAIRED_TONE5),
     ((16, "woman_bald_tone5"), WOMAN_BALD_TONE5),
     ((24, "woman_white_haired_tone5"), WOMAN_WHITE_HAIRED_TONE5),
+    ((41, "woman_in_motorized_wheelchair_right_tone5"), WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE5),
     ((35, "woman_in_motorized_wheelchair_tone5"), WOMAN_IN_MOTORIZED_WHEELCHAIR_TONE5),
+    ((38, "woman_in_manual_wheelchair_right_tone5"), WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT_TONE5),
     ((32, "woman_in_manual_wheelchair_tone5"), WOMAN_IN_MANUAL_WHEELCHAIR_TONE5),
     ((25, "woman_health_worker_tone5"), WOMAN_HEALTH_WORKER_TONE5),
     ((17, "woman_judge_tone5"), WOMAN_JUDGE_TONE5),
@@ -6592,13 +6764,16 @@ svg_match_name! [
     ((15, "woman_scientist"), WOMAN_SCIENTIST),
     ((15, "woman_astronaut"), WOMAN_ASTRONAUT),
     ((17, "woman_firefighter"), WOMAN_FIREFIGHTER),
+    ((27, "woman_with_white_cane_right"), WOMAN_WITH_WHITE_CANE_RIGHT),
     ((23, "woman_with_probing_cane"), WOMAN_WITH_PROBING_CANE),
     ((21, "woman_with_white_cane"), WOMAN_WITH_WHITE_CANE),
     ((16, "woman_red_haired"), WOMAN_RED_HAIRED),
     ((18, "woman_curly_haired"), WOMAN_CURLY_HAIRED),
     ((10, "woman_bald"), WOMAN_BALD),
     ((18, "woman_white_haired"), WOMAN_WHITE_HAIRED),
+    ((35, "woman_in_motorized_wheelchair_right"), WOMAN_IN_MOTORIZED_WHEELCHAIR_RIGHT),
     ((29, "woman_in_motorized_wheelchair"), WOMAN_IN_MOTORIZED_WHEELCHAIR),
+    ((32, "woman_in_manual_wheelchair_right"), WOMAN_IN_MANUAL_WHEELCHAIR_RIGHT),
     ((26, "woman_in_manual_wheelchair"), WOMAN_IN_MANUAL_WHEELCHAIR),
     ((19, "woman_health_worker"), WOMAN_HEALTH_WORKER),
     ((11, "woman_judge"), WOMAN_JUDGE),
@@ -7402,6 +7577,8 @@ svg_match_name! [
     ((10, "scream_cat"), SCREAM_CAT),
     ((9, "weary_cat"), WEARY_CAT),
     ((22, "slightly_frowning_face"), SLIGHTLY_FROWNING_FACE),
+    ((25, "head_shaking_horizontally"), HEAD_SHAKING_HORIZONTALLY),
+    ((23, "head_shaking_vertically"), HEAD_SHAKING_VERTICALLY),
     ((21, "slightly_smiling_face"), SLIGHTLY_SMILING_FACE),
     ((16, "upside_down_face"), UPSIDE_DOWN_FACE),
     ((12, "rolling_eyes"), ROLLING_EYES),
@@ -7701,28 +7878,46 @@ svg_match_name! [
     ((18, "mountain_bicyclist"), MOUNTAIN_BICYCLIST),
     ((15, "mountain_biking"), MOUNTAIN_BIKING),
     ((22, "person_mountain_biking"), PERSON_MOUNTAIN_BIKING),
+    ((25, "woman_walking_right_tone1"), WOMAN_WALKING_RIGHT_TONE1),
     ((19, "woman_walking_tone1"), WOMAN_WALKING_TONE1),
+    ((23, "man_walking_right_tone1"), MAN_WALKING_RIGHT_TONE1),
     ((17, "man_walking_tone1"), MAN_WALKING_TONE1),
+    ((26, "person_walking_right_tone1"), PERSON_WALKING_RIGHT_TONE1),
     ((20, "person_walking_tone1"), PERSON_WALKING_TONE1),
     ((13, "walking_tone1"), WALKING_TONE1),
+    ((25, "woman_walking_right_tone2"), WOMAN_WALKING_RIGHT_TONE2),
     ((19, "woman_walking_tone2"), WOMAN_WALKING_TONE2),
+    ((23, "man_walking_right_tone2"), MAN_WALKING_RIGHT_TONE2),
     ((17, "man_walking_tone2"), MAN_WALKING_TONE2),
+    ((26, "person_walking_right_tone2"), PERSON_WALKING_RIGHT_TONE2),
     ((20, "person_walking_tone2"), PERSON_WALKING_TONE2),
     ((13, "walking_tone2"), WALKING_TONE2),
+    ((25, "woman_walking_right_tone3"), WOMAN_WALKING_RIGHT_TONE3),
     ((19, "woman_walking_tone3"), WOMAN_WALKING_TONE3),
+    ((23, "man_walking_right_tone3"), MAN_WALKING_RIGHT_TONE3),
     ((17, "man_walking_tone3"), MAN_WALKING_TONE3),
+    ((26, "person_walking_right_tone3"), PERSON_WALKING_RIGHT_TONE3),
     ((20, "person_walking_tone3"), PERSON_WALKING_TONE3),
     ((13, "walking_tone3"), WALKING_TONE3),
+    ((25, "woman_walking_right_tone4"), WOMAN_WALKING_RIGHT_TONE4),
     ((19, "woman_walking_tone4"), WOMAN_WALKING_TONE4),
+    ((23, "man_walking_right_tone4"), MAN_WALKING_RIGHT_TONE4),
     ((17, "man_walking_tone4"), MAN_WALKING_TONE4),
+    ((26, "person_walking_right_tone4"), PERSON_WALKING_RIGHT_TONE4),
     ((20, "person_walking_tone4"), PERSON_WALKING_TONE4),
     ((13, "walking_tone4"), WALKING_TONE4),
+    ((25, "woman_walking_right_tone5"), WOMAN_WALKING_RIGHT_TONE5),
     ((19, "woman_walking_tone5"), WOMAN_WALKING_TONE5),
+    ((23, "man_walking_right_tone5"), MAN_WALKING_RIGHT_TONE5),
     ((17, "man_walking_tone5"), MAN_WALKING_TONE5),
+    ((26, "person_walking_right_tone5"), PERSON_WALKING_RIGHT_TONE5),
     ((20, "person_walking_tone5"), PERSON_WALKING_TONE5),
     ((13, "walking_tone5"), WALKING_TONE5),
+    ((19, "woman_walking_right"), WOMAN_WALKING_RIGHT),
     ((13, "woman_walking"), WOMAN_WALKING),
+    ((17, "man_walking_right"), MAN_WALKING_RIGHT),
     ((11, "man_walking"), MAN_WALKING),
+    ((20, "person_walking_right"), PERSON_WALKING_RIGHT),
     ((14, "person_walking"), PERSON_WALKING),
     ((7, "walking"), WALKING),
     ((14, "no_pedestrians"), NO_PEDESTRIANS),
@@ -8395,28 +8590,46 @@ svg_match_name! [
     ((12, "man_standing"), MAN_STANDING),
     ((15, "person_standing"), PERSON_STANDING),
     ((8, "standing"), STANDING),
+    ((26, "woman_kneeling_right_tone1"), WOMAN_KNEELING_RIGHT_TONE1),
     ((20, "woman_kneeling_tone1"), WOMAN_KNEELING_TONE1),
+    ((24, "man_kneeling_right_tone1"), MAN_KNEELING_RIGHT_TONE1),
     ((18, "man_kneeling_tone1"), MAN_KNEELING_TONE1),
+    ((27, "person_kneeling_right_tone1"), PERSON_KNEELING_RIGHT_TONE1),
     ((14, "kneeling_tone1"), KNEELING_TONE1),
     ((21, "person_kneeling_tone1"), PERSON_KNEELING_TONE1),
+    ((26, "woman_kneeling_right_tone2"), WOMAN_KNEELING_RIGHT_TONE2),
     ((20, "woman_kneeling_tone2"), WOMAN_KNEELING_TONE2),
+    ((24, "man_kneeling_right_tone2"), MAN_KNEELING_RIGHT_TONE2),
     ((18, "man_kneeling_tone2"), MAN_KNEELING_TONE2),
+    ((27, "person_kneeling_right_tone2"), PERSON_KNEELING_RIGHT_TONE2),
     ((14, "kneeling_tone2"), KNEELING_TONE2),
     ((21, "person_kneeling_tone2"), PERSON_KNEELING_TONE2),
+    ((26, "woman_kneeling_right_tone3"), WOMAN_KNEELING_RIGHT_TONE3),
     ((20, "woman_kneeling_tone3"), WOMAN_KNEELING_TONE3),
+    ((24, "man_kneeling_right_tone3"), MAN_KNEELING_RIGHT_TONE3),
     ((18, "man_kneeling_tone3"), MAN_KNEELING_TONE3),
+    ((27, "person_kneeling_right_tone3"), PERSON_KNEELING_RIGHT_TONE3),
     ((14, "kneeling_tone3"), KNEELING_TONE3),
     ((21, "person_kneeling_tone3"), PERSON_KNEELING_TONE3),
+    ((26, "woman_kneeling_right_tone4"), WOMAN_KNEELING_RIGHT_TONE4),
     ((20, "woman_kneeling_tone4"), WOMAN_KNEELING_TONE4),
+    ((24, "man_kneeling_right_tone4"), MAN_KNEELING_RIGHT_TONE4),
     ((18, "man_kneeling_tone4"), MAN_KNEELING_TONE4),
+    ((27, "person_kneeling_right_tone4"), PERSON_KNEELING_RIGHT_TONE4),
     ((14, "kneeling_tone4"), KNEELING_TONE4),
     ((21, "person_kneeling_tone4"), PERSON_KNEELING_TONE4),
+    ((26, "woman_kneeling_right_tone5"), WOMAN_KNEELING_RIGHT_TONE5),
     ((20, "woman_kneeling_tone5"), WOMAN_KNEELING_TONE5),
+    ((24, "man_kneeling_right_tone5"), MAN_KNEELING_RIGHT_TONE5),
     ((18, "man_kneeling_tone5"), MAN_KNEELING_TONE5),
+    ((27, "person_kneeling_right_tone5"), PERSON_KNEELING_RIGHT_TONE5),
     ((14, "kneeling_tone5"), KNEELING_TONE5),
     ((21, "person_kneeling_tone5"), PERSON_KNEELING_TONE5),
+    ((20, "woman_kneeling_right"), WOMAN_KNEELING_RIGHT),
     ((14, "woman_kneeling"), WOMAN_KNEELING),
+    ((18, "man_kneeling_right"), MAN_KNEELING_RIGHT),
     ((12, "man_kneeling"), MAN_KNEELING),
+    ((21, "person_kneeling_right"), PERSON_KNEELING_RIGHT),
     ((8, "kneeling"), KNEELING),
     ((15, "person_kneeling"), PERSON_KNEELING),
     ((16, "deaf_woman_tone1"), DEAF_WOMAN_TONE1),
@@ -8458,13 +8671,16 @@ svg_match_name! [
     ((28, "people_holding_hands_tone1-3"), PEOPLE_HOLDING_HANDS_TONE1_3),
     ((28, "people_holding_hands_tone1-4"), PEOPLE_HOLDING_HANDS_TONE1_4),
     ((28, "people_holding_hands_tone1-5"), PEOPLE_HOLDING_HANDS_TONE1_5),
+    ((34, "person_with_white_cane_right_tone1"), PERSON_WITH_WHITE_CANE_RIGHT_TONE1),
     ((30, "person_with_probing_cane_tone1"), PERSON_WITH_PROBING_CANE_TONE1),
     ((28, "person_with_white_cane_tone1"), PERSON_WITH_WHITE_CANE_TONE1),
     ((16, "red_haired_tone1"), RED_HAIRED_TONE1),
     ((18, "curly_haired_tone1"), CURLY_HAIRED_TONE1),
     ((10, "bald_tone1"), BALD_TONE1),
     ((18, "white_haired_tone1"), WHITE_HAIRED_TONE1),
+    ((42, "person_in_motorized_wheelchair_right_tone1"), PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE1),
     ((36, "person_in_motorized_wheelchair_tone1"), PERSON_IN_MOTORIZED_WHEELCHAIR_TONE1),
+    ((39, "person_in_manual_wheelchair_right_tone1"), PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE1),
     ((33, "person_in_manual_wheelchair_tone1"), PERSON_IN_MANUAL_WHEELCHAIR_TONE1),
     ((19, "health_worker_tone1"), HEALTH_WORKER_TONE1),
     ((11, "judge_tone1"), JUDGE_TONE1),
@@ -8502,13 +8718,16 @@ svg_match_name! [
     ((28, "people_holding_hands_tone2-3"), PEOPLE_HOLDING_HANDS_TONE2_3),
     ((28, "people_holding_hands_tone2-4"), PEOPLE_HOLDING_HANDS_TONE2_4),
     ((28, "people_holding_hands_tone2-5"), PEOPLE_HOLDING_HANDS_TONE2_5),
+    ((34, "person_with_white_cane_right_tone2"), PERSON_WITH_WHITE_CANE_RIGHT_TONE2),
     ((30, "person_with_probing_cane_tone2"), PERSON_WITH_PROBING_CANE_TONE2),
     ((28, "person_with_white_cane_tone2"), PERSON_WITH_WHITE_CANE_TONE2),
     ((16, "red_haired_tone2"), RED_HAIRED_TONE2),
     ((18, "curly_haired_tone2"), CURLY_HAIRED_TONE2),
     ((10, "bald_tone2"), BALD_TONE2),
     ((18, "white_haired_tone2"), WHITE_HAIRED_TONE2),
+    ((42, "person_in_motorized_wheelchair_right_tone2"), PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE2),
     ((36, "person_in_motorized_wheelchair_tone2"), PERSON_IN_MOTORIZED_WHEELCHAIR_TONE2),
+    ((39, "person_in_manual_wheelchair_right_tone2"), PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE2),
     ((33, "person_in_manual_wheelchair_tone2"), PERSON_IN_MANUAL_WHEELCHAIR_TONE2),
     ((19, "health_worker_tone2"), HEALTH_WORKER_TONE2),
     ((11, "judge_tone2"), JUDGE_TONE2),
@@ -8546,13 +8765,16 @@ svg_match_name! [
     ((26, "people_holding_hands_tone3"), PEOPLE_HOLDING_HANDS_TONE3),
     ((28, "people_holding_hands_tone3-4"), PEOPLE_HOLDING_HANDS_TONE3_4),
     ((28, "people_holding_hands_tone3-5"), PEOPLE_HOLDING_HANDS_TONE3_5),
+    ((34, "person_with_white_cane_right_tone3"), PERSON_WITH_WHITE_CANE_RIGHT_TONE3),
     ((30, "person_with_probing_cane_tone3"), PERSON_WITH_PROBING_CANE_TONE3),
     ((28, "person_with_white_cane_tone3"), PERSON_WITH_WHITE_CANE_TONE3),
     ((16, "red_haired_tone3"), RED_HAIRED_TONE3),
     ((18, "curly_haired_tone3"), CURLY_HAIRED_TONE3),
     ((10, "bald_tone3"), BALD_TONE3),
     ((18, "white_haired_tone3"), WHITE_HAIRED_TONE3),
+    ((42, "person_in_motorized_wheelchair_right_tone3"), PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE3),
     ((36, "person_in_motorized_wheelchair_tone3"), PERSON_IN_MOTORIZED_WHEELCHAIR_TONE3),
+    ((39, "person_in_manual_wheelchair_right_tone3"), PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE3),
     ((33, "person_in_manual_wheelchair_tone3"), PERSON_IN_MANUAL_WHEELCHAIR_TONE3),
     ((19, "health_worker_tone3"), HEALTH_WORKER_TONE3),
     ((11, "judge_tone3"), JUDGE_TONE3),
@@ -8590,13 +8812,16 @@ svg_match_name! [
     ((28, "people_holding_hands_tone4-3"), PEOPLE_HOLDING_HANDS_TONE4_3),
     ((26, "people_holding_hands_tone4"), PEOPLE_HOLDING_HANDS_TONE4),
     ((28, "people_holding_hands_tone4-5"), PEOPLE_HOLDING_HANDS_TONE4_5),
+    ((34, "person_with_white_cane_right_tone4"), PERSON_WITH_WHITE_CANE_RIGHT_TONE4),
     ((30, "person_with_probing_cane_tone4"), PERSON_WITH_PROBING_CANE_TONE4),
     ((28, "person_with_white_cane_tone4"), PERSON_WITH_WHITE_CANE_TONE4),
     ((16, "red_haired_tone4"), RED_HAIRED_TONE4),
     ((18, "curly_haired_tone4"), CURLY_HAIRED_TONE4),
     ((10, "bald_tone4"), BALD_TONE4),
     ((18, "white_haired_tone4"), WHITE_HAIRED_TONE4),
+    ((42, "person_in_motorized_wheelchair_right_tone4"), PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE4),
     ((36, "person_in_motorized_wheelchair_tone4"), PERSON_IN_MOTORIZED_WHEELCHAIR_TONE4),
+    ((39, "person_in_manual_wheelchair_right_tone4"), PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE4),
     ((33, "person_in_manual_wheelchair_tone4"), PERSON_IN_MANUAL_WHEELCHAIR_TONE4),
     ((19, "health_worker_tone4"), HEALTH_WORKER_TONE4),
     ((11, "judge_tone4"), JUDGE_TONE4),
@@ -8634,13 +8859,16 @@ svg_match_name! [
     ((28, "people_holding_hands_tone5-3"), PEOPLE_HOLDING_HANDS_TONE5_3),
     ((28, "people_holding_hands_tone5-4"), PEOPLE_HOLDING_HANDS_TONE5_4),
     ((26, "people_holding_hands_tone5"), PEOPLE_HOLDING_HANDS_TONE5),
+    ((34, "person_with_white_cane_right_tone5"), PERSON_WITH_WHITE_CANE_RIGHT_TONE5),
     ((30, "person_with_probing_cane_tone5"), PERSON_WITH_PROBING_CANE_TONE5),
     ((28, "person_with_white_cane_tone5"), PERSON_WITH_WHITE_CANE_TONE5),
     ((16, "red_haired_tone5"), RED_HAIRED_TONE5),
     ((18, "curly_haired_tone5"), CURLY_HAIRED_TONE5),
     ((10, "bald_tone5"), BALD_TONE5),
     ((18, "white_haired_tone5"), WHITE_HAIRED_TONE5),
+    ((42, "person_in_motorized_wheelchair_right_tone5"), PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT_TONE5),
     ((36, "person_in_motorized_wheelchair_tone5"), PERSON_IN_MOTORIZED_WHEELCHAIR_TONE5),
+    ((39, "person_in_manual_wheelchair_right_tone5"), PERSON_IN_MANUAL_WHEELCHAIR_RIGHT_TONE5),
     ((33, "person_in_manual_wheelchair_tone5"), PERSON_IN_MANUAL_WHEELCHAIR_TONE5),
     ((19, "health_worker_tone5"), HEALTH_WORKER_TONE5),
     ((11, "judge_tone5"), JUDGE_TONE5),
@@ -8674,14 +8902,21 @@ svg_match_name! [
     ((9, "astronaut"), ASTRONAUT),
     ((11, "firefighter"), FIREFIGHTER),
     ((20, "people_holding_hands"), PEOPLE_HOLDING_HANDS),
+    ((28, "person_with_white_cane_right"), PERSON_WITH_WHITE_CANE_RIGHT),
     ((24, "person_with_probing_cane"), PERSON_WITH_PROBING_CANE),
     ((22, "person_with_white_cane"), PERSON_WITH_WHITE_CANE),
     ((10, "red_haired"), RED_HAIRED),
     ((12, "curly_haired"), CURLY_HAIRED),
     ((4, "bald"), BALD),
     ((12, "white_haired"), WHITE_HAIRED),
+    ((36, "person_in_motorized_wheelchair_right"), PERSON_IN_MOTORIZED_WHEELCHAIR_RIGHT),
     ((30, "person_in_motorized_wheelchair"), PERSON_IN_MOTORIZED_WHEELCHAIR),
+    ((33, "person_in_manual_wheelchair_right"), PERSON_IN_MANUAL_WHEELCHAIR_RIGHT),
     ((27, "person_in_manual_wheelchair"), PERSON_IN_MANUAL_WHEELCHAIR),
+    ((11, "family_aacc"), FAMILY_AACC),
+    ((10, "family_aac"), FAMILY_AAC),
+    ((10, "family_acc"), FAMILY_ACC),
+    ((9, "family_ac"), FAMILY_AC),
     ((13, "health_worker"), HEALTH_WORKER),
     ((5, "judge"), JUDGE),
     ((5, "pilot"), PILOT),
@@ -9254,6 +9489,7 @@ svg_match_name! [
     ((4, "pick"), PICK),
     ((17, "helmet_with_cross"), HELMET_WITH_CROSS),
     ((20, "rescue_worker_helmet"), RESCUE_WORKER_HELMET),
+    ((12, "broken_chain"), BROKEN_CHAIN),
     ((6, "chains"), CHAINS),
     ((8, "no_entry"), NO_ENTRY),
     ((13, "shinto_shrine"), SHINTO_SHRINE),
@@ -10053,6 +10289,7 @@ macro_rules! svg_twemoji_asset_from_name {
     ("maple_leaf") => { &twemoji_assets::svg::codes::U_1F341 };
     ("fallen_leaf") => { &twemoji_assets::svg::codes::U_1F342 };
     ("leaves") => { &twemoji_assets::svg::codes::U_1F343 };
+    ("brown_mushroom") => { &twemoji_assets::svg::codes::U_1F344_200D_1F7EB };
     ("mushroom") => { &twemoji_assets::svg::codes::U_1F344 };
     ("tomato") => { &twemoji_assets::svg::codes::U_1F345 };
     ("eggplant") => { &twemoji_assets::svg::codes::U_1F346 };
@@ -10061,6 +10298,7 @@ macro_rules! svg_twemoji_asset_from_name {
     ("watermelon") => { &twemoji_assets::svg::codes::U_1F349 };
     ("orange") => { &twemoji_assets::svg::codes::U_1F34A };
     ("tangerine") => { &twemoji_assets::svg::codes::U_1F34A };
+    ("lime") => { &twemoji_assets::svg::codes::U_1F34B_200D_1F7E9 };
     ("lemon") => { &twemoji_assets::svg::codes::U_1F34B };
     ("banana") => { &twemoji_assets::svg::codes::U_1F34C };
     ("pineapple") => { &twemoji_assets::svg::codes::U_1F34D };
@@ -10225,28 +10463,46 @@ macro_rules! svg_twemoji_asset_from_name {
     ("person_snowboarding") => { &twemoji_assets::svg::codes::U_1F3C2 };
     ("snowboarder") => { &twemoji_assets::svg::codes::U_1F3C2 };
     ("snowboarding") => { &twemoji_assets::svg::codes::U_1F3C2 };
+    ("woman_running_right_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_running_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB_200D_2640_FE0F };
+    ("man_running_right_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_running_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB_200D_2642_FE0F };
+    ("person_running_right_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB_200D_27A1_FE0F };
     ("person_running_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB };
     ("running_tone1") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FB };
+    ("woman_running_right_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_running_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC_200D_2640_FE0F };
+    ("man_running_right_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_running_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC_200D_2642_FE0F };
+    ("person_running_right_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC_200D_27A1_FE0F };
     ("person_running_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC };
     ("running_tone2") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FC };
+    ("woman_running_right_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_running_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD_200D_2640_FE0F };
+    ("man_running_right_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_running_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD_200D_2642_FE0F };
+    ("person_running_right_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD_200D_27A1_FE0F };
     ("person_running_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD };
     ("running_tone3") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FD };
+    ("woman_running_right_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_running_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE_200D_2640_FE0F };
+    ("man_running_right_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_running_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE_200D_2642_FE0F };
+    ("person_running_right_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE_200D_27A1_FE0F };
     ("person_running_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE };
     ("running_tone4") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FE };
+    ("woman_running_right_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_running_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF_200D_2640_FE0F };
+    ("man_running_right_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_running_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF_200D_2642_FE0F };
+    ("person_running_right_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF_200D_27A1_FE0F };
     ("person_running_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF };
     ("running_tone5") => { &twemoji_assets::svg::codes::U_1F3C3_1F3FF };
+    ("woman_running_right") => { &twemoji_assets::svg::codes::U_1F3C3_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_running") => { &twemoji_assets::svg::codes::U_1F3C3_200D_2640_FE0F };
+    ("man_running_right") => { &twemoji_assets::svg::codes::U_1F3C3_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_running") => { &twemoji_assets::svg::codes::U_1F3C3_200D_2642_FE0F };
+    ("person_running_right") => { &twemoji_assets::svg::codes::U_1F3C3_200D_27A1_FE0F };
     ("person_running") => { &twemoji_assets::svg::codes::U_1F3C3 };
     ("running") => { &twemoji_assets::svg::codes::U_1F3C3 };
     ("woman_surfing_tone1") => { &twemoji_assets::svg::codes::U_1F3C4_1F3FB_200D_2640_FE0F };
@@ -10492,6 +10748,7 @@ macro_rules! svg_twemoji_asset_from_name {
     ("hatching_chick") => { &twemoji_assets::svg::codes::U_1F423 };
     ("baby_chick") => { &twemoji_assets::svg::codes::U_1F424 };
     ("hatched_chick") => { &twemoji_assets::svg::codes::U_1F425 };
+    ("phoenix") => { &twemoji_assets::svg::codes::U_1F426_200D_1F525 };
     ("black_bird") => { &twemoji_assets::svg::codes::U_1F426_200D_2B1B };
     ("bird") => { &twemoji_assets::svg::codes::U_1F426 };
     ("bird_face") => { &twemoji_assets::svg::codes::U_1F426 };
@@ -10702,13 +10959,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_men_holding_hands_tone1-3") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F91D_200D_1F468_1F3FD };
     ("two_men_holding_hands_tone1-4") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F91D_200D_1F468_1F3FE };
     ("two_men_holding_hands_tone1-5") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F91D_200D_1F468_1F3FF };
+    ("man_with_white_cane_right_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9AF_200D_27A1_FE0F };
     ("man_with_probing_cane_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9AF };
     ("man_with_white_cane_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9AF };
     ("man_red_haired_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9B0 };
     ("man_curly_haired_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9B1 };
     ("man_bald_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9B2 };
     ("man_white_haired_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9B3 };
+    ("man_in_motorized_wheelchair_right_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9BC_200D_27A1_FE0F };
     ("man_in_motorized_wheelchair_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9BC };
+    ("man_in_manual_wheelchair_right_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9BD_200D_27A1_FE0F };
     ("man_in_manual_wheelchair_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_1F9BD };
     ("man_health_worker_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_2695_FE0F };
     ("man_judge_tone1") => { &twemoji_assets::svg::codes::U_1F468_1F3FB_200D_2696_FE0F };
@@ -10742,13 +11002,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_men_holding_hands_tone2-3") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F91D_200D_1F468_1F3FD };
     ("two_men_holding_hands_tone2-4") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F91D_200D_1F468_1F3FE };
     ("two_men_holding_hands_tone2-5") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F91D_200D_1F468_1F3FF };
+    ("man_with_white_cane_right_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9AF_200D_27A1_FE0F };
     ("man_with_probing_cane_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9AF };
     ("man_with_white_cane_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9AF };
     ("man_red_haired_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9B0 };
     ("man_curly_haired_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9B1 };
     ("man_bald_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9B2 };
     ("man_white_haired_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9B3 };
+    ("man_in_motorized_wheelchair_right_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9BC_200D_27A1_FE0F };
     ("man_in_motorized_wheelchair_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9BC };
+    ("man_in_manual_wheelchair_right_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9BD_200D_27A1_FE0F };
     ("man_in_manual_wheelchair_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_1F9BD };
     ("man_health_worker_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_2695_FE0F };
     ("man_judge_tone2") => { &twemoji_assets::svg::codes::U_1F468_1F3FC_200D_2696_FE0F };
@@ -10782,13 +11045,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_men_holding_hands_tone3-2") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F91D_200D_1F468_1F3FC };
     ("two_men_holding_hands_tone3-4") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F91D_200D_1F468_1F3FE };
     ("two_men_holding_hands_tone3-5") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F91D_200D_1F468_1F3FF };
+    ("man_with_white_cane_right_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9AF_200D_27A1_FE0F };
     ("man_with_probing_cane_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9AF };
     ("man_with_white_cane_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9AF };
     ("man_red_haired_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9B0 };
     ("man_curly_haired_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9B1 };
     ("man_bald_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9B2 };
     ("man_white_haired_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9B3 };
+    ("man_in_motorized_wheelchair_right_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9BC_200D_27A1_FE0F };
     ("man_in_motorized_wheelchair_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9BC };
+    ("man_in_manual_wheelchair_right_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9BD_200D_27A1_FE0F };
     ("man_in_manual_wheelchair_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_1F9BD };
     ("man_health_worker_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_2695_FE0F };
     ("man_judge_tone3") => { &twemoji_assets::svg::codes::U_1F468_1F3FD_200D_2696_FE0F };
@@ -10822,13 +11088,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_men_holding_hands_tone4-2") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F91D_200D_1F468_1F3FC };
     ("two_men_holding_hands_tone4-3") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F91D_200D_1F468_1F3FD };
     ("two_men_holding_hands_tone4-5") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F91D_200D_1F468_1F3FF };
+    ("man_with_white_cane_right_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9AF_200D_27A1_FE0F };
     ("man_with_probing_cane_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9AF };
     ("man_with_white_cane_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9AF };
     ("man_red_haired_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9B0 };
     ("man_curly_haired_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9B1 };
     ("man_bald_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9B2 };
     ("man_white_haired_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9B3 };
+    ("man_in_motorized_wheelchair_right_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9BC_200D_27A1_FE0F };
     ("man_in_motorized_wheelchair_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9BC };
+    ("man_in_manual_wheelchair_right_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9BD_200D_27A1_FE0F };
     ("man_in_manual_wheelchair_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_1F9BD };
     ("man_health_worker_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_2695_FE0F };
     ("man_judge_tone4") => { &twemoji_assets::svg::codes::U_1F468_1F3FE_200D_2696_FE0F };
@@ -10862,13 +11131,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_men_holding_hands_tone5-2") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F91D_200D_1F468_1F3FC };
     ("two_men_holding_hands_tone5-3") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F91D_200D_1F468_1F3FD };
     ("two_men_holding_hands_tone5-4") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F91D_200D_1F468_1F3FE };
+    ("man_with_white_cane_right_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9AF_200D_27A1_FE0F };
     ("man_with_probing_cane_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9AF };
     ("man_with_white_cane_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9AF };
     ("man_red_haired_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9B0 };
     ("man_curly_haired_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9B1 };
     ("man_bald_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9B2 };
     ("man_white_haired_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9B3 };
+    ("man_in_motorized_wheelchair_right_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9BC_200D_27A1_FE0F };
     ("man_in_motorized_wheelchair_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9BC };
+    ("man_in_manual_wheelchair_right_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9BD_200D_27A1_FE0F };
     ("man_in_manual_wheelchair_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_1F9BD };
     ("man_health_worker_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_2695_FE0F };
     ("man_judge_tone5") => { &twemoji_assets::svg::codes::U_1F468_1F3FF_200D_2696_FE0F };
@@ -10913,13 +11185,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("man_scientist") => { &twemoji_assets::svg::codes::U_1F468_200D_1F52C };
     ("man_astronaut") => { &twemoji_assets::svg::codes::U_1F468_200D_1F680 };
     ("man_firefighter") => { &twemoji_assets::svg::codes::U_1F468_200D_1F692 };
+    ("man_with_white_cane_right") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9AF_200D_27A1_FE0F };
     ("man_with_probing_cane") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9AF };
     ("man_with_white_cane") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9AF };
     ("man_red_haired") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9B0 };
     ("man_curly_haired") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9B1 };
     ("man_bald") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9B2 };
     ("man_white_haired") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9B3 };
+    ("man_in_motorized_wheelchair_right") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9BC_200D_27A1_FE0F };
     ("man_in_motorized_wheelchair") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9BC };
+    ("man_in_manual_wheelchair_right") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9BD_200D_27A1_FE0F };
     ("man_in_manual_wheelchair") => { &twemoji_assets::svg::codes::U_1F468_200D_1F9BD };
     ("man_health_worker") => { &twemoji_assets::svg::codes::U_1F468_200D_2695_FE0F };
     ("man_judge") => { &twemoji_assets::svg::codes::U_1F468_200D_2696_FE0F };
@@ -10949,13 +11224,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_women_holding_hands_tone1-3") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F91D_200D_1F469_1F3FD };
     ("two_women_holding_hands_tone1-4") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F91D_200D_1F469_1F3FE };
     ("two_women_holding_hands_tone1-5") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F91D_200D_1F469_1F3FF };
+    ("woman_with_white_cane_right_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9AF_200D_27A1_FE0F };
     ("woman_with_probing_cane_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9AF };
     ("woman_with_white_cane_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9AF };
     ("woman_red_haired_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9B0 };
     ("woman_curly_haired_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9B1 };
     ("woman_bald_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9B2 };
     ("woman_white_haired_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9B3 };
+    ("woman_in_motorized_wheelchair_right_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9BC_200D_27A1_FE0F };
     ("woman_in_motorized_wheelchair_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9BC };
+    ("woman_in_manual_wheelchair_right_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9BD_200D_27A1_FE0F };
     ("woman_in_manual_wheelchair_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_1F9BD };
     ("woman_health_worker_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_2695_FE0F };
     ("woman_judge_tone1") => { &twemoji_assets::svg::codes::U_1F469_1F3FB_200D_2696_FE0F };
@@ -11013,13 +11291,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_women_holding_hands_tone2-3") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F91D_200D_1F469_1F3FD };
     ("two_women_holding_hands_tone2-4") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F91D_200D_1F469_1F3FE };
     ("two_women_holding_hands_tone2-5") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F91D_200D_1F469_1F3FF };
+    ("woman_with_white_cane_right_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9AF_200D_27A1_FE0F };
     ("woman_with_probing_cane_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9AF };
     ("woman_with_white_cane_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9AF };
     ("woman_red_haired_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9B0 };
     ("woman_curly_haired_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9B1 };
     ("woman_bald_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9B2 };
     ("woman_white_haired_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9B3 };
+    ("woman_in_motorized_wheelchair_right_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9BC_200D_27A1_FE0F };
     ("woman_in_motorized_wheelchair_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9BC };
+    ("woman_in_manual_wheelchair_right_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9BD_200D_27A1_FE0F };
     ("woman_in_manual_wheelchair_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_1F9BD };
     ("woman_health_worker_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_2695_FE0F };
     ("woman_judge_tone2") => { &twemoji_assets::svg::codes::U_1F469_1F3FC_200D_2696_FE0F };
@@ -11077,13 +11358,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_women_holding_hands_tone3-2") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F91D_200D_1F469_1F3FC };
     ("two_women_holding_hands_tone3-4") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F91D_200D_1F469_1F3FE };
     ("two_women_holding_hands_tone3-5") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F91D_200D_1F469_1F3FF };
+    ("woman_with_white_cane_right_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9AF_200D_27A1_FE0F };
     ("woman_with_probing_cane_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9AF };
     ("woman_with_white_cane_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9AF };
     ("woman_red_haired_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9B0 };
     ("woman_curly_haired_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9B1 };
     ("woman_bald_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9B2 };
     ("woman_white_haired_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9B3 };
+    ("woman_in_motorized_wheelchair_right_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9BC_200D_27A1_FE0F };
     ("woman_in_motorized_wheelchair_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9BC };
+    ("woman_in_manual_wheelchair_right_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9BD_200D_27A1_FE0F };
     ("woman_in_manual_wheelchair_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_1F9BD };
     ("woman_health_worker_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_2695_FE0F };
     ("woman_judge_tone3") => { &twemoji_assets::svg::codes::U_1F469_1F3FD_200D_2696_FE0F };
@@ -11141,13 +11425,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_women_holding_hands_tone4-2") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F91D_200D_1F469_1F3FC };
     ("two_women_holding_hands_tone4-3") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F91D_200D_1F469_1F3FD };
     ("two_women_holding_hands_tone4-5") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F91D_200D_1F469_1F3FF };
+    ("woman_with_white_cane_right_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9AF_200D_27A1_FE0F };
     ("woman_with_probing_cane_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9AF };
     ("woman_with_white_cane_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9AF };
     ("woman_red_haired_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9B0 };
     ("woman_curly_haired_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9B1 };
     ("woman_bald_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9B2 };
     ("woman_white_haired_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9B3 };
+    ("woman_in_motorized_wheelchair_right_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9BC_200D_27A1_FE0F };
     ("woman_in_motorized_wheelchair_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9BC };
+    ("woman_in_manual_wheelchair_right_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9BD_200D_27A1_FE0F };
     ("woman_in_manual_wheelchair_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_1F9BD };
     ("woman_health_worker_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_2695_FE0F };
     ("woman_judge_tone4") => { &twemoji_assets::svg::codes::U_1F469_1F3FE_200D_2696_FE0F };
@@ -11205,13 +11492,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("two_women_holding_hands_tone5-2") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F91D_200D_1F469_1F3FC };
     ("two_women_holding_hands_tone5-3") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F91D_200D_1F469_1F3FD };
     ("two_women_holding_hands_tone5-4") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F91D_200D_1F469_1F3FE };
+    ("woman_with_white_cane_right_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9AF_200D_27A1_FE0F };
     ("woman_with_probing_cane_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9AF };
     ("woman_with_white_cane_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9AF };
     ("woman_red_haired_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9B0 };
     ("woman_curly_haired_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9B1 };
     ("woman_bald_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9B2 };
     ("woman_white_haired_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9B3 };
+    ("woman_in_motorized_wheelchair_right_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9BC_200D_27A1_FE0F };
     ("woman_in_motorized_wheelchair_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9BC };
+    ("woman_in_manual_wheelchair_right_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9BD_200D_27A1_FE0F };
     ("woman_in_manual_wheelchair_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_1F9BD };
     ("woman_health_worker_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_2695_FE0F };
     ("woman_judge_tone5") => { &twemoji_assets::svg::codes::U_1F469_1F3FF_200D_2696_FE0F };
@@ -11271,13 +11561,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("woman_scientist") => { &twemoji_assets::svg::codes::U_1F469_200D_1F52C };
     ("woman_astronaut") => { &twemoji_assets::svg::codes::U_1F469_200D_1F680 };
     ("woman_firefighter") => { &twemoji_assets::svg::codes::U_1F469_200D_1F692 };
+    ("woman_with_white_cane_right") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9AF_200D_27A1_FE0F };
     ("woman_with_probing_cane") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9AF };
     ("woman_with_white_cane") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9AF };
     ("woman_red_haired") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9B0 };
     ("woman_curly_haired") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9B1 };
     ("woman_bald") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9B2 };
     ("woman_white_haired") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9B3 };
+    ("woman_in_motorized_wheelchair_right") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9BC_200D_27A1_FE0F };
     ("woman_in_motorized_wheelchair") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9BC };
+    ("woman_in_manual_wheelchair_right") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9BD_200D_27A1_FE0F };
     ("woman_in_manual_wheelchair") => { &twemoji_assets::svg::codes::U_1F469_200D_1F9BD };
     ("woman_health_worker") => { &twemoji_assets::svg::codes::U_1F469_200D_2695_FE0F };
     ("woman_judge") => { &twemoji_assets::svg::codes::U_1F469_200D_2696_FE0F };
@@ -12081,6 +12374,8 @@ macro_rules! svg_twemoji_asset_from_name {
     ("scream_cat") => { &twemoji_assets::svg::codes::U_1F640 };
     ("weary_cat") => { &twemoji_assets::svg::codes::U_1F640 };
     ("slightly_frowning_face") => { &twemoji_assets::svg::codes::U_1F641 };
+    ("head_shaking_horizontally") => { &twemoji_assets::svg::codes::U_1F642_200D_2194_FE0F };
+    ("head_shaking_vertically") => { &twemoji_assets::svg::codes::U_1F642_200D_2195_FE0F };
     ("slightly_smiling_face") => { &twemoji_assets::svg::codes::U_1F642 };
     ("upside_down_face") => { &twemoji_assets::svg::codes::U_1F643 };
     ("rolling_eyes") => { &twemoji_assets::svg::codes::U_1F644 };
@@ -12380,28 +12675,46 @@ macro_rules! svg_twemoji_asset_from_name {
     ("mountain_bicyclist") => { &twemoji_assets::svg::codes::U_1F6B5 };
     ("mountain_biking") => { &twemoji_assets::svg::codes::U_1F6B5 };
     ("person_mountain_biking") => { &twemoji_assets::svg::codes::U_1F6B5 };
+    ("woman_walking_right_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_walking_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB_200D_2640_FE0F };
+    ("man_walking_right_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_walking_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB_200D_2642_FE0F };
+    ("person_walking_right_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB_200D_27A1_FE0F };
     ("person_walking_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB };
     ("walking_tone1") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FB };
+    ("woman_walking_right_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_walking_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC_200D_2640_FE0F };
+    ("man_walking_right_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_walking_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC_200D_2642_FE0F };
+    ("person_walking_right_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC_200D_27A1_FE0F };
     ("person_walking_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC };
     ("walking_tone2") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FC };
+    ("woman_walking_right_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_walking_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD_200D_2640_FE0F };
+    ("man_walking_right_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_walking_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD_200D_2642_FE0F };
+    ("person_walking_right_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD_200D_27A1_FE0F };
     ("person_walking_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD };
     ("walking_tone3") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FD };
+    ("woman_walking_right_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_walking_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE_200D_2640_FE0F };
+    ("man_walking_right_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_walking_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE_200D_2642_FE0F };
+    ("person_walking_right_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE_200D_27A1_FE0F };
     ("person_walking_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE };
     ("walking_tone4") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FE };
+    ("woman_walking_right_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_walking_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF_200D_2640_FE0F };
+    ("man_walking_right_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_walking_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF_200D_2642_FE0F };
+    ("person_walking_right_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF_200D_27A1_FE0F };
     ("person_walking_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF };
     ("walking_tone5") => { &twemoji_assets::svg::codes::U_1F6B6_1F3FF };
+    ("woman_walking_right") => { &twemoji_assets::svg::codes::U_1F6B6_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_walking") => { &twemoji_assets::svg::codes::U_1F6B6_200D_2640_FE0F };
+    ("man_walking_right") => { &twemoji_assets::svg::codes::U_1F6B6_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_walking") => { &twemoji_assets::svg::codes::U_1F6B6_200D_2642_FE0F };
+    ("person_walking_right") => { &twemoji_assets::svg::codes::U_1F6B6_200D_27A1_FE0F };
     ("person_walking") => { &twemoji_assets::svg::codes::U_1F6B6 };
     ("walking") => { &twemoji_assets::svg::codes::U_1F6B6 };
     ("no_pedestrians") => { &twemoji_assets::svg::codes::U_1F6B7 };
@@ -13074,28 +13387,46 @@ macro_rules! svg_twemoji_asset_from_name {
     ("man_standing") => { &twemoji_assets::svg::codes::U_1F9CD_200D_2642_FE0F };
     ("person_standing") => { &twemoji_assets::svg::codes::U_1F9CD };
     ("standing") => { &twemoji_assets::svg::codes::U_1F9CD };
+    ("woman_kneeling_right_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_kneeling_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB_200D_2640_FE0F };
+    ("man_kneeling_right_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_kneeling_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB_200D_2642_FE0F };
+    ("person_kneeling_right_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB_200D_27A1_FE0F };
     ("kneeling_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB };
     ("person_kneeling_tone1") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FB };
+    ("woman_kneeling_right_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_kneeling_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC_200D_2640_FE0F };
+    ("man_kneeling_right_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_kneeling_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC_200D_2642_FE0F };
+    ("person_kneeling_right_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC_200D_27A1_FE0F };
     ("kneeling_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC };
     ("person_kneeling_tone2") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FC };
+    ("woman_kneeling_right_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_kneeling_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD_200D_2640_FE0F };
+    ("man_kneeling_right_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_kneeling_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD_200D_2642_FE0F };
+    ("person_kneeling_right_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD_200D_27A1_FE0F };
     ("kneeling_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD };
     ("person_kneeling_tone3") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FD };
+    ("woman_kneeling_right_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_kneeling_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE_200D_2640_FE0F };
+    ("man_kneeling_right_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_kneeling_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE_200D_2642_FE0F };
+    ("person_kneeling_right_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE_200D_27A1_FE0F };
     ("kneeling_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE };
     ("person_kneeling_tone4") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FE };
+    ("woman_kneeling_right_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_kneeling_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF_200D_2640_FE0F };
+    ("man_kneeling_right_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_kneeling_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF_200D_2642_FE0F };
+    ("person_kneeling_right_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF_200D_27A1_FE0F };
     ("kneeling_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF };
     ("person_kneeling_tone5") => { &twemoji_assets::svg::codes::U_1F9CE_1F3FF };
+    ("woman_kneeling_right") => { &twemoji_assets::svg::codes::U_1F9CE_200D_2640_FE0F_200D_27A1_FE0F };
     ("woman_kneeling") => { &twemoji_assets::svg::codes::U_1F9CE_200D_2640_FE0F };
+    ("man_kneeling_right") => { &twemoji_assets::svg::codes::U_1F9CE_200D_2642_FE0F_200D_27A1_FE0F };
     ("man_kneeling") => { &twemoji_assets::svg::codes::U_1F9CE_200D_2642_FE0F };
+    ("person_kneeling_right") => { &twemoji_assets::svg::codes::U_1F9CE_200D_27A1_FE0F };
     ("kneeling") => { &twemoji_assets::svg::codes::U_1F9CE };
     ("person_kneeling") => { &twemoji_assets::svg::codes::U_1F9CE };
     ("deaf_woman_tone1") => { &twemoji_assets::svg::codes::U_1F9CF_1F3FB_200D_2640_FE0F };
@@ -13137,13 +13468,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("people_holding_hands_tone1-3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F91D_200D_1F9D1_1F3FD };
     ("people_holding_hands_tone1-4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F91D_200D_1F9D1_1F3FE };
     ("people_holding_hands_tone1-5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F91D_200D_1F9D1_1F3FF };
+    ("person_with_white_cane_right_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9AF_200D_27A1_FE0F };
     ("person_with_probing_cane_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9AF };
     ("person_with_white_cane_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9AF };
     ("red_haired_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9B0 };
     ("curly_haired_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9B1 };
     ("bald_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9B2 };
     ("white_haired_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9B3 };
+    ("person_in_motorized_wheelchair_right_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9BC_200D_27A1_FE0F };
     ("person_in_motorized_wheelchair_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9BC };
+    ("person_in_manual_wheelchair_right_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9BD_200D_27A1_FE0F };
     ("person_in_manual_wheelchair_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_1F9BD };
     ("health_worker_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_2695_FE0F };
     ("judge_tone1") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FB_200D_2696_FE0F };
@@ -13181,13 +13515,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("people_holding_hands_tone2-3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F91D_200D_1F9D1_1F3FD };
     ("people_holding_hands_tone2-4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F91D_200D_1F9D1_1F3FE };
     ("people_holding_hands_tone2-5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F91D_200D_1F9D1_1F3FF };
+    ("person_with_white_cane_right_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9AF_200D_27A1_FE0F };
     ("person_with_probing_cane_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9AF };
     ("person_with_white_cane_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9AF };
     ("red_haired_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9B0 };
     ("curly_haired_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9B1 };
     ("bald_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9B2 };
     ("white_haired_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9B3 };
+    ("person_in_motorized_wheelchair_right_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9BC_200D_27A1_FE0F };
     ("person_in_motorized_wheelchair_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9BC };
+    ("person_in_manual_wheelchair_right_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9BD_200D_27A1_FE0F };
     ("person_in_manual_wheelchair_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_1F9BD };
     ("health_worker_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_2695_FE0F };
     ("judge_tone2") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FC_200D_2696_FE0F };
@@ -13225,13 +13562,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("people_holding_hands_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F91D_200D_1F9D1_1F3FD };
     ("people_holding_hands_tone3-4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F91D_200D_1F9D1_1F3FE };
     ("people_holding_hands_tone3-5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F91D_200D_1F9D1_1F3FF };
+    ("person_with_white_cane_right_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9AF_200D_27A1_FE0F };
     ("person_with_probing_cane_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9AF };
     ("person_with_white_cane_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9AF };
     ("red_haired_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9B0 };
     ("curly_haired_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9B1 };
     ("bald_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9B2 };
     ("white_haired_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9B3 };
+    ("person_in_motorized_wheelchair_right_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9BC_200D_27A1_FE0F };
     ("person_in_motorized_wheelchair_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9BC };
+    ("person_in_manual_wheelchair_right_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9BD_200D_27A1_FE0F };
     ("person_in_manual_wheelchair_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_1F9BD };
     ("health_worker_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_2695_FE0F };
     ("judge_tone3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FD_200D_2696_FE0F };
@@ -13269,13 +13609,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("people_holding_hands_tone4-3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F91D_200D_1F9D1_1F3FD };
     ("people_holding_hands_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F91D_200D_1F9D1_1F3FE };
     ("people_holding_hands_tone4-5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F91D_200D_1F9D1_1F3FF };
+    ("person_with_white_cane_right_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9AF_200D_27A1_FE0F };
     ("person_with_probing_cane_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9AF };
     ("person_with_white_cane_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9AF };
     ("red_haired_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9B0 };
     ("curly_haired_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9B1 };
     ("bald_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9B2 };
     ("white_haired_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9B3 };
+    ("person_in_motorized_wheelchair_right_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9BC_200D_27A1_FE0F };
     ("person_in_motorized_wheelchair_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9BC };
+    ("person_in_manual_wheelchair_right_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9BD_200D_27A1_FE0F };
     ("person_in_manual_wheelchair_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_1F9BD };
     ("health_worker_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_2695_FE0F };
     ("judge_tone4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FE_200D_2696_FE0F };
@@ -13313,13 +13656,16 @@ macro_rules! svg_twemoji_asset_from_name {
     ("people_holding_hands_tone5-3") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F91D_200D_1F9D1_1F3FD };
     ("people_holding_hands_tone5-4") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F91D_200D_1F9D1_1F3FE };
     ("people_holding_hands_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F91D_200D_1F9D1_1F3FF };
+    ("person_with_white_cane_right_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9AF_200D_27A1_FE0F };
     ("person_with_probing_cane_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9AF };
     ("person_with_white_cane_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9AF };
     ("red_haired_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9B0 };
     ("curly_haired_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9B1 };
     ("bald_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9B2 };
     ("white_haired_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9B3 };
+    ("person_in_motorized_wheelchair_right_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9BC_200D_27A1_FE0F };
     ("person_in_motorized_wheelchair_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9BC };
+    ("person_in_manual_wheelchair_right_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9BD_200D_27A1_FE0F };
     ("person_in_manual_wheelchair_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_1F9BD };
     ("health_worker_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_2695_FE0F };
     ("judge_tone5") => { &twemoji_assets::svg::codes::U_1F9D1_1F3FF_200D_2696_FE0F };
@@ -13353,14 +13699,21 @@ macro_rules! svg_twemoji_asset_from_name {
     ("astronaut") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F680 };
     ("firefighter") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F692 };
     ("people_holding_hands") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F91D_200D_1F9D1 };
+    ("person_with_white_cane_right") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9AF_200D_27A1_FE0F };
     ("person_with_probing_cane") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9AF };
     ("person_with_white_cane") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9AF };
     ("red_haired") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9B0 };
     ("curly_haired") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9B1 };
     ("bald") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9B2 };
     ("white_haired") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9B3 };
+    ("person_in_motorized_wheelchair_right") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9BC_200D_27A1_FE0F };
     ("person_in_motorized_wheelchair") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9BC };
+    ("person_in_manual_wheelchair_right") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9BD_200D_27A1_FE0F };
     ("person_in_manual_wheelchair") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9BD };
+    ("family_aacc") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9D1_200D_1F9D2_200D_1F9D2 };
+    ("family_aac") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9D1_200D_1F9D2 };
+    ("family_acc") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9D2_200D_1F9D2 };
+    ("family_ac") => { &twemoji_assets::svg::codes::U_1F9D1_200D_1F9D2 };
     ("health_worker") => { &twemoji_assets::svg::codes::U_1F9D1_200D_2695_FE0F };
     ("judge") => { &twemoji_assets::svg::codes::U_1F9D1_200D_2696_FE0F };
     ("pilot") => { &twemoji_assets::svg::codes::U_1F9D1_200D_2708_FE0F };
@@ -13933,6 +14286,7 @@ macro_rules! svg_twemoji_asset_from_name {
     ("pick") => { &twemoji_assets::svg::codes::U_26CF };
     ("helmet_with_cross") => { &twemoji_assets::svg::codes::U_26D1 };
     ("rescue_worker_helmet") => { &twemoji_assets::svg::codes::U_26D1 };
+    ("broken_chain") => { &twemoji_assets::svg::codes::U_26D3_FE0F_200D_1F4A5 };
     ("chains") => { &twemoji_assets::svg::codes::U_26D3 };
     ("no_entry") => { &twemoji_assets::svg::codes::U_26D4 };
     ("shinto_shrine") => { &twemoji_assets::svg::codes::U_26E9 };
