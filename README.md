@@ -8,17 +8,14 @@
 
 <br>
 
-<p align="center">
-  <a href="https://crates.io/crates/twemoji-assets">
-    <img alt="Version" src="https://img.shields.io/crates/v/twemoji-assets?style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/cptpiepmatz/twemoji-assets/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/crates/l/twemoji-assets?style=for-the-badge"/>  
-  </a>
-  <a href="https://docs.rs/twemoji-assets">
-    <img alt="Docs" src="https://img.shields.io/docsrs/twemoji-assets?style=for-the-badge"/>  
-  </a>
-</p>
+<div align="center">
+
+  [![Version](https://img.shields.io/crates/v/twemoji-assets?style=for-the-badge)](https://crates.io/crates/twemoji-assets)
+  [![License](https://img.shields.io/crates/l/twemoji-assets?style=for-the-badge)](https://github.com/cptpiepmatz/twemoji-assets/blob/main/LICENSE)
+  [![Docs](https://img.shields.io/docsrs/twemoji-assets?style=for-the-badge)](https://docs.rs/twemoji-assets)
+
+</div>
+
 
 ## Usage
 
