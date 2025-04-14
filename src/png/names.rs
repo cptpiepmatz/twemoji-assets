@@ -157,6 +157,8 @@ png_name!(COLOMBIA, "🇨🇴", "flag: Colombia", U_1F1E8_1F1F4, "1f1e8-1f1f4.pn
 png_name!(FLAG_CO, "🇨🇴", "flag: Colombia", U_1F1E8_1F1F4, "1f1e8-1f1f4.png");
 png_name!(CLIPPERTON_ISLAND, "🇨🇵", "flag: Clipperton Island", U_1F1E8_1F1F5, "1f1e8-1f1f5.png");
 png_name!(FLAG_CP, "🇨🇵", "flag: Clipperton Island", U_1F1E8_1F1F5, "1f1e8-1f1f5.png");
+png_name!(FLAG_CQ, "🇨🇶", "flag: Sark", U_1F1E8_1F1F6, "1f1e8-1f1f6.png");
+png_name!(SARK, "🇨🇶", "flag: Sark", U_1F1E8_1F1F6, "1f1e8-1f1f6.png");
 png_name!(COSTA_RICA, "🇨🇷", "flag: Costa Rica", U_1F1E8_1F1F7, "1f1e8-1f1f7.png");
 png_name!(FLAG_CR, "🇨🇷", "flag: Costa Rica", U_1F1E8_1F1F7, "1f1e8-1f1f7.png");
 png_name!(CUBA, "🇨🇺", "flag: Cuba", U_1F1E8_1F1FA, "1f1e8-1f1fa.png");
@@ -4096,7 +4098,7 @@ png_name!(ADULT_TONE5, "🧑🏿", "", U_1F9D1_1F3FF, "1f9d1-1f3ff.png");
 png_name!(FARMER, "🧑‍🌾", "farmer", U_1F9D1_200D_1F33E, "1f9d1-200d-1f33e.png");
 png_name!(COOK, "🧑‍🍳", "cook", U_1F9D1_200D_1F373, "1f9d1-200d-1f373.png");
 png_name!(PERSON_FEEDING_BABY, "🧑‍🍼", "person feeding baby", U_1F9D1_200D_1F37C, "1f9d1-200d-1f37c.png");
-png_name!(MX_CLAUS, "🧑‍🎄", "mx claus", U_1F9D1_200D_1F384, "1f9d1-200d-1f384.png");
+png_name!(MX_CLAUS, "🧑‍🎄", "Mx Claus", U_1F9D1_200D_1F384, "1f9d1-200d-1f384.png");
 png_name!(STUDENT, "🧑‍🎓", "student", U_1F9D1_200D_1F393, "1f9d1-200d-1f393.png");
 png_name!(SINGER, "🧑‍🎤", "singer", U_1F9D1_200D_1F3A4, "1f9d1-200d-1f3a4.png");
 png_name!(ARTIST, "🧑‍🎨", "artist", U_1F9D1_200D_1F3A8, "1f9d1-200d-1f3a8.png");
@@ -4380,6 +4382,8 @@ png_name!(PINATA, "🪅", "piñata", U_1FA85, "1fa85.png");
 png_name!(NESTING_DOLLS, "🪆", "nesting dolls", U_1FA86, "1fa86.png");
 png_name!(MARACAS, "🪇", "maracas", U_1FA87, "1fa87.png");
 png_name!(FLUTE, "🪈", "flute", U_1FA88, "1fa88.png");
+png_name!(HARP, "🪉", "harp", U_1FA89, "1fa89.png");
+png_name!(SHOVEL, "🪏", "shovel", U_1FA8F, "1fa8f.png");
 png_name!(RINGED_PLANET, "🪐", "ringed planet", U_1FA90, "1fa90.png");
 png_name!(SATURN, "🪐", "ringed planet", U_1FA90, "1fa90.png");
 png_name!(CHAIR, "🪑", "chair", U_1FA91, "1fa91.png");
@@ -4430,6 +4434,7 @@ png_name!(NEST_WITH_EGGS, "🪺", "nest with eggs", U_1FABA, "1faba.png");
 png_name!(HYACINTH, "🪻", "hyacinth", U_1FABB, "1fabb.png");
 png_name!(JELLYFISH, "🪼", "jellyfish", U_1FABC, "1fabc.png");
 png_name!(WING, "🪽", "wing", U_1FABD, "1fabd.png");
+png_name!(LEAFLESS_TREE, "🪾", "leafless tree", U_1FABE, "1fabe.png");
 png_name!(GOOSE, "🪿", "goose", U_1FABF, "1fabf.png");
 png_name!(ANATOMICAL_HEART, "🫀", "anatomical heart", U_1FAC0, "1fac0.png");
 png_name!(LUNGS, "🫁", "lungs", U_1FAC1, "1fac1.png");
@@ -4458,6 +4463,7 @@ png_name!(PERSON_WITH_CROWN_TONE5, "🫅🏿", "", U_1FAC5_1F3FF, "1fac5-1f3ff.p
 png_name!(ROYALTY_TONE5, "🫅🏿", "", U_1FAC5_1F3FF, "1fac5-1f3ff.png");
 png_name!(PERSON_WITH_CROWN, "🫅", "person with crown", U_1FAC5, "1fac5.png");
 png_name!(ROYALTY, "🫅", "person with crown", U_1FAC5, "1fac5.png");
+png_name!(FINGERPRINT, "🫆", "fingerprint", U_1FAC6, "1fac6.png");
 png_name!(MOOSE, "🫎", "moose", U_1FACE, "1face.png");
 png_name!(DONKEY, "🫏", "donkey", U_1FACF, "1facf.png");
 png_name!(BLUEBERRIES, "🫐", "blueberries", U_1FAD0, "1fad0.png");
@@ -4473,6 +4479,8 @@ png_name!(BEANS, "🫘", "beans", U_1FAD8, "1fad8.png");
 png_name!(JAR, "🫙", "jar", U_1FAD9, "1fad9.png");
 png_name!(GINGER, "🫚", "ginger root", U_1FADA, "1fada.png");
 png_name!(PEA, "🫛", "pea pod", U_1FADB, "1fadb.png");
+png_name!(ROOT_VEGETABLE, "🫜", "root vegetable", U_1FADC, "1fadc.png");
+png_name!(SPLATTER, "🫟", "splatter", U_1FADF, "1fadf.png");
 png_name!(MELT, "🫠", "melting face", U_1FAE0, "1fae0.png");
 png_name!(MELTING_FACE, "🫠", "melting face", U_1FAE0, "1fae0.png");
 png_name!(SALUTE, "🫡", "saluting face", U_1FAE1, "1fae1.png");
@@ -4487,6 +4495,7 @@ png_name!(BITING_LIP, "🫦", "biting lip", U_1FAE6, "1fae6.png");
 png_name!(BUBBLES, "🫧", "bubbles", U_1FAE7, "1fae7.png");
 png_name!(SHAKING, "🫨", "shaking face", U_1FAE8, "1fae8.png");
 png_name!(SHAKING_FACE, "🫨", "shaking face", U_1FAE8, "1fae8.png");
+png_name!(FACE_WITH_EYE_BAGS, "🫩", "face with bags under eyes", U_1FAE9, "1fae9.png");
 png_name!(HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE1, "🫰🏻", "", U_1FAF0_1F3FB, "1faf0-1f3fb.png");
 png_name!(HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE2, "🫰🏼", "", U_1FAF0_1F3FC, "1faf0-1f3fc.png");
 png_name!(HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE3, "🫰🏽", "", U_1FAF0_1F3FD, "1faf0-1f3fd.png");
@@ -4950,6 +4959,8 @@ png_match_name! [
     ((7, "flag_co"), FLAG_CO),
     ((17, "clipperton_island"), CLIPPERTON_ISLAND),
     ((7, "flag_cp"), FLAG_CP),
+    ((7, "flag_cq"), FLAG_CQ),
+    ((4, "sark"), SARK),
     ((10, "costa_rica"), COSTA_RICA),
     ((7, "flag_cr"), FLAG_CR),
     ((4, "cuba"), CUBA),
@@ -9173,6 +9184,8 @@ png_match_name! [
     ((13, "nesting_dolls"), NESTING_DOLLS),
     ((7, "maracas"), MARACAS),
     ((5, "flute"), FLUTE),
+    ((4, "harp"), HARP),
+    ((6, "shovel"), SHOVEL),
     ((13, "ringed_planet"), RINGED_PLANET),
     ((6, "saturn"), SATURN),
     ((5, "chair"), CHAIR),
@@ -9223,6 +9236,7 @@ png_match_name! [
     ((8, "hyacinth"), HYACINTH),
     ((9, "jellyfish"), JELLYFISH),
     ((4, "wing"), WING),
+    ((13, "leafless_tree"), LEAFLESS_TREE),
     ((5, "goose"), GOOSE),
     ((16, "anatomical_heart"), ANATOMICAL_HEART),
     ((5, "lungs"), LUNGS),
@@ -9251,6 +9265,7 @@ png_match_name! [
     ((13, "royalty_tone5"), ROYALTY_TONE5),
     ((17, "person_with_crown"), PERSON_WITH_CROWN),
     ((7, "royalty"), ROYALTY),
+    ((11, "fingerprint"), FINGERPRINT),
     ((5, "moose"), MOOSE),
     ((6, "donkey"), DONKEY),
     ((11, "blueberries"), BLUEBERRIES),
@@ -9266,6 +9281,8 @@ png_match_name! [
     ((3, "jar"), JAR),
     ((6, "ginger"), GINGER),
     ((3, "pea"), PEA),
+    ((14, "root_vegetable"), ROOT_VEGETABLE),
+    ((8, "splatter"), SPLATTER),
     ((4, "melt"), MELT),
     ((12, "melting_face"), MELTING_FACE),
     ((6, "salute"), SALUTE),
@@ -9280,6 +9297,7 @@ png_match_name! [
     ((7, "bubbles"), BUBBLES),
     ((7, "shaking"), SHAKING),
     ((12, "shaking_face"), SHAKING_FACE),
+    ((18, "face_with_eye_bags"), FACE_WITH_EYE_BAGS),
     ((46, "hand_with_index_finger_and_thumb_crossed_tone1"), HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE1),
     ((46, "hand_with_index_finger_and_thumb_crossed_tone2"), HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE2),
     ((46, "hand_with_index_finger_and_thumb_crossed_tone3"), HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_TONE3),
@@ -9747,6 +9765,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("flag_co") => { &twemoji_assets::png::codes::U_1F1E8_1F1F4 };
     ("clipperton_island") => { &twemoji_assets::png::codes::U_1F1E8_1F1F5 };
     ("flag_cp") => { &twemoji_assets::png::codes::U_1F1E8_1F1F5 };
+    ("flag_cq") => { &twemoji_assets::png::codes::U_1F1E8_1F1F6 };
+    ("sark") => { &twemoji_assets::png::codes::U_1F1E8_1F1F6 };
     ("costa_rica") => { &twemoji_assets::png::codes::U_1F1E8_1F1F7 };
     ("flag_cr") => { &twemoji_assets::png::codes::U_1F1E8_1F1F7 };
     ("cuba") => { &twemoji_assets::png::codes::U_1F1E8_1F1FA };
@@ -13970,6 +13990,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("nesting_dolls") => { &twemoji_assets::png::codes::U_1FA86 };
     ("maracas") => { &twemoji_assets::png::codes::U_1FA87 };
     ("flute") => { &twemoji_assets::png::codes::U_1FA88 };
+    ("harp") => { &twemoji_assets::png::codes::U_1FA89 };
+    ("shovel") => { &twemoji_assets::png::codes::U_1FA8F };
     ("ringed_planet") => { &twemoji_assets::png::codes::U_1FA90 };
     ("saturn") => { &twemoji_assets::png::codes::U_1FA90 };
     ("chair") => { &twemoji_assets::png::codes::U_1FA91 };
@@ -14020,6 +14042,7 @@ macro_rules! png_twemoji_asset_from_name {
     ("hyacinth") => { &twemoji_assets::png::codes::U_1FABB };
     ("jellyfish") => { &twemoji_assets::png::codes::U_1FABC };
     ("wing") => { &twemoji_assets::png::codes::U_1FABD };
+    ("leafless_tree") => { &twemoji_assets::png::codes::U_1FABE };
     ("goose") => { &twemoji_assets::png::codes::U_1FABF };
     ("anatomical_heart") => { &twemoji_assets::png::codes::U_1FAC0 };
     ("lungs") => { &twemoji_assets::png::codes::U_1FAC1 };
@@ -14048,6 +14071,7 @@ macro_rules! png_twemoji_asset_from_name {
     ("royalty_tone5") => { &twemoji_assets::png::codes::U_1FAC5_1F3FF };
     ("person_with_crown") => { &twemoji_assets::png::codes::U_1FAC5 };
     ("royalty") => { &twemoji_assets::png::codes::U_1FAC5 };
+    ("fingerprint") => { &twemoji_assets::png::codes::U_1FAC6 };
     ("moose") => { &twemoji_assets::png::codes::U_1FACE };
     ("donkey") => { &twemoji_assets::png::codes::U_1FACF };
     ("blueberries") => { &twemoji_assets::png::codes::U_1FAD0 };
@@ -14063,6 +14087,8 @@ macro_rules! png_twemoji_asset_from_name {
     ("jar") => { &twemoji_assets::png::codes::U_1FAD9 };
     ("ginger") => { &twemoji_assets::png::codes::U_1FADA };
     ("pea") => { &twemoji_assets::png::codes::U_1FADB };
+    ("root_vegetable") => { &twemoji_assets::png::codes::U_1FADC };
+    ("splatter") => { &twemoji_assets::png::codes::U_1FADF };
     ("melt") => { &twemoji_assets::png::codes::U_1FAE0 };
     ("melting_face") => { &twemoji_assets::png::codes::U_1FAE0 };
     ("salute") => { &twemoji_assets::png::codes::U_1FAE1 };
@@ -14077,6 +14103,7 @@ macro_rules! png_twemoji_asset_from_name {
     ("bubbles") => { &twemoji_assets::png::codes::U_1FAE7 };
     ("shaking") => { &twemoji_assets::png::codes::U_1FAE8 };
     ("shaking_face") => { &twemoji_assets::png::codes::U_1FAE8 };
+    ("face_with_eye_bags") => { &twemoji_assets::png::codes::U_1FAE9 };
     ("hand_with_index_finger_and_thumb_crossed_tone1") => { &twemoji_assets::png::codes::U_1FAF0_1F3FB };
     ("hand_with_index_finger_and_thumb_crossed_tone2") => { &twemoji_assets::png::codes::U_1FAF0_1F3FC };
     ("hand_with_index_finger_and_thumb_crossed_tone3") => { &twemoji_assets::png::codes::U_1FAF0_1F3FD };

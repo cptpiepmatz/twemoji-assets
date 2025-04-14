@@ -92,6 +92,7 @@ png_code!(U_1F1E8_1F1F2, "🇨🇲", "flag: Cameroon", "1f1e8-1f1f2.png");
 png_code!(U_1F1E8_1F1F3, "🇨🇳", "flag: China", "1f1e8-1f1f3.png");
 png_code!(U_1F1E8_1F1F4, "🇨🇴", "flag: Colombia", "1f1e8-1f1f4.png");
 png_code!(U_1F1E8_1F1F5, "🇨🇵", "flag: Clipperton Island", "1f1e8-1f1f5.png");
+png_code!(U_1F1E8_1F1F6, "🇨🇶", "flag: Sark", "1f1e8-1f1f6.png");
 png_code!(U_1F1E8_1F1F7, "🇨🇷", "flag: Costa Rica", "1f1e8-1f1f7.png");
 png_code!(U_1F1E8_1F1FA, "🇨🇺", "flag: Cuba", "1f1e8-1f1fa.png");
 png_code!(U_1F1E8_1F1FB, "🇨🇻", "flag: Cape Verde", "1f1e8-1f1fb.png");
@@ -3191,7 +3192,7 @@ png_code!(U_1F9D1_1F3FF, "🧑🏿", "", "1f9d1-1f3ff.png");
 png_code!(U_1F9D1_200D_1F33E, "🧑‍🌾", "farmer", "1f9d1-200d-1f33e.png");
 png_code!(U_1F9D1_200D_1F373, "🧑‍🍳", "cook", "1f9d1-200d-1f373.png");
 png_code!(U_1F9D1_200D_1F37C, "🧑‍🍼", "person feeding baby", "1f9d1-200d-1f37c.png");
-png_code!(U_1F9D1_200D_1F384, "🧑‍🎄", "mx claus", "1f9d1-200d-1f384.png");
+png_code!(U_1F9D1_200D_1F384, "🧑‍🎄", "Mx Claus", "1f9d1-200d-1f384.png");
 png_code!(U_1F9D1_200D_1F393, "🧑‍🎓", "student", "1f9d1-200d-1f393.png");
 png_code!(U_1F9D1_200D_1F3A4, "🧑‍🎤", "singer", "1f9d1-200d-1f3a4.png");
 png_code!(U_1F9D1_200D_1F3A8, "🧑‍🎨", "artist", "1f9d1-200d-1f3a8.png");
@@ -3462,6 +3463,8 @@ png_code!(U_1FA85, "🪅", "piñata", "1fa85.png");
 png_code!(U_1FA86, "🪆", "nesting dolls", "1fa86.png");
 png_code!(U_1FA87, "🪇", "maracas", "1fa87.png");
 png_code!(U_1FA88, "🪈", "flute", "1fa88.png");
+png_code!(U_1FA89, "🪉", "harp", "1fa89.png");
+png_code!(U_1FA8F, "🪏", "shovel", "1fa8f.png");
 png_code!(U_1FA90, "🪐", "ringed planet", "1fa90.png");
 png_code!(U_1FA91, "🪑", "chair", "1fa91.png");
 png_code!(U_1FA92, "🪒", "razor", "1fa92.png");
@@ -3508,6 +3511,7 @@ png_code!(U_1FABA, "🪺", "nest with eggs", "1faba.png");
 png_code!(U_1FABB, "🪻", "hyacinth", "1fabb.png");
 png_code!(U_1FABC, "🪼", "jellyfish", "1fabc.png");
 png_code!(U_1FABD, "🪽", "wing", "1fabd.png");
+png_code!(U_1FABE, "🪾", "leafless tree", "1fabe.png");
 png_code!(U_1FABF, "🪿", "goose", "1fabf.png");
 png_code!(U_1FAC0, "🫀", "anatomical heart", "1fac0.png");
 png_code!(U_1FAC1, "🫁", "lungs", "1fac1.png");
@@ -3530,6 +3534,7 @@ png_code!(U_1FAC5_1F3FD, "🫅🏽", "", "1fac5-1f3fd.png");
 png_code!(U_1FAC5_1F3FE, "🫅🏾", "", "1fac5-1f3fe.png");
 png_code!(U_1FAC5_1F3FF, "🫅🏿", "", "1fac5-1f3ff.png");
 png_code!(U_1FAC5, "🫅", "person with crown", "1fac5.png");
+png_code!(U_1FAC6, "🫆", "fingerprint", "1fac6.png");
 png_code!(U_1FACE, "🫎", "moose", "1face.png");
 png_code!(U_1FACF, "🫏", "donkey", "1facf.png");
 png_code!(U_1FAD0, "🫐", "blueberries", "1fad0.png");
@@ -3544,6 +3549,8 @@ png_code!(U_1FAD8, "🫘", "beans", "1fad8.png");
 png_code!(U_1FAD9, "🫙", "jar", "1fad9.png");
 png_code!(U_1FADA, "🫚", "ginger root", "1fada.png");
 png_code!(U_1FADB, "🫛", "pea pod", "1fadb.png");
+png_code!(U_1FADC, "🫜", "root vegetable", "1fadc.png");
+png_code!(U_1FADF, "🫟", "splatter", "1fadf.png");
 png_code!(U_1FAE0, "🫠", "melting face", "1fae0.png");
 png_code!(U_1FAE1, "🫡", "saluting face", "1fae1.png");
 png_code!(U_1FAE2, "🫢", "face with open eyes and hand over mouth", "1fae2.png");
@@ -3553,6 +3560,7 @@ png_code!(U_1FAE5, "🫥", "dotted line face", "1fae5.png");
 png_code!(U_1FAE6, "🫦", "biting lip", "1fae6.png");
 png_code!(U_1FAE7, "🫧", "bubbles", "1fae7.png");
 png_code!(U_1FAE8, "🫨", "shaking face", "1fae8.png");
+png_code!(U_1FAE9, "🫩", "face with bags under eyes", "1fae9.png");
 png_code!(U_1FAF0_1F3FB, "🫰🏻", "", "1faf0-1f3fb.png");
 png_code!(U_1FAF0_1F3FC, "🫰🏼", "", "1faf0-1f3fc.png");
 png_code!(U_1FAF0_1F3FD, "🫰🏽", "", "1faf0-1f3fd.png");
@@ -3932,6 +3940,7 @@ png_match_emoji! [
     ((Some('🇨'), Some('🇳'), None, None, None, None, None, None, None, None), U_1F1E8_1F1F3),
     ((Some('🇨'), Some('🇴'), None, None, None, None, None, None, None, None), U_1F1E8_1F1F4),
     ((Some('🇨'), Some('🇵'), None, None, None, None, None, None, None, None), U_1F1E8_1F1F5),
+    ((Some('🇨'), Some('🇶'), None, None, None, None, None, None, None, None), U_1F1E8_1F1F6),
     ((Some('🇨'), Some('🇷'), None, None, None, None, None, None, None, None), U_1F1E8_1F1F7),
     ((Some('🇨'), Some('🇺'), None, None, None, None, None, None, None, None), U_1F1E8_1F1FA),
     ((Some('🇨'), Some('🇻'), None, None, None, None, None, None, None, None), U_1F1E8_1F1FB),
@@ -7302,6 +7311,8 @@ png_match_emoji! [
     ((Some('🪆'), None, None, None, None, None, None, None, None, None), U_1FA86),
     ((Some('🪇'), None, None, None, None, None, None, None, None, None), U_1FA87),
     ((Some('🪈'), None, None, None, None, None, None, None, None, None), U_1FA88),
+    ((Some('🪉'), None, None, None, None, None, None, None, None, None), U_1FA89),
+    ((Some('🪏'), None, None, None, None, None, None, None, None, None), U_1FA8F),
     ((Some('🪐'), None, None, None, None, None, None, None, None, None), U_1FA90),
     ((Some('🪑'), None, None, None, None, None, None, None, None, None), U_1FA91),
     ((Some('🪒'), None, None, None, None, None, None, None, None, None), U_1FA92),
@@ -7348,6 +7359,7 @@ png_match_emoji! [
     ((Some('🪻'), None, None, None, None, None, None, None, None, None), U_1FABB),
     ((Some('🪼'), None, None, None, None, None, None, None, None, None), U_1FABC),
     ((Some('🪽'), None, None, None, None, None, None, None, None, None), U_1FABD),
+    ((Some('🪾'), None, None, None, None, None, None, None, None, None), U_1FABE),
     ((Some('🪿'), None, None, None, None, None, None, None, None, None), U_1FABF),
     ((Some('🫀'), None, None, None, None, None, None, None, None, None), U_1FAC0),
     ((Some('🫁'), None, None, None, None, None, None, None, None, None), U_1FAC1),
@@ -7370,6 +7382,7 @@ png_match_emoji! [
     ((Some('🫅'), Some('🏾'), None, None, None, None, None, None, None, None), U_1FAC5_1F3FE),
     ((Some('🫅'), Some('🏿'), None, None, None, None, None, None, None, None), U_1FAC5_1F3FF),
     ((Some('🫅'), None, None, None, None, None, None, None, None, None), U_1FAC5),
+    ((Some('🫆'), None, None, None, None, None, None, None, None, None), U_1FAC6),
     ((Some('🫎'), None, None, None, None, None, None, None, None, None), U_1FACE),
     ((Some('🫏'), None, None, None, None, None, None, None, None, None), U_1FACF),
     ((Some('🫐'), None, None, None, None, None, None, None, None, None), U_1FAD0),
@@ -7384,6 +7397,8 @@ png_match_emoji! [
     ((Some('🫙'), None, None, None, None, None, None, None, None, None), U_1FAD9),
     ((Some('🫚'), None, None, None, None, None, None, None, None, None), U_1FADA),
     ((Some('🫛'), None, None, None, None, None, None, None, None, None), U_1FADB),
+    ((Some('🫜'), None, None, None, None, None, None, None, None, None), U_1FADC),
+    ((Some('🫟'), None, None, None, None, None, None, None, None, None), U_1FADF),
     ((Some('🫠'), None, None, None, None, None, None, None, None, None), U_1FAE0),
     ((Some('🫡'), None, None, None, None, None, None, None, None, None), U_1FAE1),
     ((Some('🫢'), None, None, None, None, None, None, None, None, None), U_1FAE2),
@@ -7393,6 +7408,7 @@ png_match_emoji! [
     ((Some('🫦'), None, None, None, None, None, None, None, None, None), U_1FAE6),
     ((Some('🫧'), None, None, None, None, None, None, None, None, None), U_1FAE7),
     ((Some('🫨'), None, None, None, None, None, None, None, None, None), U_1FAE8),
+    ((Some('🫩'), None, None, None, None, None, None, None, None, None), U_1FAE9),
     ((Some('🫰'), Some('🏻'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FB),
     ((Some('🫰'), Some('🏼'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FC),
     ((Some('🫰'), Some('🏽'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FD),
@@ -7776,6 +7792,7 @@ macro_rules! png_twemoji_asset {
     ("🇨🇳") => { &twemoji_assets::png::codes::U_1F1E8_1F1F3 };
     ("🇨🇴") => { &twemoji_assets::png::codes::U_1F1E8_1F1F4 };
     ("🇨🇵") => { &twemoji_assets::png::codes::U_1F1E8_1F1F5 };
+    ("🇨🇶") => { &twemoji_assets::png::codes::U_1F1E8_1F1F6 };
     ("🇨🇷") => { &twemoji_assets::png::codes::U_1F1E8_1F1F7 };
     ("🇨🇺") => { &twemoji_assets::png::codes::U_1F1E8_1F1FA };
     ("🇨🇻") => { &twemoji_assets::png::codes::U_1F1E8_1F1FB };
@@ -11146,6 +11163,8 @@ macro_rules! png_twemoji_asset {
     ("🪆") => { &twemoji_assets::png::codes::U_1FA86 };
     ("🪇") => { &twemoji_assets::png::codes::U_1FA87 };
     ("🪈") => { &twemoji_assets::png::codes::U_1FA88 };
+    ("🪉") => { &twemoji_assets::png::codes::U_1FA89 };
+    ("🪏") => { &twemoji_assets::png::codes::U_1FA8F };
     ("🪐") => { &twemoji_assets::png::codes::U_1FA90 };
     ("🪑") => { &twemoji_assets::png::codes::U_1FA91 };
     ("🪒") => { &twemoji_assets::png::codes::U_1FA92 };
@@ -11192,6 +11211,7 @@ macro_rules! png_twemoji_asset {
     ("🪻") => { &twemoji_assets::png::codes::U_1FABB };
     ("🪼") => { &twemoji_assets::png::codes::U_1FABC };
     ("🪽") => { &twemoji_assets::png::codes::U_1FABD };
+    ("🪾") => { &twemoji_assets::png::codes::U_1FABE };
     ("🪿") => { &twemoji_assets::png::codes::U_1FABF };
     ("🫀") => { &twemoji_assets::png::codes::U_1FAC0 };
     ("🫁") => { &twemoji_assets::png::codes::U_1FAC1 };
@@ -11214,6 +11234,7 @@ macro_rules! png_twemoji_asset {
     ("🫅🏾") => { &twemoji_assets::png::codes::U_1FAC5_1F3FE };
     ("🫅🏿") => { &twemoji_assets::png::codes::U_1FAC5_1F3FF };
     ("🫅") => { &twemoji_assets::png::codes::U_1FAC5 };
+    ("🫆") => { &twemoji_assets::png::codes::U_1FAC6 };
     ("🫎") => { &twemoji_assets::png::codes::U_1FACE };
     ("🫏") => { &twemoji_assets::png::codes::U_1FACF };
     ("🫐") => { &twemoji_assets::png::codes::U_1FAD0 };
@@ -11228,6 +11249,8 @@ macro_rules! png_twemoji_asset {
     ("🫙") => { &twemoji_assets::png::codes::U_1FAD9 };
     ("🫚") => { &twemoji_assets::png::codes::U_1FADA };
     ("🫛") => { &twemoji_assets::png::codes::U_1FADB };
+    ("🫜") => { &twemoji_assets::png::codes::U_1FADC };
+    ("🫟") => { &twemoji_assets::png::codes::U_1FADF };
     ("🫠") => { &twemoji_assets::png::codes::U_1FAE0 };
     ("🫡") => { &twemoji_assets::png::codes::U_1FAE1 };
     ("🫢") => { &twemoji_assets::png::codes::U_1FAE2 };
@@ -11237,6 +11260,7 @@ macro_rules! png_twemoji_asset {
     ("🫦") => { &twemoji_assets::png::codes::U_1FAE6 };
     ("🫧") => { &twemoji_assets::png::codes::U_1FAE7 };
     ("🫨") => { &twemoji_assets::png::codes::U_1FAE8 };
+    ("🫩") => { &twemoji_assets::png::codes::U_1FAE9 };
     ("🫰🏻") => { &twemoji_assets::png::codes::U_1FAF0_1F3FB };
     ("🫰🏼") => { &twemoji_assets::png::codes::U_1FAF0_1F3FC };
     ("🫰🏽") => { &twemoji_assets::png::codes::U_1FAF0_1F3FD };

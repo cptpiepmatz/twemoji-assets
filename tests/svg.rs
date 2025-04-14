@@ -37,10 +37,7 @@ mod tests {
 
         assert_eq!(SvgTwemojiAsset::from_emoji("🐦"), Some(&U_1F426));
         assert_eq!(SvgTwemojiAsset::from_emoji("🇩🇪"), Some(&U_1F1E9_1F1EA));
-        assert_eq!(
-            SvgTwemojiAsset::from_emoji("🐕‍🦺"),
-            Some(&U_1F415_200D_1F9BA)
-        );
+        assert_eq!(SvgTwemojiAsset::from_emoji("🐕‍🦺"), Some(&U_1F415_200D_1F9BA));
         assert_eq!(
             SvgTwemojiAsset::from_emoji("🚴‍♀️"),
             Some(&U_1F6B4_200D_2640_FE0F)
