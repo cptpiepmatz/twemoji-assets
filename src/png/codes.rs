@@ -905,6 +905,10 @@ png_code!(U_1F468_1F3FB_200D_1F3A4, "👨🏻‍🎤", "", "1f468-1f3fb-200d-1f3
 png_code!(U_1F468_1F3FB_200D_1F3A8, "👨🏻‍🎨", "", "1f468-1f3fb-200d-1f3a8.png");
 png_code!(U_1F468_1F3FB_200D_1F3EB, "👨🏻‍🏫", "", "1f468-1f3fb-200d-1f3eb.png");
 png_code!(U_1F468_1F3FB_200D_1F3ED, "👨🏻‍🏭", "", "1f468-1f3fb-200d-1f3ed.png");
+png_code!(U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FC, "👨🏻‍🐰‍👨🏼", "", "1f468-1f3fb-200d-1f430-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FD, "👨🏻‍🐰‍👨🏽", "", "1f468-1f3fb-200d-1f430-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FE, "👨🏻‍🐰‍👨🏾", "", "1f468-1f3fb-200d-1f430-200d-1f468-1f3fe.png");
+png_code!(U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FF, "👨🏻‍🐰‍👨🏿", "", "1f468-1f3fb-200d-1f430-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FB_200D_1F4BB, "👨🏻‍💻", "", "1f468-1f3fb-200d-1f4bb.png");
 png_code!(U_1F468_1F3FB_200D_1F4BC, "👨🏻‍💼", "", "1f468-1f3fb-200d-1f4bc.png");
 png_code!(U_1F468_1F3FB_200D_1F527, "👨🏻‍🔧", "", "1f468-1f3fb-200d-1f527.png");
@@ -925,6 +929,10 @@ png_code!(U_1F468_1F3FB_200D_1F9BC_200D_27A1_FE0F, "👨🏻‍🦼‍➡️", "
 png_code!(U_1F468_1F3FB_200D_1F9BC, "👨🏻‍🦼", "", "1f468-1f3fb-200d-1f9bc.png");
 png_code!(U_1F468_1F3FB_200D_1F9BD_200D_27A1_FE0F, "👨🏻‍🦽‍➡️", "", "1f468-1f3fb-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F468_1F3FB_200D_1F9BD, "👨🏻‍🦽", "", "1f468-1f3fb-200d-1f9bd.png");
+png_code!(U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FC, "👨🏻‍🫯‍👨🏼", "", "1f468-1f3fb-200d-1faef-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FD, "👨🏻‍🫯‍👨🏽", "", "1f468-1f3fb-200d-1faef-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FE, "👨🏻‍🫯‍👨🏾", "", "1f468-1f3fb-200d-1faef-200d-1f468-1f3fe.png");
+png_code!(U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FF, "👨🏻‍🫯‍👨🏿", "", "1f468-1f3fb-200d-1faef-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FB_200D_2695_FE0F, "👨🏻‍⚕️", "", "1f468-1f3fb-200d-2695-fe0f.png");
 png_code!(U_1F468_1F3FB_200D_2696_FE0F, "👨🏻‍⚖️", "", "1f468-1f3fb-200d-2696-fe0f.png");
 png_code!(U_1F468_1F3FB_200D_2708_FE0F, "👨🏻‍✈️", "", "1f468-1f3fb-200d-2708-fe0f.png");
@@ -948,6 +956,10 @@ png_code!(U_1F468_1F3FC_200D_1F3A4, "👨🏼‍🎤", "", "1f468-1f3fc-200d-1f3
 png_code!(U_1F468_1F3FC_200D_1F3A8, "👨🏼‍🎨", "", "1f468-1f3fc-200d-1f3a8.png");
 png_code!(U_1F468_1F3FC_200D_1F3EB, "👨🏼‍🏫", "", "1f468-1f3fc-200d-1f3eb.png");
 png_code!(U_1F468_1F3FC_200D_1F3ED, "👨🏼‍🏭", "", "1f468-1f3fc-200d-1f3ed.png");
+png_code!(U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FB, "👨🏼‍🐰‍👨🏻", "", "1f468-1f3fc-200d-1f430-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FD, "👨🏼‍🐰‍👨🏽", "", "1f468-1f3fc-200d-1f430-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FE, "👨🏼‍🐰‍👨🏾", "", "1f468-1f3fc-200d-1f430-200d-1f468-1f3fe.png");
+png_code!(U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FF, "👨🏼‍🐰‍👨🏿", "", "1f468-1f3fc-200d-1f430-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FC_200D_1F4BB, "👨🏼‍💻", "", "1f468-1f3fc-200d-1f4bb.png");
 png_code!(U_1F468_1F3FC_200D_1F4BC, "👨🏼‍💼", "", "1f468-1f3fc-200d-1f4bc.png");
 png_code!(U_1F468_1F3FC_200D_1F527, "👨🏼‍🔧", "", "1f468-1f3fc-200d-1f527.png");
@@ -968,6 +980,10 @@ png_code!(U_1F468_1F3FC_200D_1F9BC_200D_27A1_FE0F, "👨🏼‍🦼‍➡️", "
 png_code!(U_1F468_1F3FC_200D_1F9BC, "👨🏼‍🦼", "", "1f468-1f3fc-200d-1f9bc.png");
 png_code!(U_1F468_1F3FC_200D_1F9BD_200D_27A1_FE0F, "👨🏼‍🦽‍➡️", "", "1f468-1f3fc-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F468_1F3FC_200D_1F9BD, "👨🏼‍🦽", "", "1f468-1f3fc-200d-1f9bd.png");
+png_code!(U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FB, "👨🏼‍🫯‍👨🏻", "", "1f468-1f3fc-200d-1faef-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FD, "👨🏼‍🫯‍👨🏽", "", "1f468-1f3fc-200d-1faef-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FE, "👨🏼‍🫯‍👨🏾", "", "1f468-1f3fc-200d-1faef-200d-1f468-1f3fe.png");
+png_code!(U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FF, "👨🏼‍🫯‍👨🏿", "", "1f468-1f3fc-200d-1faef-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FC_200D_2695_FE0F, "👨🏼‍⚕️", "", "1f468-1f3fc-200d-2695-fe0f.png");
 png_code!(U_1F468_1F3FC_200D_2696_FE0F, "👨🏼‍⚖️", "", "1f468-1f3fc-200d-2696-fe0f.png");
 png_code!(U_1F468_1F3FC_200D_2708_FE0F, "👨🏼‍✈️", "", "1f468-1f3fc-200d-2708-fe0f.png");
@@ -991,6 +1007,10 @@ png_code!(U_1F468_1F3FD_200D_1F3A4, "👨🏽‍🎤", "", "1f468-1f3fd-200d-1f3
 png_code!(U_1F468_1F3FD_200D_1F3A8, "👨🏽‍🎨", "", "1f468-1f3fd-200d-1f3a8.png");
 png_code!(U_1F468_1F3FD_200D_1F3EB, "👨🏽‍🏫", "", "1f468-1f3fd-200d-1f3eb.png");
 png_code!(U_1F468_1F3FD_200D_1F3ED, "👨🏽‍🏭", "", "1f468-1f3fd-200d-1f3ed.png");
+png_code!(U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FB, "👨🏽‍🐰‍👨🏻", "", "1f468-1f3fd-200d-1f430-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FC, "👨🏽‍🐰‍👨🏼", "", "1f468-1f3fd-200d-1f430-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FE, "👨🏽‍🐰‍👨🏾", "", "1f468-1f3fd-200d-1f430-200d-1f468-1f3fe.png");
+png_code!(U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FF, "👨🏽‍🐰‍👨🏿", "", "1f468-1f3fd-200d-1f430-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FD_200D_1F4BB, "👨🏽‍💻", "", "1f468-1f3fd-200d-1f4bb.png");
 png_code!(U_1F468_1F3FD_200D_1F4BC, "👨🏽‍💼", "", "1f468-1f3fd-200d-1f4bc.png");
 png_code!(U_1F468_1F3FD_200D_1F527, "👨🏽‍🔧", "", "1f468-1f3fd-200d-1f527.png");
@@ -1011,6 +1031,10 @@ png_code!(U_1F468_1F3FD_200D_1F9BC_200D_27A1_FE0F, "👨🏽‍🦼‍➡️", "
 png_code!(U_1F468_1F3FD_200D_1F9BC, "👨🏽‍🦼", "", "1f468-1f3fd-200d-1f9bc.png");
 png_code!(U_1F468_1F3FD_200D_1F9BD_200D_27A1_FE0F, "👨🏽‍🦽‍➡️", "", "1f468-1f3fd-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F468_1F3FD_200D_1F9BD, "👨🏽‍🦽", "", "1f468-1f3fd-200d-1f9bd.png");
+png_code!(U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FB, "👨🏽‍🫯‍👨🏻", "", "1f468-1f3fd-200d-1faef-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FC, "👨🏽‍🫯‍👨🏼", "", "1f468-1f3fd-200d-1faef-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FE, "👨🏽‍🫯‍👨🏾", "", "1f468-1f3fd-200d-1faef-200d-1f468-1f3fe.png");
+png_code!(U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FF, "👨🏽‍🫯‍👨🏿", "", "1f468-1f3fd-200d-1faef-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FD_200D_2695_FE0F, "👨🏽‍⚕️", "", "1f468-1f3fd-200d-2695-fe0f.png");
 png_code!(U_1F468_1F3FD_200D_2696_FE0F, "👨🏽‍⚖️", "", "1f468-1f3fd-200d-2696-fe0f.png");
 png_code!(U_1F468_1F3FD_200D_2708_FE0F, "👨🏽‍✈️", "", "1f468-1f3fd-200d-2708-fe0f.png");
@@ -1034,6 +1058,10 @@ png_code!(U_1F468_1F3FE_200D_1F3A4, "👨🏾‍🎤", "", "1f468-1f3fe-200d-1f3
 png_code!(U_1F468_1F3FE_200D_1F3A8, "👨🏾‍🎨", "", "1f468-1f3fe-200d-1f3a8.png");
 png_code!(U_1F468_1F3FE_200D_1F3EB, "👨🏾‍🏫", "", "1f468-1f3fe-200d-1f3eb.png");
 png_code!(U_1F468_1F3FE_200D_1F3ED, "👨🏾‍🏭", "", "1f468-1f3fe-200d-1f3ed.png");
+png_code!(U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FB, "👨🏾‍🐰‍👨🏻", "", "1f468-1f3fe-200d-1f430-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FC, "👨🏾‍🐰‍👨🏼", "", "1f468-1f3fe-200d-1f430-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FD, "👨🏾‍🐰‍👨🏽", "", "1f468-1f3fe-200d-1f430-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FF, "👨🏾‍🐰‍👨🏿", "", "1f468-1f3fe-200d-1f430-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FE_200D_1F4BB, "👨🏾‍💻", "", "1f468-1f3fe-200d-1f4bb.png");
 png_code!(U_1F468_1F3FE_200D_1F4BC, "👨🏾‍💼", "", "1f468-1f3fe-200d-1f4bc.png");
 png_code!(U_1F468_1F3FE_200D_1F527, "👨🏾‍🔧", "", "1f468-1f3fe-200d-1f527.png");
@@ -1054,6 +1082,10 @@ png_code!(U_1F468_1F3FE_200D_1F9BC_200D_27A1_FE0F, "👨🏾‍🦼‍➡️", "
 png_code!(U_1F468_1F3FE_200D_1F9BC, "👨🏾‍🦼", "", "1f468-1f3fe-200d-1f9bc.png");
 png_code!(U_1F468_1F3FE_200D_1F9BD_200D_27A1_FE0F, "👨🏾‍🦽‍➡️", "", "1f468-1f3fe-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F468_1F3FE_200D_1F9BD, "👨🏾‍🦽", "", "1f468-1f3fe-200d-1f9bd.png");
+png_code!(U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FB, "👨🏾‍🫯‍👨🏻", "", "1f468-1f3fe-200d-1faef-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FC, "👨🏾‍🫯‍👨🏼", "", "1f468-1f3fe-200d-1faef-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FD, "👨🏾‍🫯‍👨🏽", "", "1f468-1f3fe-200d-1faef-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FF, "👨🏾‍🫯‍👨🏿", "", "1f468-1f3fe-200d-1faef-200d-1f468-1f3ff.png");
 png_code!(U_1F468_1F3FE_200D_2695_FE0F, "👨🏾‍⚕️", "", "1f468-1f3fe-200d-2695-fe0f.png");
 png_code!(U_1F468_1F3FE_200D_2696_FE0F, "👨🏾‍⚖️", "", "1f468-1f3fe-200d-2696-fe0f.png");
 png_code!(U_1F468_1F3FE_200D_2708_FE0F, "👨🏾‍✈️", "", "1f468-1f3fe-200d-2708-fe0f.png");
@@ -1077,6 +1109,10 @@ png_code!(U_1F468_1F3FF_200D_1F3A4, "👨🏿‍🎤", "", "1f468-1f3ff-200d-1f3
 png_code!(U_1F468_1F3FF_200D_1F3A8, "👨🏿‍🎨", "", "1f468-1f3ff-200d-1f3a8.png");
 png_code!(U_1F468_1F3FF_200D_1F3EB, "👨🏿‍🏫", "", "1f468-1f3ff-200d-1f3eb.png");
 png_code!(U_1F468_1F3FF_200D_1F3ED, "👨🏿‍🏭", "", "1f468-1f3ff-200d-1f3ed.png");
+png_code!(U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FB, "👨🏿‍🐰‍👨🏻", "", "1f468-1f3ff-200d-1f430-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FC, "👨🏿‍🐰‍👨🏼", "", "1f468-1f3ff-200d-1f430-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FD, "👨🏿‍🐰‍👨🏽", "", "1f468-1f3ff-200d-1f430-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FE, "👨🏿‍🐰‍👨🏾", "", "1f468-1f3ff-200d-1f430-200d-1f468-1f3fe.png");
 png_code!(U_1F468_1F3FF_200D_1F4BB, "👨🏿‍💻", "", "1f468-1f3ff-200d-1f4bb.png");
 png_code!(U_1F468_1F3FF_200D_1F4BC, "👨🏿‍💼", "", "1f468-1f3ff-200d-1f4bc.png");
 png_code!(U_1F468_1F3FF_200D_1F527, "👨🏿‍🔧", "", "1f468-1f3ff-200d-1f527.png");
@@ -1097,6 +1133,10 @@ png_code!(U_1F468_1F3FF_200D_1F9BC_200D_27A1_FE0F, "👨🏿‍🦼‍➡️", "
 png_code!(U_1F468_1F3FF_200D_1F9BC, "👨🏿‍🦼", "", "1f468-1f3ff-200d-1f9bc.png");
 png_code!(U_1F468_1F3FF_200D_1F9BD_200D_27A1_FE0F, "👨🏿‍🦽‍➡️", "", "1f468-1f3ff-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F468_1F3FF_200D_1F9BD, "👨🏿‍🦽", "", "1f468-1f3ff-200d-1f9bd.png");
+png_code!(U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FB, "👨🏿‍🫯‍👨🏻", "", "1f468-1f3ff-200d-1faef-200d-1f468-1f3fb.png");
+png_code!(U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FC, "👨🏿‍🫯‍👨🏼", "", "1f468-1f3ff-200d-1faef-200d-1f468-1f3fc.png");
+png_code!(U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FD, "👨🏿‍🫯‍👨🏽", "", "1f468-1f3ff-200d-1faef-200d-1f468-1f3fd.png");
+png_code!(U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FE, "👨🏿‍🫯‍👨🏾", "", "1f468-1f3ff-200d-1faef-200d-1f468-1f3fe.png");
 png_code!(U_1F468_1F3FF_200D_2695_FE0F, "👨🏿‍⚕️", "", "1f468-1f3ff-200d-2695-fe0f.png");
 png_code!(U_1F468_1F3FF_200D_2696_FE0F, "👨🏿‍⚖️", "", "1f468-1f3ff-200d-2696-fe0f.png");
 png_code!(U_1F468_1F3FF_200D_2708_FE0F, "👨🏿‍✈️", "", "1f468-1f3ff-200d-2708-fe0f.png");
@@ -1166,6 +1206,10 @@ png_code!(U_1F469_1F3FB_200D_1F3A4, "👩🏻‍🎤", "", "1f469-1f3fb-200d-1f3
 png_code!(U_1F469_1F3FB_200D_1F3A8, "👩🏻‍🎨", "", "1f469-1f3fb-200d-1f3a8.png");
 png_code!(U_1F469_1F3FB_200D_1F3EB, "👩🏻‍🏫", "", "1f469-1f3fb-200d-1f3eb.png");
 png_code!(U_1F469_1F3FB_200D_1F3ED, "👩🏻‍🏭", "", "1f469-1f3fb-200d-1f3ed.png");
+png_code!(U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FC, "👩🏻‍🐰‍👩🏼", "", "1f469-1f3fb-200d-1f430-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FD, "👩🏻‍🐰‍👩🏽", "", "1f469-1f3fb-200d-1f430-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FE, "👩🏻‍🐰‍👩🏾", "", "1f469-1f3fb-200d-1f430-200d-1f469-1f3fe.png");
+png_code!(U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FF, "👩🏻‍🐰‍👩🏿", "", "1f469-1f3fb-200d-1f430-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FB_200D_1F4BB, "👩🏻‍💻", "", "1f469-1f3fb-200d-1f4bb.png");
 png_code!(U_1F469_1F3FB_200D_1F4BC, "👩🏻‍💼", "", "1f469-1f3fb-200d-1f4bc.png");
 png_code!(U_1F469_1F3FB_200D_1F527, "👩🏻‍🔧", "", "1f469-1f3fb-200d-1f527.png");
@@ -1190,6 +1234,10 @@ png_code!(U_1F469_1F3FB_200D_1F9BC_200D_27A1_FE0F, "👩🏻‍🦼‍➡️", "
 png_code!(U_1F469_1F3FB_200D_1F9BC, "👩🏻‍🦼", "", "1f469-1f3fb-200d-1f9bc.png");
 png_code!(U_1F469_1F3FB_200D_1F9BD_200D_27A1_FE0F, "👩🏻‍🦽‍➡️", "", "1f469-1f3fb-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F469_1F3FB_200D_1F9BD, "👩🏻‍🦽", "", "1f469-1f3fb-200d-1f9bd.png");
+png_code!(U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FC, "👩🏻‍🫯‍👩🏼", "", "1f469-1f3fb-200d-1faef-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FD, "👩🏻‍🫯‍👩🏽", "", "1f469-1f3fb-200d-1faef-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FE, "👩🏻‍🫯‍👩🏾", "", "1f469-1f3fb-200d-1faef-200d-1f469-1f3fe.png");
+png_code!(U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FF, "👩🏻‍🫯‍👩🏿", "", "1f469-1f3fb-200d-1faef-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FB_200D_2695_FE0F, "👩🏻‍⚕️", "", "1f469-1f3fb-200d-2695-fe0f.png");
 png_code!(U_1F469_1F3FB_200D_2696_FE0F, "👩🏻‍⚖️", "", "1f469-1f3fb-200d-2696-fe0f.png");
 png_code!(U_1F469_1F3FB_200D_2708_FE0F, "👩🏻‍✈️", "", "1f469-1f3fb-200d-2708-fe0f.png");
@@ -1223,6 +1271,10 @@ png_code!(U_1F469_1F3FC_200D_1F3A4, "👩🏼‍🎤", "", "1f469-1f3fc-200d-1f3
 png_code!(U_1F469_1F3FC_200D_1F3A8, "👩🏼‍🎨", "", "1f469-1f3fc-200d-1f3a8.png");
 png_code!(U_1F469_1F3FC_200D_1F3EB, "👩🏼‍🏫", "", "1f469-1f3fc-200d-1f3eb.png");
 png_code!(U_1F469_1F3FC_200D_1F3ED, "👩🏼‍🏭", "", "1f469-1f3fc-200d-1f3ed.png");
+png_code!(U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FB, "👩🏼‍🐰‍👩🏻", "", "1f469-1f3fc-200d-1f430-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FD, "👩🏼‍🐰‍👩🏽", "", "1f469-1f3fc-200d-1f430-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FE, "👩🏼‍🐰‍👩🏾", "", "1f469-1f3fc-200d-1f430-200d-1f469-1f3fe.png");
+png_code!(U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FF, "👩🏼‍🐰‍👩🏿", "", "1f469-1f3fc-200d-1f430-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FC_200D_1F4BB, "👩🏼‍💻", "", "1f469-1f3fc-200d-1f4bb.png");
 png_code!(U_1F469_1F3FC_200D_1F4BC, "👩🏼‍💼", "", "1f469-1f3fc-200d-1f4bc.png");
 png_code!(U_1F469_1F3FC_200D_1F527, "👩🏼‍🔧", "", "1f469-1f3fc-200d-1f527.png");
@@ -1247,6 +1299,10 @@ png_code!(U_1F469_1F3FC_200D_1F9BC_200D_27A1_FE0F, "👩🏼‍🦼‍➡️", "
 png_code!(U_1F469_1F3FC_200D_1F9BC, "👩🏼‍🦼", "", "1f469-1f3fc-200d-1f9bc.png");
 png_code!(U_1F469_1F3FC_200D_1F9BD_200D_27A1_FE0F, "👩🏼‍🦽‍➡️", "", "1f469-1f3fc-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F469_1F3FC_200D_1F9BD, "👩🏼‍🦽", "", "1f469-1f3fc-200d-1f9bd.png");
+png_code!(U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FB, "👩🏼‍🫯‍👩🏻", "", "1f469-1f3fc-200d-1faef-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FD, "👩🏼‍🫯‍👩🏽", "", "1f469-1f3fc-200d-1faef-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FE, "👩🏼‍🫯‍👩🏾", "", "1f469-1f3fc-200d-1faef-200d-1f469-1f3fe.png");
+png_code!(U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FF, "👩🏼‍🫯‍👩🏿", "", "1f469-1f3fc-200d-1faef-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FC_200D_2695_FE0F, "👩🏼‍⚕️", "", "1f469-1f3fc-200d-2695-fe0f.png");
 png_code!(U_1F469_1F3FC_200D_2696_FE0F, "👩🏼‍⚖️", "", "1f469-1f3fc-200d-2696-fe0f.png");
 png_code!(U_1F469_1F3FC_200D_2708_FE0F, "👩🏼‍✈️", "", "1f469-1f3fc-200d-2708-fe0f.png");
@@ -1280,6 +1336,10 @@ png_code!(U_1F469_1F3FD_200D_1F3A4, "👩🏽‍🎤", "", "1f469-1f3fd-200d-1f3
 png_code!(U_1F469_1F3FD_200D_1F3A8, "👩🏽‍🎨", "", "1f469-1f3fd-200d-1f3a8.png");
 png_code!(U_1F469_1F3FD_200D_1F3EB, "👩🏽‍🏫", "", "1f469-1f3fd-200d-1f3eb.png");
 png_code!(U_1F469_1F3FD_200D_1F3ED, "👩🏽‍🏭", "", "1f469-1f3fd-200d-1f3ed.png");
+png_code!(U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FB, "👩🏽‍🐰‍👩🏻", "", "1f469-1f3fd-200d-1f430-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FC, "👩🏽‍🐰‍👩🏼", "", "1f469-1f3fd-200d-1f430-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FE, "👩🏽‍🐰‍👩🏾", "", "1f469-1f3fd-200d-1f430-200d-1f469-1f3fe.png");
+png_code!(U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FF, "👩🏽‍🐰‍👩🏿", "", "1f469-1f3fd-200d-1f430-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FD_200D_1F4BB, "👩🏽‍💻", "", "1f469-1f3fd-200d-1f4bb.png");
 png_code!(U_1F469_1F3FD_200D_1F4BC, "👩🏽‍💼", "", "1f469-1f3fd-200d-1f4bc.png");
 png_code!(U_1F469_1F3FD_200D_1F527, "👩🏽‍🔧", "", "1f469-1f3fd-200d-1f527.png");
@@ -1304,6 +1364,10 @@ png_code!(U_1F469_1F3FD_200D_1F9BC_200D_27A1_FE0F, "👩🏽‍🦼‍➡️", "
 png_code!(U_1F469_1F3FD_200D_1F9BC, "👩🏽‍🦼", "", "1f469-1f3fd-200d-1f9bc.png");
 png_code!(U_1F469_1F3FD_200D_1F9BD_200D_27A1_FE0F, "👩🏽‍🦽‍➡️", "", "1f469-1f3fd-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F469_1F3FD_200D_1F9BD, "👩🏽‍🦽", "", "1f469-1f3fd-200d-1f9bd.png");
+png_code!(U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FB, "👩🏽‍🫯‍👩🏻", "", "1f469-1f3fd-200d-1faef-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FC, "👩🏽‍🫯‍👩🏼", "", "1f469-1f3fd-200d-1faef-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FE, "👩🏽‍🫯‍👩🏾", "", "1f469-1f3fd-200d-1faef-200d-1f469-1f3fe.png");
+png_code!(U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FF, "👩🏽‍🫯‍👩🏿", "", "1f469-1f3fd-200d-1faef-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FD_200D_2695_FE0F, "👩🏽‍⚕️", "", "1f469-1f3fd-200d-2695-fe0f.png");
 png_code!(U_1F469_1F3FD_200D_2696_FE0F, "👩🏽‍⚖️", "", "1f469-1f3fd-200d-2696-fe0f.png");
 png_code!(U_1F469_1F3FD_200D_2708_FE0F, "👩🏽‍✈️", "", "1f469-1f3fd-200d-2708-fe0f.png");
@@ -1337,6 +1401,10 @@ png_code!(U_1F469_1F3FE_200D_1F3A4, "👩🏾‍🎤", "", "1f469-1f3fe-200d-1f3
 png_code!(U_1F469_1F3FE_200D_1F3A8, "👩🏾‍🎨", "", "1f469-1f3fe-200d-1f3a8.png");
 png_code!(U_1F469_1F3FE_200D_1F3EB, "👩🏾‍🏫", "", "1f469-1f3fe-200d-1f3eb.png");
 png_code!(U_1F469_1F3FE_200D_1F3ED, "👩🏾‍🏭", "", "1f469-1f3fe-200d-1f3ed.png");
+png_code!(U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FB, "👩🏾‍🐰‍👩🏻", "", "1f469-1f3fe-200d-1f430-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FC, "👩🏾‍🐰‍👩🏼", "", "1f469-1f3fe-200d-1f430-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FD, "👩🏾‍🐰‍👩🏽", "", "1f469-1f3fe-200d-1f430-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FF, "👩🏾‍🐰‍👩🏿", "", "1f469-1f3fe-200d-1f430-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FE_200D_1F4BB, "👩🏾‍💻", "", "1f469-1f3fe-200d-1f4bb.png");
 png_code!(U_1F469_1F3FE_200D_1F4BC, "👩🏾‍💼", "", "1f469-1f3fe-200d-1f4bc.png");
 png_code!(U_1F469_1F3FE_200D_1F527, "👩🏾‍🔧", "", "1f469-1f3fe-200d-1f527.png");
@@ -1361,6 +1429,10 @@ png_code!(U_1F469_1F3FE_200D_1F9BC_200D_27A1_FE0F, "👩🏾‍🦼‍➡️", "
 png_code!(U_1F469_1F3FE_200D_1F9BC, "👩🏾‍🦼", "", "1f469-1f3fe-200d-1f9bc.png");
 png_code!(U_1F469_1F3FE_200D_1F9BD_200D_27A1_FE0F, "👩🏾‍🦽‍➡️", "", "1f469-1f3fe-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F469_1F3FE_200D_1F9BD, "👩🏾‍🦽", "", "1f469-1f3fe-200d-1f9bd.png");
+png_code!(U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FB, "👩🏾‍🫯‍👩🏻", "", "1f469-1f3fe-200d-1faef-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FC, "👩🏾‍🫯‍👩🏼", "", "1f469-1f3fe-200d-1faef-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FD, "👩🏾‍🫯‍👩🏽", "", "1f469-1f3fe-200d-1faef-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FF, "👩🏾‍🫯‍👩🏿", "", "1f469-1f3fe-200d-1faef-200d-1f469-1f3ff.png");
 png_code!(U_1F469_1F3FE_200D_2695_FE0F, "👩🏾‍⚕️", "", "1f469-1f3fe-200d-2695-fe0f.png");
 png_code!(U_1F469_1F3FE_200D_2696_FE0F, "👩🏾‍⚖️", "", "1f469-1f3fe-200d-2696-fe0f.png");
 png_code!(U_1F469_1F3FE_200D_2708_FE0F, "👩🏾‍✈️", "", "1f469-1f3fe-200d-2708-fe0f.png");
@@ -1394,6 +1466,10 @@ png_code!(U_1F469_1F3FF_200D_1F3A4, "👩🏿‍🎤", "", "1f469-1f3ff-200d-1f3
 png_code!(U_1F469_1F3FF_200D_1F3A8, "👩🏿‍🎨", "", "1f469-1f3ff-200d-1f3a8.png");
 png_code!(U_1F469_1F3FF_200D_1F3EB, "👩🏿‍🏫", "", "1f469-1f3ff-200d-1f3eb.png");
 png_code!(U_1F469_1F3FF_200D_1F3ED, "👩🏿‍🏭", "", "1f469-1f3ff-200d-1f3ed.png");
+png_code!(U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FB, "👩🏿‍🐰‍👩🏻", "", "1f469-1f3ff-200d-1f430-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FC, "👩🏿‍🐰‍👩🏼", "", "1f469-1f3ff-200d-1f430-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FD, "👩🏿‍🐰‍👩🏽", "", "1f469-1f3ff-200d-1f430-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FE, "👩🏿‍🐰‍👩🏾", "", "1f469-1f3ff-200d-1f430-200d-1f469-1f3fe.png");
 png_code!(U_1F469_1F3FF_200D_1F4BB, "👩🏿‍💻", "", "1f469-1f3ff-200d-1f4bb.png");
 png_code!(U_1F469_1F3FF_200D_1F4BC, "👩🏿‍💼", "", "1f469-1f3ff-200d-1f4bc.png");
 png_code!(U_1F469_1F3FF_200D_1F527, "👩🏿‍🔧", "", "1f469-1f3ff-200d-1f527.png");
@@ -1418,6 +1494,10 @@ png_code!(U_1F469_1F3FF_200D_1F9BC_200D_27A1_FE0F, "👩🏿‍🦼‍➡️", "
 png_code!(U_1F469_1F3FF_200D_1F9BC, "👩🏿‍🦼", "", "1f469-1f3ff-200d-1f9bc.png");
 png_code!(U_1F469_1F3FF_200D_1F9BD_200D_27A1_FE0F, "👩🏿‍🦽‍➡️", "", "1f469-1f3ff-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F469_1F3FF_200D_1F9BD, "👩🏿‍🦽", "", "1f469-1f3ff-200d-1f9bd.png");
+png_code!(U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FB, "👩🏿‍🫯‍👩🏻", "", "1f469-1f3ff-200d-1faef-200d-1f469-1f3fb.png");
+png_code!(U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FC, "👩🏿‍🫯‍👩🏼", "", "1f469-1f3ff-200d-1faef-200d-1f469-1f3fc.png");
+png_code!(U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FD, "👩🏿‍🫯‍👩🏽", "", "1f469-1f3ff-200d-1faef-200d-1f469-1f3fd.png");
+png_code!(U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FE, "👩🏿‍🫯‍👩🏾", "", "1f469-1f3ff-200d-1faef-200d-1f469-1f3fe.png");
 png_code!(U_1F469_1F3FF_200D_2695_FE0F, "👩🏿‍⚕️", "", "1f469-1f3ff-200d-2695-fe0f.png");
 png_code!(U_1F469_1F3FF_200D_2696_FE0F, "👩🏿‍⚖️", "", "1f469-1f3ff-200d-2696-fe0f.png");
 png_code!(U_1F469_1F3FF_200D_2708_FE0F, "👩🏿‍✈️", "", "1f469-1f3ff-200d-2708-fe0f.png");
@@ -1522,6 +1602,21 @@ png_code!(U_1F46E_1F3FF, "👮🏿", "", "1f46e-1f3ff.png");
 png_code!(U_1F46E_200D_2640_FE0F, "👮‍♀️", "woman police officer", "1f46e-200d-2640-fe0f.png");
 png_code!(U_1F46E_200D_2642_FE0F, "👮‍♂️", "man police officer", "1f46e-200d-2642-fe0f.png");
 png_code!(U_1F46E, "👮", "police officer", "1f46e.png");
+png_code!(U_1F46F_1F3FB_200D_2640_FE0F, "👯🏻‍♀️", "", "1f46f-1f3fb-200d-2640-fe0f.png");
+png_code!(U_1F46F_1F3FB_200D_2642_FE0F, "👯🏻‍♂️", "", "1f46f-1f3fb-200d-2642-fe0f.png");
+png_code!(U_1F46F_1F3FB, "👯🏻", "", "1f46f-1f3fb.png");
+png_code!(U_1F46F_1F3FC_200D_2640_FE0F, "👯🏼‍♀️", "", "1f46f-1f3fc-200d-2640-fe0f.png");
+png_code!(U_1F46F_1F3FC_200D_2642_FE0F, "👯🏼‍♂️", "", "1f46f-1f3fc-200d-2642-fe0f.png");
+png_code!(U_1F46F_1F3FC, "👯🏼", "", "1f46f-1f3fc.png");
+png_code!(U_1F46F_1F3FD_200D_2640_FE0F, "👯🏽‍♀️", "", "1f46f-1f3fd-200d-2640-fe0f.png");
+png_code!(U_1F46F_1F3FD_200D_2642_FE0F, "👯🏽‍♂️", "", "1f46f-1f3fd-200d-2642-fe0f.png");
+png_code!(U_1F46F_1F3FD, "👯🏽", "", "1f46f-1f3fd.png");
+png_code!(U_1F46F_1F3FE_200D_2640_FE0F, "👯🏾‍♀️", "", "1f46f-1f3fe-200d-2640-fe0f.png");
+png_code!(U_1F46F_1F3FE_200D_2642_FE0F, "👯🏾‍♂️", "", "1f46f-1f3fe-200d-2642-fe0f.png");
+png_code!(U_1F46F_1F3FE, "👯🏾", "", "1f46f-1f3fe.png");
+png_code!(U_1F46F_1F3FF_200D_2640_FE0F, "👯🏿‍♀️", "", "1f46f-1f3ff-200d-2640-fe0f.png");
+png_code!(U_1F46F_1F3FF_200D_2642_FE0F, "👯🏿‍♂️", "", "1f46f-1f3ff-200d-2642-fe0f.png");
+png_code!(U_1F46F_1F3FF, "👯🏿", "", "1f46f-1f3ff.png");
 png_code!(U_1F46F_200D_2640_FE0F, "👯‍♀️", "women with bunny ears", "1f46f-200d-2640-fe0f.png");
 png_code!(U_1F46F_200D_2642_FE0F, "👯‍♂️", "men with bunny ears", "1f46f-200d-2642-fe0f.png");
 png_code!(U_1F46F, "👯", "people with bunny ears", "1f46f.png");
@@ -2423,6 +2518,7 @@ png_code!(U_1F6D2, "🛒", "shopping cart", "1f6d2.png");
 png_code!(U_1F6D5, "🛕", "hindu temple", "1f6d5.png");
 png_code!(U_1F6D6, "🛖", "hut", "1f6d6.png");
 png_code!(U_1F6D7, "🛗", "elevator", "1f6d7.png");
+png_code!(U_1F6D8, "🛘", "", "1f6d8.png");
 png_code!(U_1F6DC, "🛜", "wireless", "1f6dc.png");
 png_code!(U_1F6DD, "🛝", "playground slide", "1f6dd.png");
 png_code!(U_1F6DE, "🛞", "wheel", "1f6de.png");
@@ -2672,6 +2768,21 @@ png_code!(U_1F939_200D_2640_FE0F, "🤹‍♀️", "woman juggling", "1f939-200d
 png_code!(U_1F939_200D_2642_FE0F, "🤹‍♂️", "man juggling", "1f939-200d-2642-fe0f.png");
 png_code!(U_1F939, "🤹", "person juggling", "1f939.png");
 png_code!(U_1F93A, "🤺", "person fencing", "1f93a.png");
+png_code!(U_1F93C_1F3FB_200D_2640_FE0F, "🤼🏻‍♀️", "", "1f93c-1f3fb-200d-2640-fe0f.png");
+png_code!(U_1F93C_1F3FB_200D_2642_FE0F, "🤼🏻‍♂️", "", "1f93c-1f3fb-200d-2642-fe0f.png");
+png_code!(U_1F93C_1F3FB, "🤼🏻", "", "1f93c-1f3fb.png");
+png_code!(U_1F93C_1F3FC_200D_2640_FE0F, "🤼🏼‍♀️", "", "1f93c-1f3fc-200d-2640-fe0f.png");
+png_code!(U_1F93C_1F3FC_200D_2642_FE0F, "🤼🏼‍♂️", "", "1f93c-1f3fc-200d-2642-fe0f.png");
+png_code!(U_1F93C_1F3FC, "🤼🏼", "", "1f93c-1f3fc.png");
+png_code!(U_1F93C_1F3FD_200D_2640_FE0F, "🤼🏽‍♀️", "", "1f93c-1f3fd-200d-2640-fe0f.png");
+png_code!(U_1F93C_1F3FD_200D_2642_FE0F, "🤼🏽‍♂️", "", "1f93c-1f3fd-200d-2642-fe0f.png");
+png_code!(U_1F93C_1F3FD, "🤼🏽", "", "1f93c-1f3fd.png");
+png_code!(U_1F93C_1F3FE_200D_2640_FE0F, "🤼🏾‍♀️", "", "1f93c-1f3fe-200d-2640-fe0f.png");
+png_code!(U_1F93C_1F3FE_200D_2642_FE0F, "🤼🏾‍♂️", "", "1f93c-1f3fe-200d-2642-fe0f.png");
+png_code!(U_1F93C_1F3FE, "🤼🏾", "", "1f93c-1f3fe.png");
+png_code!(U_1F93C_1F3FF_200D_2640_FE0F, "🤼🏿‍♀️", "", "1f93c-1f3ff-200d-2640-fe0f.png");
+png_code!(U_1F93C_1F3FF_200D_2642_FE0F, "🤼🏿‍♂️", "", "1f93c-1f3ff-200d-2642-fe0f.png");
+png_code!(U_1F93C_1F3FF, "🤼🏿", "", "1f93c-1f3ff.png");
 png_code!(U_1F93C_200D_2640_FE0F, "🤼‍♀️", "women wrestling", "1f93c-200d-2640-fe0f.png");
 png_code!(U_1F93C_200D_2642_FE0F, "🤼‍♂️", "men wrestling", "1f93c-200d-2642-fe0f.png");
 png_code!(U_1F93C, "🤼", "people wrestling", "1f93c.png");
@@ -2988,6 +3099,10 @@ png_code!(U_1F9D1_1F3FB_200D_1F3A4, "🧑🏻‍🎤", "", "1f9d1-1f3fb-200d-1f3
 png_code!(U_1F9D1_1F3FB_200D_1F3A8, "🧑🏻‍🎨", "", "1f9d1-1f3fb-200d-1f3a8.png");
 png_code!(U_1F9D1_1F3FB_200D_1F3EB, "🧑🏻‍🏫", "", "1f9d1-1f3fb-200d-1f3eb.png");
 png_code!(U_1F9D1_1F3FB_200D_1F3ED, "🧑🏻‍🏭", "", "1f9d1-1f3fb-200d-1f3ed.png");
+png_code!(U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FC, "🧑🏻‍🐰‍🧑🏼", "", "1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FD, "🧑🏻‍🐰‍🧑🏽", "", "1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FE, "🧑🏻‍🐰‍🧑🏾", "", "1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3fe.png");
+png_code!(U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FF, "🧑🏻‍🐰‍🧑🏿", "", "1f9d1-1f3fb-200d-1f430-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FB_200D_1F4BB, "🧑🏻‍💻", "", "1f9d1-1f3fb-200d-1f4bb.png");
 png_code!(U_1F9D1_1F3FB_200D_1F4BC, "🧑🏻‍💼", "", "1f9d1-1f3fb-200d-1f4bc.png");
 png_code!(U_1F9D1_1F3FB_200D_1F527, "🧑🏻‍🔧", "", "1f9d1-1f3fb-200d-1f527.png");
@@ -3009,6 +3124,11 @@ png_code!(U_1F9D1_1F3FB_200D_1F9BC_200D_27A1_FE0F, "🧑🏻‍🦼‍➡️", "
 png_code!(U_1F9D1_1F3FB_200D_1F9BC, "🧑🏻‍🦼", "", "1f9d1-1f3fb-200d-1f9bc.png");
 png_code!(U_1F9D1_1F3FB_200D_1F9BD_200D_27A1_FE0F, "🧑🏻‍🦽‍➡️", "", "1f9d1-1f3fb-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F9D1_1F3FB_200D_1F9BD, "🧑🏻‍🦽", "", "1f9d1-1f3fb-200d-1f9bd.png");
+png_code!(U_1F9D1_1F3FB_200D_1FA70, "🧑🏻‍🩰", "", "1f9d1-1f3fb-200d-1fa70.png");
+png_code!(U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FC, "🧑🏻‍🫯‍🧑🏼", "", "1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FD, "🧑🏻‍🫯‍🧑🏽", "", "1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FE, "🧑🏻‍🫯‍🧑🏾", "", "1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3fe.png");
+png_code!(U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FF, "🧑🏻‍🫯‍🧑🏿", "", "1f9d1-1f3fb-200d-1faef-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FB_200D_2695_FE0F, "🧑🏻‍⚕️", "", "1f9d1-1f3fb-200d-2695-fe0f.png");
 png_code!(U_1F9D1_1F3FB_200D_2696_FE0F, "🧑🏻‍⚖️", "", "1f9d1-1f3fb-200d-2696-fe0f.png");
 png_code!(U_1F9D1_1F3FB_200D_2708_FE0F, "🧑🏻‍✈️", "", "1f9d1-1f3fb-200d-2708-fe0f.png");
@@ -3030,6 +3150,10 @@ png_code!(U_1F9D1_1F3FC_200D_1F3A4, "🧑🏼‍🎤", "", "1f9d1-1f3fc-200d-1f3
 png_code!(U_1F9D1_1F3FC_200D_1F3A8, "🧑🏼‍🎨", "", "1f9d1-1f3fc-200d-1f3a8.png");
 png_code!(U_1F9D1_1F3FC_200D_1F3EB, "🧑🏼‍🏫", "", "1f9d1-1f3fc-200d-1f3eb.png");
 png_code!(U_1F9D1_1F3FC_200D_1F3ED, "🧑🏼‍🏭", "", "1f9d1-1f3fc-200d-1f3ed.png");
+png_code!(U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FB, "🧑🏼‍🐰‍🧑🏻", "", "1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FD, "🧑🏼‍🐰‍🧑🏽", "", "1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FE, "🧑🏼‍🐰‍🧑🏾", "", "1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3fe.png");
+png_code!(U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FF, "🧑🏼‍🐰‍🧑🏿", "", "1f9d1-1f3fc-200d-1f430-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FC_200D_1F4BB, "🧑🏼‍💻", "", "1f9d1-1f3fc-200d-1f4bb.png");
 png_code!(U_1F9D1_1F3FC_200D_1F4BC, "🧑🏼‍💼", "", "1f9d1-1f3fc-200d-1f4bc.png");
 png_code!(U_1F9D1_1F3FC_200D_1F527, "🧑🏼‍🔧", "", "1f9d1-1f3fc-200d-1f527.png");
@@ -3051,6 +3175,11 @@ png_code!(U_1F9D1_1F3FC_200D_1F9BC_200D_27A1_FE0F, "🧑🏼‍🦼‍➡️", "
 png_code!(U_1F9D1_1F3FC_200D_1F9BC, "🧑🏼‍🦼", "", "1f9d1-1f3fc-200d-1f9bc.png");
 png_code!(U_1F9D1_1F3FC_200D_1F9BD_200D_27A1_FE0F, "🧑🏼‍🦽‍➡️", "", "1f9d1-1f3fc-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F9D1_1F3FC_200D_1F9BD, "🧑🏼‍🦽", "", "1f9d1-1f3fc-200d-1f9bd.png");
+png_code!(U_1F9D1_1F3FC_200D_1FA70, "🧑🏼‍🩰", "", "1f9d1-1f3fc-200d-1fa70.png");
+png_code!(U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FB, "🧑🏼‍🫯‍🧑🏻", "", "1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FD, "🧑🏼‍🫯‍🧑🏽", "", "1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FE, "🧑🏼‍🫯‍🧑🏾", "", "1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3fe.png");
+png_code!(U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FF, "🧑🏼‍🫯‍🧑🏿", "", "1f9d1-1f3fc-200d-1faef-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FC_200D_2695_FE0F, "🧑🏼‍⚕️", "", "1f9d1-1f3fc-200d-2695-fe0f.png");
 png_code!(U_1F9D1_1F3FC_200D_2696_FE0F, "🧑🏼‍⚖️", "", "1f9d1-1f3fc-200d-2696-fe0f.png");
 png_code!(U_1F9D1_1F3FC_200D_2708_FE0F, "🧑🏼‍✈️", "", "1f9d1-1f3fc-200d-2708-fe0f.png");
@@ -3072,6 +3201,10 @@ png_code!(U_1F9D1_1F3FD_200D_1F3A4, "🧑🏽‍🎤", "", "1f9d1-1f3fd-200d-1f3
 png_code!(U_1F9D1_1F3FD_200D_1F3A8, "🧑🏽‍🎨", "", "1f9d1-1f3fd-200d-1f3a8.png");
 png_code!(U_1F9D1_1F3FD_200D_1F3EB, "🧑🏽‍🏫", "", "1f9d1-1f3fd-200d-1f3eb.png");
 png_code!(U_1F9D1_1F3FD_200D_1F3ED, "🧑🏽‍🏭", "", "1f9d1-1f3fd-200d-1f3ed.png");
+png_code!(U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FB, "🧑🏽‍🐰‍🧑🏻", "", "1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FC, "🧑🏽‍🐰‍🧑🏼", "", "1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FE, "🧑🏽‍🐰‍🧑🏾", "", "1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3fe.png");
+png_code!(U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FF, "🧑🏽‍🐰‍🧑🏿", "", "1f9d1-1f3fd-200d-1f430-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FD_200D_1F4BB, "🧑🏽‍💻", "", "1f9d1-1f3fd-200d-1f4bb.png");
 png_code!(U_1F9D1_1F3FD_200D_1F4BC, "🧑🏽‍💼", "", "1f9d1-1f3fd-200d-1f4bc.png");
 png_code!(U_1F9D1_1F3FD_200D_1F527, "🧑🏽‍🔧", "", "1f9d1-1f3fd-200d-1f527.png");
@@ -3093,6 +3226,11 @@ png_code!(U_1F9D1_1F3FD_200D_1F9BC_200D_27A1_FE0F, "🧑🏽‍🦼‍➡️", "
 png_code!(U_1F9D1_1F3FD_200D_1F9BC, "🧑🏽‍🦼", "", "1f9d1-1f3fd-200d-1f9bc.png");
 png_code!(U_1F9D1_1F3FD_200D_1F9BD_200D_27A1_FE0F, "🧑🏽‍🦽‍➡️", "", "1f9d1-1f3fd-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F9D1_1F3FD_200D_1F9BD, "🧑🏽‍🦽", "", "1f9d1-1f3fd-200d-1f9bd.png");
+png_code!(U_1F9D1_1F3FD_200D_1FA70, "🧑🏽‍🩰", "", "1f9d1-1f3fd-200d-1fa70.png");
+png_code!(U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FB, "🧑🏽‍🫯‍🧑🏻", "", "1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FC, "🧑🏽‍🫯‍🧑🏼", "", "1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FE, "🧑🏽‍🫯‍🧑🏾", "", "1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3fe.png");
+png_code!(U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FF, "🧑🏽‍🫯‍🧑🏿", "", "1f9d1-1f3fd-200d-1faef-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FD_200D_2695_FE0F, "🧑🏽‍⚕️", "", "1f9d1-1f3fd-200d-2695-fe0f.png");
 png_code!(U_1F9D1_1F3FD_200D_2696_FE0F, "🧑🏽‍⚖️", "", "1f9d1-1f3fd-200d-2696-fe0f.png");
 png_code!(U_1F9D1_1F3FD_200D_2708_FE0F, "🧑🏽‍✈️", "", "1f9d1-1f3fd-200d-2708-fe0f.png");
@@ -3114,6 +3252,10 @@ png_code!(U_1F9D1_1F3FE_200D_1F3A4, "🧑🏾‍🎤", "", "1f9d1-1f3fe-200d-1f3
 png_code!(U_1F9D1_1F3FE_200D_1F3A8, "🧑🏾‍🎨", "", "1f9d1-1f3fe-200d-1f3a8.png");
 png_code!(U_1F9D1_1F3FE_200D_1F3EB, "🧑🏾‍🏫", "", "1f9d1-1f3fe-200d-1f3eb.png");
 png_code!(U_1F9D1_1F3FE_200D_1F3ED, "🧑🏾‍🏭", "", "1f9d1-1f3fe-200d-1f3ed.png");
+png_code!(U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FB, "🧑🏾‍🐰‍🧑🏻", "", "1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FC, "🧑🏾‍🐰‍🧑🏼", "", "1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FD, "🧑🏾‍🐰‍🧑🏽", "", "1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FF, "🧑🏾‍🐰‍🧑🏿", "", "1f9d1-1f3fe-200d-1f430-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FE_200D_1F4BB, "🧑🏾‍💻", "", "1f9d1-1f3fe-200d-1f4bb.png");
 png_code!(U_1F9D1_1F3FE_200D_1F4BC, "🧑🏾‍💼", "", "1f9d1-1f3fe-200d-1f4bc.png");
 png_code!(U_1F9D1_1F3FE_200D_1F527, "🧑🏾‍🔧", "", "1f9d1-1f3fe-200d-1f527.png");
@@ -3135,6 +3277,11 @@ png_code!(U_1F9D1_1F3FE_200D_1F9BC_200D_27A1_FE0F, "🧑🏾‍🦼‍➡️", "
 png_code!(U_1F9D1_1F3FE_200D_1F9BC, "🧑🏾‍🦼", "", "1f9d1-1f3fe-200d-1f9bc.png");
 png_code!(U_1F9D1_1F3FE_200D_1F9BD_200D_27A1_FE0F, "🧑🏾‍🦽‍➡️", "", "1f9d1-1f3fe-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F9D1_1F3FE_200D_1F9BD, "🧑🏾‍🦽", "", "1f9d1-1f3fe-200d-1f9bd.png");
+png_code!(U_1F9D1_1F3FE_200D_1FA70, "🧑🏾‍🩰", "", "1f9d1-1f3fe-200d-1fa70.png");
+png_code!(U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FB, "🧑🏾‍🫯‍🧑🏻", "", "1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FC, "🧑🏾‍🫯‍🧑🏼", "", "1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FD, "🧑🏾‍🫯‍🧑🏽", "", "1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FF, "🧑🏾‍🫯‍🧑🏿", "", "1f9d1-1f3fe-200d-1faef-200d-1f9d1-1f3ff.png");
 png_code!(U_1F9D1_1F3FE_200D_2695_FE0F, "🧑🏾‍⚕️", "", "1f9d1-1f3fe-200d-2695-fe0f.png");
 png_code!(U_1F9D1_1F3FE_200D_2696_FE0F, "🧑🏾‍⚖️", "", "1f9d1-1f3fe-200d-2696-fe0f.png");
 png_code!(U_1F9D1_1F3FE_200D_2708_FE0F, "🧑🏾‍✈️", "", "1f9d1-1f3fe-200d-2708-fe0f.png");
@@ -3156,6 +3303,10 @@ png_code!(U_1F9D1_1F3FF_200D_1F3A4, "🧑🏿‍🎤", "", "1f9d1-1f3ff-200d-1f3
 png_code!(U_1F9D1_1F3FF_200D_1F3A8, "🧑🏿‍🎨", "", "1f9d1-1f3ff-200d-1f3a8.png");
 png_code!(U_1F9D1_1F3FF_200D_1F3EB, "🧑🏿‍🏫", "", "1f9d1-1f3ff-200d-1f3eb.png");
 png_code!(U_1F9D1_1F3FF_200D_1F3ED, "🧑🏿‍🏭", "", "1f9d1-1f3ff-200d-1f3ed.png");
+png_code!(U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FB, "🧑🏿‍🐰‍🧑🏻", "", "1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FC, "🧑🏿‍🐰‍🧑🏼", "", "1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FD, "🧑🏿‍🐰‍🧑🏽", "", "1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FE, "🧑🏿‍🐰‍🧑🏾", "", "1f9d1-1f3ff-200d-1f430-200d-1f9d1-1f3fe.png");
 png_code!(U_1F9D1_1F3FF_200D_1F4BB, "🧑🏿‍💻", "", "1f9d1-1f3ff-200d-1f4bb.png");
 png_code!(U_1F9D1_1F3FF_200D_1F4BC, "🧑🏿‍💼", "", "1f9d1-1f3ff-200d-1f4bc.png");
 png_code!(U_1F9D1_1F3FF_200D_1F527, "🧑🏿‍🔧", "", "1f9d1-1f3ff-200d-1f527.png");
@@ -3177,6 +3328,11 @@ png_code!(U_1F9D1_1F3FF_200D_1F9BC_200D_27A1_FE0F, "🧑🏿‍🦼‍➡️", "
 png_code!(U_1F9D1_1F3FF_200D_1F9BC, "🧑🏿‍🦼", "", "1f9d1-1f3ff-200d-1f9bc.png");
 png_code!(U_1F9D1_1F3FF_200D_1F9BD_200D_27A1_FE0F, "🧑🏿‍🦽‍➡️", "", "1f9d1-1f3ff-200d-1f9bd-200d-27a1-fe0f.png");
 png_code!(U_1F9D1_1F3FF_200D_1F9BD, "🧑🏿‍🦽", "", "1f9d1-1f3ff-200d-1f9bd.png");
+png_code!(U_1F9D1_1F3FF_200D_1FA70, "🧑🏿‍🩰", "", "1f9d1-1f3ff-200d-1fa70.png");
+png_code!(U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FB, "🧑🏿‍🫯‍🧑🏻", "", "1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fb.png");
+png_code!(U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FC, "🧑🏿‍🫯‍🧑🏼", "", "1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fc.png");
+png_code!(U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FD, "🧑🏿‍🫯‍🧑🏽", "", "1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fd.png");
+png_code!(U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FE, "🧑🏿‍🫯‍🧑🏾", "", "1f9d1-1f3ff-200d-1faef-200d-1f9d1-1f3fe.png");
 png_code!(U_1F9D1_1F3FF_200D_2695_FE0F, "🧑🏿‍⚕️", "", "1f9d1-1f3ff-200d-2695-fe0f.png");
 png_code!(U_1F9D1_1F3FF_200D_2696_FE0F, "🧑🏿‍⚖️", "", "1f9d1-1f3ff-200d-2696-fe0f.png");
 png_code!(U_1F9D1_1F3FF_200D_2708_FE0F, "🧑🏿‍✈️", "", "1f9d1-1f3ff-200d-2708-fe0f.png");
@@ -3219,6 +3375,7 @@ png_code!(U_1F9D1_200D_1F9D1_200D_1F9D2_200D_1F9D2, "🧑‍🧑‍🧒‍🧒",
 png_code!(U_1F9D1_200D_1F9D1_200D_1F9D2, "🧑‍🧑‍🧒", "family: adult, adult, child", "1f9d1-200d-1f9d1-200d-1f9d2.png");
 png_code!(U_1F9D1_200D_1F9D2_200D_1F9D2, "🧑‍🧒‍🧒", "family: adult, child, child", "1f9d1-200d-1f9d2-200d-1f9d2.png");
 png_code!(U_1F9D1_200D_1F9D2, "🧑‍🧒", "family: adult, child", "1f9d1-200d-1f9d2.png");
+png_code!(U_1F9D1_200D_1FA70, "🧑‍🩰", "", "1f9d1-200d-1fa70.png");
 png_code!(U_1F9D1_200D_2695_FE0F, "🧑‍⚕️", "health worker", "1f9d1-200d-2695-fe0f.png");
 png_code!(U_1F9D1_200D_2696_FE0F, "🧑‍⚖️", "judge", "1f9d1-200d-2696-fe0f.png");
 png_code!(U_1F9D1_200D_2708_FE0F, "🧑‍✈️", "pilot", "1f9d1-200d-2708-fe0f.png");
@@ -3464,6 +3621,8 @@ png_code!(U_1FA86, "🪆", "nesting dolls", "1fa86.png");
 png_code!(U_1FA87, "🪇", "maracas", "1fa87.png");
 png_code!(U_1FA88, "🪈", "flute", "1fa88.png");
 png_code!(U_1FA89, "🪉", "harp", "1fa89.png");
+png_code!(U_1FA8A, "🪊", "", "1fa8a.png");
+png_code!(U_1FA8E, "🪎", "", "1fa8e.png");
 png_code!(U_1FA8F, "🪏", "shovel", "1fa8f.png");
 png_code!(U_1FA90, "🪐", "ringed planet", "1fa90.png");
 png_code!(U_1FA91, "🪑", "chair", "1fa91.png");
@@ -3535,6 +3694,8 @@ png_code!(U_1FAC5_1F3FE, "🫅🏾", "", "1fac5-1f3fe.png");
 png_code!(U_1FAC5_1F3FF, "🫅🏿", "", "1fac5-1f3ff.png");
 png_code!(U_1FAC5, "🫅", "person with crown", "1fac5.png");
 png_code!(U_1FAC6, "🫆", "fingerprint", "1fac6.png");
+png_code!(U_1FAC8, "🫈", "", "1fac8.png");
+png_code!(U_1FACD, "🫍", "", "1facd.png");
 png_code!(U_1FACE, "🫎", "moose", "1face.png");
 png_code!(U_1FACF, "🫏", "donkey", "1facf.png");
 png_code!(U_1FAD0, "🫐", "blueberries", "1fad0.png");
@@ -3561,6 +3722,8 @@ png_code!(U_1FAE6, "🫦", "biting lip", "1fae6.png");
 png_code!(U_1FAE7, "🫧", "bubbles", "1fae7.png");
 png_code!(U_1FAE8, "🫨", "shaking face", "1fae8.png");
 png_code!(U_1FAE9, "🫩", "face with bags under eyes", "1fae9.png");
+png_code!(U_1FAEA, "🫪", "", "1faea.png");
+png_code!(U_1FAEF, "🫯", "", "1faef.png");
 png_code!(U_1FAF0_1F3FB, "🫰🏻", "", "1faf0-1f3fb.png");
 png_code!(U_1FAF0_1F3FC, "🫰🏼", "", "1faf0-1f3fc.png");
 png_code!(U_1FAF0_1F3FD, "🫰🏽", "", "1faf0-1f3fd.png");
@@ -4753,6 +4916,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F3A8),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F3EB),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F3ED),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FE),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F4BB),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F4BC),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F527),
@@ -4773,6 +4940,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F9BC),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F468_1F3FB_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F468_1F3FB_200D_1F9BD),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FE),
+    ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FB_200D_2695_FE0F),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FB_200D_2696_FE0F),
     ((Some('👨'), Some('🏻'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FB_200D_2708_FE0F),
@@ -4796,6 +4967,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F3A8),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F3EB),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F3ED),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FE),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F4BB),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F4BC),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F527),
@@ -4816,6 +4991,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F9BC),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F468_1F3FC_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F468_1F3FC_200D_1F9BD),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FE),
+    ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FC_200D_2695_FE0F),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FC_200D_2696_FE0F),
     ((Some('👨'), Some('🏼'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FC_200D_2708_FE0F),
@@ -4839,6 +5018,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F3A8),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F3EB),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F3ED),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FE),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F4BB),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F4BC),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F527),
@@ -4859,6 +5042,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F9BC),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F468_1F3FD_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F468_1F3FD_200D_1F9BD),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FE),
+    ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FD_200D_2695_FE0F),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FD_200D_2696_FE0F),
     ((Some('👨'), Some('🏽'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FD_200D_2708_FE0F),
@@ -4882,6 +5069,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F3A8),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F3EB),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F3ED),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F4BB),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F4BC),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F527),
@@ -4902,6 +5093,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F9BC),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F468_1F3FE_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F468_1F3FE_200D_1F9BD),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏿'), None, None, None), U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FF),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FE_200D_2695_FE0F),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FE_200D_2696_FE0F),
     ((Some('👨'), Some('🏾'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FE_200D_2708_FE0F),
@@ -4925,6 +5120,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F3A8),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F3EB),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F3ED),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FE),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F4BB),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F4BC),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F527),
@@ -4945,6 +5144,10 @@ png_match_emoji! [
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F9BC),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F468_1F3FF_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F468_1F3FF_200D_1F9BD),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏻'), None, None, None), U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FB),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏼'), None, None, None), U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FC),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏽'), None, None, None), U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FD),
+    ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👨'), Some('🏾'), None, None, None), U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FE),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FF_200D_2695_FE0F),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FF_200D_2696_FE0F),
     ((Some('👨'), Some('🏿'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F468_1F3FF_200D_2708_FE0F),
@@ -5014,6 +5217,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F3A8),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F3EB),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F3ED),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FE),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F4BB),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F4BC),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F527),
@@ -5038,6 +5245,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F9BC),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F469_1F3FB_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F469_1F3FB_200D_1F9BD),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FE),
+    ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FB_200D_2695_FE0F),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FB_200D_2696_FE0F),
     ((Some('👩'), Some('🏻'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FB_200D_2708_FE0F),
@@ -5071,6 +5282,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F3A8),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F3EB),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F3ED),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FE),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F4BB),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F4BC),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F527),
@@ -5095,6 +5310,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F9BC),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F469_1F3FC_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F469_1F3FC_200D_1F9BD),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FE),
+    ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FC_200D_2695_FE0F),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FC_200D_2696_FE0F),
     ((Some('👩'), Some('🏼'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FC_200D_2708_FE0F),
@@ -5128,6 +5347,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F3A8),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F3EB),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F3ED),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FE),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F4BB),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F4BC),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F527),
@@ -5152,6 +5375,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F9BC),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F469_1F3FD_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F469_1F3FD_200D_1F9BD),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FE),
+    ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FD_200D_2695_FE0F),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FD_200D_2696_FE0F),
     ((Some('👩'), Some('🏽'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FD_200D_2708_FE0F),
@@ -5185,6 +5412,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F3A8),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F3EB),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F3ED),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F4BB),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F4BC),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F527),
@@ -5209,6 +5440,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F9BC),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F469_1F3FE_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F469_1F3FE_200D_1F9BD),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏿'), None, None, None), U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FF),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FE_200D_2695_FE0F),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FE_200D_2696_FE0F),
     ((Some('👩'), Some('🏾'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FE_200D_2708_FE0F),
@@ -5242,6 +5477,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F3A8),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F3EB),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F3ED),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FE),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F4BB),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F4BC),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F527),
@@ -5266,6 +5505,10 @@ png_match_emoji! [
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F9BC),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F469_1F3FF_200D_1F9BD_200D_27A1_FE0F),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F469_1F3FF_200D_1F9BD),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏻'), None, None, None), U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FB),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏼'), None, None, None), U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FC),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏽'), None, None, None), U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FD),
+    ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('👩'), Some('🏾'), None, None, None), U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FE),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FF_200D_2695_FE0F),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FF_200D_2696_FE0F),
     ((Some('👩'), Some('🏿'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F469_1F3FF_200D_2708_FE0F),
@@ -5370,6 +5613,21 @@ png_match_emoji! [
     ((Some('👮'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F46E_200D_2640_FE0F),
     ((Some('👮'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F46E_200D_2642_FE0F),
     ((Some('👮'), None, None, None, None, None, None, None, None, None), U_1F46E),
+    ((Some('👯'), Some('🏻'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FB_200D_2640_FE0F),
+    ((Some('👯'), Some('🏻'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FB_200D_2642_FE0F),
+    ((Some('👯'), Some('🏻'), None, None, None, None, None, None, None, None), U_1F46F_1F3FB),
+    ((Some('👯'), Some('🏼'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FC_200D_2640_FE0F),
+    ((Some('👯'), Some('🏼'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FC_200D_2642_FE0F),
+    ((Some('👯'), Some('🏼'), None, None, None, None, None, None, None, None), U_1F46F_1F3FC),
+    ((Some('👯'), Some('🏽'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FD_200D_2640_FE0F),
+    ((Some('👯'), Some('🏽'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FD_200D_2642_FE0F),
+    ((Some('👯'), Some('🏽'), None, None, None, None, None, None, None, None), U_1F46F_1F3FD),
+    ((Some('👯'), Some('🏾'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FE_200D_2640_FE0F),
+    ((Some('👯'), Some('🏾'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FE_200D_2642_FE0F),
+    ((Some('👯'), Some('🏾'), None, None, None, None, None, None, None, None), U_1F46F_1F3FE),
+    ((Some('👯'), Some('🏿'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FF_200D_2640_FE0F),
+    ((Some('👯'), Some('🏿'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F46F_1F3FF_200D_2642_FE0F),
+    ((Some('👯'), Some('🏿'), None, None, None, None, None, None, None, None), U_1F46F_1F3FF),
     ((Some('👯'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F46F_200D_2640_FE0F),
     ((Some('👯'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F46F_200D_2642_FE0F),
     ((Some('👯'), None, None, None, None, None, None, None, None, None), U_1F46F),
@@ -6271,6 +6529,7 @@ png_match_emoji! [
     ((Some('🛕'), None, None, None, None, None, None, None, None, None), U_1F6D5),
     ((Some('🛖'), None, None, None, None, None, None, None, None, None), U_1F6D6),
     ((Some('🛗'), None, None, None, None, None, None, None, None, None), U_1F6D7),
+    ((Some('\u{1f6d8}'), None, None, None, None, None, None, None, None, None), U_1F6D8),
     ((Some('🛜'), None, None, None, None, None, None, None, None, None), U_1F6DC),
     ((Some('🛝'), None, None, None, None, None, None, None, None, None), U_1F6DD),
     ((Some('🛞'), None, None, None, None, None, None, None, None, None), U_1F6DE),
@@ -6520,6 +6779,21 @@ png_match_emoji! [
     ((Some('🤹'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F939_200D_2642_FE0F),
     ((Some('🤹'), None, None, None, None, None, None, None, None, None), U_1F939),
     ((Some('🤺'), None, None, None, None, None, None, None, None, None), U_1F93A),
+    ((Some('🤼'), Some('🏻'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FB_200D_2640_FE0F),
+    ((Some('🤼'), Some('🏻'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FB_200D_2642_FE0F),
+    ((Some('🤼'), Some('🏻'), None, None, None, None, None, None, None, None), U_1F93C_1F3FB),
+    ((Some('🤼'), Some('🏼'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FC_200D_2640_FE0F),
+    ((Some('🤼'), Some('🏼'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FC_200D_2642_FE0F),
+    ((Some('🤼'), Some('🏼'), None, None, None, None, None, None, None, None), U_1F93C_1F3FC),
+    ((Some('🤼'), Some('🏽'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FD_200D_2640_FE0F),
+    ((Some('🤼'), Some('🏽'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FD_200D_2642_FE0F),
+    ((Some('🤼'), Some('🏽'), None, None, None, None, None, None, None, None), U_1F93C_1F3FD),
+    ((Some('🤼'), Some('🏾'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FE_200D_2640_FE0F),
+    ((Some('🤼'), Some('🏾'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FE_200D_2642_FE0F),
+    ((Some('🤼'), Some('🏾'), None, None, None, None, None, None, None, None), U_1F93C_1F3FE),
+    ((Some('🤼'), Some('🏿'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FF_200D_2640_FE0F),
+    ((Some('🤼'), Some('🏿'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None), U_1F93C_1F3FF_200D_2642_FE0F),
+    ((Some('🤼'), Some('🏿'), None, None, None, None, None, None, None, None), U_1F93C_1F3FF),
     ((Some('🤼'), Some('\u{200d}'), Some('♀'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F93C_200D_2640_FE0F),
     ((Some('🤼'), Some('\u{200d}'), Some('♂'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F93C_200D_2642_FE0F),
     ((Some('🤼'), None, None, None, None, None, None, None, None, None), U_1F93C),
@@ -6836,6 +7110,10 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F3A8),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F3EB),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F3ED),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FE),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F4BB),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F4BC),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F527),
@@ -6857,6 +7135,11 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F9BC),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F9D1_1F3FB_200D_1F9BD_200D_27A1_FE0F),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1F9BD),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('🩰'), None, None, None, None, None, None), U_1F9D1_1F3FB_200D_1FA70),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FE),
+    ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FB_200D_2695_FE0F),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FB_200D_2696_FE0F),
     ((Some('🧑'), Some('🏻'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FB_200D_2708_FE0F),
@@ -6878,6 +7161,10 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F3A8),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F3EB),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F3ED),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FE),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F4BB),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F4BC),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F527),
@@ -6899,6 +7186,11 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F9BC),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F9D1_1F3FC_200D_1F9BD_200D_27A1_FE0F),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1F9BD),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('🩰'), None, None, None, None, None, None), U_1F9D1_1F3FC_200D_1FA70),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FE),
+    ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FC_200D_2695_FE0F),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FC_200D_2696_FE0F),
     ((Some('🧑'), Some('🏼'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FC_200D_2708_FE0F),
@@ -6920,6 +7212,10 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F3A8),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F3EB),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F3ED),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FE),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F4BB),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F4BC),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F527),
@@ -6941,6 +7237,11 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F9BC),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F9D1_1F3FD_200D_1F9BD_200D_27A1_FE0F),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1F9BD),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('🩰'), None, None, None, None, None, None), U_1F9D1_1F3FD_200D_1FA70),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FE),
+    ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FD_200D_2695_FE0F),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FD_200D_2696_FE0F),
     ((Some('🧑'), Some('🏽'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FD_200D_2708_FE0F),
@@ -6962,6 +7263,10 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F3A8),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F3EB),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F3ED),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F4BB),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F4BC),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F527),
@@ -6983,6 +7288,11 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F9BC),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F9D1_1F3FE_200D_1F9BD_200D_27A1_FE0F),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1F9BD),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('🩰'), None, None, None, None, None, None), U_1F9D1_1F3FE_200D_1FA70),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏿'), None, None, None), U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FF),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FE_200D_2695_FE0F),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FE_200D_2696_FE0F),
     ((Some('🧑'), Some('🏾'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FE_200D_2708_FE0F),
@@ -7004,6 +7314,10 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🎨'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F3A8),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🏫'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F3EB),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🏭'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F3ED),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🐰'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FE),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('💻'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F4BB),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('💼'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F4BC),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🔧'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F527),
@@ -7025,6 +7339,11 @@ png_match_emoji! [
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🦼'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F9BC),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🦽'), Some('\u{200d}'), Some('➡'), Some('\u{fe0f}'), None, None, None), U_1F9D1_1F3FF_200D_1F9BD_200D_27A1_FE0F),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🦽'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1F9BD),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('🩰'), None, None, None, None, None, None), U_1F9D1_1F3FF_200D_1FA70),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏻'), None, None, None), U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FB),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏼'), None, None, None), U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FC),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏽'), None, None, None), U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FD),
+    ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('\u{1faef}'), Some('\u{200d}'), Some('🧑'), Some('🏾'), None, None, None), U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FE),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FF_200D_2695_FE0F),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FF_200D_2696_FE0F),
     ((Some('🧑'), Some('🏿'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None), U_1F9D1_1F3FF_200D_2708_FE0F),
@@ -7067,6 +7386,7 @@ png_match_emoji! [
     ((Some('🧑'), Some('\u{200d}'), Some('🧑'), Some('\u{200d}'), Some('🧒'), None, None, None, None, None), U_1F9D1_200D_1F9D1_200D_1F9D2),
     ((Some('🧑'), Some('\u{200d}'), Some('🧒'), Some('\u{200d}'), Some('🧒'), None, None, None, None, None), U_1F9D1_200D_1F9D2_200D_1F9D2),
     ((Some('🧑'), Some('\u{200d}'), Some('🧒'), None, None, None, None, None, None, None), U_1F9D1_200D_1F9D2),
+    ((Some('🧑'), Some('\u{200d}'), Some('🩰'), None, None, None, None, None, None, None), U_1F9D1_200D_1FA70),
     ((Some('🧑'), Some('\u{200d}'), Some('⚕'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F9D1_200D_2695_FE0F),
     ((Some('🧑'), Some('\u{200d}'), Some('⚖'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F9D1_200D_2696_FE0F),
     ((Some('🧑'), Some('\u{200d}'), Some('✈'), Some('\u{fe0f}'), None, None, None, None, None, None), U_1F9D1_200D_2708_FE0F),
@@ -7312,6 +7632,8 @@ png_match_emoji! [
     ((Some('🪇'), None, None, None, None, None, None, None, None, None), U_1FA87),
     ((Some('🪈'), None, None, None, None, None, None, None, None, None), U_1FA88),
     ((Some('🪉'), None, None, None, None, None, None, None, None, None), U_1FA89),
+    ((Some('\u{1fa8a}'), None, None, None, None, None, None, None, None, None), U_1FA8A),
+    ((Some('\u{1fa8e}'), None, None, None, None, None, None, None, None, None), U_1FA8E),
     ((Some('🪏'), None, None, None, None, None, None, None, None, None), U_1FA8F),
     ((Some('🪐'), None, None, None, None, None, None, None, None, None), U_1FA90),
     ((Some('🪑'), None, None, None, None, None, None, None, None, None), U_1FA91),
@@ -7383,6 +7705,8 @@ png_match_emoji! [
     ((Some('🫅'), Some('🏿'), None, None, None, None, None, None, None, None), U_1FAC5_1F3FF),
     ((Some('🫅'), None, None, None, None, None, None, None, None, None), U_1FAC5),
     ((Some('🫆'), None, None, None, None, None, None, None, None, None), U_1FAC6),
+    ((Some('\u{1fac8}'), None, None, None, None, None, None, None, None, None), U_1FAC8),
+    ((Some('\u{1facd}'), None, None, None, None, None, None, None, None, None), U_1FACD),
     ((Some('🫎'), None, None, None, None, None, None, None, None, None), U_1FACE),
     ((Some('🫏'), None, None, None, None, None, None, None, None, None), U_1FACF),
     ((Some('🫐'), None, None, None, None, None, None, None, None, None), U_1FAD0),
@@ -7409,6 +7733,8 @@ png_match_emoji! [
     ((Some('🫧'), None, None, None, None, None, None, None, None, None), U_1FAE7),
     ((Some('🫨'), None, None, None, None, None, None, None, None, None), U_1FAE8),
     ((Some('🫩'), None, None, None, None, None, None, None, None, None), U_1FAE9),
+    ((Some('\u{1faea}'), None, None, None, None, None, None, None, None, None), U_1FAEA),
+    ((Some('\u{1faef}'), None, None, None, None, None, None, None, None, None), U_1FAEF),
     ((Some('🫰'), Some('🏻'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FB),
     ((Some('🫰'), Some('🏼'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FC),
     ((Some('🫰'), Some('🏽'), None, None, None, None, None, None, None, None), U_1FAF0_1F3FD),
@@ -8605,6 +8931,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏻‍🎨") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F3A8 };
     ("👨🏻‍🏫") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F3EB };
     ("👨🏻‍🏭") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F3ED };
+    ("👨🏻‍🐰‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FC };
+    ("👨🏻‍🐰‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FD };
+    ("👨🏻‍🐰‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FE };
+    ("👨🏻‍🐰‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F430_200D_1F468_1F3FF };
     ("👨🏻‍💻") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F4BB };
     ("👨🏻‍💼") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F4BC };
     ("👨🏻‍🔧") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F527 };
@@ -8625,6 +8955,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏻‍🦼") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F9BC };
     ("👨🏻‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F9BD_200D_27A1_FE0F };
     ("👨🏻‍🦽") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1F9BD };
+    ("👨🏻‍🫯‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FC };
+    ("👨🏻‍🫯‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FD };
+    ("👨🏻‍🫯‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FE };
+    ("👨🏻‍🫯‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_1FAEF_200D_1F468_1F3FF };
     ("👨🏻‍⚕️") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_2695_FE0F };
     ("👨🏻‍⚖️") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_2696_FE0F };
     ("👨🏻‍✈️") => { &twemoji_assets::png::codes::U_1F468_1F3FB_200D_2708_FE0F };
@@ -8648,6 +8982,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏼‍🎨") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F3A8 };
     ("👨🏼‍🏫") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F3EB };
     ("👨🏼‍🏭") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F3ED };
+    ("👨🏼‍🐰‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FB };
+    ("👨🏼‍🐰‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FD };
+    ("👨🏼‍🐰‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FE };
+    ("👨🏼‍🐰‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F430_200D_1F468_1F3FF };
     ("👨🏼‍💻") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F4BB };
     ("👨🏼‍💼") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F4BC };
     ("👨🏼‍🔧") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F527 };
@@ -8668,6 +9006,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏼‍🦼") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F9BC };
     ("👨🏼‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F9BD_200D_27A1_FE0F };
     ("👨🏼‍🦽") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1F9BD };
+    ("👨🏼‍🫯‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FB };
+    ("👨🏼‍🫯‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FD };
+    ("👨🏼‍🫯‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FE };
+    ("👨🏼‍🫯‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_1FAEF_200D_1F468_1F3FF };
     ("👨🏼‍⚕️") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_2695_FE0F };
     ("👨🏼‍⚖️") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_2696_FE0F };
     ("👨🏼‍✈️") => { &twemoji_assets::png::codes::U_1F468_1F3FC_200D_2708_FE0F };
@@ -8691,6 +9033,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏽‍🎨") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F3A8 };
     ("👨🏽‍🏫") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F3EB };
     ("👨🏽‍🏭") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F3ED };
+    ("👨🏽‍🐰‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FB };
+    ("👨🏽‍🐰‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FC };
+    ("👨🏽‍🐰‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FE };
+    ("👨🏽‍🐰‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F430_200D_1F468_1F3FF };
     ("👨🏽‍💻") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F4BB };
     ("👨🏽‍💼") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F4BC };
     ("👨🏽‍🔧") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F527 };
@@ -8711,6 +9057,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏽‍🦼") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F9BC };
     ("👨🏽‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F9BD_200D_27A1_FE0F };
     ("👨🏽‍🦽") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1F9BD };
+    ("👨🏽‍🫯‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FB };
+    ("👨🏽‍🫯‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FC };
+    ("👨🏽‍🫯‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FE };
+    ("👨🏽‍🫯‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_1FAEF_200D_1F468_1F3FF };
     ("👨🏽‍⚕️") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_2695_FE0F };
     ("👨🏽‍⚖️") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_2696_FE0F };
     ("👨🏽‍✈️") => { &twemoji_assets::png::codes::U_1F468_1F3FD_200D_2708_FE0F };
@@ -8734,6 +9084,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏾‍🎨") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F3A8 };
     ("👨🏾‍🏫") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F3EB };
     ("👨🏾‍🏭") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F3ED };
+    ("👨🏾‍🐰‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FB };
+    ("👨🏾‍🐰‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FC };
+    ("👨🏾‍🐰‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FD };
+    ("👨🏾‍🐰‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F430_200D_1F468_1F3FF };
     ("👨🏾‍💻") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F4BB };
     ("👨🏾‍💼") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F4BC };
     ("👨🏾‍🔧") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F527 };
@@ -8754,6 +9108,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏾‍🦼") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F9BC };
     ("👨🏾‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F9BD_200D_27A1_FE0F };
     ("👨🏾‍🦽") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1F9BD };
+    ("👨🏾‍🫯‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FB };
+    ("👨🏾‍🫯‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FC };
+    ("👨🏾‍🫯‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FD };
+    ("👨🏾‍🫯‍👨🏿") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_1FAEF_200D_1F468_1F3FF };
     ("👨🏾‍⚕️") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_2695_FE0F };
     ("👨🏾‍⚖️") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_2696_FE0F };
     ("👨🏾‍✈️") => { &twemoji_assets::png::codes::U_1F468_1F3FE_200D_2708_FE0F };
@@ -8777,6 +9135,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏿‍🎨") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F3A8 };
     ("👨🏿‍🏫") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F3EB };
     ("👨🏿‍🏭") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F3ED };
+    ("👨🏿‍🐰‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FB };
+    ("👨🏿‍🐰‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FC };
+    ("👨🏿‍🐰‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FD };
+    ("👨🏿‍🐰‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F430_200D_1F468_1F3FE };
     ("👨🏿‍💻") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F4BB };
     ("👨🏿‍💼") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F4BC };
     ("👨🏿‍🔧") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F527 };
@@ -8797,6 +9159,10 @@ macro_rules! png_twemoji_asset {
     ("👨🏿‍🦼") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F9BC };
     ("👨🏿‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F9BD_200D_27A1_FE0F };
     ("👨🏿‍🦽") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1F9BD };
+    ("👨🏿‍🫯‍👨🏻") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FB };
+    ("👨🏿‍🫯‍👨🏼") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FC };
+    ("👨🏿‍🫯‍👨🏽") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FD };
+    ("👨🏿‍🫯‍👨🏾") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_1FAEF_200D_1F468_1F3FE };
     ("👨🏿‍⚕️") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_2695_FE0F };
     ("👨🏿‍⚖️") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_2696_FE0F };
     ("👨🏿‍✈️") => { &twemoji_assets::png::codes::U_1F468_1F3FF_200D_2708_FE0F };
@@ -8866,6 +9232,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏻‍🎨") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F3A8 };
     ("👩🏻‍🏫") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F3EB };
     ("👩🏻‍🏭") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F3ED };
+    ("👩🏻‍🐰‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FC };
+    ("👩🏻‍🐰‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FD };
+    ("👩🏻‍🐰‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FE };
+    ("👩🏻‍🐰‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F430_200D_1F469_1F3FF };
     ("👩🏻‍💻") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F4BB };
     ("👩🏻‍💼") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F4BC };
     ("👩🏻‍🔧") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F527 };
@@ -8890,6 +9260,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏻‍🦼") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F9BC };
     ("👩🏻‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F9BD_200D_27A1_FE0F };
     ("👩🏻‍🦽") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1F9BD };
+    ("👩🏻‍🫯‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FC };
+    ("👩🏻‍🫯‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FD };
+    ("👩🏻‍🫯‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FE };
+    ("👩🏻‍🫯‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_1FAEF_200D_1F469_1F3FF };
     ("👩🏻‍⚕️") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_2695_FE0F };
     ("👩🏻‍⚖️") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_2696_FE0F };
     ("👩🏻‍✈️") => { &twemoji_assets::png::codes::U_1F469_1F3FB_200D_2708_FE0F };
@@ -8923,6 +9297,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏼‍🎨") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F3A8 };
     ("👩🏼‍🏫") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F3EB };
     ("👩🏼‍🏭") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F3ED };
+    ("👩🏼‍🐰‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FB };
+    ("👩🏼‍🐰‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FD };
+    ("👩🏼‍🐰‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FE };
+    ("👩🏼‍🐰‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F430_200D_1F469_1F3FF };
     ("👩🏼‍💻") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F4BB };
     ("👩🏼‍💼") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F4BC };
     ("👩🏼‍🔧") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F527 };
@@ -8947,6 +9325,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏼‍🦼") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F9BC };
     ("👩🏼‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F9BD_200D_27A1_FE0F };
     ("👩🏼‍🦽") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1F9BD };
+    ("👩🏼‍🫯‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FB };
+    ("👩🏼‍🫯‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FD };
+    ("👩🏼‍🫯‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FE };
+    ("👩🏼‍🫯‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_1FAEF_200D_1F469_1F3FF };
     ("👩🏼‍⚕️") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_2695_FE0F };
     ("👩🏼‍⚖️") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_2696_FE0F };
     ("👩🏼‍✈️") => { &twemoji_assets::png::codes::U_1F469_1F3FC_200D_2708_FE0F };
@@ -8980,6 +9362,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏽‍🎨") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F3A8 };
     ("👩🏽‍🏫") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F3EB };
     ("👩🏽‍🏭") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F3ED };
+    ("👩🏽‍🐰‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FB };
+    ("👩🏽‍🐰‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FC };
+    ("👩🏽‍🐰‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FE };
+    ("👩🏽‍🐰‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F430_200D_1F469_1F3FF };
     ("👩🏽‍💻") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F4BB };
     ("👩🏽‍💼") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F4BC };
     ("👩🏽‍🔧") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F527 };
@@ -9004,6 +9390,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏽‍🦼") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F9BC };
     ("👩🏽‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F9BD_200D_27A1_FE0F };
     ("👩🏽‍🦽") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1F9BD };
+    ("👩🏽‍🫯‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FB };
+    ("👩🏽‍🫯‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FC };
+    ("👩🏽‍🫯‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FE };
+    ("👩🏽‍🫯‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_1FAEF_200D_1F469_1F3FF };
     ("👩🏽‍⚕️") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_2695_FE0F };
     ("👩🏽‍⚖️") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_2696_FE0F };
     ("👩🏽‍✈️") => { &twemoji_assets::png::codes::U_1F469_1F3FD_200D_2708_FE0F };
@@ -9037,6 +9427,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏾‍🎨") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F3A8 };
     ("👩🏾‍🏫") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F3EB };
     ("👩🏾‍🏭") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F3ED };
+    ("👩🏾‍🐰‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FB };
+    ("👩🏾‍🐰‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FC };
+    ("👩🏾‍🐰‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FD };
+    ("👩🏾‍🐰‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F430_200D_1F469_1F3FF };
     ("👩🏾‍💻") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F4BB };
     ("👩🏾‍💼") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F4BC };
     ("👩🏾‍🔧") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F527 };
@@ -9061,6 +9455,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏾‍🦼") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F9BC };
     ("👩🏾‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F9BD_200D_27A1_FE0F };
     ("👩🏾‍🦽") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1F9BD };
+    ("👩🏾‍🫯‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FB };
+    ("👩🏾‍🫯‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FC };
+    ("👩🏾‍🫯‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FD };
+    ("👩🏾‍🫯‍👩🏿") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_1FAEF_200D_1F469_1F3FF };
     ("👩🏾‍⚕️") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_2695_FE0F };
     ("👩🏾‍⚖️") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_2696_FE0F };
     ("👩🏾‍✈️") => { &twemoji_assets::png::codes::U_1F469_1F3FE_200D_2708_FE0F };
@@ -9094,6 +9492,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏿‍🎨") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F3A8 };
     ("👩🏿‍🏫") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F3EB };
     ("👩🏿‍🏭") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F3ED };
+    ("👩🏿‍🐰‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FB };
+    ("👩🏿‍🐰‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FC };
+    ("👩🏿‍🐰‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FD };
+    ("👩🏿‍🐰‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F430_200D_1F469_1F3FE };
     ("👩🏿‍💻") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F4BB };
     ("👩🏿‍💼") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F4BC };
     ("👩🏿‍🔧") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F527 };
@@ -9118,6 +9520,10 @@ macro_rules! png_twemoji_asset {
     ("👩🏿‍🦼") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F9BC };
     ("👩🏿‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F9BD_200D_27A1_FE0F };
     ("👩🏿‍🦽") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1F9BD };
+    ("👩🏿‍🫯‍👩🏻") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FB };
+    ("👩🏿‍🫯‍👩🏼") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FC };
+    ("👩🏿‍🫯‍👩🏽") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FD };
+    ("👩🏿‍🫯‍👩🏾") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_1FAEF_200D_1F469_1F3FE };
     ("👩🏿‍⚕️") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_2695_FE0F };
     ("👩🏿‍⚖️") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_2696_FE0F };
     ("👩🏿‍✈️") => { &twemoji_assets::png::codes::U_1F469_1F3FF_200D_2708_FE0F };
@@ -9222,6 +9628,21 @@ macro_rules! png_twemoji_asset {
     ("👮‍♀️") => { &twemoji_assets::png::codes::U_1F46E_200D_2640_FE0F };
     ("👮‍♂️") => { &twemoji_assets::png::codes::U_1F46E_200D_2642_FE0F };
     ("👮") => { &twemoji_assets::png::codes::U_1F46E };
+    ("👯🏻‍♀️") => { &twemoji_assets::png::codes::U_1F46F_1F3FB_200D_2640_FE0F };
+    ("👯🏻‍♂️") => { &twemoji_assets::png::codes::U_1F46F_1F3FB_200D_2642_FE0F };
+    ("👯🏻") => { &twemoji_assets::png::codes::U_1F46F_1F3FB };
+    ("👯🏼‍♀️") => { &twemoji_assets::png::codes::U_1F46F_1F3FC_200D_2640_FE0F };
+    ("👯🏼‍♂️") => { &twemoji_assets::png::codes::U_1F46F_1F3FC_200D_2642_FE0F };
+    ("👯🏼") => { &twemoji_assets::png::codes::U_1F46F_1F3FC };
+    ("👯🏽‍♀️") => { &twemoji_assets::png::codes::U_1F46F_1F3FD_200D_2640_FE0F };
+    ("👯🏽‍♂️") => { &twemoji_assets::png::codes::U_1F46F_1F3FD_200D_2642_FE0F };
+    ("👯🏽") => { &twemoji_assets::png::codes::U_1F46F_1F3FD };
+    ("👯🏾‍♀️") => { &twemoji_assets::png::codes::U_1F46F_1F3FE_200D_2640_FE0F };
+    ("👯🏾‍♂️") => { &twemoji_assets::png::codes::U_1F46F_1F3FE_200D_2642_FE0F };
+    ("👯🏾") => { &twemoji_assets::png::codes::U_1F46F_1F3FE };
+    ("👯🏿‍♀️") => { &twemoji_assets::png::codes::U_1F46F_1F3FF_200D_2640_FE0F };
+    ("👯🏿‍♂️") => { &twemoji_assets::png::codes::U_1F46F_1F3FF_200D_2642_FE0F };
+    ("👯🏿") => { &twemoji_assets::png::codes::U_1F46F_1F3FF };
     ("👯‍♀️") => { &twemoji_assets::png::codes::U_1F46F_200D_2640_FE0F };
     ("👯‍♂️") => { &twemoji_assets::png::codes::U_1F46F_200D_2642_FE0F };
     ("👯") => { &twemoji_assets::png::codes::U_1F46F };
@@ -10123,6 +10544,7 @@ macro_rules! png_twemoji_asset {
     ("🛕") => { &twemoji_assets::png::codes::U_1F6D5 };
     ("🛖") => { &twemoji_assets::png::codes::U_1F6D6 };
     ("🛗") => { &twemoji_assets::png::codes::U_1F6D7 };
+    ("🛘") => { &twemoji_assets::png::codes::U_1F6D8 };
     ("🛜") => { &twemoji_assets::png::codes::U_1F6DC };
     ("🛝") => { &twemoji_assets::png::codes::U_1F6DD };
     ("🛞") => { &twemoji_assets::png::codes::U_1F6DE };
@@ -10372,6 +10794,21 @@ macro_rules! png_twemoji_asset {
     ("🤹‍♂️") => { &twemoji_assets::png::codes::U_1F939_200D_2642_FE0F };
     ("🤹") => { &twemoji_assets::png::codes::U_1F939 };
     ("🤺") => { &twemoji_assets::png::codes::U_1F93A };
+    ("🤼🏻‍♀️") => { &twemoji_assets::png::codes::U_1F93C_1F3FB_200D_2640_FE0F };
+    ("🤼🏻‍♂️") => { &twemoji_assets::png::codes::U_1F93C_1F3FB_200D_2642_FE0F };
+    ("🤼🏻") => { &twemoji_assets::png::codes::U_1F93C_1F3FB };
+    ("🤼🏼‍♀️") => { &twemoji_assets::png::codes::U_1F93C_1F3FC_200D_2640_FE0F };
+    ("🤼🏼‍♂️") => { &twemoji_assets::png::codes::U_1F93C_1F3FC_200D_2642_FE0F };
+    ("🤼🏼") => { &twemoji_assets::png::codes::U_1F93C_1F3FC };
+    ("🤼🏽‍♀️") => { &twemoji_assets::png::codes::U_1F93C_1F3FD_200D_2640_FE0F };
+    ("🤼🏽‍♂️") => { &twemoji_assets::png::codes::U_1F93C_1F3FD_200D_2642_FE0F };
+    ("🤼🏽") => { &twemoji_assets::png::codes::U_1F93C_1F3FD };
+    ("🤼🏾‍♀️") => { &twemoji_assets::png::codes::U_1F93C_1F3FE_200D_2640_FE0F };
+    ("🤼🏾‍♂️") => { &twemoji_assets::png::codes::U_1F93C_1F3FE_200D_2642_FE0F };
+    ("🤼🏾") => { &twemoji_assets::png::codes::U_1F93C_1F3FE };
+    ("🤼🏿‍♀️") => { &twemoji_assets::png::codes::U_1F93C_1F3FF_200D_2640_FE0F };
+    ("🤼🏿‍♂️") => { &twemoji_assets::png::codes::U_1F93C_1F3FF_200D_2642_FE0F };
+    ("🤼🏿") => { &twemoji_assets::png::codes::U_1F93C_1F3FF };
     ("🤼‍♀️") => { &twemoji_assets::png::codes::U_1F93C_200D_2640_FE0F };
     ("🤼‍♂️") => { &twemoji_assets::png::codes::U_1F93C_200D_2642_FE0F };
     ("🤼") => { &twemoji_assets::png::codes::U_1F93C };
@@ -10688,6 +11125,10 @@ macro_rules! png_twemoji_asset {
     ("🧑🏻‍🎨") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F3A8 };
     ("🧑🏻‍🏫") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F3EB };
     ("🧑🏻‍🏭") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F3ED };
+    ("🧑🏻‍🐰‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FC };
+    ("🧑🏻‍🐰‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FD };
+    ("🧑🏻‍🐰‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FE };
+    ("🧑🏻‍🐰‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F430_200D_1F9D1_1F3FF };
     ("🧑🏻‍💻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F4BB };
     ("🧑🏻‍💼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F4BC };
     ("🧑🏻‍🔧") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F527 };
@@ -10709,6 +11150,11 @@ macro_rules! png_twemoji_asset {
     ("🧑🏻‍🦼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F9BC };
     ("🧑🏻‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F9BD_200D_27A1_FE0F };
     ("🧑🏻‍🦽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1F9BD };
+    ("🧑🏻‍🩰") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1FA70 };
+    ("🧑🏻‍🫯‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FC };
+    ("🧑🏻‍🫯‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FD };
+    ("🧑🏻‍🫯‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FE };
+    ("🧑🏻‍🫯‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_1FAEF_200D_1F9D1_1F3FF };
     ("🧑🏻‍⚕️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_2695_FE0F };
     ("🧑🏻‍⚖️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_2696_FE0F };
     ("🧑🏻‍✈️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FB_200D_2708_FE0F };
@@ -10730,6 +11176,10 @@ macro_rules! png_twemoji_asset {
     ("🧑🏼‍🎨") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F3A8 };
     ("🧑🏼‍🏫") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F3EB };
     ("🧑🏼‍🏭") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F3ED };
+    ("🧑🏼‍🐰‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FB };
+    ("🧑🏼‍🐰‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FD };
+    ("🧑🏼‍🐰‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FE };
+    ("🧑🏼‍🐰‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F430_200D_1F9D1_1F3FF };
     ("🧑🏼‍💻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F4BB };
     ("🧑🏼‍💼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F4BC };
     ("🧑🏼‍🔧") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F527 };
@@ -10751,6 +11201,11 @@ macro_rules! png_twemoji_asset {
     ("🧑🏼‍🦼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F9BC };
     ("🧑🏼‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F9BD_200D_27A1_FE0F };
     ("🧑🏼‍🦽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1F9BD };
+    ("🧑🏼‍🩰") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1FA70 };
+    ("🧑🏼‍🫯‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FB };
+    ("🧑🏼‍🫯‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FD };
+    ("🧑🏼‍🫯‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FE };
+    ("🧑🏼‍🫯‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_1FAEF_200D_1F9D1_1F3FF };
     ("🧑🏼‍⚕️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_2695_FE0F };
     ("🧑🏼‍⚖️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_2696_FE0F };
     ("🧑🏼‍✈️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FC_200D_2708_FE0F };
@@ -10772,6 +11227,10 @@ macro_rules! png_twemoji_asset {
     ("🧑🏽‍🎨") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F3A8 };
     ("🧑🏽‍🏫") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F3EB };
     ("🧑🏽‍🏭") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F3ED };
+    ("🧑🏽‍🐰‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FB };
+    ("🧑🏽‍🐰‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FC };
+    ("🧑🏽‍🐰‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FE };
+    ("🧑🏽‍🐰‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F430_200D_1F9D1_1F3FF };
     ("🧑🏽‍💻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F4BB };
     ("🧑🏽‍💼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F4BC };
     ("🧑🏽‍🔧") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F527 };
@@ -10793,6 +11252,11 @@ macro_rules! png_twemoji_asset {
     ("🧑🏽‍🦼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F9BC };
     ("🧑🏽‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F9BD_200D_27A1_FE0F };
     ("🧑🏽‍🦽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1F9BD };
+    ("🧑🏽‍🩰") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1FA70 };
+    ("🧑🏽‍🫯‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FB };
+    ("🧑🏽‍🫯‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FC };
+    ("🧑🏽‍🫯‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FE };
+    ("🧑🏽‍🫯‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_1FAEF_200D_1F9D1_1F3FF };
     ("🧑🏽‍⚕️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_2695_FE0F };
     ("🧑🏽‍⚖️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_2696_FE0F };
     ("🧑🏽‍✈️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FD_200D_2708_FE0F };
@@ -10814,6 +11278,10 @@ macro_rules! png_twemoji_asset {
     ("🧑🏾‍🎨") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F3A8 };
     ("🧑🏾‍🏫") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F3EB };
     ("🧑🏾‍🏭") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F3ED };
+    ("🧑🏾‍🐰‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FB };
+    ("🧑🏾‍🐰‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FC };
+    ("🧑🏾‍🐰‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FD };
+    ("🧑🏾‍🐰‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F430_200D_1F9D1_1F3FF };
     ("🧑🏾‍💻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F4BB };
     ("🧑🏾‍💼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F4BC };
     ("🧑🏾‍🔧") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F527 };
@@ -10835,6 +11303,11 @@ macro_rules! png_twemoji_asset {
     ("🧑🏾‍🦼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F9BC };
     ("🧑🏾‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F9BD_200D_27A1_FE0F };
     ("🧑🏾‍🦽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1F9BD };
+    ("🧑🏾‍🩰") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1FA70 };
+    ("🧑🏾‍🫯‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FB };
+    ("🧑🏾‍🫯‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FC };
+    ("🧑🏾‍🫯‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FD };
+    ("🧑🏾‍🫯‍🧑🏿") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_1FAEF_200D_1F9D1_1F3FF };
     ("🧑🏾‍⚕️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_2695_FE0F };
     ("🧑🏾‍⚖️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_2696_FE0F };
     ("🧑🏾‍✈️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FE_200D_2708_FE0F };
@@ -10856,6 +11329,10 @@ macro_rules! png_twemoji_asset {
     ("🧑🏿‍🎨") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F3A8 };
     ("🧑🏿‍🏫") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F3EB };
     ("🧑🏿‍🏭") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F3ED };
+    ("🧑🏿‍🐰‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FB };
+    ("🧑🏿‍🐰‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FC };
+    ("🧑🏿‍🐰‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FD };
+    ("🧑🏿‍🐰‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F430_200D_1F9D1_1F3FE };
     ("🧑🏿‍💻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F4BB };
     ("🧑🏿‍💼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F4BC };
     ("🧑🏿‍🔧") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F527 };
@@ -10877,6 +11354,11 @@ macro_rules! png_twemoji_asset {
     ("🧑🏿‍🦼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F9BC };
     ("🧑🏿‍🦽‍➡️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F9BD_200D_27A1_FE0F };
     ("🧑🏿‍🦽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1F9BD };
+    ("🧑🏿‍🩰") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1FA70 };
+    ("🧑🏿‍🫯‍🧑🏻") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FB };
+    ("🧑🏿‍🫯‍🧑🏼") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FC };
+    ("🧑🏿‍🫯‍🧑🏽") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FD };
+    ("🧑🏿‍🫯‍🧑🏾") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_1FAEF_200D_1F9D1_1F3FE };
     ("🧑🏿‍⚕️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_2695_FE0F };
     ("🧑🏿‍⚖️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_2696_FE0F };
     ("🧑🏿‍✈️") => { &twemoji_assets::png::codes::U_1F9D1_1F3FF_200D_2708_FE0F };
@@ -10919,6 +11401,7 @@ macro_rules! png_twemoji_asset {
     ("🧑‍🧑‍🧒") => { &twemoji_assets::png::codes::U_1F9D1_200D_1F9D1_200D_1F9D2 };
     ("🧑‍🧒‍🧒") => { &twemoji_assets::png::codes::U_1F9D1_200D_1F9D2_200D_1F9D2 };
     ("🧑‍🧒") => { &twemoji_assets::png::codes::U_1F9D1_200D_1F9D2 };
+    ("🧑‍🩰") => { &twemoji_assets::png::codes::U_1F9D1_200D_1FA70 };
     ("🧑‍⚕️") => { &twemoji_assets::png::codes::U_1F9D1_200D_2695_FE0F };
     ("🧑‍⚖️") => { &twemoji_assets::png::codes::U_1F9D1_200D_2696_FE0F };
     ("🧑‍✈️") => { &twemoji_assets::png::codes::U_1F9D1_200D_2708_FE0F };
@@ -11164,6 +11647,8 @@ macro_rules! png_twemoji_asset {
     ("🪇") => { &twemoji_assets::png::codes::U_1FA87 };
     ("🪈") => { &twemoji_assets::png::codes::U_1FA88 };
     ("🪉") => { &twemoji_assets::png::codes::U_1FA89 };
+    ("🪊") => { &twemoji_assets::png::codes::U_1FA8A };
+    ("🪎") => { &twemoji_assets::png::codes::U_1FA8E };
     ("🪏") => { &twemoji_assets::png::codes::U_1FA8F };
     ("🪐") => { &twemoji_assets::png::codes::U_1FA90 };
     ("🪑") => { &twemoji_assets::png::codes::U_1FA91 };
@@ -11235,6 +11720,8 @@ macro_rules! png_twemoji_asset {
     ("🫅🏿") => { &twemoji_assets::png::codes::U_1FAC5_1F3FF };
     ("🫅") => { &twemoji_assets::png::codes::U_1FAC5 };
     ("🫆") => { &twemoji_assets::png::codes::U_1FAC6 };
+    ("🫈") => { &twemoji_assets::png::codes::U_1FAC8 };
+    ("🫍") => { &twemoji_assets::png::codes::U_1FACD };
     ("🫎") => { &twemoji_assets::png::codes::U_1FACE };
     ("🫏") => { &twemoji_assets::png::codes::U_1FACF };
     ("🫐") => { &twemoji_assets::png::codes::U_1FAD0 };
@@ -11261,6 +11748,8 @@ macro_rules! png_twemoji_asset {
     ("🫧") => { &twemoji_assets::png::codes::U_1FAE7 };
     ("🫨") => { &twemoji_assets::png::codes::U_1FAE8 };
     ("🫩") => { &twemoji_assets::png::codes::U_1FAE9 };
+    ("🫪") => { &twemoji_assets::png::codes::U_1FAEA };
+    ("🫯") => { &twemoji_assets::png::codes::U_1FAEF };
     ("🫰🏻") => { &twemoji_assets::png::codes::U_1FAF0_1F3FB };
     ("🫰🏼") => { &twemoji_assets::png::codes::U_1FAF0_1F3FC };
     ("🫰🏽") => { &twemoji_assets::png::codes::U_1FAF0_1F3FD };
